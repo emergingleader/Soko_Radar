@@ -1,0 +1,8 @@
+# SokoRadar Streamlit app. Model packages pinned to the versions in notebooks/handover/MODEL_CARD.md
+numpy==2.4.6
+pandas==3.0.5
+lightgbm==4.7.0
+statsmodels==0.15.0
+scikit-learn>=1.5
+streamlit>=1.40
+plotly>=6.0

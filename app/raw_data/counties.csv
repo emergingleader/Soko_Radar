@@ -1,0 +1,48 @@
+code,county,former_province,asal,pcode,center_lat,center_lon,area_sqkm
+1,Mombasa,Coast,Non-ASAL,KE001,-3.9904,39.7011,233.6
+2,Kwale,Coast,Semi-arid,KE002,-4.1206,39.0661,8266.0
+3,Kilifi,Coast,Semi-arid,KE003,-3.1524,39.6727,12599.3
+4,Tana River,Coast,Arid,KE004,-1.5349,39.5503,39192.1
+5,Lamu,Coast,Semi-arid,KE005,-2.0637,40.5458,6047.0
+6,Taita Taveta,Coast,Semi-arid,KE006,-3.4052,38.3718,17131.1
+7,Garissa,North Eastern,Arid,KE007,-0.5205,40.3556,43596.1
+8,Wajir,North Eastern,Arid,KE008,1.9397,40.0245,56668.6
+9,Mandera,North Eastern,Arid,KE009,3.231,40.7113,25979.3
+10,Marsabit,Eastern,Arid,KE010,2.8605,37.7149,76027.8
+11,Isiolo,Eastern,Arid,KE011,1.0064,38.7477,25399.3
+12,Meru,Eastern,Semi-arid,KE012,0.2291,37.7761,6992.5
+13,Tharaka-Nithi,Eastern,Semi-arid,KE013,-0.1914,37.9604,2581.0
+14,Embu,Eastern,Semi-arid,KE014,-0.5328,37.6646,2823.7
+15,Kitui,Eastern,Semi-arid,KE015,-1.5605,38.3718,30456.9
+16,Machakos,Eastern,Non-ASAL,KE016,-1.2762,37.3946,6044.3
+17,Makueni,Eastern,Semi-arid,KE017,-2.2536,37.8767,8174.9
+18,Nyandarua,Central,Non-ASAL,KE018,-0.3891,36.4974,3266.7
+19,Nyeri,Central,Semi-arid,KE019,-0.3144,36.9305,3334.6
+20,Kirinyaga,Central,Non-ASAL,KE020,-0.4674,37.3019,1475.3
+21,Murang'a,Central,Non-ASAL,KE021,-0.8285,37.0042,2525.5
+22,Kiambu,Central,Non-ASAL,KE022,-1.0344,36.8432,2543.0
+23,Turkana,Rift Valley,Arid,KE023,3.1625,35.3135,70131.8
+24,West Pokot,Rift Valley,Semi-arid,KE024,1.8934,35.2128,9305.5
+25,Samburu,Rift Valley,Arid,KE025,1.5414,36.9415,21015.7
+26,Trans Nzoia,Rift Valley,Non-ASAL,KE026,1.0459,34.9808,2484.7
+27,Uasin Gishu,Rift Valley,Non-ASAL,KE027,0.4782,35.3038,3396.8
+28,Elgeyo-Marakwet,Rift Valley,Non-ASAL,KE028,0.7451,35.5609,3008.4
+29,Nandi,Rift Valley,Non-ASAL,KE029,0.2274,35.1239,2835.8
+30,Baringo,Rift Valley,Arid,KE030,0.7264,36.0186,10889.2
+31,Laikipia,Rift Valley,Semi-arid,KE031,0.2891,36.8252,9536.9
+32,Nakuru,Rift Valley,Non-ASAL,KE032,-0.4584,36.1004,7487.1
+33,Narok,Rift Valley,Semi-arid,KE033,-1.2799,35.4764,17912.2
+34,Kajiado,Rift Valley,Semi-arid,KE034,-2.1124,36.7776,21884.8
+35,Kericho,Rift Valley,Non-ASAL,KE035,-0.3167,35.226,2513.2
+36,Bomet,Rift Valley,Non-ASAL,KE036,-0.7161,35.2385,2438.2
+37,Kakamega,Western,Non-ASAL,KE037,0.4972,34.8009,3008.0
+38,Vihiga,Western,Non-ASAL,KE038,0.0849,34.7078,560.5
+39,Bungoma,Western,Non-ASAL,KE039,0.7857,34.7188,3016.2
+40,Busia,Western,Non-ASAL,KE040,0.3757,34.2651,1811.6
+41,Siaya,Nyanza,Non-ASAL,KE041,-0.0577,34.1999,3520.4
+42,Kisumu,Nyanza,Non-ASAL,KE042,-0.1944,34.7773,2665.0
+43,Homa Bay,Nyanza,Non-ASAL,KE043,-0.5624,34.3145,4731.9
+44,Migori,Nyanza,Non-ASAL,KE044,-1.0187,34.3092,3144.3
+45,Kisii,Nyanza,Non-ASAL,KE045,-0.7367,34.7535,1313.7
+46,Nyamira,Nyanza,Non-ASAL,KE046,-0.6494,34.9334,897.2
+47,Nairobi,Nairobi,Non-ASAL,KE047,-1.3005,36.8279,707.5
