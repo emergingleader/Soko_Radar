@@ -36,7 +36,7 @@ The full proposal is in [`docs/SokoRadar_Capstone_Proposal.pdf`](docs/SokoRadar_
 1. **Data and EDA:** cleaned the panel, separated recorded from estimated prices, and explored seasonality, trends and how crops move together.
 2. **Baselines and lead lag:** set the bar every model must beat ("next month = this month", "same month last year") and checked which crops lead others.
 3. **Time series:** ARIMA models on log prices, one per series.
-4. **Where to buy:** compares recorded prices across nearby counties.
+4. **Where to buy:** compares recorded prices across nearby counties, including the cost of transport (road distance, fuel and vehicle hire).
 5. **The forecasting model:** ARIMA for the price forecast, plus a LightGBM classifier for the spike alert, with SHAP for the drivers.
 6. **Alerts and explainability:** tested the spike alert on recorded prices, added the ALPS label and the price ranges.
 
@@ -50,9 +50,9 @@ Every result comes from a year by year backtest, 2015 to 2024: each year is pred
 | Spike alert | Catches 48% of rises above 15% at 1 month; 22% of alerts are followed by a rise, about twice the normal rate |
 | New seasonal alerts | Warned of 51% of markets moving into Alert, about 2 months ahead (the ALPS Stress label warned of 63%) |
 | Price ranges | 78% to 82% of recorded prices fell inside, on years the ranges had not seen (target 75% to 85%) |
-| Where to buy | The suggested county was really cheaper a month later 85% of the time, saving about 20% before transport |
+| Where to buy | The suggested county was really cheaper in about 94% of alerts, saving about a quarter of the price. After transport, a full lorry of 5 t or more still saves money in about two thirds of cases or more; small loads rarely do |
 
-**Honest summary:** prices are hard to forecast from this data, but the spike alert and the where to buy suggestions add real value. An alert means higher risk, not a certain spike.
+**Honest summary:** prices are hard to forecast from this data, but the spike alert and the where to buy suggestions add real value, especially for bulk buyers. An alert means higher risk, not a certain spike.
 
 ## Repository layout
 
@@ -61,14 +61,14 @@ Soko_Radar/
 ├── README.md
 ├── docs/
 │   └── SokoRadar_Capstone_Proposal.pdf
-├── data/                                  county and national price data, 2006 to 2024
+├── data/                                  county and national prices 2006 to 2024, plus road distance, fuel and vehicle hire data
 ├── notebooks/
 │   ├── 00_sokoradar_pipeline_output.ipynb   builds the county price panel
 │   ├── 01_eda_review_with_insights.ipynb    data exploration and chart insights
 │   ├── 02_model_build.ipynb                 the forecasting model and spike alert
 │   ├── 03_baselines_leadlag.ipynb           baselines and which crops lead
 │   ├── 04_timeseries.ipynb                  ARIMA models
-│   ├── 05_recommender.ipynb                 where to buy
+│   ├── 05_recommender.ipynb                 where to buy, with transport costs
 │   ├── 06_alerts.ipynb                      ALPS early warning on WFP prices
 │   ├── 07_alerts_aligned.ipynb              alert test, ALPS label, price ranges
 │   └── handover/
@@ -112,7 +112,7 @@ Soko_Radar/
 
 * Most prices in the panel are estimates; only recorded prices are used to score results.
 * About half of spikes come without an alert, because many are caused by events the data cannot see (floods, conflict, policy changes).
-* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Distances are between county centres and savings exclude transport.
+* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
 * Not yet tested on 2025 to 2026 prices.
 
 ## Team
