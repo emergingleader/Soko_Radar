@@ -5,6 +5,8 @@ Group 10, Moringa School Data Science Capstone, 2026.
 
 SokoRadar forecasts food prices in Kenyan counties 1 to 3 months ahead, warns when a sharp price rise is likely, and suggests where to buy more cheaply. It is built for county food security officers, NDMA, aid agencies, traders and farmers.
 
+**Live app:** https://sokoradar-priceforecasting.streamlit.app/
+
 ## The problem
 
 Food price spikes hit poor households, farmers and pastoralists hardest. Today's tools, such as WFP's ALPS and the Ministry of Agriculture's KAMIS, report prices after they have risen. Responses such as adjusting cash transfers or releasing reserves therefore come late.
@@ -133,7 +135,7 @@ Soko_Radar/
 | Baselines, ARIMA, where to buy | Done |
 | Forecasting model and spike alert | Done |
 | Alerts, ALPS label, price ranges | Done |
-| App (Streamlit) | Done: live, forecasts the 3 months after the latest prices, updated monthly |
+| App (Streamlit) | Done: [live](https://sokoradar-priceforecasting.streamlit.app/), forecasts the 3 months after the latest prices, updated monthly |
 | API, USSD and SMS | Planned |
 | Test on 2025 to 2026 prices | Done (see above) |
 

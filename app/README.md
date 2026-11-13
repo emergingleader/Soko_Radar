@@ -5,6 +5,8 @@ shows the expected price for each of the next 3 months, a likely range, a warnin
 likely than usual, cheaper nearby counties (with a check on whether the trip is worth it) and a map of where prices
 may jump.
 
+Live app: https://sokoradar-priceforecasting.streamlit.app/
+
 It imports `notebooks/handover/sokoradar_forecast.py` and `notebooks/handover/alerts/sokoradar_alerts.py` and
 calls their functions.
 
