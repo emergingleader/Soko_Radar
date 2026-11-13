@@ -26,8 +26,8 @@ RAW = APP / "raw_data"
 HANDOVER = REPO / "notebooks" / "handover"
 
 BLUE, RED, GREY, INK = "#2a6fdb", "#e34948", "#b9b8b3", "#1f1f1e"
-SEASON = {"Normal": "Normal for the season", "Stress": "A bit high for the season",
-          "Alert": "High for the season", "Crisis": "Very high for the season"}
+# short seasonal labels for the list on the map tab; the full messages come from the alerts script
+SEASON_SHORT = {"Normal": "Normal", "Stress": "Above normal", "Alert": "Unusually high", "Crisis": "Very high"}
 
 st.set_page_config(page_title="SokoRadar", layout="wide")
 st.markdown("""
@@ -90,7 +90,7 @@ def run_models(origin: str) -> pd.DataFrame:
     out = safely(fc.run, p_fc, RAW, [month], fc.TRAIN_END)
     ranges = safely(al.run, p_al, [month], io.StringIO(out.to_csv(index=False)))
     key = ["series", "origin_month", "horizon"]
-    return out.merge(ranges[key + ["phase", "range_low_kes", "range_high_kes"]], on=key, how="left")
+    return out.merge(ranges[key + ["phase", "phase_message", "range_low_kes", "range_high_kes"]], on=key, how="left")
 
 
 @st.cache_data(show_spinner=False)
@@ -103,6 +103,12 @@ def county_shapes():
     geo = json.loads((RAW / "ken_counties.geojson").read_text(encoding="utf-8"))
     codes = pd.read_csv(RAW / "counties.csv")[["county", "pcode"]]
     return geo, dict(zip(codes["county"], codes["pcode"]))
+
+
+def season_text(row):
+    """The alerts script's message for the seasonal label (it has none for Normal)."""
+    msg = row.get("phase_message")
+    return msg if isinstance(msg, str) and msg else "Normal for the season"
 
 
 # Latest prices and forecasts
@@ -143,7 +149,7 @@ with tab_market:
     st.subheader(f"{crop}, {county} ({price_type.lower()})")
     st.markdown(f"Price in {latest:%B}: KES {first['origin_price_kes']:,.1f} per {u}"
                 + ("" if first["origin_price_is_real"] else " (estimate)")
-                + (f". {SEASON[first['phase']]}." if isinstance(first["phase"], str) and first["phase"] else "."))
+                + (f". {season_text(first)}." if isinstance(first["phase"], str) and first["phase"] else "."))
 
     cols = st.columns(3)
     for col, (_, r) in zip(cols, rows.iterrows()):
@@ -273,13 +279,20 @@ with tab_map:
     st.markdown(f"{len(jumps):,} markets where the price may jump more than 15% in {pick_month}.")
     st.plotly_chart(fig, use_container_width=True, config={"scrollZoom": False})
 
-    table = jumps.sort_values("spike_probability_pct", ascending=False)
+    # the seasonal label is shown beside the warning as context (alerts card); markets already high come first
+    order = {"Crisis": 0, "Alert": 1, "Stress": 2, "Normal": 3}
+    table = jumps.assign(o=jumps["phase"].map(order).fillna(4)).sort_values(["o", "spike_probability_pct"],
+                                                                           ascending=[True, False])
     st.dataframe(pd.DataFrame({
         "County": table["county"], "Food": table["commodity"], "Price": table["price_type"],
         "Price now (KES)": table["origin_price_kes"].round(1),
+        "This season": table["phase"].map(SEASON_SHORT).fillna(""),
         f"Forecast {pick_month} (KES)": table["forecast_price_kes"].round(1),
         "Cheaper nearby": table["where_to_buy_county"].fillna(""),
     }), hide_index=True, use_container_width=True, height=380)
+    high = int(jumps["phase"].isin(["Alert", "Crisis"]).sum())
+    if high:
+        st.caption(f"{high} of these markets are also unusually high for the season. They are listed first.")
 
 st.caption("SokoRadar, Moringa School Data Science Capstone, Group 10. Data: Ministry of Agriculture and Livestock "
            "Development (KAMIS), WFP via HDX (CC BY IGO), KNBS, Central Bank of Kenya, World Bank.")
