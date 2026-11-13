@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+# outputs if the pipeline is run directly from this folder (app/update_prices.py runs it in a temp folder)
+pipeline/output/
+pipeline/sokoradar_raw_data/

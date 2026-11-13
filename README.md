@@ -54,6 +54,19 @@ Every result comes from a year by year backtest, 2015 to 2024: each year is pred
 
 **Honest summary:** prices are hard to forecast from this data, but the spike alert and the where to buy suggestions add real value, especially for bulk buyers. An alert means higher risk, not a certain spike.
 
+## Test on 2025 to 2026 (recorded prices only)
+
+The deployed models (trained on answers up to December 2024, settings unchanged) forecast every month from January 2025 to June 2026 using only earlier data, scored on 2,344 prices recorded in markets.
+
+| Part | 2025-26 test | 2015-24 backtest |
+|---|---|---|
+| Price forecast, average error at 1, 2 and 3 months | 8.9%, 10.6%, 12.4% | 9.0%, 12.3%, 14.5% |
+| Rises above 15% caught by the spike alert | 56%, 46%, 35% | 48%, 45%, 34% |
+| Alerts followed by a rise | 18%, 27%, 41% | 22%, 32%, 39% |
+| Recorded prices inside the 80% range | 81%, 87%, 88% | 78%, 80%, 82% |
+
+The models held up on years they had not seen. At 1 month the alert fired more often in calm months (65% stayed quiet, against 80%), and the ranges were a little wide at 2 and 3 months. Sorghum, with the fewest recorded prices, was the weakest crop. Notebooks 03, 04 and 06 also tested their own models on these months.
+
 ## Repository layout
 
 ```
@@ -75,7 +88,13 @@ Soko_Radar/
 │       ├── sokoradar_forecast.py, MODEL_CARD.md
 │       └── alerts/   sokoradar_alerts.py, ALERTS_CARD.md
 ├── reports/figures/                       EDA charts
-└── app/                                   dashboard (to be added)
+├── app/                                   the SokoRadar app (Streamlit), see app/README.md
+│   ├── streamlit_app.py                     price forecast for the next 3 months, jump warnings, where to buy, map
+│   ├── transport.py                         transport costs from notebook 05
+│   ├── update_prices.py                     downloads the latest WFP prices and runs the pipeline
+│   ├── pipeline/sokoradar_pipeline.py       the data pipeline (notebook 00), unchanged
+│   └── raw_data/                            driver files, county map, prices after 2024
+└── .github/workflows/update-prices.yml    monthly automatic price update
 ```
 
 ## How to run
@@ -95,6 +114,16 @@ Soko_Radar/
    python notebooks/handover/alerts/sokoradar_alerts.py --data data/SokoRadar_County_2006_2024_long.csv --forecasts sokoradar_forecasts.csv
    ```
 4. Output CSV files are not committed to GitHub.
+5. Run the app (it runs the same models on the latest prices and shows the next 3 months):
+   ```
+   pip install -r app/requirements.txt
+   streamlit run app/streamlit_app.py
+   ```
+6. Update the prices: the GitHub Action `Update prices` does this on the 8th of every month (or run it from the Actions tab). By hand:
+   ```
+   python app/update_prices.py
+   ```
+   It downloads the latest WFP Kenya prices from HDX and rebuilds the months after 2024 with the pipeline; the 2006 to 2024 data in `data/` is not changed.
 
 ## Status
 
@@ -104,16 +133,17 @@ Soko_Radar/
 | Baselines, ARIMA, where to buy | Done |
 | Forecasting model and spike alert | Done |
 | Alerts, ALPS label, price ranges | Done |
-| Dashboard | In progress (target: Friday) |
+| App (Streamlit) | Done: live, forecasts the 3 months after the latest prices, updated monthly |
 | API, USSD and SMS | Planned |
-| Test on 2025 to 2026 prices | Planned |
+| Test on 2025 to 2026 prices | Done (see above) |
 
 ## Limits
 
 * Most prices in the panel are estimates; only recorded prices are used to score results.
 * About half of spikes come without an alert, because many are caused by events the data cannot see (floods, conflict, policy changes).
 * Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
-* Not yet tested on 2025 to 2026 prices.
+* Prices after 2024 extend the panel with the pipeline's own rules. MoA daily prices end in January 2025, so later months follow the MoA bulletin (maize, beans, potatoes) and WFP prices; milk after early 2026 and dried fish are carried at their last value.
+* The models are still trained on answers up to December 2024. Retraining on newer data is a decision for the group.
 
 ## Team
 
