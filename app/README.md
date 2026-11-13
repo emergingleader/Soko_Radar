@@ -5,7 +5,8 @@ shows the expected price for each of the next 3 months, a likely range, a warnin
 likely than usual, cheaper nearby counties (with a check on whether the trip is worth it) and a map of where prices
 may jump.
 
-The app uses the team's handover scripts as they are. It does not change any existing file in the repo.
+It imports `notebooks/handover/sokoradar_forecast.py` and `notebooks/handover/alerts/sokoradar_alerts.py` and
+calls their functions.
 
 | File | What it is |
 |---|---|
