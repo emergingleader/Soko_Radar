@@ -1,9 +1,9 @@
 # SokoRadar app
 
 A Streamlit app that shows food price forecasts for Kenyan counties. You choose a county and a food, and the app
-shows the expected price for each of the next 3 months, a likely range, a warning when a rise above 15% is more
-likely than usual, cheaper nearby counties (with a check on whether the trip is worth it) and a map of where prices
-may jump.
+shows the expected price for each of the next 3 months, a likely range, the chance of a rise above 15%, cheaper
+nearby counties (with a check on whether the trip is worth it after transport), the price in any past month, and a
+map of the counties where prices may jump or are high for the season.
 
 Live app: https://sokoradar-priceforecasting.streamlit.app/
 
@@ -18,11 +18,17 @@ calls their functions.
 | `pipeline/sokoradar_pipeline.py` | The team's data pipeline (notebook 00), unchanged. It stores its own raw data |
 | `raw_data/` | Files the forecast script needs (`counties.csv`, `county_climate_chirps_ndvi.csv`, `national_drivers_2006_2024.csv`), the county map (`ken_counties.geojson`) and the prices after 2024 (`prices_after_2024.csv`) |
 | `requirements.txt` | Python packages, with the model packages pinned to the versions in the model card |
+| `../.streamlit/config.toml` | The app's theme (dark, with colour-blind safe colours), read from the repo root |
 | `packages.txt` | A system library LightGBM needs on Streamlit Community Cloud |
 
 Where each part comes from: prices from the pipeline (`data/` plus the months after 2024), the forecast, jump
 warning and where-to-buy suggestion from notebook 02's handover script, the price range and seasonal label from
 notebook 07's alerts script, and transport costs from notebook 05.
+
+Where to buy compares prices recorded in markets, as in notebook 05. Since January 2025 few markets record prices
+each month, so when recorded prices can't be compared the app uses the Ministry of Agriculture county bulletin
+instead and marks the answer Indicative. Other estimated prices (copied from neighbouring counties, trends or
+averages) are never compared.
 
 ## Keeping the prices up to date
 

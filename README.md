@@ -91,11 +91,12 @@ Soko_Radar/
 │       └── alerts/   sokoradar_alerts.py, ALERTS_CARD.md
 ├── reports/figures/                       EDA charts
 ├── app/                                   the SokoRadar app (Streamlit), see app/README.md
-│   ├── streamlit_app.py                     price forecast for the next 3 months, jump warnings, where to buy, map
+│   ├── streamlit_app.py                     price forecast for the next 3 months, past prices, jump warnings, where to buy, map
 │   ├── transport.py                         transport costs from notebook 05
 │   ├── update_prices.py                     downloads the latest WFP prices and runs the pipeline
 │   ├── pipeline/sokoradar_pipeline.py       the data pipeline (notebook 00), unchanged
 │   └── raw_data/                            driver files, county map, prices after 2024
+├── .streamlit/config.toml                 the app's theme
 └── .github/workflows/update-prices.yml    monthly automatic price update
 ```
 
@@ -143,7 +144,7 @@ Soko_Radar/
 
 * Most prices in the panel are estimates; only recorded prices are used to score results.
 * About half of spikes come without an alert, because many are caused by events the data cannot see (floods, conflict, policy changes).
-* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
+* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Since January 2025 few markets record prices, so the app falls back to the Ministry county bulletin and marks those answers Indicative. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
 * Prices after 2024 extend the panel with the pipeline's own rules. MoA daily prices end in January 2025, so later months follow the MoA bulletin (maize, beans, potatoes) and WFP prices; milk after early 2026 and dried fish are carried at their last value.
 * The models are still trained on answers up to December 2024. Retraining on newer data is a decision for the group.
 
