@@ -166,30 +166,55 @@ with tab_market:
                       legend=dict(orientation="h", y=-0.15), hovermode="x unified")
     st.plotly_chart(fig, use_container_width=True)
 
-    # where to buy cheaper
-    w = rows[rows["where_to_buy_county"].notna()]
-    if len(w):
-        b = w.iloc[0]
-        st.markdown(f"#### 💰 Cheaper nearby: {b['where_to_buy_county']}")
-        st.markdown(f"KES {b['where_to_buy_price_kes']:,.1f} per {u} in {b['where_to_buy_county']}, "
-                    f"**{b['where_to_buy_saving_pct']:.0f}% less** than {county}.")
+    # where to buy cheaper: recorded prices in nearby counties (the handover rule uses recorded prices only)
+    st.markdown("#### 💰 Where to buy cheaper")
+    if crop not in fc.RECOMMEND_CROPS:
+        st.info("Available for maize, sorghum, Rosecoco beans and red potatoes.")
+    else:
         inputs = transport_inputs()
-        v1, v2 = st.columns(2)
-        vehicle = v1.selectbox("Your vehicle", list(inputs[0].index), index=2)
-        cap = int(inputs[0].loc[vehicle, "capacity_kg"])
-        qty = v2.number_input(f"How much ({u})", min_value=50, max_value=3 * cap, value=cap, step=50,
-                              key=f"qty_{vehicle}")
-        cand = prices[(prices["month"] == latest) & prices["observed"] & (prices["commodity"] == crop)
-                      & (prices["price_type"] == price_type) & (prices["county"] != county)]
-        cand = cand[["county", "price_kes"]].rename(columns={"county": "county_b", "price_kes": "price"})
-        options, best = tp.advise(county, float(b["where_to_buy_compared_with_kes"]), cand, qty, vehicle, inputs)
-        if best is not None:
-            st.success(f"✅ **Worth the trip** to {best['county_b']}: you save about "
-                       f"**KES {best['net'] * qty:,.0f}** after transport (KES {best['transport']:,.1f} per {u}).")
-        elif len(options):
-            top = options.iloc[0]
-            st.warning(f"❌ **Not worth the trip** with this load: transport costs about KES {top['transport']:,.1f} "
-                       f"per {u}, so buying locally is better.")
+        pairs = inputs[3]
+        nearby = pairs[pairs["county_a"] == county][["county_b", "road_km"]]
+        rec = prices[(prices["month"] == latest) & prices["observed"] & (prices["commodity"] == crop)
+                     & (prices["price_type"] == price_type)]
+        near = (nearby.merge(rec[["county", "price_kes"]], left_on="county_b", right_on="county")
+                .drop(columns="county").rename(columns={"price_kes": "price"}).sort_values("price"))
+        local = float(first["origin_price_kes"])
+        w = rows[rows["where_to_buy_county"].notna()]
+        if len(w):                                            # the official suggestion (after a jump warning)
+            b = w.iloc[0]
+            local = float(b["where_to_buy_compared_with_kes"])
+            st.success(f"**Buy in {b['where_to_buy_county']}**: KES {b['where_to_buy_price_kes']:,.1f} per {u}, "
+                       f"**{b['where_to_buy_saving_pct']:.0f}% less** than in {county}.")
+        if near.empty:
+            st.info(f"No nearby county reported a {price_type.lower()} price for this food in {latest:%B %Y}.")
+        else:
+            near = near.assign(diff=(near["price"] / local - 1) * 100)
+            st.dataframe(pd.DataFrame({
+                "Nearby county": near["county_b"],
+                f"Price {latest:%b %Y} (KES per {u})": near["price"].round(1),
+                f"Compared with {county}": [f"{d:+.0f}%" for d in near["diff"]],
+                "Distance (km)": near["road_km"].round(0).astype(int),
+            }), hide_index=True, use_container_width=True)
+            cheaper = near[near["price"] <= local * 0.95]
+            if cheaper.empty:
+                st.caption(f"None of these is at least 5% cheaper than {county} (KES {local:,.1f} per {u}).")
+            else:
+                st.markdown("**Is the trip worth it?**")
+                v1, v2 = st.columns(2)
+                vehicle = v1.selectbox("Your vehicle", list(inputs[0].index), index=2)
+                cap = int(inputs[0].loc[vehicle, "capacity_kg"])
+                qty = v2.number_input(f"How much ({u})", min_value=50, max_value=3 * cap, value=cap, step=50,
+                                      key=f"qty_{vehicle}")
+                options, best = tp.advise(county, local, near[["county_b", "price"]], qty, vehicle, inputs)
+                if best is not None:
+                    st.success(f"✅ **Worth the trip** to {best['county_b']}: you save about "
+                               f"**KES {best['net'] * qty:,.0f}** after transport "
+                               f"(transport about KES {best['transport']:,.1f} per {u}).")
+                else:
+                    top = options.iloc[0]
+                    st.warning(f"❌ **Not worth the trip** with this load: transport to {top['county_b']} costs about "
+                               f"KES {top['transport']:,.1f} per {u}, so buying in {county} is better.")
+        st.caption(f"Prices recorded in markets in {latest:%B %Y}. The price for {county} may be an estimate.")
 
     with st.expander("Please note"):
         st.markdown("""
