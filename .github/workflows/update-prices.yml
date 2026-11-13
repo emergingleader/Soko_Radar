@@ -1,6 +1,7 @@
 # Monthly price update for the SokoRadar app. Downloads the latest WFP Kenya prices from HDX, rebuilds the
 # months after 2024 with the team's pipeline, and pushes app/raw_data/prices_after_2024.csv if it changed.
-# Streamlit Community Cloud then redeploys the app. It can also be run from the Actions tab.
+# Streamlit Community Cloud then redeploys the app.
+# To run it by hand: Actions tab, then Update prices, then Run workflow.
 name: Update prices
 
 on:
