@@ -65,6 +65,12 @@ def load_module(name, path):
 
 fc = load_module("sokoradar_forecast", HANDOVER / "sokoradar_forecast.py")
 al = load_module("sokoradar_alerts", HANDOVER / "alerts" / "sokoradar_alerts.py")
+tp = load_module("sokoradar_transport", APP / "transport.py")          # notebook 05's transport layer
+
+
+@st.cache_data(show_spinner=False)
+def transport_inputs():
+    return tp.load_inputs()
 
 
 def safely(fn, *args):
@@ -259,8 +265,8 @@ with st.spinner(f"Running the SokoRadar models from {month_name(origin)} "
                 "(the first run takes 2 to 3 minutes; then it is cached) ..."):
     result = run_models(origin)
 
-tab_month, tab_live, tab_market, tab_proof, tab_about = st.tabs(
-    ["📍 This month", "🛰️ Live markets (WFP)", "📈 Market check", "✅ Does it work?", "ℹ️ About & limits"])
+tab_month, tab_live, tab_market, tab_insights, tab_proof, tab_about = st.tabs(
+    ["📍 This month", "🛰️ Live markets (WFP)", "📈 Market check", "💡 Insights", "✅ Does it work?", "ℹ️ About & limits"])
 
 
 # --------------------------------------------------------------------------- tab 1: this month, where to act
@@ -594,12 +600,61 @@ with tab_market:
                            f"KES {b['where_to_buy_price_kes']:,.2f}/{u} in {b['where_to_buy_price_month']}, "
                            f"**{b['where_to_buy_saving_pct']:.0f}% cheaper** than {county} "
                            f"(KES {b['where_to_buy_compared_with_kes']:,.2f}).")
-                st.caption("Savings are before transport, handling and market fees. In the backtest a full load of "
-                           "5 t or more still saved money in 68% to 85% of cases; small loads rarely did. "
-                           "Distances are between county centres.")
+                st.caption("Saving before transport. Check it after transport below.")
             else:
                 st.info("No suggestion. It needs an alert, a recorded price in both counties this month, and a county "
                         "within 200 km at least 5% cheaper (maize, sorghum, Rosecoco beans and red potatoes only).")
+
+        w = rows[rows["where_to_buy_county"].notna()]
+        if len(w):
+            b = w.iloc[0]
+            st.markdown("#### Where to buy after transport")
+            st.caption("From the team's recommender notebook (05): a nearby county is worth buying from only if it is "
+                       "still at least 5% cheaper after paying for the trip there and back.")
+            inputs = transport_inputs()
+            rates = inputs[0]
+            v1, v2 = st.columns(2)
+            vehicle = v1.selectbox("Vehicle", list(rates.index), index=2, key="vehicle")
+            cap = int(rates.loc[vehicle, "capacity_kg"])
+            qty = v2.number_input("Load (kg)", min_value=50, max_value=3 * cap, value=cap, step=50,
+                                  key=f"qty_{vehicle}", help=f"This vehicle carries up to {cap:,} kg per trip.")
+            cand = prices[(prices["month"] == pd.Timestamp(origin)) & prices["observed"]
+                          & (prices["commodity"] == commodity) & (prices["price_type"] == price_type)
+                          & (prices["county"] != county)][["county", "price_kes"]]
+            cand = cand.rename(columns={"county": "county_b", "price_kes": "price"})
+            local = float(b["where_to_buy_compared_with_kes"])
+            options, best = tp.advise(county, local, cand, qty, vehicle, inputs)
+            if options.empty:
+                st.info("No nearby county has a recorded price this month.")
+            else:
+                top = options.iloc[0]
+                if best is None:
+                    gap = (f"saves only KES {top['net']:,.2f}/{u}" if top["net"] > 0
+                           else f"would cost KES {-top['net']:,.2f}/{u} more")
+                    st.warning(f"**Stay local** with {qty:,} kg by {vehicle}: the best nearby option is "
+                               f"{top['county_b']}, but after transport (KES {top['transport']:,.2f}/{u}) it {gap}.")
+                else:
+                    st.success(f"**Buy in {best['county_b']}** with {qty:,} kg by {vehicle}: "
+                               f"KES {best['price']:,.2f}/{u}, {best['road_km']:.0f} km by road, transport "
+                               f"KES {best['transport']:,.2f}/{u}. **Net saving KES {best['net']:,.2f}/{u}, "
+                               f"KES {best['net'] * qty:,.0f} in total.**")
+                if top["gross"] > 0:
+                    need = tp.smallest_paying_load(top["gross"], top["road_km"], vehicle, county, inputs)
+                    st.caption(f"With this vehicle, buying in {top['county_b']} pays from "
+                               + (f"**{need:,} kg** upwards." if need else "no load size: the trip costs more than the saving."))
+                st.dataframe(pd.DataFrame({
+                    "County": options["county_b"],
+                    "Road km": [f"{k:.0f}" + ("" if m else " (est.)") for k, m in zip(options["road_km"], options["road_measured"])],
+                    f"Price (KES/{u})": options["price"].round(2),
+                    f"Cheaper by (KES/{u})": options["gross"].round(2),
+                    f"Transport (KES/{u})": options["transport"].round(2),
+                    f"Net saving (KES/{u})": options["net"].round(2),
+                    "Net for the load (KES)": (options["net"] * qty).round(0),
+                }), hide_index=True, use_container_width=True)
+                st.caption("Hire rates from the government vehicle hire card; fuel at the EPRA pump price in the buyer's "
+                           "county; the vehicle is paid both ways. Fuel use and driver/handling costs are the notebook's "
+                           "assumptions. Road distances from the Ministry of Roads matrix (41 of 47 counties); "
+                           "'est.' = straight-line distance x 1.3. Real transporter quotes may differ by 30% either way.")
 
         with st.expander("ALPS score history for this market"):
             a = alps_history(series).dropna()
@@ -609,6 +664,72 @@ with tab_market:
                 af.add_hline(y=cut, line_dash="dot", line_color=PHASE_COLOUR[name], annotation_text=name)
             af.update_layout(height=280, margin=dict(l=10, r=10, t=10, b=10), yaxis_title="ALPS score")
             st.plotly_chart(af, use_container_width=True)
+
+
+# --------------------------------------------------------------------------- tab: insights (notebooks 01 and 03)
+EDA_CHARTS = [  # figure, title, insight, what it means: from notebook 01's chart pack, unchanged in substance
+    ("1_national_price_index.png", "National prices 2006 to 2024",
+     "Maize, sorghum, beans and potatoes move with real ups and downs. Beef, goat meat, fish and eggs are almost "
+     "straight rising lines inside grey (estimated) shading, and the five bean types look nearly identical.",
+     "Smooth lines are a warning sign of filled data: those series are for display only, and the bean types are "
+     "treated as one series."),
+    ("2_national_data_coverage.png", "Where each month's price comes from",
+     "Before 2019 the core crops rely on WFP prices. Ministry data covers 2019 to early 2022; 2022 and 2023 have only "
+     "thin months, and 2024 is fully estimated at national level.",
+     "The last training years rest on estimates, which is why every result is scored on recorded prices only."),
+    ("3_county_coverage.png", "Counties with recorded WFP prices each year",
+     "From 2006 to 2020 only 4 to 9 counties have recorded prices. Wholesale coverage peaks at 16 counties in 2021 and "
+     "falls to 4 in 2025 to 2026; retail stays at 11 to 12.",
+     "The 2025 to 2026 test depends mostly on retail prices."),
+    ("4_outliers.png", "Outliers removed in cleaning",
+     "Only 112 records were removed, mostly Ministry daily wheat and red potatoes. WFP records needed very few.",
+     "Cleaning was light and does not reshape the data; wheat and potatoes are the noisiest sources."),
+    ("5_retail_markup.png", "Retail markup over wholesale",
+     "Retail maize is typically about 40% above wholesale, beans about 15% and potatoes about 65%, with a wide spread "
+     "for potatoes.",
+     "Retail and wholesale must stay separate series; a threshold set on one would misfire on the other."),
+    ("6_county_maize_price_map.png", "Where maize is dearer or cheaper",
+     "Mandera, Wajir and Garissa are the dearest, about 15 to 25% above the median; Kitui is about 30% below. Being "
+     "arid does not always mean dear.",
+     "Distance from producing areas matters more than dryness alone; the northeast is where high prices hurt most."),
+    ("7_price_change_correlation.png", "Which prices move together",
+     "The bean types move together at 0.90 to 0.96 and the two potato types at 0.98. On recorded months, maize, "
+     "sorghum, beans and potatoes barely move together month to month.",
+     "Each crop needs its own model; this month's maize change says little about sorghum."),
+    ("8_maize_price_and_drought.png", "Maize prices and drought",
+     "The big recorded maize peaks (2008 to 2009, 2011, 2017 and 2019) come during or just after droughts "
+     "(3-month rain below 75% of normal).",
+     "The clearest support for SokoRadar's idea: dry spells come before price jumps."),
+]
+
+with tab_insights:
+    st.markdown("What the team's exploration found, in the order the notebooks were built: the data review "
+                "(notebook 01) shaped the baselines and lead-lag tests (notebook 03), which shaped the models.")
+    st.markdown("#### From the data review (notebook 01)")
+    figs = REPO / "reports" / "figures"
+    for k in range(0, len(EDA_CHARTS), 2):
+        cols = st.columns(2)
+        for col, (img, title, insight, means) in zip(cols, EDA_CHARTS[k:k + 2]):
+            with col:
+                st.markdown(f"**{title}**")
+                if (figs / img).exists():
+                    st.image(str(figs / img), use_container_width=True)
+                st.markdown(f"{insight}\n\n*For SokoRadar:* {means}")
+    st.markdown("""
+#### From the baselines and lead-lag tests (notebook 03)
+* **The bar to beat is "same as last month".** "Same month last year" is much worse, so beating it proves nothing.
+  For maize 3 months ahead, a model must cut the naive error to about 0.117 to count as useful.
+* **Which crop's price moves first** (WFP county markets, strictest test with month effects, Holm-corrected):
+  potato price changes help predict **maize and beans a month later** (retail); **beans** help predict **maize about
+  2 months later** (wholesale); a sorghum rise is followed by a small fall in maize 2 months later. The effects are
+  small: adding the maize and beans leads to the walk-forward model gained only about 0.1 points. "Predicts" means the
+  earlier move helps forecast the later one; it does not prove cause.
+* **Model families:** on identical rows, pooled gradient boosting (LightGBM or XGBoost) beat naive by about 2% at
+  1 month and 7.5% at 3 months; ARIMAX with rain and vegetation did not beat naive. Everything beats naive by a
+  little, nothing by a lot.
+* **Drivers worth watching:** rainfall and vegetation lead maize price changes by up to 3 months (notebook 01); the
+  exchange rate moves after maize, so it does not help prediction.
+""")
 
 
 # --------------------------------------------------------------------------- tab 3: does it work?
@@ -646,6 +767,22 @@ cannot see (floods, conflict, policy changes). The price forecast is about level
 the value is in the alert, the range and the where-to-buy advice.
 
 These results were re-run and reproduced from the team's notebooks (02, 05 and 07) and handover scripts.
+""")
+    st.markdown("""
+#### The 2025 to 2026 final tests in the team's notebooks
+Three notebooks tested their own models once on **January 2025 to September 2026**, using recorded WFP county market
+prices only (the county price data ends in December 2024). These are the notebooks' models, not the deployed
+forecasting models above.
+
+| Notebook | Model tested on 2025-26 | What it found |
+|---|---|---|
+| **03** baselines | Pooled gradient boosting (LightGBM / XGBoost) on WFP county markets (about 200 forecasts per horizon, 30 series, 13 markets) | Error **5 to 7% below "same as last month" at 1 month, 10 to 11% at 2 and 16 to 17% at 3**. Consistent in direction with development (2 to 8%), but the test window is short, so the size is not precise. |
+| **04** time series | ARIMA on 9 camp market series | **Worse than "same as last month" at 1 month** (error 14.5% higher), 4.5% worse at 2 months, 7% better at 3 months, mostly from potatoes. |
+| **06** early warning | Chance a WFP market reaches ALPS Alert or Crisis within 3 months (174 checks, 15 events) | Warned of **60%** of the markets that reached Alert, against **7%** for "already in Alert now"; **38%** of its warnings came true. |
+
+**Not yet tested on 2025 to 2026:** the deployed forecasting models (ARIMA, the spike alert and the drivers from
+notebook 02, with the label and range from notebook 07). Their test, built from raw WFP prices, is the group's
+Day 5 step (model card and README: *planned*). The figures above this section are their 2015 to 2024 results.
 """)
 
 
