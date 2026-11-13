@@ -271,7 +271,7 @@ with tab_month:
     window = f2.radio("Spike alerts for", ["Next month", "Next 3 months"], key="window",
                       help="Next month: alerts 1 month ahead (the most reliable). Next 3 months: an alert at 1, 2 or 3 "
                            "months ahead, which flags many more markets.")
-    kind = f3.radio("Show on the map", ["Spike alerts", "High for the season now (ALPS Alert or Crisis)"], key="kind")
+    kind = f3.radio("Show on the map", ["Spike alerts", "Seasonal label: Alert or Crisis"], key="kind")
     max_h = 1 if window == "Next month" else 3
     when = targets[0].strftime("%b %Y") if max_h == 1 else f"{targets[0]:%b} to {targets[-1]:%b %Y}"
 
@@ -289,12 +289,16 @@ with tab_month:
 
     c1, c2, c3, c4 = st.columns(4)
     card(c1, "Markets forecast", f"{len(markets):,}", f"county × crop × retail/wholesale, {month_name(origin)}")
-    card(c2, "High for the season now", f"{int(high_now.sum()):,}",
-         f"ALPS Alert or Crisis · {int(high_now.sum()) - high_before:+d} vs last month", "red")
+    card(c2, "Seasonal label: Alert or Crisis", f"{int(high_now.sum()):,}",
+         f"high for the season (context) · {int(high_now.sum()) - high_before:+d} vs last month", "red")
     card(c3, f"Spike alerts, {when}", f"{int(alerted.sum()):,}",
          "markets with a higher risk of a rise above 15%", "orange")
-    card(c4, "Both warnings", f"{int(both.sum()):,}",
-         f"high for the season and a spike alert · {markets.loc[both, 'county'].nunique()} counties", "red")
+    card(c4, "Spike alert, already high", f"{int(both.sum()):,}",
+         f"spike alert and seasonal label Alert or Crisis · {markets.loc[both, 'county'].nunique()} counties", "red")
+    st.caption("**One alert, one label, one range.** The **spike alert** is SokoRadar's only alert: a rise above 15% "
+               "is more likely than usual. The **seasonal label** (ALPS: Normal, Stress, Alert, Crisis) says how high "
+               "the price already is for the time of year; it is context, not an alert. The **price range** shows how "
+               "far the price could move from the forecast.")
     st.write("")
 
     t_map, t_list, t_bulletin = st.tabs(["Map", "Action list", "County bulletin"])
@@ -316,7 +320,7 @@ with tab_month:
             marker_line_color="white", marker_line_width=0.8,
             customdata=np.stack([by_county.index, by_county["alerts"], by_county["high"], by_county["markets"]], axis=1),
             hovertemplate="<b>%{customdata[0]}</b><br>Spike alerts: %{customdata[1]} of %{customdata[3]} markets"
-                          "<br>High for the season: %{customdata[2]}<extra></extra>",
+                          "<br>Seasonal label Alert or Crisis: %{customdata[2]}<extra></extra>",
             colorbar=dict(title="markets", thickness=12, len=0.6)))
         fig.update_geos(visible=False, projection_type="mercator",
                         lonaxis_range=[33.6, 42.2], lataxis_range=[-4.9, 5.2])
@@ -325,7 +329,7 @@ with tab_month:
         st.plotly_chart(fig, use_container_width=True, config={"scrollZoom": False})
         st.caption("Number of markets per county "
                    + (f"with a spike alert for {when}." if value_col == "alerts"
-                      else "whose price is in ALPS Alert or Crisis for the season.")
+                      else "whose seasonal label is Alert or Crisis (context, not an alert).")
                    + " Hover over a county for both counts.")
 
     with t_list:
@@ -348,7 +352,7 @@ with tab_month:
                     parts.append("spike alert for next month" if r["first"] == 1
                                  else f"spike alert in {int(r['first'])} months")
                 if r["phase"] in HIGH_PHASES:
-                    parts.append(f"price in ALPS {r['phase']}")
+                    parts.append(f"seasonal label {r['phase']}")
                 return "; ".join(parts)
             watch["priority"] = watch["alert"].astype(int) + watch["phase"].isin(HIGH_PHASES).astype(int) * 2 \
                 + (watch["phase"] == "Crisis").astype(int)
@@ -378,7 +382,7 @@ with tab_month:
         lines = [f"SokoRadar bulletin: {b_county} county, prices of {month_name(origin)}"
                  + ("" if crop == "All crops" else f", {crop}"), ""]
         lines.append(f"{len(cm)} markets checked. {int(c_alert.sum())} with a spike alert for {when}; "
-                     f"{int(cm['phase'].isin(HIGH_PHASES).sum())} already high for the season (ALPS Alert or Crisis).")
+                     f"{int(cm['phase'].isin(HIGH_PHASES).sum())} with a seasonal label of Alert or Crisis (high for the time of year).")
         for s, r in cm[c_alert | cm["phase"].isin(HIGH_PHASES)].iterrows():
             rr = view[view["series"] == s].sort_values("horizon")
             bits = []
@@ -386,7 +390,7 @@ with tab_month:
                 chance = rr.loc[rr["horizon"] <= max_h, "spike_probability_pct"].max()
                 bits.append(f"spike alert (chance of a rise above 15% up to {chance:.0f}%)")
             if r["phase"] in HIGH_PHASES:
-                bits.append(f"price in ALPS {r['phase']}")
+                bits.append(f"seasonal label {r['phase']}")
             f3 = rr.iloc[-1]
             bits.append(f"forecast KES {f3['forecast_price_kes']:,.1f}/{UNIT[r['commodity']]} in "
                         f"{pd.Timestamp(f3['target_month']):%b %Y} ({pct(f3['forecast_change_pct'])}, range {f3['range_low_kes']:,.1f} to {f3['range_high_kes']:,.1f})")
@@ -414,7 +418,7 @@ with tab_live:
     live = live_markets()
     live_months = sorted(live["month"].unique(), reverse=True)
     st.markdown("Recorded WFP market prices, newer than the county forecasts: **is the price high for the season "
-                "right now?** Each market is compared with its own normal level for that time of year, learned from "
+                "right now?** This is the seasonal (ALPS) label, which is context, not an alert. Each market is compared with its own normal level for that time of year, learned from "
                 "its earlier recorded months (the ALPS method of notebook 06). Only markets that reported a price "
                 "that month are shown.")
     l1, l2 = st.columns(2)
@@ -431,10 +435,10 @@ with tab_live:
     k1, k2, k3, k4 = st.columns(4)
     card(k1, "Markets scored", f"{len(now):,}",
          f"recorded prices, {month_name(l_month)} · {int(rep['markets'].sum())} market reports in all")
-    card(k2, "In Alert or Crisis now", f"{hi_now:,}", f"{hi_now - hi_before:+d} vs {month_name(l_prev)}", "red")
+    card(k2, "Seasonal label: Alert or Crisis", f"{hi_now:,}", f"{hi_now - hi_before:+d} vs {month_name(l_prev)}", "red")
     card(k3, "In Stress", f"{int((now['phase'] == 'Stress').sum()):,}", "above normal for the season, may reach Alert",
          "orange")
-    card(k4, "Counties with Alert or Crisis", f"{now.loc[now['phase'].isin(HIGH_PHASES), 'county'].nunique()}",
+    card(k4, "Counties with label Alert or Crisis", f"{now.loc[now['phase'].isin(HIGH_PHASES), 'county'].nunique()}",
          f"of {now['county'].nunique()} {'county' if now['county'].nunique() == 1 else 'counties'} reporting")
     st.write("")
 
@@ -659,7 +663,12 @@ with tab_about:
 | **Where to buy** | Which nearby county is cheaper right now? |
 
 ### Limits
-* An alert means **higher risk**, not a certain spike. About half of spikes come without one.
+* An alert means **higher risk**, not a certain spike. About half of spikes come without one, because many are caused
+  by events the data cannot see (floods, conflict, policy changes).
+* **The seasonal label says "high for the season", not "a spike is coming".** The spike alert answers that question.
+  SokoRadar has one alert (the spike alert), one label (ALPS) and one range, as set in the team's alerts notebook.
+* The price range width was learned at the 85th percentile of past misses, because a first test at 80% gave too little
+  coverage in recent, more volatile years.
 * Only about 5% to 7% of prices were recorded in a market; the rest are estimates.
 * The county price data ends in **{month_name(f"{latest:%Y-%m}")}**. 2025 to 2026 prices are kept for the team's
   sealed final test and will be added after it.
