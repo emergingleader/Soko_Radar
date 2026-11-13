@@ -70,8 +70,8 @@ def safely(fn, *args):
 
 @st.cache_resource
 def prices_file() -> Path:
-    """The team's 2006-2024 county prices plus the newer months built by the same pipeline (app/raw_data)."""
-    newer = RAW / "prices_2025_2026.csv"
+    """The team's 2006-2024 county prices plus the newer months built by the same pipeline (app/update_prices.py)."""
+    newer = RAW / "prices_after_2024.csv"
     if not newer.exists():
         return DATA
     path = Path(tempfile.gettempdir()) / "sokoradar_prices_2006_latest.csv"
@@ -118,8 +118,11 @@ months = [pd.Timestamp(m) for m in sorted(result["target_month"].unique())]
 
 # --------------------------------------------------------------------------- header and choices
 st.title("🌽 SokoRadar")
+start = f"{months[0]:%B %Y}" if months[0].year != months[-1].year else f"{months[0]:%B}"
 st.markdown(f"Food price forecast for Kenyan counties · latest prices **{latest:%B %Y}** · "
-            f"forecast **{months[0]:%B} to {months[-1]:%B %Y}**")
+            f"forecast **{start} to {months[-1]:%B %Y}**")
+if (pd.Timestamp.today().to_period("M") - latest.to_period("M")).n > 2:
+    st.caption(f"⏳ Newer prices have not been added yet; this forecast starts from {latest:%B %Y}.")
 
 with st.sidebar:
     st.header("Choose a market")
