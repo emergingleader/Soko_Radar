@@ -13,6 +13,7 @@ import importlib.util
 import io
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 import numpy as np
@@ -67,9 +68,21 @@ def safely(fn, *args):
         st.stop()
 
 
+@st.cache_resource
+def prices_file() -> Path:
+    """The team's 2006-2024 county prices plus the newer months built by the same pipeline (app/raw_data)."""
+    newer = RAW / "prices_2025_2026.csv"
+    if not newer.exists():
+        return DATA
+    path = Path(tempfile.gettempdir()) / "sokoradar_prices_2006_latest.csv"
+    pd.concat([pd.read_csv(DATA), pd.read_csv(newer)]).to_csv(path, index=False)
+    return path
+
+
 @st.cache_data(show_spinner=False)
 def load_prices():
-    return safely(fc.load_prices, DATA), safely(al.load_prices, DATA)
+    path = prices_file()
+    return safely(fc.load_prices, path), safely(al.load_prices, path)
 
 
 @st.cache_data(show_spinner=False, max_entries=2)
