@@ -144,6 +144,7 @@ with tab_market:
     first = rows.iloc[0]
     st.subheader(f"{crop} · {county} · {price_type.lower()}")
     st.markdown(f"Price now ({latest:%B}): **KES {first['origin_price_kes']:,.1f} per {u}**"
+                + ("" if first["origin_price_is_real"] else " (estimate)")
                 + (f" · {SEASON[first['phase']]}" if isinstance(first["phase"], str) and first["phase"] else ""))
 
     cols = st.columns(3)
@@ -194,7 +195,9 @@ with tab_market:
                      & (prices["price_type"] == price_type)]
         near = (nearby.merge(rec[["county", "price_kes"]], left_on="county_b", right_on="county")
                 .drop(columns="county").rename(columns={"price_kes": "price"}).sort_values("price"))
-        local = float(first["origin_price_kes"])
+        # compare only with a price recorded in this county (the model card: estimated prices are not used,
+        # because they are partly copied from neighbouring counties)
+        local = float(first["origin_price_kes"]) if first["origin_price_is_real"] else None
         w = rows[rows["where_to_buy_county"].notna()]
         if len(w):                                            # the official suggestion (after a jump warning)
             b = w.iloc[0]
@@ -204,15 +207,16 @@ with tab_market:
         if near.empty:
             st.info(f"No nearby county reported a {price_type.lower()} price for this food in {latest:%B %Y}.")
         else:
-            near = near.assign(diff=(near["price"] / local - 1) * 100)
-            st.dataframe(pd.DataFrame({
-                "Nearby county": near["county_b"],
-                f"Price {latest:%b %Y} (KES per {u})": near["price"].round(1),
-                f"Compared with {county}": [f"{d:+.0f}%" for d in near["diff"]],
-                "Distance (km)": near["road_km"].round(0).astype(int),
-            }), hide_index=True, use_container_width=True)
-            cheaper = near[near["price"] <= local * 0.95]
-            if cheaper.empty:
+            table = {"Nearby county": near["county_b"],
+                     f"Price {latest:%b %Y} (KES per {u})": near["price"].round(1)}
+            if local is not None:
+                table[f"Compared with {county}"] = [f"{(p / local - 1) * 100:+.0f}%" for p in near["price"]]
+            table["Distance (km)"] = near["road_km"].round(0).astype(int)
+            st.dataframe(pd.DataFrame(table), hide_index=True, use_container_width=True)
+            cheaper = near[near["price"] <= local * 0.95] if local is not None else near.iloc[0:0]
+            if local is None:
+                st.caption(f"No price was recorded in {county} in {latest:%B %Y}, so these cannot be compared with it.")
+            elif cheaper.empty:
                 st.caption(f"None of these is at least 5% cheaper than {county} (KES {local:,.1f} per {u}).")
             else:
                 st.markdown("**Is the trip worth it?**")
@@ -230,13 +234,18 @@ with tab_market:
                     top = options.iloc[0]
                     st.warning(f"❌ **Not worth the trip** with this load: transport to {top['county_b']} costs about "
                                f"KES {top['transport']:,.1f} per {u}, so buying in {county} is better.")
-        st.caption(f"Prices recorded in markets in {latest:%B %Y}. The price for {county} may be an estimate.")
+        st.caption(f"Prices recorded in markets in {latest:%B %Y}. Savings exclude handling and market fees; "
+                   "they pay off for a lorry load, not a few bags.")
 
     with st.expander("Please note"):
         st.markdown("""
-* A forecast is the most likely price, not a promise. The real price usually falls inside the range shown.
-* "Price may jump" means a higher risk than usual, not a certainty. Some jumps happen without a warning.
-* Most county prices are estimates; only some markets report prices every month.
+* A forecast is the most likely price, not a promise. About 8 times in 10 the real price falls inside the range shown.
+* "Price may jump" means a higher risk than usual, not a certainty: most warnings are not followed by a jump, and
+  about half of jumps come without a warning (floods, conflict or policy changes are not in the data).
+* "High for the season" compares today's price with the usual price for this time of year; it does not mean a jump
+  is coming.
+* Most county prices are estimates; only some markets report prices each month. Forecasts are less certain where no
+  price was recorded.
 * Transport costs use government hire rates and pump prices; real quotes may differ.
 """)
 
@@ -275,5 +284,5 @@ with tab_map:
         "Cheaper nearby": table["where_to_buy_county"].fillna(""),
     }), hide_index=True, use_container_width=True, height=380)
 
-st.caption("SokoRadar · Moringa School Data Science Capstone, Group 10 · Data: Ministry of Agriculture (KAMIS), "
-           "WFP, KNBS, Central Bank of Kenya")
+st.caption("SokoRadar · Moringa School Data Science Capstone, Group 10 · Data: Ministry of Agriculture and Livestock "
+           "Development (KAMIS), WFP via HDX (CC BY IGO), KNBS, Central Bank of Kenya, World Bank")
