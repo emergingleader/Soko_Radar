@@ -116,7 +116,8 @@ prices, _ = load_prices()
 latest = prices["month"].max()
 origin = f"{latest:%Y-%m}"
 UNIT = prices.drop_duplicates("commodity").set_index("commodity")["unit"].str.replace("KES/", "", regex=False).to_dict()
-with st.spinner("Preparing the forecasts. The first visit takes 2 to 3 minutes."):
+with st.spinner("Preparing the forecasts. After the app restarts this can take up to 7 minutes; "
+                "later visits are quick."):
     result = run_models(origin)
 months = [pd.Timestamp(m) for m in sorted(result["target_month"].unique())]
 

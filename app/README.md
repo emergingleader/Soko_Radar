@@ -59,4 +59,5 @@ streamlit run app/streamlit_app.py
 3. Under Advanced settings, choose Python 3.12.
 4. Deploy.
 
-The first visit runs the models, which takes 2 to 3 minutes. After that the results are cached.
+The first visit after the app starts runs the models. On Streamlit Community Cloud this takes about 6 to 7
+minutes (2 to 3 minutes on a laptop). After that the results are cached, so later visits are quick.
