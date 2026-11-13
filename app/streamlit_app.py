@@ -12,6 +12,7 @@ Run locally from the repo folder:
 import importlib.util
 import io
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -117,6 +118,64 @@ def county_shapes():
     return geo, dict(zip(codes["county"], codes["pcode"]))
 
 
+# --------------------------------------------------------------------------- live markets: WFP recorded prices
+LEDGER_KEYS = ["admin2", "market", "crop", "pricetype"]
+COUNTY_ALIAS = {"ijara": "Garissa", "merunorth": "Meru", "merusouth": "Tharaka-Nithi", "moyale": "Marsabit"}  # as the pipeline
+
+
+def ledger_alps_scores(price: pd.Series, min_obs: int = 36) -> pd.Series:
+    """ALPS score per month, using a trend + season fit on earlier recorded months only (notebook 06, unchanged)."""
+    price = price.astype(float)
+    t = np.arange(len(price))
+    month = price.index.month
+    X = np.column_stack([np.ones(len(price)), t] + [(month == m).astype(float) for m in range(2, 13)])
+    out = pd.Series(np.nan, index=price.index)
+    use = price.notna().values
+    for i in range(len(price)):
+        past = np.where(use[:i])[0]
+        if len(past) < min_obs or np.isnan(price.iloc[i]):
+            continue
+        beta, *_ = np.linalg.lstsq(X[past], price.values[past], rcond=None)
+        resid = price.values[past] - X[past] @ beta
+        out.iloc[i] = (price.iloc[i] - X[i] @ beta) / resid.std(ddof=X.shape[1])
+    return out
+
+
+@st.cache_data(show_spinner="Scoring WFP markets ...")
+def live_markets() -> pd.DataFrame:
+    """Every WFP market series with 37+ recorded months, scored month by month (notebook 06, step 3)."""
+    led = pd.read_csv(RAW / "real_ledger.csv")
+    names = {re.sub("[^a-z]", "", c.lower()): c for c in pd.read_csv(RAW / "counties.csv")["county"]}
+    names.update(COUNTY_ALIAS)
+    led["county"] = led["admin2"].map(lambda s: names.get(re.sub("[^a-z]", "", str(s).lower())))
+    led["month"] = pd.PeriodIndex(led["month"], freq="M")
+    mean = led.groupby(LEDGER_KEYS + ["county", "month"], as_index=False)["kes_kg"].mean()
+    months = pd.period_range(mean["month"].min(), mean["month"].max(), freq="M")
+    parts = []
+    for key, g in mean.groupby(LEDGER_KEYS + ["county"]):
+        price = g.set_index("month")["kes_kg"].reindex(months)
+        if price.notna().sum() < 37:
+            continue
+        score = ledger_alps_scores(price)
+        df = pd.DataFrame({"month": months, "price": price.values, "alps": score.values})
+        recorded = pd.Series(months.astype(str), index=months).where(price.notna())
+        df["last_price"] = price.ffill().shift(1).values                          # previous recorded price
+        df["last_month"] = recorded.ffill().shift(1).values                       # and its month
+        for k, v in zip(LEDGER_KEYS + ["county"], key):
+            df[k] = v
+        parts.append(df.dropna(subset=["alps"]))
+    out = pd.concat(parts, ignore_index=True)
+    out["phase"] = al.to_phase(out["alps"])
+    out["month"] = out["month"].astype(str)
+    return out
+
+
+@st.cache_data(show_spinner=False)
+def ledger_reporting() -> pd.DataFrame:
+    led = pd.read_csv(RAW / "real_ledger.csv")
+    return led.groupby(["month", "crop"]).agg(markets=("market", "nunique")).reset_index()
+
+
 def card(col, label, value, note="", tone=""):
     col.markdown(f'<div class="sr-card {tone}"><div class="label">{label}</div>'
                  f'<div class="value">{value}</div><div class="note">{note}</div></div>', unsafe_allow_html=True)
@@ -187,10 +246,12 @@ with st.expander("How to use SokoRadar"):
     st.markdown("""
 1. **This month** shows where to act: counties with spike alerts or prices that are already high for the season,
    a list of markets to watch, and a short bulletin per county you can copy into a report.
-2. **Market check** looks at one market (choose the county, crop and retail or wholesale in the sidebar):
+2. **Live markets (WFP)** uses newer recorded market prices (to September 2026) to show which markets are
+   high for the season right now. It is a status check, not a forecast.
+3. **Market check** looks at one market (choose the county, crop and retail or wholesale in the sidebar):
    its price history, the forecast with an 80% range, the spike alert, what drives the forecast and where to buy.
-3. **Does it work?** shows how well each part did on years the models had never seen.
-4. Read a **spike alert** as "higher risk than usual", not "a spike is coming". Read the **ALPS label** as
+4. **Does it work?** shows how well each part did on years the models had never seen.
+5. Read a **spike alert** as "higher risk than usual", not "a spike is coming". Read the **ALPS label** as
    "high for the season right now". They answer different questions, so a market can have one without the other.
 """)
 
@@ -198,8 +259,8 @@ with st.spinner(f"Running the SokoRadar models from {month_name(origin)} "
                 "(the first run takes 2 to 3 minutes; then it is cached) ..."):
     result = run_models(origin)
 
-tab_month, tab_market, tab_proof, tab_about = st.tabs(
-    ["📍 This month", "📈 Market check", "✅ Does it work?", "ℹ️ About & limits"])
+tab_month, tab_live, tab_market, tab_proof, tab_about = st.tabs(
+    ["📍 This month", "🛰️ Live markets (WFP)", "📈 Market check", "✅ Does it work?", "ℹ️ About & limits"])
 
 
 # --------------------------------------------------------------------------- tab 1: this month, where to act
@@ -261,7 +322,7 @@ with tab_month:
                         lonaxis_range=[33.6, 42.2], lataxis_range=[-4.9, 5.2])
         fig.update_layout(height=560, margin=dict(l=0, r=0, t=10, b=0), paper_bgcolor="rgba(0,0,0,0)",
                           geo=dict(bgcolor="rgba(0,0,0,0)"))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config={"scrollZoom": False})
         st.caption("Number of markets per county "
                    + (f"with a spike alert for {when}." if value_col == "alerts"
                       else "whose price is in ALPS Alert or Crisis for the season.")
@@ -348,7 +409,91 @@ with tab_month:
                        file_name=f"sokoradar_{origin}.csv", mime="text/csv", key="dl_all")
 
 
-# --------------------------------------------------------------------------- tab 2: one market
+# --------------------------------------------------------------------------- tab 2: live markets (WFP recorded prices)
+with tab_live:
+    live = live_markets()
+    live_months = sorted(live["month"].unique(), reverse=True)
+    st.markdown("Recorded WFP market prices, newer than the county forecasts: **is the price high for the season "
+                "right now?** Each market is compared with its own normal level for that time of year, learned from "
+                "its earlier recorded months (the ALPS method of notebook 06). Only markets that reported a price "
+                "that month are shown.")
+    l1, l2 = st.columns(2)
+    l_month = l1.selectbox("Month", live_months, index=0, format_func=month_name, key="l_month")
+    l_crop = l2.selectbox("Crop", ["All crops", "Maize", "Beans", "Sorghum", "Potatoes"], key="l_crop")
+    lv = live if l_crop == "All crops" else live[live["crop"] == l_crop]
+    now = lv[lv["month"] == l_month]
+    l_prev = f"{pd.Period(l_month, 'M') - 1}"
+    before = lv[lv["month"] == l_prev]
+    hi_now, hi_before = int(now["phase"].isin(HIGH_PHASES).sum()), int(before["phase"].isin(HIGH_PHASES).sum())
+    rep = ledger_reporting()
+    rep = rep[rep["month"] == l_month] if l_crop == "All crops" else rep[(rep["month"] == l_month) & (rep["crop"] == l_crop)]
+
+    k1, k2, k3, k4 = st.columns(4)
+    card(k1, "Markets scored", f"{len(now):,}",
+         f"recorded prices, {month_name(l_month)} · {int(rep['markets'].sum())} market reports in all")
+    card(k2, "In Alert or Crisis now", f"{hi_now:,}", f"{hi_now - hi_before:+d} vs {month_name(l_prev)}", "red")
+    card(k3, "In Stress", f"{int((now['phase'] == 'Stress').sum()):,}", "above normal for the season, may reach Alert",
+         "orange")
+    card(k4, "Counties with Alert or Crisis", f"{now.loc[now['phase'].isin(HIGH_PHASES), 'county'].nunique()}",
+         f"of {now['county'].nunique()} {'county' if now['county'].nunique() == 1 else 'counties'} reporting")
+    st.write("")
+
+    if now.empty:
+        st.info("No market reported enough recorded prices for this month and crop.")
+    else:
+        geo, pcode_of = county_shapes()
+        rank = {p: i for i, p in enumerate(al.PHASES)}
+        worst = (now.assign(r=now["phase"].map(rank)).groupby("county")
+                 .agg(r=("r", "max"), markets=("market", "nunique"),
+                      high=("phase", lambda s: int(s.isin(HIGH_PHASES).sum()))))
+        worst["pcode"] = worst.index.map(pcode_of)
+        worst = worst.dropna(subset=["pcode"])
+        all_codes = list(pcode_of.values())
+        steps = [PHASE_COLOUR[p] for p in al.PHASES]
+        scale = [[0, steps[0]], [0.25, steps[0]], [0.25, steps[1]], [0.5, steps[1]],
+                 [0.5, steps[2]], [0.75, steps[2]], [0.75, steps[3]], [1, steps[3]]]
+        lf = go.Figure()
+        lf.add_trace(go.Choropleth(geojson=geo, featureidkey="properties.pcode", locations=all_codes,
+                                   z=[0] * len(all_codes), colorscale=[[0, "#e4e2dc"], [1, "#e4e2dc"]],
+                                   showscale=False, marker_line_color="white", marker_line_width=0.8,
+                                   hoverinfo="skip"))
+        lf.add_trace(go.Choropleth(
+            geojson=geo, featureidkey="properties.pcode", locations=worst["pcode"], z=worst["r"] + 0.5,
+            zmin=0, zmax=4, colorscale=scale, marker_line_color="white", marker_line_width=0.8,
+            customdata=np.stack([worst.index, worst["r"].map(dict(enumerate(al.PHASES))), worst["markets"],
+                                 worst["high"]], axis=1),
+            hovertemplate="<b>%{customdata[0]}</b><br>Worst: %{customdata[1]}<br>Markets reporting: "
+                          "%{customdata[2]}<br>In Alert or Crisis: %{customdata[3]}<extra></extra>",
+            colorbar=dict(title="worst phase", tickvals=[0.5, 1.5, 2.5, 3.5], ticktext=al.PHASES,
+                          thickness=12, len=0.6)))
+        lf.update_geos(visible=False, projection_type="mercator", lonaxis_range=[33.6, 42.2],
+                       lataxis_range=[-4.9, 5.2])
+        lf.update_layout(height=520, margin=dict(l=0, r=0, t=10, b=0), paper_bgcolor="rgba(0,0,0,0)",
+                         geo=dict(bgcolor="rgba(0,0,0,0)"))
+        st.plotly_chart(lf, use_container_width=True, config={"scrollZoom": False})
+        st.caption("Each county shows its worst-placed reporting market. Grey counties had no market with enough "
+                   "recorded prices this month, so no label is shown for them.")
+
+        order = {"Crisis": 0, "Alert": 1, "Stress": 2, "Normal": 3}
+        show = now.assign(o=now["phase"].map(order)).sort_values(["o", "alps"], ascending=[True, False])
+        change = (show["price"] / show["last_price"] - 1) * 100
+        st.dataframe(pd.DataFrame({
+            "County": show["county"], "Market": show["market"], "Crop": show["crop"], "Type": show["pricetype"],
+            "Price (KES/kg)": show["price"].round(1), "Seasonal label": show["phase"],
+            "ALPS score": show["alps"].round(2),
+            "Change since last report": [f"{pct(c)} (since {pd.Timestamp(m):%b %Y})" if pd.notna(c) and isinstance(m, str)
+                                         else "" for c, m in zip(change, show["last_month"])],
+        }), hide_index=True, use_container_width=True, height=420)
+        st.download_button("Download this list (CSV)", show.to_csv(index=False).encode("utf-8-sig"),
+                           file_name=f"sokoradar_live_markets_{l_month}.csv", mime="text/csv")
+
+    st.caption("This view says where prices are **high now**; it is not a forecast. For a 3-month early warning on "
+               "these WFP markets, see the team's notebook 06 model in the "
+               "[SokoRadar alerts app](https://sokoradar-alerts-gcrnsb8tpndernksznsyws.streamlit.app/). "
+               "Data: WFP market prices via HDX (CC BY IGO), maize, beans, sorghum and potatoes.")
+
+
+# --------------------------------------------------------------------------- tab 3: one market
 with tab_market:
     series = f"{county} | {commodity} | {price_type}"
     rows = result[result["series"] == series].sort_values("horizon")
