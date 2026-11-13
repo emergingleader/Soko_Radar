@@ -126,6 +126,9 @@ def main():
     ext.to_csv(OUT, index=False)
     shutil.rmtree(work, ignore_errors=True)
     print(f"Saved {len(ext):,} rows ({ext['month'].min()} to {ext['month'].max()}) to {OUT}")
+    latest = pd.Timestamp(ext["month"].max())
+    print(f"Prices now run to {latest:%B %Y}. The app will forecast "
+          f"{latest + pd.DateOffset(months=1):%B %Y} to {latest + pd.DateOffset(months=3):%B %Y}.")
     if os.environ.get("GITHUB_OUTPUT"):                               # tell the GitHub Action the new month
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"latest={end}\n")

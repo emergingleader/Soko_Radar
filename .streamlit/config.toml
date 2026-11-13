@@ -1,0 +1,9 @@
+# SokoRadar app theme: dark navy with colour-blind safe accents (text contrast checked against WCAG AA).
+# Streamlit reads this file from the repo root, both locally and on Streamlit Community Cloud.
+[theme]
+base = "dark"
+primaryColor = "#7cc4ff"
+backgroundColor = "#0f1b2d"
+secondaryBackgroundColor = "#17263d"
+textColor = "#f2f4f8"
+baseFontSize = 17

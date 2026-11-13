@@ -33,7 +33,7 @@ VEHICLES = [("Pickup 4x2 (1 t)", 30, 1000, "diesel", 0.12, 1000),
 
 
 def load_inputs():
-    """Vehicle rates, fuel prices and neighbour pairs with road distances (notebook 05, cells 6 and 7)."""
+    """Load the vehicle hire rates, county fuel prices and the nearby county pairs with their road distances."""
     card = pd.read_csv(DATA / "govt_vehicle_hire_rates.csv")
     rows = []
     for name, item, cap, fuel_type, l_km, fixed in VEHICLES:
@@ -64,7 +64,7 @@ def load_inputs():
 
 
 def transport_per_kg(road_km, qty, m, fuel_price):
-    """KES per kg to move qty kg a road distance, paying the vehicle both ways (notebook 05, cell 16)."""
+    """Transport cost in KES per kg for a load of qty kg over a road distance, paying the vehicle both ways."""
     trips = np.ceil(qty / m["capacity_kg"])
     rt = np.asarray(road_km, dtype=float) * RETURN_FACTOR
     return trips * (np.maximum(rt * m["hire_rate_per_km"], m["min_charge_per_trip"])
@@ -72,8 +72,10 @@ def transport_per_kg(road_km, qty, m, fuel_price):
 
 
 def advise(county, local_price, candidates, qty_kg, vehicle, inputs):
-    """Best nearby county after transport for one buyer. candidates: DataFrame with county_b, price (recorded this month).
-    Returns (table of every nearby option, best row or None)."""
+    """Compare nearby counties for one buyer after transport.
+
+    candidates has one row per nearby county (county_b) with its recorded price this month. Returns a table of all
+    the options, best first, and the county to buy from, or None if none is at least 5% cheaper after transport."""
     rates, fuel, fuel_national, pairs = inputs
     m = rates.loc[vehicle]
     fuel_price = fuel[m["fuel_type"]].get(county, fuel_national[m["fuel_type"]])      # buyer's county
@@ -89,7 +91,7 @@ def advise(county, local_price, candidates, qty_kg, vehicle, inputs):
 
 
 def smallest_paying_load(saving_per_kg, road_km, vehicle, county, inputs):
-    """Smallest load at which the saving pays for the trip (notebook 05, cell 16). None if no load up to 3 vehicles."""
+    """The smallest load (kg) for which the saving covers the trip, or None if no load up to 3 vehicle loads does."""
     rates, fuel, fuel_national, _ = inputs
     m = rates.loc[vehicle]
     fuel_price = fuel[m["fuel_type"]].get(county, fuel_national[m["fuel_type"]])

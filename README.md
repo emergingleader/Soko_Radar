@@ -5,6 +5,8 @@ Group 10, Moringa School Data Science Capstone, 2026.
 
 SokoRadar forecasts food prices in Kenyan counties 1 to 3 months ahead, warns when a sharp price rise is likely, and suggests where to buy more cheaply. It is built for county food security officers, NDMA, aid agencies, traders and farmers.
 
+**Live app:** https://sokoradar-priceforecasting.streamlit.app/
+
 ## The problem
 
 Food price spikes hit poor households, farmers and pastoralists hardest. Today's tools, such as WFP's ALPS and the Ministry of Agriculture's KAMIS, report prices after they have risen. Responses such as adjusting cash transfers or releasing reserves therefore come late.
@@ -89,11 +91,12 @@ Soko_Radar/
 │       └── alerts/   sokoradar_alerts.py, ALERTS_CARD.md
 ├── reports/figures/                       EDA charts
 ├── app/                                   the SokoRadar app (Streamlit), see app/README.md
-│   ├── streamlit_app.py                     price forecast for the next 3 months, jump warnings, where to buy, map
+│   ├── streamlit_app.py                     price forecast for the next 3 months, past prices, jump warnings, where to buy, map
 │   ├── transport.py                         transport costs from notebook 05
 │   ├── update_prices.py                     downloads the latest WFP prices and runs the pipeline
 │   ├── pipeline/sokoradar_pipeline.py       the data pipeline (notebook 00), unchanged
 │   └── raw_data/                            driver files, county map, prices after 2024
+├── .streamlit/config.toml                 the app's theme
 └── .github/workflows/update-prices.yml    monthly automatic price update
 ```
 
@@ -133,7 +136,7 @@ Soko_Radar/
 | Baselines, ARIMA, where to buy | Done |
 | Forecasting model and spike alert | Done |
 | Alerts, ALPS label, price ranges | Done |
-| App (Streamlit) | Done: live, forecasts the 3 months after the latest prices, updated monthly |
+| App (Streamlit) | Done: [live](https://sokoradar-priceforecasting.streamlit.app/), forecasts the 3 months after the latest prices, updated monthly |
 | API, USSD and SMS | Planned |
 | Test on 2025 to 2026 prices | Done (see above) |
 
@@ -141,7 +144,7 @@ Soko_Radar/
 
 * Most prices in the panel are estimates; only recorded prices are used to score results.
 * About half of spikes come without an alert, because many are caused by events the data cannot see (floods, conflict, policy changes).
-* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
+* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Since January 2025 few markets record prices, so the app falls back to the Ministry county bulletin and marks those answers Indicative. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
 * Prices after 2024 extend the panel with the pipeline's own rules. MoA daily prices end in January 2025, so later months follow the MoA bulletin (maize, beans, potatoes) and WFP prices; milk after early 2026 and dried fish are carried at their last value.
 * The models are still trained on answers up to December 2024. Retraining on newer data is a decision for the group.
 
