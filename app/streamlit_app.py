@@ -186,6 +186,19 @@ with tab_market:
                       legend=dict(orientation="h", y=-0.15), hovermode="x unified")
     st.plotly_chart(fig, use_container_width=True)
 
+    st.dataframe(pd.DataFrame({
+        "Month": pd.to_datetime(rows["target_month"]).dt.strftime("%B %Y").values,
+        f"Forecast (KES per {u})": rows["forecast_price_kes"].round(1).values,
+        "Change": [f"{round(c, 1) + 0.0:+.1f}%" for c in rows["forecast_change_pct"]],
+        "Likely range": [f"{lo:,.1f} to {hi:,.1f}" for lo, hi in zip(rows["range_low_kes"], rows["range_high_kes"])],
+        "Chance of a jump": [f"{p:.0f}%" for p in rows["spike_probability_pct"]],
+        "Warning level": [f"{t:.0f}%" for t in rows["alert_threshold_pct"]],
+        "Warning": np.where(rows["alert"], "Higher risk", "-"),
+    }), hide_index=True, use_container_width=True)
+    st.caption("The forecast and the warning come from different models. The forecast is the most likely price; the "
+               "warning means a rise above 15% is more likely than usual, so a steady forecast can still carry a "
+               "warning. A warning shows when the chance of a jump is above the warning level for that month.")
+
     # where to buy cheaper: recorded prices in nearby counties (the handover rule uses recorded prices only)
     st.markdown("#### Where to buy cheaper")
     if crop not in fc.RECOMMEND_CROPS:
@@ -281,7 +294,10 @@ with tab_map:
 
     # the seasonal label is shown beside the warning as context (alerts card); markets already high come first
     order = {"Crisis": 0, "Alert": 1, "Stress": 2, "Normal": 3}
-    table = jumps.assign(o=jumps["phase"].map(order).fillna(4)).sort_values(["o", "spike_probability_pct"],
+    pick = st.multiselect("Filter foods", sorted(jumps["commodity"].unique()), key="table_foods",
+                          placeholder="All foods")
+    shown = jumps[jumps["commodity"].isin(pick)] if pick else jumps
+    table = shown.assign(o=shown["phase"].map(order).fillna(4)).sort_values(["o", "spike_probability_pct"],
                                                                            ascending=[True, False])
     st.dataframe(pd.DataFrame({
         "County": table["county"], "Food": table["commodity"], "Price": table["price_type"],
@@ -290,7 +306,7 @@ with tab_map:
         f"Forecast {pick_month} (KES)": table["forecast_price_kes"].round(1),
         "Cheaper nearby": table["where_to_buy_county"].fillna(""),
     }), hide_index=True, use_container_width=True, height=380)
-    high = int(jumps["phase"].isin(["Alert", "Crisis"]).sum())
+    high = int(shown["phase"].isin(["Alert", "Crisis"]).sum())
     if high:
         st.caption(f"{high} of these markets are also unusually high for the season. They are listed first.")
 
