@@ -1,45 +1,46 @@
-# SokoRadar app (Streamlit)
+# SokoRadar app
 
-A simple price forecast for non-technical users: choose a county and a food, and see the expected price for each of
-the next 3 months, a likely range, a warning when a jump above 15% is more likely than usual, a cheaper nearby county
-(and whether the trip is worth it), and a map of where prices may jump.
+A Streamlit app that shows food price forecasts for Kenyan counties. You choose a county and a food, and the app
+shows the expected price for each of the next 3 months, a likely range, a warning when a rise above 15% is more
+likely than usual, cheaper nearby counties (with a check on whether the trip is worth it) and a map of where prices
+may jump.
 
-It **imports** the team's frozen handover scripts and calls their functions; no existing file in the repo is changed.
+The app uses the team's handover scripts as they are. It does not change any existing file in the repo.
 
-| File | Purpose |
+| File | What it is |
 |---|---|
 | `streamlit_app.py` | The app |
-| `transport.py` | "Is the trip worth it?": the transport costs of notebook 05 (road distances, government hire rates, county fuel prices from `data/`), unchanged |
-| `requirements.txt` | Python packages (model packages pinned to the MODEL_CARD versions) |
-| `packages.txt` | System library LightGBM needs on Streamlit Community Cloud (`libgomp1`) |
-| `raw_data/` | The driver files the forecast script needs (`counties.csv`, `county_climate_chirps_ndvi.csv`, `national_drivers_2006_2024.csv`), the county boundaries for the map (`ken_counties.geojson`) and the county prices after 2024 (`prices_after_2024.csv`) |
-| `update_prices.py` | Downloads the latest WFP prices from HDX, runs the team's pipeline to the newest month (only its end month changed) and writes `prices_after_2024.csv`, without changing 2006-2024 |
-| `pipeline/sokoradar_pipeline.py` | The team's data pipeline (notebook 00), unchanged; it carries its own raw data |
+| `transport.py` | Transport costs from notebook 05 (road distances, government hire rates and county fuel prices from `data/`) |
+| `update_prices.py` | Downloads the latest WFP prices from HDX, runs the team's pipeline and writes `raw_data/prices_after_2024.csv` |
+| `pipeline/sokoradar_pipeline.py` | The team's data pipeline (notebook 00), unchanged. It stores its own raw data |
+| `raw_data/` | Files the forecast script needs (`counties.csv`, `county_climate_chirps_ndvi.csv`, `national_drivers_2006_2024.csv`), the county map (`ken_counties.geojson`) and the prices after 2024 (`prices_after_2024.csv`) |
+| `requirements.txt` | Python packages, with the model packages pinned to the versions in the model card |
+| `packages.txt` | A system library LightGBM needs on Streamlit Community Cloud |
 
-How the app follows the repo: prices from the pipeline (`data/` plus the newer months), forecasts, jump warnings and
-where to buy from notebook 02's handover script, the likely range and seasonal level from notebook 07's alerts script
-("one alert, one label, one range"), and transport costs from notebook 05.
+Where each part comes from: prices from the pipeline (`data/` plus the months after 2024), the forecast, jump
+warning and where-to-buy suggestion from notebook 02's handover script, the price range and seasonal label from
+notebook 07's alerts script, and transport costs from notebook 05.
 
-## Keeping it up to date (automatic)
+## Keeping the prices up to date
 
-The app forecasts the 3 months after the latest month of prices (now **October 2026 → November 2026 to January
-2027**). The months move on by themselves when newer prices arrive.
+The app forecasts the 3 months after the latest month of prices. With prices up to October 2026, it shows November
+2026 to January 2027. When newer prices are added, the months move on.
 
-**Every month, automatically:** the GitHub Action `.github/workflows/update-prices.yml` (8th of each month) downloads
-the latest WFP Kenya food prices from HDX, runs `app/update_prices.py`, and pushes the new prices to `main` if they
-changed. Streamlit Community Cloud then redeploys the app. It can also be run any time from the repo's **Actions** tab
-(**Update prices → Run workflow**). If the prices fall more than 2 months behind, the app says so.
+A GitHub Action (`.github/workflows/update-prices.yml`) does this on the 8th of every month. It downloads the latest
+WFP Kenya prices from HDX, runs `update_prices.py` and pushes the new prices to `main` if they changed. Streamlit
+Community Cloud then redeploys the app. You can also run it from the Actions tab (Update prices, then Run workflow).
+If the prices fall more than 2 months behind, the app shows a note.
 
-The
-models are unchanged (trained on answers up to Dec 2024). Tested on Jan 2025 to Jun 2026 recorded prices, which they
-had not seen: forecast error 8.9 / 10.6 / 12.4 % at 1 / 2 / 3 months (2015-2024 backtest: 9.0 / 12.3 / 14.5 %),
-price jumps caught 56 / 46 / 35 % (48 / 45 / 34 %), recorded prices inside the range 81 / 87 / 88 % (78 / 80 / 82 %).
-
-By hand (for example to add a new MoA bulletin, which has no download link):
+The MoA bulletin has no download link, so add a new bulletin by hand:
 
 ```
 python app/update_prices.py --raw <folder with the new raw files>
 ```
+
+The models are not retrained; they learned from data up to December 2024. On recorded prices from January 2025 to
+June 2026, which they had not seen, the forecast error was 8.9%, 10.6% and 12.4% at 1, 2 and 3 months (2015 to 2024
+backtest: 9.0%, 12.3% and 14.5%). The jump warning caught 56%, 46% and 35% of rises above 15% (backtest: 48%, 45%
+and 34%), and 81%, 87% and 88% of prices fell inside the range (backtest: 78%, 80% and 82%).
 
 ## Run locally
 
@@ -50,10 +51,9 @@ streamlit run app/streamlit_app.py
 
 ## Deploy on Streamlit Community Cloud
 
-1. Merge this branch into `main`.
-2. Go to <https://share.streamlit.io>, choose **Create app → Deploy a public app from GitHub**.
-3. Repository `emergingleader/Soko_Radar`, branch `main`, main file path `app/streamlit_app.py`.
-4. Under **Advanced settings**, pick Python **3.12**.
-5. Deploy.
+1. Go to https://share.streamlit.io and choose Create app, then Deploy a public app from GitHub.
+2. Use the repository `emergingleader/Soko_Radar`, branch `main` and main file `app/streamlit_app.py`.
+3. Under Advanced settings, choose Python 3.12.
+4. Deploy.
 
-The first visit runs the models (about 2 to 3 minutes); results are then cached.
+The first visit runs the models, which takes 2 to 3 minutes. After that the results are cached.

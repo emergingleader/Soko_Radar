@@ -1,22 +1,24 @@
-"""Bring the app's prices up to date: download the latest WFP Kenya food prices from HDX, run the team's data pipeline
-(app/pipeline/sokoradar_pipeline.py) to the newest month, and save the months after 2024 to
-app/raw_data/prices_after_2024.csv. The app then forecasts the 3 months after that newest month.
+"""Update the app's prices.
 
-Run from the repo folder (the GitHub Action .github/workflows/update-prices.yml runs it every month):
-    python app/update_prices.py                 # download from HDX, update to the newest month
-    python app/update_prices.py --no-download   # use only the raw data inside the pipeline
-    python app/update_prices.py --raw <folder>  # also use newer raw files you have (e.g. a new MoA bulletin)
+Downloads the latest WFP Kenya food prices from HDX, runs the team's pipeline (app/pipeline/sokoradar_pipeline.py)
+up to the newest month, and saves the months after 2024 to app/raw_data/prices_after_2024.csv. The app then
+forecasts the 3 months after that month. The GitHub Action in .github/workflows/update-prices.yml runs this monthly.
 
-What it does, without changing any file in the repo except the output:
-  1. Raw data: the files embedded in the pipeline, then any files in --raw, then the fresh WFP download on top.
-  2. Copies the pipeline to a temporary folder and changes only its end month (END and the MoA month range), so
-     months after the MoA daily file are filled by the pipeline's own rule (MoA bulletin trend, else seasonal growth).
-     National series with no source after 2024 are held at their last value ("Carried forward (no newer source)").
-  3. Joins the new months to data/SokoRadar_County_2006_2024_long.csv: 2006-2024 is never changed, and estimated new
-     prices are scaled by each series' small Dec 2024 difference so the two parts join smoothly. Recorded prices
-     are kept as recorded.
-The models are unchanged (trained on answers up to Dec 2024). Tested on Jan 2025 - Jun 2026 recorded prices: forecast
-error 8.9 / 10.6 / 12.4 % at 1 / 2 / 3 months, in line with the 2015-2024 backtest (9.0 / 12.3 / 14.5 %).
+Usage, from the repo folder:
+    python app/update_prices.py                 # download from HDX and update
+    python app/update_prices.py --no-download   # use only the raw data stored in the pipeline
+    python app/update_prices.py --raw <folder>  # add newer raw files you have, such as a new MoA bulletin
+
+Steps:
+1. Raw data: the files stored in the pipeline, then any files from --raw, then the WFP download.
+2. Run a copy of the pipeline in a temporary folder with only its end month changed. Months after the MoA daily
+   file are filled by the pipeline's own rule (MoA bulletin trend, otherwise seasonal growth). National series
+   with no data after 2024 are kept at their last value.
+3. Add the new months to data/SokoRadar_County_2006_2024_long.csv without changing 2006 to 2024. Estimated new
+   prices are scaled by each series' Dec 2024 difference so the two parts line up. Recorded prices are kept as is.
+
+The models are not retrained (they learned from data up to Dec 2024). On Jan 2025 to Jun 2026 recorded prices the
+forecast error was 8.9%, 10.6% and 12.4% at 1, 2 and 3 months, close to the 2015 to 2024 backtest.
 """
 import argparse
 import base64

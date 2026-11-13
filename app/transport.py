@@ -1,13 +1,14 @@
-"""Where to buy after transport costs: the transport layer of notebooks/05_recommender.ipynb (sections 2, 2b, 6 and 7).
+"""Transport costs for "where to buy", taken from notebooks/05_recommender.ipynb.
 
-The code and assumptions are taken from notebook 05 unchanged:
-  * "nearby" = county centres within 200 km; road km from data/county_road_distance.csv (Ministry of Roads matrix,
-    41 of 47 counties), otherwise straight-line km x 1.3
-  * vehicles and hire rates from the government dry-hire card (data/govt_vehicle_hire_rates.csv); fuel use and
-    driver/handling per trip are the notebook's ASSUMPTIONS
-  * fuel at the EPRA pump price in the buyer's county (data/fuel_prices_by_county.csv), national mean if missing
-  * the vehicle is paid both ways; a part-empty vehicle costs as much as a full one
-  * a county is recommended only if the saving AFTER transport is at least 5% of the local price (the "net rule")
+Same rules and assumptions as the notebook:
+- Nearby means county centres within 200 km. Road distances come from data/county_road_distance.csv
+  (41 of 47 counties); other pairs use straight-line distance x 1.3.
+- Hire rates come from the government vehicle hire card (data/govt_vehicle_hire_rates.csv). Fuel use and the
+  driver and handling cost per trip are the notebook's assumptions.
+- Fuel is priced at the EPRA pump price in the buyer's county (data/fuel_prices_by_county.csv), or the national
+  average if the county is missing.
+- The vehicle is paid for both ways, and a part-empty vehicle costs the same as a full one.
+- A county is suggested only if it is still at least 5% cheaper after transport.
 """
 from pathlib import Path
 
@@ -22,8 +23,8 @@ RADIUS_KM = 200
 ROAD_FACTOR = 1.3
 RETURN_FACTOR = 2
 MIN_GAIN = 0.05
-# vehicle, card item number, capacity in kg (the LOWER end of the card's range), fuel, fuel use in L/km (ASSUMED),
-# driver and handling per trip in KES (ASSUMED)
+# vehicle, hire card item, capacity in kg (lower end of the card's range), fuel, fuel use in L/km (assumed),
+# driver and handling per trip in KES (assumed)
 VEHICLES = [("Pickup 4x2 (1 t)", 30, 1000, "diesel", 0.12, 1000),
             ("Flat-bed truck 2.5-5 t", 1, 2500, "diesel", 0.14, 1000),
             ("Flat-bed truck 5-7 t", 2, 5000, "diesel", 0.20, 1000),

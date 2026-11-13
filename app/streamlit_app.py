@@ -1,11 +1,9 @@
-"""SokoRadar: food price forecasts for Kenyan counties (Streamlit).
+"""SokoRadar food price forecasts for Kenyan counties.
 
-Uses the team's frozen handover scripts as they are (loaded as modules, nothing changed):
-  notebooks/handover/sokoradar_forecast.py         price forecast, spike alert, where to buy
-  notebooks/handover/alerts/sokoradar_alerts.py    seasonal label and price ranges
-and app/transport.py (notebook 05's transport costs) for "is the trip worth it?".
+The forecasts come from the handover scripts in notebooks/handover (price forecast, spike alert, where to buy,
+seasonal label and price range). They are loaded as they are. Transport costs come from app/transport.py.
 
-Run locally from the repo folder:
+Run from the repo folder:
     pip install -r app/requirements.txt
     streamlit run app/streamlit_app.py
 """
@@ -31,7 +29,7 @@ BLUE, RED, GREY, INK = "#2a6fdb", "#e34948", "#b9b8b3", "#1f1f1e"
 SEASON = {"Normal": "Normal for the season", "Stress": "A bit high for the season",
           "Alert": "High for the season", "Crisis": "Very high for the season"}
 
-st.set_page_config(page_title="SokoRadar", page_icon="🌽", layout="wide")
+st.set_page_config(page_title="SokoRadar", layout="wide")
 st.markdown("""
 <style>
 .sr-card {border: 1px solid rgba(128,128,128,0.3); border-radius: 12px; padding: 14px 18px;}
@@ -45,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# --------------------------------------------------------------------------- models (cached)
+# Models and data (cached)
 @st.cache_resource
 def load_module(name, path):
     spec = importlib.util.spec_from_file_location(name, path)
@@ -107,7 +105,7 @@ def county_shapes():
     return geo, dict(zip(codes["county"], codes["pcode"]))
 
 
-# --------------------------------------------------------------------------- data
+# Latest prices and forecasts
 prices, _ = load_prices()
 latest = prices["month"].max()
 origin = f"{latest:%Y-%m}"
@@ -116,13 +114,13 @@ with st.spinner("Preparing the forecasts. The first visit takes 2 to 3 minutes."
     result = run_models(origin)
 months = [pd.Timestamp(m) for m in sorted(result["target_month"].unique())]
 
-# --------------------------------------------------------------------------- header and choices
-st.title("🌽 SokoRadar")
+# Header and market choice
+st.title("SokoRadar")
 start = f"{months[0]:%B %Y}" if months[0].year != months[-1].year else f"{months[0]:%B}"
-st.markdown(f"Food price forecast for Kenyan counties · latest prices **{latest:%B %Y}** · "
-            f"forecast **{start} to {months[-1]:%B %Y}**")
+st.markdown(f"Food price forecast for Kenyan counties. Latest prices: {latest:%B %Y}. "
+            f"Forecast: {start} to {months[-1]:%B %Y}.")
 if (pd.Timestamp.today().to_period("M") - latest.to_period("M")).n > 2:
-    st.caption(f"⏳ Newer prices have not been added yet; this forecast starts from {latest:%B %Y}.")
+    st.caption(f"Newer prices have not been added yet, so this forecast starts from {latest:%B %Y}.")
 
 with st.sidebar:
     st.header("Choose a market")
@@ -134,31 +132,30 @@ with st.sidebar:
     types = sorted(here.loc[here["commodity"] == crop, "price_type"].unique())
     price_type = st.radio("Price", types, horizontal=True)
 
-tab_market, tab_map = st.tabs(["📈 Price forecast", "🗺️ Where prices may jump"])
+tab_market, tab_map = st.tabs(["Price forecast", "Where prices may jump"])
 
-# --------------------------------------------------------------------------- tab 1: one market
+# Tab 1: one market
 with tab_market:
     rows = result[(result["county"] == county) & (result["commodity"] == crop)
                   & (result["price_type"] == price_type)].sort_values("horizon")
     u = UNIT.get(crop, "kg")
     first = rows.iloc[0]
-    st.subheader(f"{crop} · {county} · {price_type.lower()}")
-    st.markdown(f"Price now ({latest:%B}): **KES {first['origin_price_kes']:,.1f} per {u}**"
+    st.subheader(f"{crop}, {county} ({price_type.lower()})")
+    st.markdown(f"Price in {latest:%B}: KES {first['origin_price_kes']:,.1f} per {u}"
                 + ("" if first["origin_price_is_real"] else " (estimate)")
-                + (f" · {SEASON[first['phase']]}" if isinstance(first["phase"], str) and first["phase"] else ""))
+                + (f". {SEASON[first['phase']]}." if isinstance(first["phase"], str) and first["phase"] else "."))
 
     cols = st.columns(3)
     for col, (_, r) in zip(cols, rows.iterrows()):
         warn = bool(r["alert"])
         change = r["forecast_change_pct"]
-        arrow = "▲" if change > 0.05 else ("▼" if change < -0.05 else "▶")
         col.markdown(
             f'<div class="sr-card {"warn" if warn else ""}">'
             f'<div class="m">{pd.Timestamp(r["target_month"]):%B %Y}</div>'
             f'<div class="p">KES {r["forecast_price_kes"]:,.1f}</div>'
-            f'<div class="c">{arrow} {round(change, 1) + 0.0:+.1f}% from now</div>'
+            f'<div class="c">{round(change, 1) + 0.0:+.1f}% from now</div>'
             f'<div class="r">likely between {r["range_low_kes"]:,.0f} and {r["range_high_kes"]:,.0f}</div>'
-            + ('<div class="a">⚠️ Price may jump more than 15%</div>' if warn else "")
+            + ('<div class="a">Price may jump more than 15%</div>' if warn else "")
             + "</div>", unsafe_allow_html=True)
     st.write("")
 
@@ -184,7 +181,7 @@ with tab_market:
     st.plotly_chart(fig, use_container_width=True)
 
     # where to buy cheaper: recorded prices in nearby counties (the handover rule uses recorded prices only)
-    st.markdown("#### 💰 Where to buy cheaper")
+    st.markdown("#### Where to buy cheaper")
     if crop not in fc.RECOMMEND_CROPS:
         st.info("Available for maize, sorghum, Rosecoco beans and red potatoes.")
     else:
@@ -202,8 +199,8 @@ with tab_market:
         if len(w):                                            # the official suggestion (after a jump warning)
             b = w.iloc[0]
             local = float(b["where_to_buy_compared_with_kes"])
-            st.success(f"**Buy in {b['where_to_buy_county']}**: KES {b['where_to_buy_price_kes']:,.1f} per {u}, "
-                       f"**{b['where_to_buy_saving_pct']:.0f}% less** than in {county}.")
+            st.success(f"Buy in {b['where_to_buy_county']}: KES {b['where_to_buy_price_kes']:,.1f} per {u}, "
+                       f"{b['where_to_buy_saving_pct']:.0f}% less than in {county}.")
         if near.empty:
             st.info(f"No nearby county reported a {price_type.lower()} price for this food in {latest:%B %Y}.")
         else:
@@ -219,7 +216,7 @@ with tab_market:
             elif cheaper.empty:
                 st.caption(f"None of these is at least 5% cheaper than {county} (KES {local:,.1f} per {u}).")
             else:
-                st.markdown("**Is the trip worth it?**")
+                st.markdown("Is the trip worth it?")
                 v1, v2 = st.columns(2)
                 vehicle = v1.selectbox("Your vehicle", list(inputs[0].index), index=2)
                 cap = int(inputs[0].loc[vehicle, "capacity_kg"])
@@ -227,12 +224,12 @@ with tab_market:
                                       key=f"qty_{vehicle}")
                 options, best = tp.advise(county, local, near[["county_b", "price"]], qty, vehicle, inputs)
                 if best is not None:
-                    st.success(f"✅ **Worth the trip** to {best['county_b']}: you save about "
-                               f"**KES {best['net'] * qty:,.0f}** after transport "
+                    st.success(f"Worth the trip to {best['county_b']}: you save about "
+                               f"KES {best['net'] * qty:,.0f} after transport "
                                f"(transport about KES {best['transport']:,.1f} per {u}).")
                 else:
                     top = options.iloc[0]
-                    st.warning(f"❌ **Not worth the trip** with this load: transport to {top['county_b']} costs about "
+                    st.warning(f"Not worth the trip with this load: transport to {top['county_b']} costs about "
                                f"KES {top['transport']:,.1f} per {u}, so buying in {county} is better.")
         st.caption(f"Prices recorded in markets in {latest:%B %Y}. Savings exclude handling and market fees; "
                    "they pay off for a lorry load, not a few bags.")
@@ -249,7 +246,7 @@ with tab_market:
 * Transport costs use government hire rates and pump prices; real quotes may differ.
 """)
 
-# --------------------------------------------------------------------------- tab 2: map of jump warnings
+# Tab 2: map of jump warnings
 with tab_map:
     f1, f2 = st.columns(2)
     pick_crop = f1.selectbox("Food", ["All foods"] + sorted(result["commodity"].unique()), key="map_crop")
@@ -273,7 +270,7 @@ with tab_map:
     fig.update_geos(visible=False, projection_type="mercator", lonaxis_range=[33.6, 42.2], lataxis_range=[-4.9, 5.2])
     fig.update_layout(height=520, margin=dict(l=0, r=0, t=10, b=0), paper_bgcolor="rgba(0,0,0,0)",
                       geo=dict(bgcolor="rgba(0,0,0,0)"))
-    st.markdown(f"**{len(jumps):,} markets** where the price may jump more than 15% in **{pick_month}**")
+    st.markdown(f"{len(jumps):,} markets where the price may jump more than 15% in {pick_month}.")
     st.plotly_chart(fig, use_container_width=True, config={"scrollZoom": False})
 
     table = jumps.sort_values("spike_probability_pct", ascending=False)
@@ -284,5 +281,5 @@ with tab_map:
         "Cheaper nearby": table["where_to_buy_county"].fillna(""),
     }), hide_index=True, use_container_width=True, height=380)
 
-st.caption("SokoRadar · Moringa School Data Science Capstone, Group 10 · Data: Ministry of Agriculture and Livestock "
-           "Development (KAMIS), WFP via HDX (CC BY IGO), KNBS, Central Bank of Kenya, World Bank")
+st.caption("SokoRadar, Moringa School Data Science Capstone, Group 10. Data: Ministry of Agriculture and Livestock "
+           "Development (KAMIS), WFP via HDX (CC BY IGO), KNBS, Central Bank of Kenya, World Bank.")
