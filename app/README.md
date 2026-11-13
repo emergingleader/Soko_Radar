@@ -1,6 +1,6 @@
 # SokoRadar dashboard (Streamlit)
 
-A Streamlit front end for the frozen handover models. It **imports** `notebooks/handover/sokoradar_forecast.py` and
+A Streamlit front end. It **imports** `notebooks/handover/sokoradar_forecast.py` and
 `notebooks/handover/alerts/sokoradar_alerts.py` and calls their functions.
 
 | File | Purpose |
