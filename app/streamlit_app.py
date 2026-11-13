@@ -11,6 +11,7 @@ Run locally from the repo folder:
 """
 import importlib.util
 import io
+import json
 import sys
 from pathlib import Path
 
@@ -22,13 +23,33 @@ import streamlit as st
 APP = Path(__file__).resolve().parent
 REPO = APP.parent
 DATA = REPO / "data" / "SokoRadar_County_2006_2024_long.csv"
-RAW = APP / "raw_data"                      # counties, climate and national drivers (not in data/)
+RAW = APP / "raw_data"                      # counties, climate, national drivers and county boundaries
 HANDOVER = REPO / "notebooks" / "handover"
 
 BLUE, RED, GREY, INK = "#2a6fdb", "#e34948", "#b9b8b3", "#1f1f1e"
 PHASE_COLOUR = {"Normal": "#3a9a5b", "Stress": "#d9a400", "Alert": "#e07b26", "Crisis": "#c62f2f", "": "#8a8985"}
+HIGH_PHASES = ["Alert", "Crisis"]
 
 st.set_page_config(page_title="SokoRadar", page_icon="🌽", layout="wide")
+
+st.markdown("""
+<style>
+.sr-hero {background: linear-gradient(110deg, #3b1d12 0%, #7a3417 55%, #b4481d 100%); color: #fff;
+          border-radius: 14px; padding: 22px 30px; margin-bottom: 14px;}
+.sr-hero .kicker {font-size: 0.78rem; letter-spacing: 0.08em; font-weight: 700; color: #ffd9a8; text-transform: uppercase;}
+.sr-hero h1 {color: #fff; margin: 4px 0 6px 0; padding: 0; font-size: 2.2rem;}
+.sr-hero p {color: #fbe9dc; margin: 0; font-size: 1.05rem;}
+.sr-proof {background: rgba(224, 123, 38, 0.10); border-left: 5px solid #e07b26; border-radius: 8px;
+           padding: 14px 20px; margin-bottom: 10px; font-size: 1.02rem; line-height: 1.55;}
+.sr-date {display: inline-block; background: rgba(42, 111, 219, 0.10); border: 1px solid rgba(42, 111, 219, 0.35);
+          border-radius: 999px; padding: 4px 14px; font-size: 0.9rem; margin-bottom: 10px;}
+.sr-card {border: 1px solid rgba(128, 128, 128, 0.28); border-radius: 12px; padding: 14px 18px; height: 100%;}
+.sr-card.red {border-top: 5px solid #c62f2f;} .sr-card.orange {border-top: 5px solid #e07b26;}
+.sr-card .label {font-size: 0.92rem; opacity: 0.8;}
+.sr-card .value {font-size: 2.1rem; font-weight: 700; line-height: 1.25;}
+.sr-card .note {font-size: 0.85rem; opacity: 0.75;}
+</style>
+""", unsafe_allow_html=True)
 
 
 # --------------------------------------------------------------------------- the handover scripts, loaded as modules
@@ -76,23 +97,54 @@ def run_models(origin: str) -> pd.DataFrame:
     return out.merge(extra, on=key, how="left")
 
 
+@st.cache_data(show_spinner=False, max_entries=8)
+def alps_phases(month: str) -> pd.Series:
+    """ALPS label of every series in one month (used for the change since last month)."""
+    scores = al.alps_scores(prices_for_alerts(), [pd.Timestamp(month)]).loc[pd.Timestamp(month)]
+    return al.to_phase(scores)
+
+
 @st.cache_data(show_spinner=False)
 def alps_history(series: str) -> pd.Series:
     prices = prices_for_alerts()
     return al.alps_scores(prices[prices["series"] == series])[series]
 
 
+@st.cache_data(show_spinner=False)
+def county_shapes():
+    geo = json.loads((RAW / "ken_counties.geojson").read_text(encoding="utf-8"))
+    codes = pd.read_csv(RAW / "counties.csv")[["county", "pcode"]]
+    return geo, dict(zip(codes["county"], codes["pcode"]))
+
+
+def card(col, label, value, note="", tone=""):
+    col.markdown(f'<div class="sr-card {tone}"><div class="label">{label}</div>'
+                 f'<div class="value">{value}</div><div class="note">{note}</div></div>', unsafe_allow_html=True)
+
+
+def month_name(m: str) -> str:
+    return pd.Timestamp(m).strftime("%B %Y")
+
+
+def pct(x) -> str:
+    """Signed percentage without a "-0.0%"."""
+    return f"{round(float(x), 1) + 0.0:+.1f}%"
+
+
 # --------------------------------------------------------------------------- sidebar
 prices = prices_for_forecast()
 latest = prices["month"].max()
+UNIT = prices.drop_duplicates("commodity").set_index("commodity")["unit"].str.replace("KES/", "", regex=False).to_dict()
 month_options = [f"{m:%Y-%m}" for m in pd.date_range(end=latest, periods=24, freq="MS")][::-1]
 
 with st.sidebar:
     st.title("🌽 SokoRadar")
     st.caption("Early warning for food price shocks in Kenyan counties")
-    origin = st.selectbox("Forecast from (origin month)", month_options, index=0,
+    origin = st.selectbox("Forecast from (origin month)", month_options, index=0, format_func=month_name,
                           help="The latest month is a real forecast. Earlier months are in-sample: "
                                f"the models learned outcomes up to {fc.TRAIN_END}.")
+    st.divider()
+    st.markdown("**Market check**")
     counties = sorted(prices["county"].unique())
     county = st.selectbox("County", counties, index=counties.index("Nakuru") if "Nakuru" in counties else 0)
     here = prices[prices["county"] == county]
@@ -105,160 +157,350 @@ with st.sidebar:
     st.caption("An alert means **higher risk**, not a certain spike. About half of spikes come without one. "
                "Most prices are estimates; only recorded prices were used to score the models.")
 
-with st.spinner(f"Running the SokoRadar models from {origin} (first run takes 2 to 3 minutes; then it is cached) ..."):
-    result = run_models(origin)
+# --------------------------------------------------------------------------- header, proof and date
+targets = pd.date_range(pd.Timestamp(origin), periods=4, freq="MS")[1:]
+st.markdown(f"""
+<div class="sr-hero">
+  <div class="kicker">Food price early warning · Kenya</div>
+  <h1>SokoRadar</h1>
+  <p>Where county food prices are heading over the next 3 months, and which markets need attention,
+     for county teams, NDMA, aid agencies and traders.</p>
+</div>
+<div class="sr-proof">
+  Tested year by year on <b>2015 to 2024</b> recorded prices it had never seen, SokoRadar's spike alert
+  <b>caught 48% of price rises above 15% a month before they happened</b>, and after an alert a rise was
+  <b>about twice as likely as usual</b> (22% vs 11%). Together with the seasonal ALPS label it warned of
+  <b>84% of new seasonal alerts before they began</b> (347 cases).
+</div>
+<span class="sr-date">📅 Latest prices: <b>{month_name(origin)}</b> &nbsp;·&nbsp; forecasts for
+  <b>{targets[0]:%b %Y} to {targets[-1]:%b %Y}</b></span>
+""", unsafe_allow_html=True)
 
+if origin == f"{latest:%Y-%m}":
+    st.caption(f"The county price data currently ends in {month_name(origin)}. Newer months will appear once the "
+               "price panel is rebuilt with 2025 to 2026 prices, after the team's sealed test.")
 if origin < fc.TRAIN_END:
-    st.warning(f"Origin {origin} is **in-sample**: the models learned what happened up to {fc.TRAIN_END}, "
+    st.warning(f"{month_name(origin)} is **in-sample**: the models learned what happened up to {fc.TRAIN_END}, "
                "so past alerts here look better than a fair test.", icon="⚠️")
 
-series = f"{county} | {commodity} | {price_type}"
-rows = result[result["series"] == series].sort_values("horizon")
+with st.expander("How to use SokoRadar"):
+    st.markdown("""
+1. **This month** shows where to act: counties with spike alerts or prices that are already high for the season,
+   a list of markets to watch, and a short bulletin per county you can copy into a report.
+2. **Market check** looks at one market (choose the county, crop and retail or wholesale in the sidebar):
+   its price history, the forecast with an 80% range, the spike alert, what drives the forecast and where to buy.
+3. **Does it work?** shows how well each part did on years the models had never seen.
+4. Read a **spike alert** as "higher risk than usual", not "a spike is coming". Read the **ALPS label** as
+   "high for the season right now". They answer different questions, so a market can have one without the other.
+""")
 
-tab_series, tab_alerts, tab_about = st.tabs(["📈 Market view", "🚨 Alerts this month", "ℹ️ About and limits"])
+with st.spinner(f"Running the SokoRadar models from {month_name(origin)} "
+                "(the first run takes 2 to 3 minutes; then it is cached) ..."):
+    result = run_models(origin)
+
+tab_month, tab_market, tab_proof, tab_about = st.tabs(
+    ["📍 This month", "📈 Market check", "✅ Does it work?", "ℹ️ About & limits"])
 
 
-# --------------------------------------------------------------------------- tab 1: one market
-with tab_series:
-    st.subheader(series)
-    if rows.empty:
-        st.info("No forecast for this series and month.")
-        st.stop()
-    first = rows.iloc[0]
-    phase = first["phase"] if isinstance(first["phase"], str) else ""
+# --------------------------------------------------------------------------- tab 1: this month, where to act
+with tab_month:
+    f1, f2, f3 = st.columns([2, 2, 3])
+    crops = ["All crops"] + sorted(result["commodity"].unique())
+    crop = f1.selectbox("Crop", crops, key="crop")
+    window = f2.radio("Spike alerts for", ["Next month", "Next 3 months"], key="window",
+                      help="Next month: alerts 1 month ahead (the most reliable). Next 3 months: an alert at 1, 2 or 3 "
+                           "months ahead, which flags many more markets.")
+    kind = f3.radio("Show on the map", ["Spike alerts", "High for the season now (ALPS Alert or Crisis)"], key="kind")
+    max_h = 1 if window == "Next month" else 3
+    when = targets[0].strftime("%b %Y") if max_h == 1 else f"{targets[0]:%b} to {targets[-1]:%b %Y}"
+
+    view = result if crop == "All crops" else result[result["commodity"] == crop]
+    markets = view.drop_duplicates("series").set_index("series")
+    in_window = view[view["horizon"] <= max_h]
+    alerted = in_window.groupby("series")["alert"].any().reindex(markets.index, fill_value=False)
+    first_alert = in_window[in_window["alert"]].groupby("series")["horizon"].min()
+    high_now = markets["phase"].isin(HIGH_PHASES)
+    both = alerted & high_now
+
+    prev = f"{pd.Timestamp(origin) - pd.DateOffset(months=1):%Y-%m}"
+    prev_phase = alps_phases(prev).reindex(markets.index)
+    high_before = int(prev_phase.isin(HIGH_PHASES).sum())
 
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric(f"Price in {origin} (KES/kg)", f"{first['origin_price_kes']:,.1f}",
-              help="Recorded in a market" if first["origin_price_is_real"] else "Estimated by the data pipeline")
-    c1.caption("✅ recorded in a market" if first["origin_price_is_real"] else "≈ estimated price")
-    c2.metric("Seasonal label (ALPS)", phase or "n/a")
-    score = f"Score {first['alps_score']:.2f}. " if pd.notna(first["alps_score"]) else ""
-    c2.caption(score + (first["phase_message"] if isinstance(first["phase_message"], str) and first["phase_message"]
-                        else "Price compared with its normal level for the season"))
-    n_alerts = int(rows["alert"].sum())
-    c3.metric("Spike alerts", f"{n_alerts} of 3", help="Alerts at 1, 2 and 3 months ahead")
-    c3.caption("Higher risk of a rise above 15%" if n_alerts else "No alert: risk not above usual")
-    c4.metric("In 3 months (KES/kg)", f"{rows.iloc[-1]['forecast_price_kes']:,.1f}",
-              f"{rows.iloc[-1]['forecast_change_pct']:+.1f}%", delta_color="inverse")
+    card(c1, "Markets forecast", f"{len(markets):,}", f"county × crop × retail/wholesale, {month_name(origin)}")
+    card(c2, "High for the season now", f"{int(high_now.sum()):,}",
+         f"ALPS Alert or Crisis · {int(high_now.sum()) - high_before:+d} vs last month", "red")
+    card(c3, f"Spike alerts, {when}", f"{int(alerted.sum()):,}",
+         "markets with a higher risk of a rise above 15%", "orange")
+    card(c4, "Both warnings", f"{int(both.sum()):,}",
+         f"high for the season and a spike alert · {markets.loc[both, 'county'].nunique()} counties", "red")
+    st.write("")
 
-    # chart: history, real prices, forecast with 80% range
-    hist = prices[(prices["series"] == series) & (prices["month"] <= pd.Timestamp(origin))].tail(36)
-    real = hist[hist["observed"]]
-    tm = pd.to_datetime(rows["target_month"])
-    o = pd.Timestamp(origin)
-    fig = go.Figure()
-    fig.add_trace(go.Scatter(x=[o, *tm, *tm[::-1], o],
-                             y=[first["origin_price_kes"], *rows["range_high_kes"], *rows["range_low_kes"][::-1],
-                                first["origin_price_kes"]],
-                             mode="lines", fill="toself", fillcolor="rgba(42,111,219,0.15)", line=dict(width=0),
-                             name="80% price range", hoverinfo="skip"))
-    fig.add_trace(go.Scatter(x=hist["month"], y=hist["price_kes"], mode="lines", line=dict(color=GREY, width=2),
-                             name="price (estimated months included)"))
-    fig.add_trace(go.Scatter(x=real["month"], y=real["price_kes"], mode="markers", marker=dict(color=INK, size=6),
-                             name="recorded market price"))
-    fig.add_trace(go.Scatter(x=[o, *tm], y=[first["origin_price_kes"], *rows["forecast_price_kes"]],
-                             mode="lines+markers", line=dict(color=BLUE, dash="dash", width=2), name="forecast (ARIMA)"))
-    alerted = rows[rows["alert"]]
-    if len(alerted):
-        fig.add_trace(go.Scatter(x=pd.to_datetime(alerted["target_month"]), y=alerted["forecast_price_kes"],
-                                 mode="markers", marker=dict(color=RED, size=13, symbol="triangle-up"),
-                                 name="spike alert"))
-    fig.update_layout(height=420, margin=dict(l=10, r=10, t=10, b=10), yaxis_title="KES per kg",
-                      legend=dict(orientation="h", y=-0.15), hovermode="x unified")
-    st.plotly_chart(fig, use_container_width=True)
+    t_map, t_list, t_bulletin = st.tabs(["Map", "Action list", "County bulletin"])
 
-    # table per horizon
-    table = pd.DataFrame({
-        "Months ahead": rows["horizon"].values,
-        "Month": rows["target_month"].values,
-        "Forecast (KES/kg)": rows["forecast_price_kes"].values,
-        "Change": rows["forecast_change_pct"].map("{:+.1f}%".format).values,
-        "80% range (KES/kg)": [f"{lo:,.2f} to {hi:,.2f}" for lo, hi in zip(rows["range_low_kes"], rows["range_high_kes"])],
-        "Spike chance": rows["spike_probability_pct"].map("{:.1f}%".format).values,
-        "Alert above": rows["alert_threshold_pct"].map("{:.1f}%".format).values,
-        "Alert": np.where(rows["alert"], "🚨 higher risk", "—"),
-    })
-    st.dataframe(table, hide_index=True, use_container_width=True)
-    st.caption("The forecast and the alert come from different models on purpose: the forecast is the most likely path, "
-               "the alert says the chance of a big rise is higher than usual. A flat forecast can sit next to an alert.")
+    with t_map:
+        geo, pcode_of = county_shapes()
+        by_county = pd.DataFrame({
+            "county": markets["county"],
+            "alert": alerted.reindex(markets.index, fill_value=False).values,
+            "high": high_now.values,
+        }).groupby("county").agg(markets=("alert", "size"), alerts=("alert", "sum"), high=("high", "sum"))
+        value_col = "alerts" if kind.startswith("Spike") else "high"
+        by_county["pcode"] = by_county.index.map(pcode_of)
+        by_county = by_county.dropna(subset=["pcode"])
+        colour = [[0, "#f3efe8"], [0.001, "#fbd8b8"], [0.5, "#e07b26"], [1, "#9b2a1a"]]
+        fig = go.Figure(go.Choropleth(
+            geojson=geo, featureidkey="properties.pcode", locations=by_county["pcode"],
+            z=by_county[value_col], colorscale=colour, zmin=0, zmax=max(1, by_county[value_col].max()),
+            marker_line_color="white", marker_line_width=0.8,
+            customdata=np.stack([by_county.index, by_county["alerts"], by_county["high"], by_county["markets"]], axis=1),
+            hovertemplate="<b>%{customdata[0]}</b><br>Spike alerts: %{customdata[1]} of %{customdata[3]} markets"
+                          "<br>High for the season: %{customdata[2]}<extra></extra>",
+            colorbar=dict(title="markets", thickness=12, len=0.6)))
+        fig.update_geos(visible=False, projection_type="mercator",
+                        lonaxis_range=[33.6, 42.2], lataxis_range=[-4.9, 5.2])
+        fig.update_layout(height=560, margin=dict(l=0, r=0, t=10, b=0), paper_bgcolor="rgba(0,0,0,0)",
+                          geo=dict(bgcolor="rgba(0,0,0,0)"))
+        st.plotly_chart(fig, use_container_width=True)
+        st.caption("Number of markets per county "
+                   + (f"with a spike alert for {when}." if value_col == "alerts"
+                      else "whose price is in ALPS Alert or Crisis for the season.")
+                   + " Hover over a county for both counts.")
 
-    left, right = st.columns([3, 2])
-    with left:
-        st.markdown("#### What moves the forecast")
-        h = st.radio("Horizon", [1, 2, 3], horizontal=True, format_func=lambda k: f"{k} month{'s' if k > 1 else ''}",
-                     key="driver_h")
-        r = rows[rows["horizon"] == h].iloc[0]
-        d = pd.DataFrame({"driver": [r[f"driver_{k}"] for k in (1, 2, 3)],
-                          "push": [r[f"driver_{k}_push_points"] for k in (1, 2, 3)]})[::-1]
-        bar = go.Figure(go.Bar(x=d["push"], y=d["driver"], orientation="h",
-                               marker_color=[RED if v > 0 else BLUE for v in d["push"]],
-                               text=[f"{v:+.2f} pts" for v in d["push"]], textposition="auto"))
-        bar.update_layout(height=220, margin=dict(l=10, r=10, t=10, b=10), xaxis_title="push on the predicted change (points)")
-        st.plotly_chart(bar, use_container_width=True)
-        st.caption(f"Typical change {r['drivers_typical_change_pct']:+.2f}%, this market {r['drivers_model_change_pct']:+.2f}% "
-                   "(driver model M5). Red pushes the price up, blue down. This explains what the model leans on, "
-                   "not proof of cause and effect.")
-    with right:
-        st.markdown("#### Where to buy")
-        w = rows[rows["where_to_buy_county"].notna()]
-        if len(w):
-            b = w.iloc[0]
-            st.success(f"**{b['where_to_buy_county']}** ({b['where_to_buy_km']:.0f} km away): "
-                       f"KES {b['where_to_buy_price_kes']:,.2f}/kg in {b['where_to_buy_price_month']}, "
-                       f"**{b['where_to_buy_saving_pct']:.0f}% cheaper** than {county} "
-                       f"(KES {b['where_to_buy_compared_with_kes']:,.2f}).")
-            st.caption("Savings are before transport, handling and market fees: they pay off for a lorry load, not a few bags. "
-                       "Distances are between county centres.")
+    with t_list:
+        watch = markets.assign(
+            alert=alerted.reindex(markets.index, fill_value=False),
+            first=first_alert.reindex(markets.index),
+            chance=in_window.groupby("series")["spike_probability_pct"].max().reindex(markets.index),
+            buy=view.dropna(subset=["where_to_buy_county"]).groupby("series")["where_to_buy_county"].first()
+                .reindex(markets.index),
+            saving=view.dropna(subset=["where_to_buy_county"]).groupby("series")["where_to_buy_saving_pct"].first()
+                .reindex(markets.index),
+        )
+        watch = watch[watch["alert"] | watch["phase"].isin(HIGH_PHASES)].copy()
+        if watch.empty:
+            st.success("No market has a spike alert or a high seasonal price this month.")
         else:
-            st.info("No suggestion. It needs an alert, a recorded price in both counties this month, and a county "
-                    "within 200 km at least 5% cheaper (maize, sorghum, Rosecoco beans and red potatoes only).")
+            def why(r):
+                parts = []
+                if r["alert"]:
+                    parts.append("spike alert for next month" if r["first"] == 1
+                                 else f"spike alert in {int(r['first'])} months")
+                if r["phase"] in HIGH_PHASES:
+                    parts.append(f"price in ALPS {r['phase']}")
+                return "; ".join(parts)
+            watch["priority"] = watch["alert"].astype(int) + watch["phase"].isin(HIGH_PHASES).astype(int) * 2 \
+                + (watch["phase"] == "Crisis").astype(int)
+            watch = watch.sort_values(["priority", "chance"], ascending=False)
+            table = pd.DataFrame({
+                "County": watch["county"], "Crop": watch["commodity"], "Type": watch["price_type"],
+                "Price (KES)": watch["origin_price_kes"].round(1),
+                "per": watch["commodity"].map(UNIT),
+                "Recorded?": np.where(watch["origin_price_is_real"], "yes", "estimated"),
+                "Why it is listed": watch.apply(why, axis=1),
+                "Highest spike chance": watch["chance"].map("{:.0f}%".format),
+                "Where to buy": [f"{b} ({s:.0f}% cheaper)" if isinstance(b, str) else "" for b, s
+                                 in zip(watch["buy"], watch["saving"])],
+            })
+            st.markdown(f"**{len(table):,} markets to watch**, most urgent first: a high seasonal price and a spike alert "
+                        "together come first.")
+            st.dataframe(table, hide_index=True, use_container_width=True, height=460)
+            st.download_button("Download the action list (CSV)", table.to_csv(index=False).encode("utf-8-sig"),
+                               file_name=f"sokoradar_action_list_{origin}.csv", mime="text/csv")
 
-    with st.expander("ALPS score history for this market"):
-        a = alps_history(series).dropna()
-        a = a[a.index <= pd.Timestamp(origin)]
-        af = go.Figure(go.Scatter(x=a.index, y=a.values, mode="lines", line=dict(color=INK)))
-        for cut, name in [(0.25, "Stress"), (1, "Alert"), (2, "Crisis")]:
-            af.add_hline(y=cut, line_dash="dot", line_color=PHASE_COLOUR[name], annotation_text=name)
-        af.update_layout(height=280, margin=dict(l=10, r=10, t=10, b=10), yaxis_title="ALPS score")
-        st.plotly_chart(af, use_container_width=True)
-
-
-# --------------------------------------------------------------------------- tab 2: every alert this month
-with tab_alerts:
-    h = st.radio("Months ahead", [1, 2, 3], horizontal=True, key="alerts_h")
-    view = result[result["horizon"] == h]
-    a = view[view["alert"]]
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Markets forecast", f"{view['series'].nunique():,}")
-    c2.metric("Spike alerts", f"{len(a):,}")
-    c2.caption(f"{len(a) / len(view):.0%} of markets")
-    c3.metric("ALPS Stress or worse", f"{view['phase'].isin(['Stress', 'Alert', 'Crisis']).sum():,}")
-    c4.metric("Where to buy", f"{int(view['where_to_buy_county'].notna().sum()):,}", help="Cheaper-county suggestions")
-
-    by_county = a.groupby("county").size().sort_values(ascending=True).tail(20)
-    if len(by_county):
-        cf = go.Figure(go.Bar(x=by_county.values, y=by_county.index, orientation="h", marker_color=RED))
-        cf.update_layout(height=max(250, 22 * len(by_county)), margin=dict(l=10, r=10, t=30, b=10),
-                         title="Counties with the most alerts", xaxis_title="alerts")
-        st.plotly_chart(cf, use_container_width=True)
-
-    pick = st.multiselect("Filter commodities", sorted(view["commodity"].unique()))
-    if pick:
-        a = a[a["commodity"].isin(pick)]
-    show = a[["county", "commodity", "price_type", "origin_price_kes", "origin_price_is_real", "spike_probability_pct",
-              "forecast_change_pct", "phase", "where_to_buy_county", "where_to_buy_saving_pct"]]
-    show = show.sort_values("spike_probability_pct", ascending=False).rename(columns={
-        "county": "County", "commodity": "Commodity", "price_type": "Type", "origin_price_kes": "Price (KES/kg)",
-        "origin_price_is_real": "Recorded?", "spike_probability_pct": "Spike chance %",
-        "forecast_change_pct": "Forecast change %", "phase": "ALPS", "where_to_buy_county": "Buy from",
-        "where_to_buy_saving_pct": "Saving %"})
-    st.dataframe(show, hide_index=True, use_container_width=True, height=420)
+    with t_bulletin:
+        b_county = st.selectbox("County", sorted(markets["county"].unique()), key="b_county",
+                                index=sorted(markets["county"].unique()).index(county)
+                                if county in set(markets["county"]) else 0)
+        cm = markets[markets["county"] == b_county]
+        c_alert = alerted.reindex(cm.index, fill_value=False)
+        lines = [f"SokoRadar bulletin: {b_county} county, prices of {month_name(origin)}"
+                 + ("" if crop == "All crops" else f", {crop}"), ""]
+        lines.append(f"{len(cm)} markets checked. {int(c_alert.sum())} with a spike alert for {when}; "
+                     f"{int(cm['phase'].isin(HIGH_PHASES).sum())} already high for the season (ALPS Alert or Crisis).")
+        for s, r in cm[c_alert | cm["phase"].isin(HIGH_PHASES)].iterrows():
+            rr = view[view["series"] == s].sort_values("horizon")
+            bits = []
+            if c_alert[s]:
+                chance = rr.loc[rr["horizon"] <= max_h, "spike_probability_pct"].max()
+                bits.append(f"spike alert (chance of a rise above 15% up to {chance:.0f}%)")
+            if r["phase"] in HIGH_PHASES:
+                bits.append(f"price in ALPS {r['phase']}")
+            f3 = rr.iloc[-1]
+            bits.append(f"forecast KES {f3['forecast_price_kes']:,.1f}/{UNIT[r['commodity']]} in "
+                        f"{pd.Timestamp(f3['target_month']):%b %Y} ({pct(f3['forecast_change_pct'])}, range {f3['range_low_kes']:,.1f} to {f3['range_high_kes']:,.1f})")
+            w = rr.dropna(subset=["where_to_buy_county"])
+            if len(w):
+                bits.append(f"cheaper in {w.iloc[0]['where_to_buy_county']} "
+                            f"({w.iloc[0]['where_to_buy_saving_pct']:.0f}% less, before transport)")
+            lines.append(f"- {r['commodity']} ({r['price_type'].lower()}), KES {r['origin_price_kes']:,.1f}/{UNIT[r['commodity']]}: "
+                         + "; ".join(bits) + ".")
+        if len(lines) == 3:
+            lines.append("- No market needs attention this month.")
+        lines += ["", "An alert means a higher risk of a price rise, not a certain one. About half of price spikes "
+                      "come without an alert. Most county prices are estimates."]
+        bulletin = "\n".join(lines)
+        st.text_area("Copy this into a report or message", bulletin, height=320)
+        st.download_button("Download the bulletin (TXT)", bulletin.encode("utf-8"),
+                           file_name=f"sokoradar_{b_county}_{origin}.txt".replace(" ", "_"), mime="text/plain")
 
     st.download_button("Download all forecasts for this month (CSV)", result.to_csv(index=False).encode("utf-8-sig"),
-                       file_name=f"sokoradar_{origin}.csv", mime="text/csv")
+                       file_name=f"sokoradar_{origin}.csv", mime="text/csv", key="dl_all")
 
 
-# --------------------------------------------------------------------------- tab 3: about
+# --------------------------------------------------------------------------- tab 2: one market
+with tab_market:
+    series = f"{county} | {commodity} | {price_type}"
+    rows = result[result["series"] == series].sort_values("horizon")
+    st.subheader(series)
+    st.caption("Choose another market in the sidebar.")
+    if rows.empty:
+        st.info("No forecast for this series and month.")
+    else:
+        first = rows.iloc[0]
+        u = UNIT.get(commodity, "kg")
+        phase = first["phase"] if isinstance(first["phase"], str) else ""
+
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric(f"Price in {pd.Timestamp(origin):%b %Y} (KES/{u})", f"{first['origin_price_kes']:,.1f}",
+                  help="Recorded in a market" if first["origin_price_is_real"] else "Estimated by the data pipeline")
+        c1.caption("✅ recorded in a market" if first["origin_price_is_real"] else "≈ estimated price")
+        c2.metric("Seasonal label (ALPS)", phase or "n/a")
+        score = f"Score {first['alps_score']:.2f}. " if pd.notna(first["alps_score"]) else ""
+        c2.caption(score + (first["phase_message"] if isinstance(first["phase_message"], str) and first["phase_message"]
+                            else "Price compared with its normal level for the season"))
+        n_alerts = int(rows["alert"].sum())
+        c3.metric("Spike alerts", f"{n_alerts} of 3", help="Alerts at 1, 2 and 3 months ahead")
+        c3.caption("Higher risk of a rise above 15%" if n_alerts else "No alert: risk not above usual")
+        c4.metric(f"In {pd.Timestamp(rows.iloc[-1]['target_month']):%b %Y} (KES/{u})",
+                  f"{rows.iloc[-1]['forecast_price_kes']:,.1f}",
+                  pct(rows.iloc[-1]["forecast_change_pct"]), delta_color="inverse")
+
+        # chart: history, real prices, forecast with 80% range
+        hist = prices[(prices["series"] == series) & (prices["month"] <= pd.Timestamp(origin))].tail(36)
+        real = hist[hist["observed"]]
+        tm = pd.to_datetime(rows["target_month"])
+        o = pd.Timestamp(origin)
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=[o, *tm, *tm[::-1], o],
+                                 y=[first["origin_price_kes"], *rows["range_high_kes"], *rows["range_low_kes"][::-1],
+                                    first["origin_price_kes"]],
+                                 mode="lines", fill="toself", fillcolor="rgba(42,111,219,0.15)", line=dict(width=0),
+                                 name="80% price range", hoverinfo="skip"))
+        fig.add_trace(go.Scatter(x=hist["month"], y=hist["price_kes"], mode="lines", line=dict(color=GREY, width=2),
+                                 name="price (estimated months included)"))
+        fig.add_trace(go.Scatter(x=real["month"], y=real["price_kes"], mode="markers", marker=dict(color=INK, size=6),
+                                 name="recorded market price"))
+        fig.add_trace(go.Scatter(x=[o, *tm], y=[first["origin_price_kes"], *rows["forecast_price_kes"]],
+                                 mode="lines+markers", line=dict(color=BLUE, dash="dash", width=2),
+                                 name="forecast (ARIMA)"))
+        alerted_rows = rows[rows["alert"]]
+        if len(alerted_rows):
+            fig.add_trace(go.Scatter(x=pd.to_datetime(alerted_rows["target_month"]), y=alerted_rows["forecast_price_kes"],
+                                     mode="markers", marker=dict(color=RED, size=13, symbol="triangle-up"),
+                                     name="spike alert"))
+        fig.update_layout(height=420, margin=dict(l=10, r=10, t=10, b=10), yaxis_title=f"KES per {u}",
+                          legend=dict(orientation="h", y=-0.15), hovermode="x unified")
+        st.plotly_chart(fig, use_container_width=True)
+
+        # table per horizon
+        table = pd.DataFrame({
+            "Months ahead": rows["horizon"].values,
+            "Month": pd.to_datetime(rows["target_month"]).dt.strftime("%b %Y").values,
+            f"Forecast (KES/{u})": rows["forecast_price_kes"].values,
+            "Change": rows["forecast_change_pct"].map(pct).values,
+            f"80% range (KES/{u})": [f"{lo:,.2f} to {hi:,.2f}" for lo, hi in zip(rows["range_low_kes"], rows["range_high_kes"])],
+            "Spike chance": rows["spike_probability_pct"].map("{:.1f}%".format).values,
+            "Alert above": rows["alert_threshold_pct"].map("{:.1f}%".format).values,
+            "Alert": np.where(rows["alert"], "🚨 higher risk", "—"),
+        })
+        st.dataframe(table, hide_index=True, use_container_width=True)
+        st.caption("The forecast and the alert come from different models on purpose: the forecast is the most likely "
+                   "path, the alert says the chance of a big rise is higher than usual. A flat forecast can sit next "
+                   "to an alert.")
+
+        left, right = st.columns([3, 2])
+        with left:
+            st.markdown("#### What moves the forecast")
+            h = st.radio("Horizon", [1, 2, 3], horizontal=True,
+                         format_func=lambda k: f"{k} month{'s' if k > 1 else ''}", key="driver_h")
+            r = rows[rows["horizon"] == h].iloc[0]
+            d = pd.DataFrame({"driver": [r[f"driver_{k}"] for k in (1, 2, 3)],
+                              "push": [r[f"driver_{k}_push_points"] for k in (1, 2, 3)]})[::-1]
+            bar = go.Figure(go.Bar(x=d["push"], y=d["driver"], orientation="h",
+                                   marker_color=[RED if v > 0 else BLUE for v in d["push"]],
+                                   text=[f"{v:+.2f} pts" for v in d["push"]], textposition="auto"))
+            bar.update_layout(height=220, margin=dict(l=10, r=10, t=10, b=10),
+                              xaxis_title="push on the predicted change (points)")
+            st.plotly_chart(bar, use_container_width=True)
+            st.caption(f"Typical change {r['drivers_typical_change_pct']:+.2f}%, this market "
+                       f"{r['drivers_model_change_pct']:+.2f}% (driver model M5). Red pushes the price up, blue down. "
+                       "This explains what the model leans on, not proof of cause and effect.")
+        with right:
+            st.markdown("#### Where to buy")
+            w = rows[rows["where_to_buy_county"].notna()]
+            if len(w):
+                b = w.iloc[0]
+                st.success(f"**{b['where_to_buy_county']}** ({b['where_to_buy_km']:.0f} km away): "
+                           f"KES {b['where_to_buy_price_kes']:,.2f}/{u} in {b['where_to_buy_price_month']}, "
+                           f"**{b['where_to_buy_saving_pct']:.0f}% cheaper** than {county} "
+                           f"(KES {b['where_to_buy_compared_with_kes']:,.2f}).")
+                st.caption("Savings are before transport, handling and market fees. In the backtest a full load of "
+                           "5 t or more still saved money in 68% to 85% of cases; small loads rarely did. "
+                           "Distances are between county centres.")
+            else:
+                st.info("No suggestion. It needs an alert, a recorded price in both counties this month, and a county "
+                        "within 200 km at least 5% cheaper (maize, sorghum, Rosecoco beans and red potatoes only).")
+
+        with st.expander("ALPS score history for this market"):
+            a = alps_history(series).dropna()
+            a = a[a.index <= pd.Timestamp(origin)]
+            af = go.Figure(go.Scatter(x=a.index, y=a.values, mode="lines", line=dict(color=INK)))
+            for cut, name in [(0.25, "Stress"), (1, "Alert"), (2, "Crisis")]:
+                af.add_hline(y=cut, line_dash="dot", line_color=PHASE_COLOUR[name], annotation_text=name)
+            af.update_layout(height=280, margin=dict(l=10, r=10, t=10, b=10), yaxis_title="ALPS score")
+            st.plotly_chart(af, use_container_width=True)
+
+
+# --------------------------------------------------------------------------- tab 3: does it work?
+with tab_proof:
+    st.markdown("Every figure comes from a **year-by-year test on 2015 to 2024**: each year was predicted using only "
+                "earlier years, and only **prices recorded in a market** were used to score it.")
+    p1, p2, p3 = st.columns(3)
+    card(p1, "Spike alert, 1 month ahead", "48%", "of price rises above 15% were caught", "orange")
+    card(p2, "After an alert", "2×", "a rise was about twice as likely as usual (22% vs 11%)", "orange")
+    card(p3, "New seasonal alerts warned early", "84%",
+         "by the spike alert or the ALPS Stress label, of 347 cases", "red")
+    st.write("")
+    p4, p5, p6 = st.columns(3)
+    card(p4, "Price forecast error", "9.0%", "average at 1 month (12.3% at 2, 14.5% at 3)")
+    card(p5, "Price ranges", "78–82%", "of recorded prices fell inside the 80% range")
+    card(p6, "Where to buy", "85%", "of suggestions were really cheaper a month later, saving about 20% before transport")
+    st.write("")
+    st.markdown("""
+| Part | 1 month | 2 months | 3 months |
+|---|---|---|---|
+| Rises above 15% caught by the spike alert | 48% | 45% | 34% |
+| Alerts followed by a rise above 15% | 22% | 32% | 39% |
+| Calm months left quiet | 80% | 81% | 86% |
+| Average forecast error | 9.0% | 12.3% | 14.5% |
+| Recorded prices inside the 80% range | 78% | 80% | 82% |
+
+**New seasonal alerts** (a market moving into ALPS Alert after 3 calm months, 347 cases): the spike alert warned of
+51%, about 2 months ahead; the ALPS Stress label warned of 63%; together 84%.
+
+**Where to buy after transport:** a full load of 5 to 7 t still saved money in 68% of suggestions, 12 t in 83% and
+20 t in 85%. A 1 t pickup saved money in only 29%, and small loads almost never.
+
+**What it can't do:** about half of price spikes come without an alert, because many are caused by events the data
+cannot see (floods, conflict, policy changes). The price forecast is about level with "next month = this month";
+the value is in the alert, the range and the where-to-buy advice.
+
+These results were re-run and reproduced from the team's notebooks (02, 05 and 07) and handover scripts.
+""")
+
+
+# --------------------------------------------------------------------------- tab 4: about
 with tab_about:
     st.markdown(f"""
 ### What SokoRadar gives you
@@ -271,18 +513,15 @@ with tab_about:
 | **Drivers** (M5 + SHAP) | What is pushing the forecast up or down? |
 | **Where to buy** | Which nearby county is cheaper right now? |
 
-### How well it works (backtest 2015 to 2024, recorded prices only)
-* **Forecast:** average error 9.0% / 12.3% / 14.5% at 1 / 2 / 3 months, about level with "next month = this month".
-* **Spike alert:** catches 48% of rises above 15% one month ahead; 22% of alerts are followed by a rise, about twice the normal rate.
-* **Price ranges:** 78% to 82% of recorded prices fell inside on unseen years (target 75% to 85%).
-* **Where to buy:** the suggested county was really cheaper in about 85% of backtest alerts, saving about 20% before transport.
-
 ### Limits
-* An alert means **higher risk**, not a certain spike. About half of spikes come without one (floods, conflict, policy changes are not in the data).
+* An alert means **higher risk**, not a certain spike. About half of spikes come without one.
 * Only about 5% to 7% of prices were recorded in a market; the rest are estimates.
-* The alert and driver models overfit their training years; the figures above are on unseen years, so they are the ones to trust.
-* Drivers explain the model, not the market.
-* Not yet tested on 2025 to 2026 prices. Weather and economy inputs end in Dec 2024.
+* The county price data ends in **{month_name(f"{latest:%Y-%m}")}**. 2025 to 2026 prices are kept for the team's
+  sealed final test and will be added after it.
+* The alert and driver models overfit their training years; the figures in **Does it work?** are on unseen years,
+  so they are the ones to trust.
+* Drivers explain the model, not the market. Weather and economy inputs end in Dec 2024.
+* Alert thresholds are frozen (set so alerts fire in 20% of calm months on 2011 to 2014) and are not adjustable here.
 * Models are trained on outcomes up to **{fc.TRAIN_END}**; settings are frozen in the handover scripts.
 
 Group 10, Moringa School Data Science Capstone, 2026. Data: KAMIS, WFP via HDX (CC BY IGO), KNBS, Central Bank of Kenya, World Bank.

@@ -8,7 +8,7 @@ A Streamlit front end for the frozen handover models. It **imports** `notebooks/
 | `streamlit_app.py` | The app |
 | `requirements.txt` | Python packages (model packages pinned to the MODEL_CARD versions) |
 | `packages.txt` | System library LightGBM needs on Streamlit Community Cloud (`libgomp1`) |
-| `raw_data/` | The three driver files the forecast script needs (`counties.csv`, `county_climate_chirps_ndvi.csv`, `national_drivers_2006_2024.csv`) |
+| `raw_data/` | The three driver files the forecast script needs (`counties.csv`, `county_climate_chirps_ndvi.csv`, `national_drivers_2006_2024.csv`) and the county boundaries for the map (`ken_counties.geojson`) |
 
 ## Run locally
 
