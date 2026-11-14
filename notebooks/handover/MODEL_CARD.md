@@ -60,16 +60,25 @@ It takes about 3 minutes. It writes a CSV and a `.json` beside it (settings, dat
 - **Drivers:** price history explains most of M5's forecasts; then the economy and weather. El Niño is the largest outside driver.
 - **Where to buy:** replaying this rule on the 2015-2024 backtest alerts gave 1,235 suggestions; where real prices a month later exist (956), the suggested county was really cheaper **85%** of the time, with an average saving of **20%**. Choosing by the forecast did no better than "cheapest today" (Daniella's `04_recommender`), so the rule uses today's real prices. Using prices up to 2 months old was tried and dropped: those suggestions were right only 71% of the time, saving 8%.
 
+## Sealed test (2025-2026, run once on 14 Nov 2026)
+
+The frozen script, trained to Dec 2024, forecast from every month Jan 2025 - Aug 2026; scored on 870 / 826 / 733 real WFP prices (1 / 2 / 3 months) in 135 series. Months without a real price carried the last known price forward. Details: notebook `02_model_build.ipynb`, section 12; forecasts in `output/day5_test/`.
+
+- **Forecast (ARIMA):** ratio to naive 0.997 / 0.981 / 0.970: level at 1 month, better at 2 and 3 months (95% intervals below 1). Naive itself missed 10.8% / 13.1% / 14.0%.
+- **Alerts:** caught 51% / 42% / 38% of spikes; 22% / 37% / 46% of alerts were followed by a spike; 68% / 83% / 90% of calm months stayed quiet (more false alarms at 1 month than the 20% budget set on 2011-2014).
+- **Where to buy:** 39 suggestions; 10 could be checked, 8 were really cheaper. Too few to judge.
+- **Drivers model (M5):** ratio to naive 0.978 / 0.918 / 0.887 on this period, without economy or El Niño inputs (not available for 2025-26). Not used as the forecast; a lead for future work.
+
 ## Limits (please show these to users)
 
 - **An alert means "higher risk", not "a spike is coming".** Most alerts are not followed by a spike.
 - **No alert does not mean calm:** about half of spikes come without one. Most spikes can't be seen in this data (they need event information such as floods, conflict or policy changes).
 - **Mostly estimated prices:** only about 5% of the county prices were recorded in a market. Scores are on those real prices; forecasts for series with no real prices are less certain.
-- **Not yet tested on 2025-2026.** The sealed test runs once, on Day 5. Performance by group (ASAL counties, wholesale vs retail, commodity) and in past crises (2011, 2017, 2022) has not been checked.
-- **Where to buy is rare and for bulk buyers.** It needs real prices in both counties in the alert month, and only 19 of 47 counties reported a real price for the four crops in 2024, so most alerts have no suggestion (2024: 64 suggestions for 3,188 alerts; Dec 2024: 2 for 399). About one suggestion in seven was wrong in the backtest. More market reports would fill it; estimated prices are not used because they are partly copied from neighbouring counties. Savings are before transport, handling and market fees; they pay off for a lorry load, not a few bags. Distances are between county centres, not roads.
+- **The 2025-2026 test is thin:** 135 of 1,222 series and 20 months. Performance by group (ASAL counties, wholesale vs retail, commodity) and in past crises (2011, 2017, 2022) has not been checked.
+- **The training data has a known upstream leak:** the 2024 national prices for maize, sorghum, beans and potatoes were filled towards the Jan 2025 price (no market data Feb-Dec 2024). The test starts from Jan 2025, so it is unaffected; the 2024 backtest year may be slightly flattered.- **Where to buy is rare and for bulk buyers.** It needs real prices in both counties in the alert month, and only 19 of 47 counties reported a real price for the four crops in 2024, so most alerts have no suggestion (2024: 64 suggestions for 3,188 alerts; Dec 2024: 2 for 399). About one suggestion in seven was wrong in the backtest. More market reports would fill it; estimated prices are not used because they are partly copied from neighbouring counties. Savings are before transport, handling and market fees; they pay off for a lorry load, not a few bags. Distances are between county centres, not roads.
 - **The alert and driver models overfit their training data.** M8a and M5 score far better on the years they learned from than on new years (e.g. M8a average precision 0.92 vs 0.23 at 1 month); ARIMA barely does (about 10%). All performance figures above are on unseen years, so they are the ones to trust.
 - **Drivers explain the model, not the market.** "Diesel pushed the forecast up" means the model leans on diesel, not proof that diesel caused it.
-- **Inputs must be current.** Weather and economy files end in Dec 2024. For later origin months, update the raw files; the forecast and alerts don't need them, but the drivers do (the script warns when they are missing).
+- **Inputs must be current.** Rainfall and vegetation run to Oct 2026, but the economy and El Niño file ends in Dec 2024. For later origin months, update the raw files; the forecast and alerts don't need them, but the drivers do (the script warns when they are missing).
 
 ## Frozen settings
 
