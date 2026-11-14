@@ -51,10 +51,10 @@ The MoA bulletin has no download link, so add a new bulletin by hand:
 python app/update_prices.py --raw <folder with the new raw files>
 ```
 
-The models are not retrained; they learned from data up to December 2024. On recorded prices from January 2025 to
-June 2026, which they had not seen, the forecast error was 8.9%, 10.6% and 12.4% at 1, 2 and 3 months (2015 to 2024
-backtest: 9.0%, 12.3% and 14.5%). The jump warning caught 56%, 46% and 35% of rises above 15% (backtest: 48%, 45%
-and 34%), and 81%, 87% and 88% of prices fell inside the range (backtest: 78%, 80% and 82%).
+The models are not retrained; they learned from data up to December 2024. In the sealed 2025 to 2026 test (notebook
+02, section 12, and the model card) the forecast error was 10.8%, 12.8% and 13.6% at 1, 2 and 3 months (2015 to 2024
+backtest: 9.0%, 12.3% and 14.5%), and the jump warning caught 51%, 42% and 38% of rises above 15% (backtest: 48%, 45%
+and 34%).
 
 ## Run locally
 

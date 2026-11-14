@@ -52,22 +52,23 @@ Every result comes from a year by year backtest, 2015 to 2024: each year is pred
 | Spike alert | Catches 48% of rises above 15% at 1 month; 22% of alerts are followed by a rise, about twice the normal rate |
 | New seasonal alerts | Warned of 51% of markets moving into Alert, about 2 months ahead (the ALPS Stress label warned of 63%) |
 | Price ranges | 78% to 82% of recorded prices fell inside, on years the ranges had not seen (target 75% to 85%) |
-| Where to buy | The suggested county was really cheaper in about 94% of alerts, saving about a quarter of the price. After transport, a full lorry of 5 t or more still saves money in about two thirds of cases or more; small loads rarely do |
+| Where to buy | Of 956 suggestions that could be checked a month later, the suggested county was really cheaper in 85%, saving about 20% before transport. After transport, a full lorry of 5 t or more still saves money in about two thirds of cases or more; small loads rarely do |
 
 **Honest summary:** prices are hard to forecast from this data, but the spike alert and the where to buy suggestions add real value, especially for bulk buyers. An alert means higher risk, not a certain spike.
 
-## Test on 2025 to 2026 (recorded prices only)
+## Sealed test on 2025 to 2026 (real prices only)
 
-The deployed models (trained on answers up to December 2024, settings unchanged) forecast every month from January 2025 to June 2026 using only earlier data, scored on 2,344 prices recorded in markets.
+The frozen models (trained on answers up to December 2024, settings unchanged) were run once on months they had never seen: forecasts from every month from January 2025 to August 2026, scored on 870 / 826 / 733 real WFP prices at 1 / 2 / 3 months in 135 series. The protocol was written before the test was opened. Details: notebook 02, section 12, and `notebooks/handover/MODEL_CARD.md`.
 
-| Part | 2025-26 test | 2015-24 backtest |
+| Part | 2025-26 sealed test | 2015-24 backtest |
 |---|---|---|
-| Price forecast, average error at 1, 2 and 3 months | 8.9%, 10.6%, 12.4% | 9.0%, 12.3%, 14.5% |
-| Rises above 15% caught by the spike alert | 56%, 46%, 35% | 48%, 45%, 34% |
-| Alerts followed by a rise | 18%, 27%, 41% | 22%, 32%, 39% |
-| Recorded prices inside the 80% range | 81%, 87%, 88% | 78%, 80%, 82% |
+| Price forecast, average error at 1, 2 and 3 months | 10.8%, 12.8%, 13.6% | 9.0%, 12.3%, 14.5% |
+| Rises above 15% caught by the spike alert | 51%, 42%, 38% | 48%, 45%, 34% |
+| Alerts followed by a rise | 22%, 37%, 46% | 22%, 32%, 39% |
+| Calm months with no alert | 68%, 83%, 90% | 80%, 81%, 86% |
+| Where to buy, suggested county really cheaper | 8 of 10 checkable (too few to judge) | 85% of 956 |
 
-The models held up on years they had not seen. At 1 month the alert fired more often in calm months (65% stayed quiet, against 80%), and the ranges were a little wide at 2 and 3 months. Sorghum, with the fewest recorded prices, was the weakest crop. Notebooks 03, 04 and 06 also tested their own models on these months.
+2025-26 was a harder period: even "next month = this month" missed by 10.8% at 1 month. Against that, the forecast was level at 1 month and 2% to 3% better at 2 and 3 months, as in the backtest. The alert caught about half of sharp rises, with more false alarms at 1 month. The price range was checked in the backtest only.
 
 ## Repository layout
 

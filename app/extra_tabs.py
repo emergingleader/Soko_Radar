@@ -148,14 +148,18 @@ def _kpis(items):
 def results_tab():
     st.markdown("Every result below is judged only on prices recorded in a market, never on estimates.")
 
-    _title("New test on 2025 to 2026 (months the model never saw)")
+    _title("Sealed test on 2025 to 2026 (months the model never saw)")
     _kpis([
-        ("Average error, 1 month ahead", "8.9%", "10.6% at 2 months, 12.4% at 3"),
-        ("Sharp rises caught", "56%", "of rises above 15%, 1 month ahead (46% at 2, 35% at 3)"),
-        ("Real prices inside the range", "81% to 88%", "target about 80%"),
+        ("Average error, 1 month ahead", "10.8%", "12.8% at 2 months, 13.6% at 3"),
+        ("Sharp rises caught", "51%", "of rises above 15%, 1 month ahead (42% at 2, 38% at 3)"),
+        ("Warnings followed by a rise", "22%", "at 1 month (37% at 2, 46% at 3)"),
     ])
-    st.markdown("The model was trained on 2006 to 2024 and then tested on January 2025 to June 2026. It did at least as "
-                "well as in the older test below, so it still works on new data.")
+    st.markdown("The frozen model, trained on 2006 to 2024 and run once, forecast every month from January 2025 to August "
+                "2026 and was scored on real WFP prices (870 at 1 month, in 135 series). This was a harder period: even "
+                "\"next month = this month\" missed by 10.8% at 1 month. The forecast was level with that at 1 month and "
+                "2% to 3% better at 2 and 3 months, as good as in the backtest. The jump warning caught about half of "
+                "sharp rises, as before, with more false alarms at 1 month (68% of calm months stayed quiet). "
+                "Details: notebook 02, section 12, and the model card.")
 
     _title("Backtest 2015 to 2024")
     st.markdown("""
@@ -168,8 +172,9 @@ Each year was predicted using only the years before it.
   **2 months** before. WFP's own label only flags a market once prices are already high.
 * **Likely range:** **78% to 82%** of real prices fell inside the 80% range. Each crop has its own width; potatoes are
   the hardest to predict.
-* **Where to buy:** the suggested county was really cheaper in **93% to 96%** of cases, saving about a quarter
-  (about KES 16 per kg). After transport, full loads in bigger vehicles pay most often.
+* **Where to buy:** of 956 suggestions that could be checked a month later, the suggested county was really
+  cheaper in **85%**, saving about **20%** before transport. After transport, full loads in bigger vehicles pay most
+  often. In the 2025 to 2026 test only 10 could be checked (8 right), too few to judge.
 """)
 
     _title("Limits", dot="#ffc266")
@@ -178,6 +183,7 @@ Each year was predicted using only the years before it.
   things the data cannot see (floods, conflict, policy changes).
 * Only part of county prices are recorded in a market; the rest are estimates. All scores use recorded prices only.
 * Where to buy needs a recorded price in the county and a nearby one, so it is not available everywhere every month.
+* The price range was checked in the backtest only, not in the 2025 to 2026 test.
 """)
 
 
