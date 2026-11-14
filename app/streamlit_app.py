@@ -82,6 +82,14 @@ st.markdown("""
     font-weight: 800; display: inline-flex; align-items: center; justify-content: center;}
 [data-testid="stSidebar"] label p {color: #c7d2fe;}
 .st-key-buy_panel {padding-bottom: 18px !important;}
+.st-key-page [role="radiogroup"] {gap: 4px; width: 100%;}
+.st-key-page [data-testid="stRadioOption"] {display: flex; width: 100%; padding: 9px 12px; border-radius: 10px;
+    margin: 0; cursor: pointer;}
+.st-key-page [data-testid="stRadioOption"] > div > div:first-child {display: none;}
+.st-key-page [data-testid="stRadioOption"]:hover {background: #1d2c5e;}
+.st-key-page [data-testid="stRadioOption"][data-selected="true"] {background: #1b2c63; box-shadow: inset 4px 0 0 #7ee2a8;}
+.st-key-page [data-testid="stRadioOption"][data-selected="true"] p {color: #7ee2a8; font-weight: 700;}
+.st-key-page [data-testid="stRadioOption"] p {font-size: 1rem; color: #e8ecff;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -177,6 +185,14 @@ st.markdown(
 if (pd.Timestamp.today().to_period("M") - latest.to_period("M")).n > 2:
     st.caption(f"Newer prices have not been added yet, so this forecast starts from {latest:%B %Y}.")
 
+# page menu at the top of the sidebar (one page shows at a time)
+PAGES = {"Price forecast": ":material/query_stats:", "Where prices may jump": ":material/map:",
+         "On any phone": ":material/smartphone:", "Does it work?": ":material/fact_check:", "About": ":material/info:"}
+with st.sidebar:
+    page = st.radio("Menu", list(PAGES), key="page", label_visibility="collapsed",
+                    format_func=lambda p: f"{PAGES[p]} {p}")
+    st.divider()
+
 with st.sidebar:
     st.header("Choose a market")
     counties = sorted(prices["county"].unique())
@@ -208,11 +224,9 @@ with st.sidebar:
         st.caption(("Recorded in a market" if then["observed"] else "Estimate") +
                    f". Price in {latest:%B %Y}: KES {now['price_kes']:,.1f}.")
 
-tab_market, tab_map, tab_phone, tab_results, tab_about = st.tabs(
-    ["Price forecast", "Where prices may jump", "On any phone", "Does it work?", "About"])
 
-# Tab 1: one market
-with tab_market:
+# Page 1: one market
+if page == "Price forecast":
     rows = result[(result["county"] == county) & (result["commodity"] == crop)
                   & (result["price_type"] == price_type)].sort_values("horizon")
     u = UNIT.get(crop, "kg")
@@ -499,8 +513,8 @@ Data: Ministry of Agriculture and Livestock Development (KAMIS), WFP via HDX (CC
 World Bank.
 """)
 
-# Tab 2: map of jump warnings
-with tab_map:
+# Page 2: map of jump warnings
+if page == "Where prices may jump":
     f1, f2 = st.columns(2)
     pick_crop = f1.selectbox("Food", ["All foods"] + sorted(result["commodity"].unique()), key="map_crop")
     pick_month = f2.radio("Month", [f"{m:%B}" for m in months], horizontal=True, key="map_month")
@@ -640,10 +654,10 @@ with tab_map:
                                file_name=f"sokoradar_high_for_season_{pick_month.lower()}.csv", mime="text/csv",
                                icon=":material/download:")
 
-# Tab 3: USSD and SMS preview; Tab 4: test results; Tab 5: about (app/extra_tabs.py)
-with tab_phone:
+# Page 3: USSD and SMS preview; page 4: test results; page 5: about (app/extra_tabs.py)
+if page == "On any phone":
     extra.phone_tab(result, county)
-with tab_results:
+if page == "Does it work?":
     extra.results_tab()
-with tab_about:
+if page == "About":
     extra.about_tab()
