@@ -99,6 +99,7 @@ def load_module(name, path):
 fc = load_module("sokoradar_forecast", HANDOVER / "sokoradar_forecast.py")
 al = load_module("sokoradar_alerts", HANDOVER / "alerts" / "sokoradar_alerts.py")
 tp = load_module("sokoradar_transport", APP / "transport.py")
+extra = load_module("sokoradar_extra_tabs", APP / "extra_tabs.py")   # phone, results and about tabs
 
 
 def safely(fn, *args):
@@ -179,7 +180,9 @@ if (pd.Timestamp.today().to_period("M") - latest.to_period("M")).n > 2:
 with st.sidebar:
     st.header("Choose a market")
     counties = sorted(prices["county"].unique())
-    county = st.selectbox("County", counties, index=counties.index("Nakuru"))
+    mine = extra.location_switch(RAW / "counties.csv")      # optional: the browser's location picks the county
+    start_county = mine if mine in counties else "Nakuru"
+    county = st.selectbox("County", counties, index=counties.index(start_county))
     here = prices[prices["county"] == county]
     crops = sorted(here["commodity"].unique())
     crop = st.selectbox("Food", crops, index=crops.index("Dry Maize") if "Dry Maize" in crops else 0)
@@ -205,7 +208,8 @@ with st.sidebar:
         st.caption(("Recorded in a market" if then["observed"] else "Estimate") +
                    f". Price in {latest:%B %Y}: KES {now['price_kes']:,.1f}.")
 
-tab_market, tab_map = st.tabs(["Price forecast", "Where prices may jump"])
+tab_market, tab_map, tab_phone, tab_results, tab_about = st.tabs(
+    ["Price forecast", "Where prices may jump", "On any phone", "Does it work?", "About"])
 
 # Tab 1: one market
 with tab_market:
@@ -636,4 +640,10 @@ with tab_map:
                                file_name=f"sokoradar_high_for_season_{pick_month.lower()}.csv", mime="text/csv",
                                icon=":material/download:")
 
-
+# Tab 3: USSD and SMS preview; Tab 4: test results; Tab 5: about (app/extra_tabs.py)
+with tab_phone:
+    extra.phone_tab(result, county)
+with tab_results:
+    extra.results_tab()
+with tab_about:
+    extra.about_tab()

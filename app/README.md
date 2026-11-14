@@ -13,6 +13,8 @@ calls their functions.
 | File | What it is |
 |---|---|
 | `streamlit_app.py` | The app |
+| `extra_tabs.py` | The On any phone, Does it work? and About tabs, and the Use my location switch in the sidebar |
+| `phone/` | The USSD menu and alert SMS in Kiswahili, English and Somali (`translations.csv`), the same code as the live Africa's Talking service in [sokoradar-demo](https://github.com/sirajiali-hub/sokoradar-demo). In the app it is a preview: it sends no SMS and stores no phone number |
 | `transport.py` | Transport costs from notebook 05 (road distances, government hire rates and county fuel prices from `data/`) |
 | `update_prices.py` | Downloads the latest WFP prices from HDX, runs the team's pipeline and writes `raw_data/prices_after_2024.csv` |
 | `pipeline/sokoradar_pipeline.py` | The team's data pipeline (notebook 00), unchanged. It stores its own raw data |
