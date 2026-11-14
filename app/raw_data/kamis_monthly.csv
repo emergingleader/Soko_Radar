@@ -1,0 +1,2704 @@
+month,county_code,county,commodity,price_type,unit,price_kes,flag,n_markets
+2026-08,36,Bomet,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-05,39,Bungoma,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Beans Canadian,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-07,39,Bungoma,Beans Canadian,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Beans Canadian,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,14,Embu,Beans Canadian,Retail,KES/kg,95.0,Observed (KAMIS),1
+2025-09,14,Embu,Beans Canadian,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-04,14,Embu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-05,14,Embu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-06,14,Embu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-07,14,Embu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-08,14,Embu,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-09,14,Embu,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Beans Canadian,Retail,KES/kg,193.18,Observed (KAMIS),1
+2025-06,37,Kakamega,Beans Canadian,Retail,KES/kg,159.09,Observed (KAMIS),1
+2025-07,37,Kakamega,Beans Canadian,Retail,KES/kg,159.09,Observed (KAMIS),2
+2025-08,37,Kakamega,Beans Canadian,Retail,KES/kg,161.36,Observed (KAMIS),1
+2025-09,37,Kakamega,Beans Canadian,Retail,KES/kg,171.36,Observed (KAMIS),3
+2025-10,37,Kakamega,Beans Canadian,Retail,KES/kg,161.82,Observed (KAMIS),2
+2025-11,37,Kakamega,Beans Canadian,Retail,KES/kg,163.64,Observed (KAMIS),2
+2025-12,37,Kakamega,Beans Canadian,Retail,KES/kg,163.04,Observed (KAMIS),1
+2026-01,37,Kakamega,Beans Canadian,Retail,KES/kg,160.87,Observed (KAMIS),1
+2026-02,37,Kakamega,Beans Canadian,Retail,KES/kg,213.04,Observed (KAMIS),1
+2026-03,37,Kakamega,Beans Canadian,Retail,KES/kg,217.39,Observed (KAMIS),1
+2026-04,37,Kakamega,Beans Canadian,Retail,KES/kg,177.5,Observed (KAMIS),3
+2026-05,37,Kakamega,Beans Canadian,Retail,KES/kg,173.91,Observed (KAMIS),2
+2026-06,37,Kakamega,Beans Canadian,Retail,KES/kg,160.0,Observed (KAMIS),2
+2026-07,37,Kakamega,Beans Canadian,Retail,KES/kg,172.06,Observed (KAMIS),1
+2026-08,37,Kakamega,Beans Canadian,Retail,KES/kg,173.91,Observed (KAMIS),1
+2026-09,37,Kakamega,Beans Canadian,Retail,KES/kg,217.39,Observed (KAMIS),1
+2026-10,37,Kakamega,Beans Canadian,Retail,KES/kg,217.39,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-06,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-07,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-11,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-12,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-01,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),1
+2026-02,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-03,20,Kirinyaga,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2026-04,20,Kirinyaga,Beans Canadian,Retail,KES/kg,160.0,Observed (KAMIS),2
+2026-05,20,Kirinyaga,Beans Canadian,Retail,KES/kg,155.0,Observed (KAMIS),2
+2026-06,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-07,20,Kirinyaga,Beans Canadian,Retail,KES/kg,122.5,Observed (KAMIS),1
+2026-08,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-09,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-10,20,Kirinyaga,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-06,45,Kisii,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-02,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Beans Canadian,Retail,KES/kg,182.5,Observed (KAMIS),1
+2025-04,42,Kisumu,Beans Canadian,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Beans Canadian,Retail,KES/kg,170.0,Observed (KAMIS),5
+2025-06,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),5
+2025-07,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),5
+2025-08,42,Kisumu,Beans Canadian,Retail,KES/kg,135.0,Observed (KAMIS),4
+2025-09,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),4
+2025-10,42,Kisumu,Beans Canadian,Retail,KES/kg,160.0,Observed (KAMIS),4
+2025-11,42,Kisumu,Beans Canadian,Retail,KES/kg,157.5,Observed (KAMIS),5
+2025-12,42,Kisumu,Beans Canadian,Retail,KES/kg,167.5,Observed (KAMIS),4
+2026-01,42,Kisumu,Beans Canadian,Retail,KES/kg,157.5,Observed (KAMIS),4
+2026-02,42,Kisumu,Beans Canadian,Retail,KES/kg,157.5,Observed (KAMIS),5
+2026-03,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),5
+2026-04,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),4
+2026-05,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),5
+2026-06,42,Kisumu,Beans Canadian,Retail,KES/kg,142.86,Observed (KAMIS),5
+2026-07,42,Kisumu,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),5
+2026-08,42,Kisumu,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),5
+2026-09,42,Kisumu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),5
+2026-10,42,Kisumu,Beans Canadian,Retail,KES/kg,142.86,Observed (KAMIS),5
+2025-05,15,Kitui,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-08,15,Kitui,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-11,15,Kitui,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-01,15,Kitui,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-02,15,Kitui,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-03,12,Meru,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-05,44,Migori,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-06,44,Migori,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),1
+2026-07,44,Migori,Beans Canadian,Retail,KES/kg,160.0,Observed (KAMIS),1
+2026-08,44,Migori,Beans Canadian,Retail,KES/kg,160.0,Observed (KAMIS),1
+2026-09,44,Migori,Beans Canadian,Retail,KES/kg,180.0,Observed (KAMIS),1
+2026-10,44,Migori,Beans Canadian,Retail,KES/kg,172.0,Observed (KAMIS),1
+2025-05,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-11,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-01,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-02,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-05,21,Murang'a,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-06,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-07,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-08,21,Murang'a,Beans Canadian,Retail,KES/kg,137.5,Observed (KAMIS),1
+2026-09,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-10,21,Murang'a,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-05,47,Nairobi,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-07,47,Nairobi,Beans Canadian,Retail,KES/kg,115.0,Observed (KAMIS),1
+2025-08,47,Nairobi,Beans Canadian,Retail,KES/kg,110.0,Observed (KAMIS),1
+2025-10,47,Nairobi,Beans Canadian,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-01,47,Nairobi,Beans Canadian,Retail,KES/kg,105.0,Observed (KAMIS),1
+2026-02,47,Nairobi,Beans Canadian,Retail,KES/kg,107.5,Observed (KAMIS),1
+2026-07,47,Nairobi,Beans Canadian,Retail,KES/kg,90.0,Observed (KAMIS),1
+2026-08,47,Nairobi,Beans Canadian,Retail,KES/kg,95.0,Observed (KAMIS),1
+2026-09,47,Nairobi,Beans Canadian,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-10,47,Nairobi,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-03,29,Nandi,Beans Canadian,Retail,KES/kg,155.0,Observed (KAMIS),1
+2025-04,29,Nandi,Beans Canadian,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-05,29,Nandi,Beans Canadian,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-10,29,Nandi,Beans Canadian,Retail,KES/kg,175.0,Observed (KAMIS),1
+2026-06,41,Siaya,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-06,6,Taita Taveta,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-04,6,Taita Taveta,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-06,6,Taita Taveta,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-07,6,Taita Taveta,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-08,6,Taita Taveta,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-09,6,Taita Taveta,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,157.5,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,140.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Beans Canadian,Retail,KES/kg,133.34,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Beans Canadian,Retail,KES/kg,150.0,Observed (KAMIS),3
+2026-09,27,Uasin Gishu,Beans Canadian,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-08,38,Vihiga,Beans Canadian,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-08,36,Bomet,Beans Canadian,Wholesale,KES/kg,300.0,Observed (KAMIS),1
+2026-05,39,Bungoma,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Beans Canadian,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-07,39,Bungoma,Beans Canadian,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Beans Canadian,Wholesale,KES/kg,65.0,Observed (KAMIS),1
+2025-06,14,Embu,Beans Canadian,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-09,14,Embu,Beans Canadian,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2026-04,14,Embu,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-05,14,Embu,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-06,14,Embu,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-07,14,Embu,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-08,14,Embu,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-09,14,Embu,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Beans Canadian,Wholesale,KES/kg,180.56,Observed (KAMIS),1
+2025-06,37,Kakamega,Beans Canadian,Wholesale,KES/kg,160.0,Observed (KAMIS),1
+2025-07,37,Kakamega,Beans Canadian,Wholesale,KES/kg,147.78,Observed (KAMIS),2
+2025-08,37,Kakamega,Beans Canadian,Wholesale,KES/kg,150.56,Observed (KAMIS),1
+2025-09,37,Kakamega,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),3
+2025-10,37,Kakamega,Beans Canadian,Wholesale,KES/kg,150.56,Observed (KAMIS),2
+2025-11,37,Kakamega,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2026-04,37,Kakamega,Beans Canadian,Wholesale,KES/kg,145.0,Observed (KAMIS),2
+2026-05,37,Kakamega,Beans Canadian,Wholesale,KES/kg,200.0,Observed (KAMIS),1
+2026-06,37,Kakamega,Beans Canadian,Wholesale,KES/kg,130.0,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-06,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-07,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-11,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-12,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2026-01,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,97.78,Observed (KAMIS),1
+2026-02,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,108.89,Observed (KAMIS),2
+2026-03,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-04,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2026-05,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2026-06,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2026-07,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,88.34,Observed (KAMIS),1
+2026-08,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2026-09,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2026-10,20,Kirinyaga,Beans Canadian,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2025-06,45,Kisii,Beans Canadian,Wholesale,KES/kg,133.33,Observed (KAMIS),1
+2025-02,42,Kisumu,Beans Canadian,Wholesale,KES/kg,140.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Beans Canadian,Wholesale,KES/kg,167.5,Observed (KAMIS),1
+2025-04,42,Kisumu,Beans Canadian,Wholesale,KES/kg,170.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),3
+2025-06,42,Kisumu,Beans Canadian,Wholesale,KES/kg,132.5,Observed (KAMIS),4
+2025-07,42,Kisumu,Beans Canadian,Wholesale,KES/kg,140.0,Observed (KAMIS),4
+2025-08,42,Kisumu,Beans Canadian,Wholesale,KES/kg,122.5,Observed (KAMIS),3
+2025-09,42,Kisumu,Beans Canadian,Wholesale,KES/kg,140.0,Observed (KAMIS),3
+2025-10,42,Kisumu,Beans Canadian,Wholesale,KES/kg,125.0,Observed (KAMIS),4
+2025-11,42,Kisumu,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2025-12,42,Kisumu,Beans Canadian,Wholesale,KES/kg,165.0,Observed (KAMIS),2
+2026-01,42,Kisumu,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),3
+2026-02,42,Kisumu,Beans Canadian,Wholesale,KES/kg,165.0,Observed (KAMIS),4
+2026-03,42,Kisumu,Beans Canadian,Wholesale,KES/kg,140.0,Observed (KAMIS),4
+2026-04,42,Kisumu,Beans Canadian,Wholesale,KES/kg,152.5,Observed (KAMIS),3
+2026-05,42,Kisumu,Beans Canadian,Wholesale,KES/kg,134.81,Observed (KAMIS),4
+2026-06,42,Kisumu,Beans Canadian,Wholesale,KES/kg,134.17,Observed (KAMIS),4
+2026-07,42,Kisumu,Beans Canadian,Wholesale,KES/kg,129.17,Observed (KAMIS),4
+2026-08,42,Kisumu,Beans Canadian,Wholesale,KES/kg,129.17,Observed (KAMIS),4
+2026-09,42,Kisumu,Beans Canadian,Wholesale,KES/kg,134.81,Observed (KAMIS),4
+2026-10,42,Kisumu,Beans Canadian,Wholesale,KES/kg,125.0,Observed (KAMIS),4
+2025-05,15,Kitui,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2025-08,15,Kitui,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-11,15,Kitui,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-01,15,Kitui,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-02,15,Kitui,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-03,12,Meru,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2025-11,21,Murang'a,Beans Canadian,Wholesale,KES/kg,135.0,Observed (KAMIS),1
+2025-05,47,Nairobi,Beans Canadian,Wholesale,KES/kg,113.34,Observed (KAMIS),1
+2025-07,47,Nairobi,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-08,47,Nairobi,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-10,47,Nairobi,Beans Canadian,Wholesale,KES/kg,95.56,Observed (KAMIS),1
+2026-01,47,Nairobi,Beans Canadian,Wholesale,KES/kg,98.89,Observed (KAMIS),1
+2026-02,47,Nairobi,Beans Canadian,Wholesale,KES/kg,96.67,Observed (KAMIS),1
+2026-07,47,Nairobi,Beans Canadian,Wholesale,KES/kg,83.33,Observed (KAMIS),1
+2026-08,47,Nairobi,Beans Canadian,Wholesale,KES/kg,86.67,Observed (KAMIS),1
+2026-09,47,Nairobi,Beans Canadian,Wholesale,KES/kg,94.44,Observed (KAMIS),1
+2026-10,47,Nairobi,Beans Canadian,Wholesale,KES/kg,128.89,Observed (KAMIS),1
+2025-03,29,Nandi,Beans Canadian,Wholesale,KES/kg,125.0,Observed (KAMIS),1
+2025-04,29,Nandi,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2025-05,29,Nandi,Beans Canadian,Wholesale,KES/kg,140.0,Observed (KAMIS),1
+2025-10,29,Nandi,Beans Canadian,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2026-06,41,Siaya,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-04,6,Taita Taveta,Beans Canadian,Wholesale,KES/kg,102.5,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-06,6,Taita Taveta,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-08,6,Taita Taveta,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-09,6,Taita Taveta,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Beans Canadian,Wholesale,KES/kg,94.44,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Beans Canadian,Wholesale,KES/kg,94.44,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Beans Canadian,Wholesale,KES/kg,83.33,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,137.5,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Beans Canadian,Wholesale,KES/kg,112.5,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Beans Canadian,Wholesale,KES/kg,125.0,Observed (KAMIS),3
+2026-09,27,Uasin Gishu,Beans Canadian,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2026-08,36,Bomet,Beans Mwitemania,Retail,KES/kg,175.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Beans Mwitemania,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-05,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-06,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-07,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-08,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-09,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-10,14,Embu,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-11,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-12,14,Embu,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-01,14,Embu,Beans Mwitemania,Retail,KES/kg,135.0,Observed (KAMIS),1
+2026-02,14,Embu,Beans Mwitemania,Retail,KES/kg,135.0,Observed (KAMIS),1
+2026-03,14,Embu,Beans Mwitemania,Retail,KES/kg,132.5,Observed (KAMIS),1
+2026-04,14,Embu,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-05,14,Embu,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-06,14,Embu,Beans Mwitemania,Retail,KES/kg,137.5,Observed (KAMIS),2
+2026-07,14,Embu,Beans Mwitemania,Retail,KES/kg,137.5,Observed (KAMIS),1
+2026-08,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-09,14,Embu,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-10,14,Embu,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Beans Mwitemania,Retail,KES/kg,214.29,Observed (KAMIS),1
+2025-06,37,Kakamega,Beans Mwitemania,Retail,KES/kg,181.82,Observed (KAMIS),3
+2025-07,37,Kakamega,Beans Mwitemania,Retail,KES/kg,159.09,Observed (KAMIS),1
+2025-08,37,Kakamega,Beans Mwitemania,Retail,KES/kg,159.09,Observed (KAMIS),1
+2025-09,37,Kakamega,Beans Mwitemania,Retail,KES/kg,136.36,Observed (KAMIS),2
+2025-10,37,Kakamega,Beans Mwitemania,Retail,KES/kg,161.36,Observed (KAMIS),1
+2025-11,37,Kakamega,Beans Mwitemania,Retail,KES/kg,136.36,Observed (KAMIS),2
+2025-12,37,Kakamega,Beans Mwitemania,Retail,KES/kg,144.76,Observed (KAMIS),1
+2026-01,37,Kakamega,Beans Mwitemania,Retail,KES/kg,140.9,Observed (KAMIS),2
+2026-02,37,Kakamega,Beans Mwitemania,Retail,KES/kg,177.27,Observed (KAMIS),2
+2026-03,37,Kakamega,Beans Mwitemania,Retail,KES/kg,166.5,Observed (KAMIS),2
+2026-04,37,Kakamega,Beans Mwitemania,Retail,KES/kg,172.73,Observed (KAMIS),1
+2026-05,37,Kakamega,Beans Mwitemania,Retail,KES/kg,159.09,Observed (KAMIS),3
+2026-06,37,Kakamega,Beans Mwitemania,Retail,KES/kg,147.73,Observed (KAMIS),3
+2026-07,37,Kakamega,Beans Mwitemania,Retail,KES/kg,159.09,Observed (KAMIS),1
+2026-08,37,Kakamega,Beans Mwitemania,Retail,KES/kg,163.64,Observed (KAMIS),1
+2026-09,37,Kakamega,Beans Mwitemania,Retail,KES/kg,181.82,Observed (KAMIS),1
+2026-10,37,Kakamega,Beans Mwitemania,Retail,KES/kg,181.82,Observed (KAMIS),3
+2025-05,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,145.0,Observed (KAMIS),5
+2025-06,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),4
+2025-07,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),5
+2025-08,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),5
+2025-09,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),5
+2025-10,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),5
+2025-11,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),4
+2025-12,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),5
+2026-01,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),5
+2026-02,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),3
+2026-03,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),5
+2026-04,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),5
+2026-05,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),3
+2026-06,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,110.0,Observed (KAMIS),3
+2026-07,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),4
+2026-08,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),4
+2026-09,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,155.0,Observed (KAMIS),3
+2026-10,20,Kirinyaga,Beans Mwitemania,Retail,KES/kg,155.0,Observed (KAMIS),3
+2025-03,42,Kisumu,Beans Mwitemania,Retail,KES/kg,190.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Beans Mwitemania,Retail,KES/kg,175.0,Observed (KAMIS),3
+2025-06,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),2
+2025-07,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),2
+2025-08,42,Kisumu,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),3
+2025-09,42,Kisumu,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),2
+2025-11,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),3
+2025-12,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),1
+2026-01,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),3
+2026-02,42,Kisumu,Beans Mwitemania,Retail,KES/kg,187.5,Observed (KAMIS),2
+2026-03,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),3
+2026-04,42,Kisumu,Beans Mwitemania,Retail,KES/kg,175.0,Observed (KAMIS),2
+2026-05,42,Kisumu,Beans Mwitemania,Retail,KES/kg,195.0,Observed (KAMIS),1
+2026-06,42,Kisumu,Beans Mwitemania,Retail,KES/kg,162.5,Observed (KAMIS),3
+2026-07,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),2
+2026-08,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),1
+2026-09,42,Kisumu,Beans Mwitemania,Retail,KES/kg,200.0,Observed (KAMIS),2
+2026-10,42,Kisumu,Beans Mwitemania,Retail,KES/kg,190.0,Observed (KAMIS),4
+2025-05,15,Kitui,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-06,15,Kitui,Beans Mwitemania,Retail,KES/kg,145.0,Observed (KAMIS),1
+2025-07,15,Kitui,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-08,15,Kitui,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-09,15,Kitui,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),2
+2025-11,15,Kitui,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),2
+2026-01,15,Kitui,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-02,15,Kitui,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-05,2,Kwale,Beans Mwitemania,Retail,KES/kg,85.0,Observed (KAMIS),1
+2026-01,2,Kwale,Beans Mwitemania,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-10,2,Kwale,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-02,12,Meru,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-05,12,Meru,Beans Mwitemania,Retail,KES/kg,121.11,Observed (KAMIS),4
+2025-06,12,Meru,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),4
+2025-07,12,Meru,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),4
+2025-08,12,Meru,Beans Mwitemania,Retail,KES/kg,97.22,Observed (KAMIS),4
+2025-09,12,Meru,Beans Mwitemania,Retail,KES/kg,90.0,Observed (KAMIS),4
+2025-10,12,Meru,Beans Mwitemania,Retail,KES/kg,94.44,Observed (KAMIS),4
+2025-11,12,Meru,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),4
+2025-12,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),4
+2026-01,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),3
+2026-02,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),4
+2026-03,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),4
+2026-04,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),4
+2026-05,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),4
+2026-06,12,Meru,Beans Mwitemania,Retail,KES/kg,107.78,Observed (KAMIS),4
+2026-07,12,Meru,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),4
+2026-08,12,Meru,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),4
+2026-09,12,Meru,Beans Mwitemania,Retail,KES/kg,105.56,Observed (KAMIS),4
+2026-10,12,Meru,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),4
+2026-09,44,Migori,Beans Mwitemania,Retail,KES/kg,166.67,Observed (KAMIS),1
+2025-05,21,Murang'a,Beans Mwitemania,Retail,KES/kg,180.0,Observed (KAMIS),1
+2025-06,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-11,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-02,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-06,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-07,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-08,21,Murang'a,Beans Mwitemania,Retail,KES/kg,137.5,Observed (KAMIS),1
+2026-09,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-10,21,Murang'a,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-05,47,Nairobi,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),3
+2025-06,47,Nairobi,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),3
+2025-07,47,Nairobi,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-08,47,Nairobi,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-09,47,Nairobi,Beans Mwitemania,Retail,KES/kg,105.0,Observed (KAMIS),1
+2025-10,47,Nairobi,Beans Mwitemania,Retail,KES/kg,105.0,Observed (KAMIS),1
+2025-11,47,Nairobi,Beans Mwitemania,Retail,KES/kg,105.0,Observed (KAMIS),1
+2025-12,47,Nairobi,Beans Mwitemania,Retail,KES/kg,105.0,Observed (KAMIS),1
+2026-01,47,Nairobi,Beans Mwitemania,Retail,KES/kg,105.0,Observed (KAMIS),1
+2026-02,47,Nairobi,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-03,47,Nairobi,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-04,47,Nairobi,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-05,47,Nairobi,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-06,47,Nairobi,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-07,47,Nairobi,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-08,47,Nairobi,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-09,47,Nairobi,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-10,47,Nairobi,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-04,29,Nandi,Beans Mwitemania,Retail,KES/kg,160.0,Observed (KAMIS),1
+2025-05,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,137.5,Observed (KAMIS),3
+2025-06,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-07,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,155.0,Observed (KAMIS),4
+2025-08,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),3
+2025-09,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),3
+2025-10,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),2
+2025-11,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),3
+2025-12,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-01,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-02,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,117.5,Observed (KAMIS),3
+2026-03,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,155.0,Observed (KAMIS),1
+2026-04,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),3
+2026-06,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),3
+2026-07,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-08,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,110.0,Observed (KAMIS),4
+2026-09,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Beans Mwitemania,Retail,KES/kg,130.0,Observed (KAMIS),3
+2025-05,4,Tana River,Beans Mwitemania,Retail,KES/kg,220.0,Observed (KAMIS),1
+2025-06,4,Tana River,Beans Mwitemania,Retail,KES/kg,160.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Beans Mwitemania,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,115.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,110.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,110.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,131.11,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Beans Mwitemania,Retail,KES/kg,155.0,Observed (KAMIS),2
+2025-05,27,Uasin Gishu,Beans Mwitemania,Retail,KES/kg,190.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Beans Mwitemania,Retail,KES/kg,165.0,Observed (KAMIS),3
+2026-09,27,Uasin Gishu,Beans Mwitemania,Retail,KES/kg,175.0,Observed (KAMIS),4
+2026-10,27,Uasin Gishu,Beans Mwitemania,Retail,KES/kg,175.0,Observed (KAMIS),3
+2025-08,38,Vihiga,Beans Mwitemania,Retail,KES/kg,132.0,Observed (KAMIS),1
+2026-08,36,Bomet,Beans Mwitemania,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Beans Mwitemania,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-05,14,Embu,Beans Mwitemania,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2025-06,14,Embu,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-07,14,Embu,Beans Mwitemania,Wholesale,KES/kg,93.0,Observed (KAMIS),2
+2025-08,14,Embu,Beans Mwitemania,Wholesale,KES/kg,95.5,Observed (KAMIS),1
+2025-09,14,Embu,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-10,14,Embu,Beans Mwitemania,Wholesale,KES/kg,91.0,Observed (KAMIS),1
+2025-11,14,Embu,Beans Mwitemania,Wholesale,KES/kg,92.0,Observed (KAMIS),1
+2025-12,14,Embu,Beans Mwitemania,Wholesale,KES/kg,91.0,Observed (KAMIS),1
+2026-01,14,Embu,Beans Mwitemania,Wholesale,KES/kg,97.5,Observed (KAMIS),1
+2026-02,14,Embu,Beans Mwitemania,Wholesale,KES/kg,95.0,Observed (KAMIS),1
+2026-03,14,Embu,Beans Mwitemania,Wholesale,KES/kg,92.5,Observed (KAMIS),1
+2026-04,14,Embu,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2026-05,14,Embu,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2026-06,14,Embu,Beans Mwitemania,Wholesale,KES/kg,112.5,Observed (KAMIS),2
+2026-07,14,Embu,Beans Mwitemania,Wholesale,KES/kg,107.5,Observed (KAMIS),1
+2026-08,14,Embu,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-09,14,Embu,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-10,14,Embu,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,191.11,Observed (KAMIS),1
+2025-06,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,167.78,Observed (KAMIS),3
+2025-07,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,148.89,Observed (KAMIS),1
+2025-08,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,158.89,Observed (KAMIS),1
+2025-09,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,140.77,Observed (KAMIS),2
+2025-10,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,150.83,Observed (KAMIS),1
+2025-11,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,112.5,Observed (KAMIS),1
+2026-01,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2026-02,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,108.34,Observed (KAMIS),1
+2026-03,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,123.91,Observed (KAMIS),1
+2026-05,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2026-06,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,115.22,Observed (KAMIS),2
+2026-10,37,Kakamega,Beans Mwitemania,Wholesale,KES/kg,97.5,Observed (KAMIS),2
+2025-05,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,116.11,Observed (KAMIS),5
+2025-06,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),4
+2025-07,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,97.5,Observed (KAMIS),5
+2025-08,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),5
+2025-09,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,105.0,Observed (KAMIS),5
+2025-10,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),5
+2025-11,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,95.0,Observed (KAMIS),4
+2025-12,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),5
+2026-01,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,112.0,Observed (KAMIS),5
+2026-02,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),3
+2026-03,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),5
+2026-04,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),5
+2026-05,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,111.11,Observed (KAMIS),3
+2026-06,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,91.11,Observed (KAMIS),3
+2026-07,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,83.33,Observed (KAMIS),4
+2026-08,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,94.0,Observed (KAMIS),4
+2026-09,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,108.1,Observed (KAMIS),3
+2026-10,20,Kirinyaga,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),3
+2025-03,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,175.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,165.0,Observed (KAMIS),2
+2025-06,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2025-07,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-08,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),1
+2025-11,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,175.0,Observed (KAMIS),1
+2026-01,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,190.0,Observed (KAMIS),1
+2026-03,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,170.0,Observed (KAMIS),1
+2026-06,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,140.0,Observed (KAMIS),1
+2026-08,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,96.15,Observed (KAMIS),1
+2026-10,42,Kisumu,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),3
+2025-05,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2025-06,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2025-07,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2025-08,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,105.0,Observed (KAMIS),1
+2025-09,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-11,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,113.34,Observed (KAMIS),2
+2026-01,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-02,15,Kitui,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-05,2,Kwale,Beans Mwitemania,Wholesale,KES/kg,95.0,Observed (KAMIS),1
+2025-08,2,Kwale,Beans Mwitemania,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-01,2,Kwale,Beans Mwitemania,Wholesale,KES/kg,77.78,Observed (KAMIS),1
+2026-10,2,Kwale,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2025-02,12,Meru,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-05,12,Meru,Beans Mwitemania,Wholesale,KES/kg,116.66,Observed (KAMIS),4
+2025-06,12,Meru,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),4
+2025-07,12,Meru,Beans Mwitemania,Wholesale,KES/kg,88.89,Observed (KAMIS),4
+2025-08,12,Meru,Beans Mwitemania,Wholesale,KES/kg,88.89,Observed (KAMIS),4
+2025-09,12,Meru,Beans Mwitemania,Wholesale,KES/kg,80.56,Observed (KAMIS),4
+2025-10,12,Meru,Beans Mwitemania,Wholesale,KES/kg,83.33,Observed (KAMIS),4
+2025-11,12,Meru,Beans Mwitemania,Wholesale,KES/kg,88.89,Observed (KAMIS),4
+2025-12,12,Meru,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),4
+2026-01,12,Meru,Beans Mwitemania,Wholesale,KES/kg,111.11,Observed (KAMIS),3
+2026-02,12,Meru,Beans Mwitemania,Wholesale,KES/kg,111.11,Observed (KAMIS),4
+2026-03,12,Meru,Beans Mwitemania,Wholesale,KES/kg,111.11,Observed (KAMIS),4
+2026-04,12,Meru,Beans Mwitemania,Wholesale,KES/kg,111.11,Observed (KAMIS),4
+2026-05,12,Meru,Beans Mwitemania,Wholesale,KES/kg,110.56,Observed (KAMIS),4
+2026-06,12,Meru,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),4
+2026-07,12,Meru,Beans Mwitemania,Wholesale,KES/kg,88.89,Observed (KAMIS),4
+2026-08,12,Meru,Beans Mwitemania,Wholesale,KES/kg,88.89,Observed (KAMIS),4
+2026-09,12,Meru,Beans Mwitemania,Wholesale,KES/kg,99.44,Observed (KAMIS),4
+2026-10,12,Meru,Beans Mwitemania,Wholesale,KES/kg,111.11,Observed (KAMIS),4
+2026-09,44,Migori,Beans Mwitemania,Wholesale,KES/kg,145.83,Observed (KAMIS),1
+2025-11,21,Murang'a,Beans Mwitemania,Wholesale,KES/kg,135.0,Observed (KAMIS),1
+2026-07,21,Murang'a,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2025-05,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),3
+2025-06,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2025-07,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2025-08,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2025-09,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-10,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-11,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-12,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-01,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-02,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-03,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2026-04,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2026-05,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-06,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-07,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-08,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,107.22,Observed (KAMIS),2
+2026-09,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,97.78,Observed (KAMIS),1
+2026-10,47,Nairobi,Beans Mwitemania,Wholesale,KES/kg,127.78,Observed (KAMIS),1
+2025-04,29,Nandi,Beans Mwitemania,Wholesale,KES/kg,135.0,Observed (KAMIS),1
+2026-06,41,Siaya,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-05,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-06,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-08,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-09,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-10,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-11,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2025-12,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,95.0,Observed (KAMIS),1
+2026-01,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-02,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-04,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,112.0,Observed (KAMIS),1
+2026-06,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,105.0,Observed (KAMIS),1
+2026-08,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2026-09,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Beans Mwitemania,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-05,4,Tana River,Beans Mwitemania,Wholesale,KES/kg,190.0,Observed (KAMIS),1
+2025-06,4,Tana River,Beans Mwitemania,Wholesale,KES/kg,130.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Beans Mwitemania,Wholesale,KES/kg,94.44,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Beans Mwitemania,Wholesale,KES/kg,94.44,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Beans Mwitemania,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Beans Mwitemania,Wholesale,KES/kg,83.33,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,97.78,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,90.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,83.88,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,107.78,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Beans Mwitemania,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-05,27,Uasin Gishu,Beans Mwitemania,Wholesale,KES/kg,175.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Beans Mwitemania,Wholesale,KES/kg,118.06,Observed (KAMIS),3
+2026-09,27,Uasin Gishu,Beans Mwitemania,Wholesale,KES/kg,140.0,Observed (KAMIS),4
+2026-10,27,Uasin Gishu,Beans Mwitemania,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2025-01,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-02,36,Bomet,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-03,36,Bomet,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-05,36,Bomet,Beans Rosecoco,Retail,KES/kg,187.5,Observed (KAMIS),3
+2025-06,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2025-07,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2025-08,36,Bomet,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),4
+2025-09,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),2
+2025-10,36,Bomet,Beans Rosecoco,Retail,KES/kg,155.0,Observed (KAMIS),4
+2025-11,36,Bomet,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),3
+2025-12,36,Bomet,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),3
+2026-01,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2026-02,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2026-03,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2026-04,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2026-05,36,Bomet,Beans Rosecoco,Retail,KES/kg,172.5,Observed (KAMIS),5
+2026-06,36,Bomet,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2026-07,36,Bomet,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),3
+2026-08,36,Bomet,Beans Rosecoco,Retail,KES/kg,187.5,Observed (KAMIS),3
+2026-09,36,Bomet,Beans Rosecoco,Retail,KES/kg,190.0,Observed (KAMIS),3
+2026-10,36,Bomet,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),2
+2026-05,39,Bungoma,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-06,39,Bungoma,Beans Rosecoco,Retail,KES/kg,110.0,Observed (KAMIS),2
+2026-07,39,Bungoma,Beans Rosecoco,Retail,KES/kg,90.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-10,39,Bungoma,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),1
+2025-05,14,Embu,Beans Rosecoco,Retail,KES/kg,132.5,Observed (KAMIS),1
+2025-06,14,Embu,Beans Rosecoco,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-07,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-09,14,Embu,Beans Rosecoco,Retail,KES/kg,135.0,Observed (KAMIS),1
+2025-10,14,Embu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-11,14,Embu,Beans Rosecoco,Retail,KES/kg,190.0,Observed (KAMIS),1
+2026-04,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-05,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-06,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),2
+2026-07,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),2
+2026-08,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-09,14,Embu,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-10,14,Embu,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Beans Rosecoco,Retail,KES/kg,218.18,Observed (KAMIS),2
+2025-06,37,Kakamega,Beans Rosecoco,Retail,KES/kg,181.82,Observed (KAMIS),4
+2025-07,37,Kakamega,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),3
+2025-08,37,Kakamega,Beans Rosecoco,Retail,KES/kg,250.0,Observed (KAMIS),3
+2025-09,37,Kakamega,Beans Rosecoco,Retail,KES/kg,172.73,Observed (KAMIS),3
+2025-10,37,Kakamega,Beans Rosecoco,Retail,KES/kg,159.09,Observed (KAMIS),3
+2025-11,37,Kakamega,Beans Rosecoco,Retail,KES/kg,168.18,Observed (KAMIS),4
+2025-12,37,Kakamega,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2026-01,37,Kakamega,Beans Rosecoco,Retail,KES/kg,190.0,Observed (KAMIS),3
+2026-02,37,Kakamega,Beans Rosecoco,Retail,KES/kg,185.91,Observed (KAMIS),2
+2026-03,37,Kakamega,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2026-04,37,Kakamega,Beans Rosecoco,Retail,KES/kg,190.0,Observed (KAMIS),5
+2026-05,37,Kakamega,Beans Rosecoco,Retail,KES/kg,165.22,Observed (KAMIS),6
+2026-06,37,Kakamega,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),5
+2026-07,37,Kakamega,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),3
+2026-08,37,Kakamega,Beans Rosecoco,Retail,KES/kg,173.91,Observed (KAMIS),5
+2026-09,37,Kakamega,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),5
+2026-10,37,Kakamega,Beans Rosecoco,Retail,KES/kg,187.5,Observed (KAMIS),4
+2025-05,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2025-06,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2025-07,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,165.0,Observed (KAMIS),3
+2025-09,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),4
+2025-10,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),2
+2025-11,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),4
+2025-12,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),2
+2026-01,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),3
+2026-02,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),4
+2026-03,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2026-04,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,180.0,Observed (KAMIS),2
+2026-05,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),2
+2026-06,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),2
+2026-07,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,132.5,Observed (KAMIS),2
+2026-08,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),2
+2026-09,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),2
+2026-10,20,Kirinyaga,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),1
+2025-06,45,Kisii,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-02,42,Kisumu,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2025-06,42,Kisumu,Beans Rosecoco,Retail,KES/kg,184.0,Observed (KAMIS),4
+2025-07,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),5
+2025-08,42,Kisumu,Beans Rosecoco,Retail,KES/kg,170.0,Observed (KAMIS),4
+2025-09,42,Kisumu,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),4
+2025-10,42,Kisumu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),3
+2025-11,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),4
+2025-12,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),4
+2026-01,42,Kisumu,Beans Rosecoco,Retail,KES/kg,182.5,Observed (KAMIS),5
+2026-02,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),5
+2026-03,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),5
+2026-04,42,Kisumu,Beans Rosecoco,Retail,KES/kg,176.92,Observed (KAMIS),5
+2026-05,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),5
+2026-06,42,Kisumu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),5
+2026-07,42,Kisumu,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),5
+2026-08,42,Kisumu,Beans Rosecoco,Retail,KES/kg,166.67,Observed (KAMIS),5
+2026-09,42,Kisumu,Beans Rosecoco,Retail,KES/kg,151.93,Observed (KAMIS),4
+2026-10,42,Kisumu,Beans Rosecoco,Retail,KES/kg,190.48,Observed (KAMIS),5
+2025-05,15,Kitui,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-06,15,Kitui,Beans Rosecoco,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-07,15,Kitui,Beans Rosecoco,Retail,KES/kg,145.0,Observed (KAMIS),1
+2025-08,15,Kitui,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-09,15,Kitui,Beans Rosecoco,Retail,KES/kg,140.0,Observed (KAMIS),2
+2025-11,15,Kitui,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-01,15,Kitui,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-02,15,Kitui,Beans Rosecoco,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-05,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-06,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),2
+2025-07,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),2
+2025-08,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-09,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-10,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-11,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),2
+2025-12,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-01,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-02,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-03,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-04,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-05,12,Meru,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-06,12,Meru,Beans Rosecoco,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-07,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-08,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-09,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-10,12,Meru,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-06,44,Migori,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),2
+2026-07,44,Migori,Beans Rosecoco,Retail,KES/kg,172.0,Observed (KAMIS),1
+2026-08,44,Migori,Beans Rosecoco,Retail,KES/kg,168.0,Observed (KAMIS),1
+2026-09,44,Migori,Beans Rosecoco,Retail,KES/kg,180.0,Observed (KAMIS),2
+2026-10,44,Migori,Beans Rosecoco,Retail,KES/kg,176.0,Observed (KAMIS),1
+2025-05,21,Murang'a,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),1
+2025-11,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-01,21,Murang'a,Beans Rosecoco,Retail,KES/kg,225.0,Observed (KAMIS),1
+2026-02,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-05,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-06,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-07,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-08,21,Murang'a,Beans Rosecoco,Retail,KES/kg,137.5,Observed (KAMIS),1
+2026-09,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-10,21,Murang'a,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-05,47,Nairobi,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),4
+2025-06,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),4
+2025-07,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),3
+2025-08,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),4
+2025-09,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-10,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-11,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-12,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-01,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-02,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-03,47,Nairobi,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-04,47,Nairobi,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-05,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-06,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-07,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-08,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-09,47,Nairobi,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-10,47,Nairobi,Beans Rosecoco,Retail,KES/kg,140.0,Observed (KAMIS),1
+2025-05,32,Nakuru,Beans Rosecoco,Retail,KES/kg,155.0,Observed (KAMIS),1
+2025-02,29,Nandi,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-03,29,Nandi,Beans Rosecoco,Retail,KES/kg,162.5,Observed (KAMIS),1
+2025-04,29,Nandi,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-05,29,Nandi,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-09,29,Nandi,Beans Rosecoco,Retail,KES/kg,145.83,Observed (KAMIS),1
+2025-06,33,Narok,Beans Rosecoco,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-07,33,Narok,Beans Rosecoco,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-06,41,Siaya,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-06,6,Taita Taveta,Beans Rosecoco,Retail,KES/kg,135.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Beans Rosecoco,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-03,6,Taita Taveta,Beans Rosecoco,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Beans Rosecoco,Retail,KES/kg,140.0,Observed (KAMIS),2
+2026-06,6,Taita Taveta,Beans Rosecoco,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-10,6,Taita Taveta,Beans Rosecoco,Retail,KES/kg,110.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,123.34,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,145.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Beans Rosecoco,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-06,27,Uasin Gishu,Beans Rosecoco,Retail,KES/kg,190.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Beans Rosecoco,Retail,KES/kg,167.5,Observed (KAMIS),4
+2026-09,27,Uasin Gishu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),5
+2026-10,27,Uasin Gishu,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),4
+2025-01,38,Vihiga,Beans Rosecoco,Retail,KES/kg,160.0,Observed (KAMIS),1
+2025-02,38,Vihiga,Beans Rosecoco,Retail,KES/kg,217.39,Observed (KAMIS),1
+2025-06,38,Vihiga,Beans Rosecoco,Retail,KES/kg,190.0,Observed (KAMIS),2
+2025-07,38,Vihiga,Beans Rosecoco,Retail,KES/kg,175.0,Observed (KAMIS),1
+2025-08,38,Vihiga,Beans Rosecoco,Retail,KES/kg,200.0,Observed (KAMIS),2
+2025-02,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,124.44,Observed (KAMIS),1
+2025-03,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,137.22,Observed (KAMIS),1
+2025-05,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,158.61,Observed (KAMIS),3
+2025-06,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,142.22,Observed (KAMIS),4
+2025-07,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2025-08,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),4
+2025-09,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),2
+2025-10,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),4
+2025-11,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),3
+2025-12,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),3
+2026-01,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,144.44,Observed (KAMIS),3
+2026-02,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),3
+2026-03,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2026-04,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),4
+2026-05,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),5
+2026-06,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),3
+2026-07,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),3
+2026-08,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,141.67,Observed (KAMIS),3
+2026-09,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),3
+2026-10,36,Bomet,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),2
+2026-05,39,Bungoma,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2026-06,39,Bungoma,Beans Rosecoco,Wholesale,KES/kg,95.0,Observed (KAMIS),2
+2026-07,39,Bungoma,Beans Rosecoco,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2026-10,39,Bungoma,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),1
+2025-05,14,Embu,Beans Rosecoco,Wholesale,KES/kg,92.5,Observed (KAMIS),1
+2025-06,14,Embu,Beans Rosecoco,Wholesale,KES/kg,97.5,Observed (KAMIS),1
+2025-07,14,Embu,Beans Rosecoco,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2025-09,14,Embu,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2025-10,14,Embu,Beans Rosecoco,Wholesale,KES/kg,105.0,Observed (KAMIS),1
+2025-11,14,Embu,Beans Rosecoco,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-04,14,Embu,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-05,14,Embu,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-06,14,Embu,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-07,14,Embu,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-08,14,Embu,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-09,14,Embu,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-10,14,Embu,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,204.44,Observed (KAMIS),2
+2025-06,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,171.11,Observed (KAMIS),4
+2025-07,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),3
+2025-08,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,180.0,Observed (KAMIS),3
+2025-09,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,151.11,Observed (KAMIS),3
+2025-10,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),3
+2025-11,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),3
+2025-12,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),2
+2026-01,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,160.0,Observed (KAMIS),2
+2026-02,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2026-03,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),2
+2026-04,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,147.22,Observed (KAMIS),4
+2026-05,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),5
+2026-06,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,112.77,Observed (KAMIS),4
+2026-07,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),2
+2026-08,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2026-09,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,142.22,Observed (KAMIS),4
+2026-10,37,Kakamega,Beans Rosecoco,Wholesale,KES/kg,133.33,Observed (KAMIS),3
+2025-05,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),3
+2025-06,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),4
+2025-07,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),3
+2025-09,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),4
+2025-10,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),2
+2025-11,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),4
+2025-12,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),2
+2026-01,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),3
+2026-02,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),4
+2026-03,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,135.0,Observed (KAMIS),3
+2026-04,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,135.0,Observed (KAMIS),2
+2026-05,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),2
+2026-06,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,135.0,Observed (KAMIS),2
+2026-07,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,106.66,Observed (KAMIS),2
+2026-08,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),2
+2026-09,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),2
+2026-10,20,Kirinyaga,Beans Rosecoco,Wholesale,KES/kg,135.0,Observed (KAMIS),1
+2025-06,45,Kisii,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2025-02,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,160.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,170.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,160.0,Observed (KAMIS),3
+2025-06,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),3
+2025-07,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,157.5,Observed (KAMIS),4
+2025-08,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),3
+2025-09,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,132.5,Observed (KAMIS),3
+2025-10,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,165.0,Observed (KAMIS),3
+2025-11,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,142.5,Observed (KAMIS),3
+2025-12,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,170.0,Observed (KAMIS),3
+2026-01,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2026-02,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,165.0,Observed (KAMIS),4
+2026-03,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,165.0,Observed (KAMIS),4
+2026-04,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),4
+2026-05,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2026-06,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,134.17,Observed (KAMIS),4
+2026-07,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),4
+2026-08,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),4
+2026-09,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),3
+2026-10,42,Kisumu,Beans Rosecoco,Wholesale,KES/kg,145.0,Observed (KAMIS),4
+2025-05,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2025-06,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,105.0,Observed (KAMIS),1
+2025-07,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2025-08,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-09,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2025-11,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,110.0,Observed (KAMIS),2
+2026-01,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-02,15,Kitui,Beans Rosecoco,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-05,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),2
+2025-06,12,Meru,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-07,12,Meru,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-08,12,Meru,Beans Rosecoco,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2025-09,12,Meru,Beans Rosecoco,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2025-10,12,Meru,Beans Rosecoco,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2025-11,12,Meru,Beans Rosecoco,Wholesale,KES/kg,88.89,Observed (KAMIS),2
+2025-12,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),1
+2026-01,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),2
+2026-02,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),2
+2026-03,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),1
+2026-04,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),1
+2026-05,12,Meru,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),1
+2026-06,12,Meru,Beans Rosecoco,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-07,12,Meru,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-08,12,Meru,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-09,12,Meru,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-10,12,Meru,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-06,44,Migori,Beans Rosecoco,Wholesale,KES/kg,120.0,Observed (KAMIS),1
+2026-09,44,Migori,Beans Rosecoco,Wholesale,KES/kg,130.43,Observed (KAMIS),1
+2025-11,21,Murang'a,Beans Rosecoco,Wholesale,KES/kg,130.0,Observed (KAMIS),1
+2025-05,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,121.67,Observed (KAMIS),4
+2025-06,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),3
+2025-07,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),3
+2025-08,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),3
+2025-09,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2025-10,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2025-11,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2025-12,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-01,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2026-02,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2026-03,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-04,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-05,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-06,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-07,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2026-08,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,115.0,Observed (KAMIS),2
+2026-09,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,116.67,Observed (KAMIS),1
+2026-10,47,Nairobi,Beans Rosecoco,Wholesale,KES/kg,144.44,Observed (KAMIS),1
+2025-02,29,Nandi,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),1
+2025-03,29,Nandi,Beans Rosecoco,Wholesale,KES/kg,145.0,Observed (KAMIS),1
+2025-04,29,Nandi,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2025-05,29,Nandi,Beans Rosecoco,Wholesale,KES/kg,140.0,Observed (KAMIS),1
+2025-09,29,Nandi,Beans Rosecoco,Wholesale,KES/kg,62.5,Observed (KAMIS),1
+2025-06,33,Narok,Beans Rosecoco,Wholesale,KES/kg,72.0,Observed (KAMIS),1
+2025-07,33,Narok,Beans Rosecoco,Wholesale,KES/kg,72.0,Observed (KAMIS),1
+2026-06,41,Siaya,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Beans Rosecoco,Wholesale,KES/kg,144.44,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Beans Rosecoco,Wholesale,KES/kg,144.44,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Beans Rosecoco,Wholesale,KES/kg,144.44,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Beans Rosecoco,Wholesale,KES/kg,119.44,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Beans Rosecoco,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2025-06,27,Uasin Gishu,Beans Rosecoco,Wholesale,KES/kg,175.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Beans Rosecoco,Wholesale,KES/kg,111.11,Observed (KAMIS),4
+2026-09,27,Uasin Gishu,Beans Rosecoco,Wholesale,KES/kg,150.0,Observed (KAMIS),5
+2026-10,27,Uasin Gishu,Beans Rosecoco,Wholesale,KES/kg,157.5,Observed (KAMIS),4
+2025-01,38,Vihiga,Beans Rosecoco,Wholesale,KES/kg,110.56,Observed (KAMIS),1
+2025-06,38,Vihiga,Beans Rosecoco,Wholesale,KES/kg,185.0,Observed (KAMIS),1
+2025-07,38,Vihiga,Beans Rosecoco,Wholesale,KES/kg,161.11,Observed (KAMIS),1
+2025-08,38,Vihiga,Beans Rosecoco,Wholesale,KES/kg,186.11,Observed (KAMIS),1
+2025-01,36,Bomet,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-02,36,Bomet,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-03,36,Bomet,Dry Maize,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-05,36,Bomet,Dry Maize,Retail,KES/kg,79.17,Observed (KAMIS),4
+2025-06,36,Bomet,Dry Maize,Retail,KES/kg,75.0,Observed (KAMIS),4
+2025-07,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),4
+2025-08,36,Bomet,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2025-09,36,Bomet,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2025-10,36,Bomet,Dry Maize,Retail,KES/kg,58.33,Observed (KAMIS),5
+2025-11,36,Bomet,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),5
+2025-12,36,Bomet,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),5
+2026-01,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-02,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-03,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-04,36,Bomet,Dry Maize,Retail,KES/kg,67.5,Observed (KAMIS),5
+2026-05,36,Bomet,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),5
+2026-06,36,Bomet,Dry Maize,Retail,KES/kg,66.67,Observed (KAMIS),5
+2026-07,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-08,36,Bomet,Dry Maize,Retail,KES/kg,58.75,Observed (KAMIS),4
+2026-09,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-10,36,Bomet,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),4
+2025-05,39,Bungoma,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-05,39,Bungoma,Dry Maize,Retail,KES/kg,62.5,Observed (KAMIS),2
+2026-06,39,Bungoma,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-07,39,Bungoma,Dry Maize,Retail,KES/kg,52.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),2
+2026-09,39,Bungoma,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-10,39,Bungoma,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-07,14,Embu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-09,14,Embu,Dry Maize,Retail,KES/kg,40.0,Observed (KAMIS),1
+2025-10,14,Embu,Dry Maize,Retail,KES/kg,40.0,Observed (KAMIS),1
+2025-12,14,Embu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-01,14,Embu,Dry Maize,Retail,KES/kg,45.0,Observed (KAMIS),1
+2026-02,14,Embu,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-04,14,Embu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-05,14,Embu,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-06,14,Embu,Dry Maize,Retail,KES/kg,62.5,Observed (KAMIS),1
+2026-07,14,Embu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2026-08,14,Embu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-09,14,Embu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-10,14,Embu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Dry Maize,Retail,KES/kg,58.06,Observed (KAMIS),4
+2025-06,37,Kakamega,Dry Maize,Retail,KES/kg,61.11,Observed (KAMIS),7
+2025-07,37,Kakamega,Dry Maize,Retail,KES/kg,80.0,Observed (KAMIS),4
+2025-08,37,Kakamega,Dry Maize,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-09,37,Kakamega,Dry Maize,Retail,KES/kg,37.5,Observed (KAMIS),5
+2025-10,37,Kakamega,Dry Maize,Retail,KES/kg,46.59,Observed (KAMIS),4
+2025-11,37,Kakamega,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),5
+2025-12,37,Kakamega,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2026-01,37,Kakamega,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),6
+2026-02,37,Kakamega,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),3
+2026-03,37,Kakamega,Dry Maize,Retail,KES/kg,59.09,Observed (KAMIS),6
+2026-04,37,Kakamega,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),7
+2026-05,37,Kakamega,Dry Maize,Retail,KES/kg,57.78,Observed (KAMIS),8
+2026-06,37,Kakamega,Dry Maize,Retail,KES/kg,53.33,Observed (KAMIS),8
+2026-07,37,Kakamega,Dry Maize,Retail,KES/kg,54.55,Observed (KAMIS),4
+2026-08,37,Kakamega,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),8
+2026-09,37,Kakamega,Dry Maize,Retail,KES/kg,52.28,Observed (KAMIS),8
+2026-10,37,Kakamega,Dry Maize,Retail,KES/kg,54.55,Observed (KAMIS),7
+2025-05,20,Kirinyaga,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),5
+2025-06,20,Kirinyaga,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2025-07,20,Kirinyaga,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2025-08,20,Kirinyaga,Dry Maize,Retail,KES/kg,45.0,Observed (KAMIS),5
+2025-09,20,Kirinyaga,Dry Maize,Retail,KES/kg,45.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2025-11,20,Kirinyaga,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2025-12,20,Kirinyaga,Dry Maize,Retail,KES/kg,52.5,Observed (KAMIS),5
+2026-01,20,Kirinyaga,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2026-02,20,Kirinyaga,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2026-03,20,Kirinyaga,Dry Maize,Retail,KES/kg,64.0,Observed (KAMIS),4
+2026-04,20,Kirinyaga,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-05,20,Kirinyaga,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2026-06,20,Kirinyaga,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),4
+2026-07,20,Kirinyaga,Dry Maize,Retail,KES/kg,47.5,Observed (KAMIS),4
+2026-08,20,Kirinyaga,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),5
+2026-09,20,Kirinyaga,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-10,20,Kirinyaga,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-06,45,Kisii,Dry Maize,Retail,KES/kg,52.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Dry Maize,Retail,KES/kg,67.5,Observed (KAMIS),1
+2025-04,42,Kisumu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),5
+2025-06,42,Kisumu,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),5
+2025-07,42,Kisumu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2025-08,42,Kisumu,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2025-09,42,Kisumu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),5
+2025-10,42,Kisumu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-11,42,Kisumu,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),5
+2025-12,42,Kisumu,Dry Maize,Retail,KES/kg,52.5,Observed (KAMIS),3
+2026-01,42,Kisumu,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),5
+2026-02,42,Kisumu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-03,42,Kisumu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-04,42,Kisumu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),5
+2026-05,42,Kisumu,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),5
+2026-06,42,Kisumu,Dry Maize,Retail,KES/kg,65.84,Observed (KAMIS),5
+2026-07,42,Kisumu,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2026-08,42,Kisumu,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),5
+2026-09,42,Kisumu,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),4
+2026-10,42,Kisumu,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),5
+2025-05,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-06,15,Kitui,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-07,15,Kitui,Dry Maize,Retail,KES/kg,62.5,Observed (KAMIS),1
+2025-08,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),3
+2025-09,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),3
+2025-10,15,Kitui,Dry Maize,Retail,KES/kg,52.5,Observed (KAMIS),2
+2025-11,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),3
+2025-12,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2026-01,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),2
+2026-02,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2026-04,15,Kitui,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2026-10,15,Kitui,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-10,2,Kwale,Dry Maize,Retail,KES/kg,30.0,Observed (KAMIS),1
+2025-05,17,Makueni,Dry Maize,Retail,KES/kg,57.5,Observed (KAMIS),1
+2025-06,17,Makueni,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-09,17,Makueni,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-10,17,Makueni,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2026-04,17,Makueni,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2026-05,17,Makueni,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-02,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-05,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-06,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-07,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-08,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-09,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-10,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-11,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-12,12,Meru,Dry Maize,Retail,KES/kg,50.56,Observed (KAMIS),3
+2026-01,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2026-02,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2026-03,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2026-04,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2026-05,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2026-06,12,Meru,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2026-07,12,Meru,Dry Maize,Retail,KES/kg,57.5,Observed (KAMIS),3
+2026-08,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2026-09,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2026-10,12,Meru,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2026-06,44,Migori,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2026-07,44,Migori,Dry Maize,Retail,KES/kg,40.0,Observed (KAMIS),2
+2026-08,44,Migori,Dry Maize,Retail,KES/kg,38.0,Observed (KAMIS),1
+2026-09,44,Migori,Dry Maize,Retail,KES/kg,42.0,Observed (KAMIS),2
+2026-10,44,Migori,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-09,21,Murang'a,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-10,21,Murang'a,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-05,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),4
+2025-06,47,Nairobi,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),3
+2025-07,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),4
+2025-08,47,Nairobi,Dry Maize,Retail,KES/kg,62.5,Observed (KAMIS),4
+2025-09,47,Nairobi,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-10,47,Nairobi,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-11,47,Nairobi,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),2
+2025-12,47,Nairobi,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),2
+2026-01,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),3
+2026-02,47,Nairobi,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),3
+2026-03,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-04,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-05,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-06,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-07,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-08,47,Nairobi,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-09,47,Nairobi,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-10,47,Nairobi,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-05,32,Nakuru,Dry Maize,Retail,KES/kg,44.44,Observed (KAMIS),1
+2025-02,29,Nandi,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-03,29,Nandi,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-04,29,Nandi,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-05,29,Nandi,Dry Maize,Retail,KES/kg,61.72,Observed (KAMIS),2
+2025-06,29,Nandi,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,33,Narok,Dry Maize,Retail,KES/kg,60.87,Observed (KAMIS),1
+2025-07,33,Narok,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-05,6,Taita Taveta,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-06,6,Taita Taveta,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-07,6,Taita Taveta,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2025-08,6,Taita Taveta,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-09,6,Taita Taveta,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),2
+2025-10,6,Taita Taveta,Dry Maize,Retail,KES/kg,42.5,Observed (KAMIS),2
+2025-11,6,Taita Taveta,Dry Maize,Retail,KES/kg,47.5,Observed (KAMIS),1
+2025-12,6,Taita Taveta,Dry Maize,Retail,KES/kg,45.0,Observed (KAMIS),1
+2026-01,6,Taita Taveta,Dry Maize,Retail,KES/kg,57.5,Observed (KAMIS),2
+2026-02,6,Taita Taveta,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2026-03,6,Taita Taveta,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-04,6,Taita Taveta,Dry Maize,Retail,KES/kg,57.5,Observed (KAMIS),2
+2026-05,6,Taita Taveta,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),2
+2026-06,6,Taita Taveta,Dry Maize,Retail,KES/kg,45.0,Observed (KAMIS),2
+2026-07,6,Taita Taveta,Dry Maize,Retail,KES/kg,45.0,Observed (KAMIS),2
+2026-08,6,Taita Taveta,Dry Maize,Retail,KES/kg,40.0,Observed (KAMIS),2
+2026-09,6,Taita Taveta,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),3
+2026-10,6,Taita Taveta,Dry Maize,Retail,KES/kg,40.0,Observed (KAMIS),1
+2025-05,4,Tana River,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,4,Tana River,Dry Maize,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-07,4,Tana River,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Dry Maize,Retail,KES/kg,62.5,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Dry Maize,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Dry Maize,Retail,KES/kg,41.11,Observed (KAMIS),2
+2026-01,26,Trans Nzoia,Dry Maize,Retail,KES/kg,55.84,Observed (KAMIS),1
+2026-02,26,Trans Nzoia,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2025-05,27,Uasin Gishu,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),1
+2025-06,27,Uasin Gishu,Dry Maize,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-09,27,Uasin Gishu,Dry Maize,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-10,27,Uasin Gishu,Dry Maize,Retail,KES/kg,55.0,Observed (KAMIS),4
+2025-01,38,Vihiga,Dry Maize,Retail,KES/kg,50.51,Observed (KAMIS),1
+2025-02,38,Vihiga,Dry Maize,Retail,KES/kg,47.62,Observed (KAMIS),1
+2025-06,38,Vihiga,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-07,38,Vihiga,Dry Maize,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-08,38,Vihiga,Dry Maize,Retail,KES/kg,57.5,Observed (KAMIS),2
+2025-01,36,Bomet,Dry Maize,Wholesale,KES/kg,41.11,Observed (KAMIS),2
+2025-02,36,Bomet,Dry Maize,Wholesale,KES/kg,41.11,Observed (KAMIS),1
+2025-03,36,Bomet,Dry Maize,Wholesale,KES/kg,41.11,Observed (KAMIS),1
+2025-05,36,Bomet,Dry Maize,Wholesale,KES/kg,62.5,Observed (KAMIS),4
+2025-06,36,Bomet,Dry Maize,Wholesale,KES/kg,55.56,Observed (KAMIS),4
+2025-07,36,Bomet,Dry Maize,Wholesale,KES/kg,53.33,Observed (KAMIS),4
+2025-08,36,Bomet,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),4
+2025-09,36,Bomet,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),5
+2025-10,36,Bomet,Dry Maize,Wholesale,KES/kg,43.33,Observed (KAMIS),5
+2025-11,36,Bomet,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),5
+2025-12,36,Bomet,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),5
+2026-01,36,Bomet,Dry Maize,Wholesale,KES/kg,48.89,Observed (KAMIS),5
+2026-02,36,Bomet,Dry Maize,Wholesale,KES/kg,47.78,Observed (KAMIS),5
+2026-03,36,Bomet,Dry Maize,Wholesale,KES/kg,48.89,Observed (KAMIS),5
+2026-04,36,Bomet,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2026-05,36,Bomet,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2026-06,36,Bomet,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2026-07,36,Bomet,Dry Maize,Wholesale,KES/kg,46.12,Observed (KAMIS),5
+2026-08,36,Bomet,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),4
+2026-09,36,Bomet,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),5
+2026-10,36,Bomet,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),4
+2025-05,39,Bungoma,Dry Maize,Wholesale,KES/kg,57.22,Observed (KAMIS),1
+2026-05,39,Bungoma,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2026-06,39,Bungoma,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2026-07,39,Bungoma,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),2
+2026-09,39,Bungoma,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2026-10,39,Bungoma,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-07,14,Embu,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),2
+2025-09,14,Embu,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-10,14,Embu,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-12,14,Embu,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-01,14,Embu,Dry Maize,Wholesale,KES/kg,38.5,Observed (KAMIS),1
+2026-02,14,Embu,Dry Maize,Wholesale,KES/kg,46.0,Observed (KAMIS),1
+2026-04,14,Embu,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-05,14,Embu,Dry Maize,Wholesale,KES/kg,51.0,Observed (KAMIS),1
+2026-06,14,Embu,Dry Maize,Wholesale,KES/kg,53.0,Observed (KAMIS),1
+2026-07,14,Embu,Dry Maize,Wholesale,KES/kg,48.0,Observed (KAMIS),2
+2026-08,14,Embu,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2026-09,14,Embu,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2026-10,14,Embu,Dry Maize,Wholesale,KES/kg,32.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Dry Maize,Wholesale,KES/kg,52.22,Observed (KAMIS),4
+2025-06,37,Kakamega,Dry Maize,Wholesale,KES/kg,53.33,Observed (KAMIS),7
+2025-07,37,Kakamega,Dry Maize,Wholesale,KES/kg,65.0,Observed (KAMIS),4
+2025-08,37,Kakamega,Dry Maize,Wholesale,KES/kg,60.0,Observed (KAMIS),3
+2025-09,37,Kakamega,Dry Maize,Wholesale,KES/kg,32.22,Observed (KAMIS),5
+2025-10,37,Kakamega,Dry Maize,Wholesale,KES/kg,34.44,Observed (KAMIS),4
+2025-11,37,Kakamega,Dry Maize,Wholesale,KES/kg,35.56,Observed (KAMIS),4
+2025-12,37,Kakamega,Dry Maize,Wholesale,KES/kg,35.56,Observed (KAMIS),2
+2026-01,37,Kakamega,Dry Maize,Wholesale,KES/kg,43.33,Observed (KAMIS),5
+2026-02,37,Kakamega,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),2
+2026-03,37,Kakamega,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),5
+2026-04,37,Kakamega,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),6
+2026-05,37,Kakamega,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),7
+2026-06,37,Kakamega,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),7
+2026-07,37,Kakamega,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),3
+2026-08,37,Kakamega,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),7
+2026-09,37,Kakamega,Dry Maize,Wholesale,KES/kg,43.33,Observed (KAMIS),7
+2026-10,37,Kakamega,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),6
+2025-05,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,47.78,Observed (KAMIS),5
+2025-06,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2025-07,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),4
+2025-08,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,38.0,Observed (KAMIS),5
+2025-09,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,38.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,41.5,Observed (KAMIS),4
+2025-11,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,42.0,Observed (KAMIS),4
+2025-12,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),5
+2026-01,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,48.0,Observed (KAMIS),5
+2026-02,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2026-03,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),4
+2026-04,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,51.11,Observed (KAMIS),5
+2026-05,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2026-06,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),4
+2026-07,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,40.56,Observed (KAMIS),4
+2026-08,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),5
+2026-09,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),4
+2026-10,20,Kirinyaga,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),3
+2025-06,45,Kisii,Dry Maize,Wholesale,KES/kg,53.33,Observed (KAMIS),1
+2025-03,42,Kisumu,Dry Maize,Wholesale,KES/kg,62.5,Observed (KAMIS),1
+2025-04,42,Kisumu,Dry Maize,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Dry Maize,Wholesale,KES/kg,60.0,Observed (KAMIS),5
+2025-06,42,Kisumu,Dry Maize,Wholesale,KES/kg,57.48,Observed (KAMIS),5
+2025-07,42,Kisumu,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2025-08,42,Kisumu,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2025-09,42,Kisumu,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),5
+2025-10,42,Kisumu,Dry Maize,Wholesale,KES/kg,44.72,Observed (KAMIS),3
+2025-11,42,Kisumu,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),5
+2025-12,42,Kisumu,Dry Maize,Wholesale,KES/kg,48.89,Observed (KAMIS),3
+2026-01,42,Kisumu,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2026-02,42,Kisumu,Dry Maize,Wholesale,KES/kg,56.39,Observed (KAMIS),5
+2026-03,42,Kisumu,Dry Maize,Wholesale,KES/kg,57.78,Observed (KAMIS),5
+2026-04,42,Kisumu,Dry Maize,Wholesale,KES/kg,57.78,Observed (KAMIS),5
+2026-05,42,Kisumu,Dry Maize,Wholesale,KES/kg,60.0,Observed (KAMIS),5
+2026-06,42,Kisumu,Dry Maize,Wholesale,KES/kg,60.0,Observed (KAMIS),5
+2026-07,42,Kisumu,Dry Maize,Wholesale,KES/kg,54.16,Observed (KAMIS),5
+2026-08,42,Kisumu,Dry Maize,Wholesale,KES/kg,49.44,Observed (KAMIS),5
+2026-09,42,Kisumu,Dry Maize,Wholesale,KES/kg,48.89,Observed (KAMIS),4
+2026-10,42,Kisumu,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),5
+2025-05,15,Kitui,Dry Maize,Wholesale,KES/kg,42.0,Observed (KAMIS),1
+2025-06,15,Kitui,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2025-07,15,Kitui,Dry Maize,Wholesale,KES/kg,46.5,Observed (KAMIS),1
+2025-08,15,Kitui,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-09,15,Kitui,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-10,15,Kitui,Dry Maize,Wholesale,KES/kg,45.56,Observed (KAMIS),2
+2025-11,15,Kitui,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),3
+2025-12,15,Kitui,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),1
+2026-01,15,Kitui,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),2
+2026-02,15,Kitui,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-04,15,Kitui,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-10,15,Kitui,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),1
+2025-10,2,Kwale,Dry Maize,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2025-05,17,Makueni,Dry Maize,Wholesale,KES/kg,54.0,Observed (KAMIS),1
+2025-06,17,Makueni,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-09,17,Makueni,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-10,17,Makueni,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-04,17,Makueni,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-05,17,Makueni,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-02,12,Meru,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2025-05,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-06,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-07,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-08,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-09,12,Meru,Dry Maize,Wholesale,KES/kg,47.78,Observed (KAMIS),3
+2025-10,12,Meru,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),3
+2025-11,12,Meru,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),3
+2025-12,12,Meru,Dry Maize,Wholesale,KES/kg,46.66,Observed (KAMIS),3
+2026-01,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-02,12,Meru,Dry Maize,Wholesale,KES/kg,50.56,Observed (KAMIS),3
+2026-03,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-04,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-05,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-06,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-07,12,Meru,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-08,12,Meru,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),3
+2026-09,12,Meru,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),3
+2026-10,12,Meru,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),3
+2026-06,44,Migori,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-07,44,Migori,Dry Maize,Wholesale,KES/kg,35.56,Observed (KAMIS),2
+2026-08,44,Migori,Dry Maize,Wholesale,KES/kg,38.89,Observed (KAMIS),1
+2026-09,44,Migori,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-05,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),4
+2025-06,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.28,Observed (KAMIS),3
+2025-07,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),4
+2025-08,47,Nairobi,Dry Maize,Wholesale,KES/kg,52.22,Observed (KAMIS),4
+2025-09,47,Nairobi,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-10,47,Nairobi,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),3
+2025-11,47,Nairobi,Dry Maize,Wholesale,KES/kg,38.89,Observed (KAMIS),2
+2025-12,47,Nairobi,Dry Maize,Wholesale,KES/kg,38.89,Observed (KAMIS),2
+2026-01,47,Nairobi,Dry Maize,Wholesale,KES/kg,53.33,Observed (KAMIS),3
+2026-02,47,Nairobi,Dry Maize,Wholesale,KES/kg,53.33,Observed (KAMIS),3
+2026-03,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),3
+2026-04,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2026-05,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2026-06,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2026-07,47,Nairobi,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2026-08,47,Nairobi,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-09,47,Nairobi,Dry Maize,Wholesale,KES/kg,48.89,Observed (KAMIS),2
+2026-10,47,Nairobi,Dry Maize,Wholesale,KES/kg,51.11,Observed (KAMIS),1
+2025-02,29,Nandi,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),1
+2025-03,29,Nandi,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),1
+2025-04,29,Nandi,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),1
+2025-05,29,Nandi,Dry Maize,Wholesale,KES/kg,55.56,Observed (KAMIS),2
+2025-06,29,Nandi,Dry Maize,Wholesale,KES/kg,65.0,Observed (KAMIS),1
+2025-06,33,Narok,Dry Maize,Wholesale,KES/kg,55.56,Observed (KAMIS),1
+2025-07,33,Narok,Dry Maize,Wholesale,KES/kg,43.34,Observed (KAMIS),1
+2025-05,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,46.67,Observed (KAMIS),2
+2025-06,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,37.5,Observed (KAMIS),2
+2025-08,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-09,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,32.5,Observed (KAMIS),1
+2025-10,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),2
+2025-11,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,37.5,Observed (KAMIS),1
+2025-12,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2026-01,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-02,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-04,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,46.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-06,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,37.5,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,32.5,Observed (KAMIS),1
+2026-08,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2026-09,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Dry Maize,Wholesale,KES/kg,34.5,Observed (KAMIS),1
+2025-05,4,Tana River,Dry Maize,Wholesale,KES/kg,41.11,Observed (KAMIS),1
+2025-06,4,Tana River,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),1
+2025-07,4,Tana River,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,36.12,Observed (KAMIS),2
+2026-01,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-02,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-05,27,Uasin Gishu,Dry Maize,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-06,27,Uasin Gishu,Dry Maize,Wholesale,KES/kg,65.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),4
+2026-09,27,Uasin Gishu,Dry Maize,Wholesale,KES/kg,44.44,Observed (KAMIS),4
+2026-10,27,Uasin Gishu,Dry Maize,Wholesale,KES/kg,50.0,Observed (KAMIS),4
+2025-01,38,Vihiga,Dry Maize,Wholesale,KES/kg,40.45,Observed (KAMIS),1
+2025-02,38,Vihiga,Dry Maize,Wholesale,KES/kg,42.22,Observed (KAMIS),1
+2025-06,38,Vihiga,Dry Maize,Wholesale,KES/kg,60.0,Observed (KAMIS),2
+2025-07,38,Vihiga,Dry Maize,Wholesale,KES/kg,58.75,Observed (KAMIS),1
+2025-08,38,Vihiga,Dry Maize,Wholesale,KES/kg,45.0,Observed (KAMIS),2
+2026-05,39,Bungoma,Eggs,Retail,KES/tray,540.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Eggs,Retail,KES/tray,500.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Eggs,Retail,KES/tray,615.0,Observed (KAMIS),1
+2026-09,39,Bungoma,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-10,39,Bungoma,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-07,14,Embu,Eggs,Retail,KES/tray,540.0,Observed (KAMIS),1
+2025-08,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-09,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-10,14,Embu,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-11,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-12,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-01,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-02,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-03,14,Embu,Eggs,Retail,KES/tray,460.0,Observed (KAMIS),1
+2026-04,14,Embu,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),1
+2026-05,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-06,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-07,14,Embu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-05,34,Kajiado,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-06,34,Kajiado,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-07,34,Kajiado,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-10,34,Kajiado,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-05,37,Kakamega,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-06,37,Kakamega,Eggs,Retail,KES/tray,430.0,Observed (KAMIS),1
+2025-07,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-11,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-12,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-02,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-03,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2026-05,37,Kakamega,Eggs,Retail,KES/tray,550.0,Observed (KAMIS),1
+2026-06,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-09,37,Kakamega,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-10,37,Kakamega,Eggs,Retail,KES/tray,650.0,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),3
+2025-06,20,Kirinyaga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-07,20,Kirinyaga,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-10,20,Kirinyaga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-11,20,Kirinyaga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-12,20,Kirinyaga,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),3
+2026-01,20,Kirinyaga,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),3
+2026-02,20,Kirinyaga,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),2
+2026-03,20,Kirinyaga,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),3
+2026-04,20,Kirinyaga,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),3
+2026-05,20,Kirinyaga,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),3
+2026-06,20,Kirinyaga,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),3
+2026-07,20,Kirinyaga,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),4
+2026-08,20,Kirinyaga,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),3
+2026-09,20,Kirinyaga,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),3
+2026-10,20,Kirinyaga,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),2
+2025-02,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),3
+2025-06,42,Kisumu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),4
+2025-07,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),3
+2025-08,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),3
+2025-09,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),5
+2025-10,42,Kisumu,Eggs,Retail,KES/tray,560.0,Observed (KAMIS),3
+2025-11,42,Kisumu,Eggs,Retail,KES/tray,460.0,Observed (KAMIS),3
+2025-12,42,Kisumu,Eggs,Retail,KES/tray,430.0,Observed (KAMIS),2
+2026-01,42,Kisumu,Eggs,Retail,KES/tray,470.0,Observed (KAMIS),4
+2026-02,42,Kisumu,Eggs,Retail,KES/tray,535.0,Observed (KAMIS),4
+2026-03,42,Kisumu,Eggs,Retail,KES/tray,510.0,Observed (KAMIS),4
+2026-04,42,Kisumu,Eggs,Retail,KES/tray,475.0,Observed (KAMIS),3
+2026-05,42,Kisumu,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),4
+2026-06,42,Kisumu,Eggs,Retail,KES/tray,480.0,Observed (KAMIS),4
+2026-07,42,Kisumu,Eggs,Retail,KES/tray,510.0,Observed (KAMIS),4
+2026-08,42,Kisumu,Eggs,Retail,KES/tray,510.0,Observed (KAMIS),4
+2026-09,42,Kisumu,Eggs,Retail,KES/tray,510.0,Observed (KAMIS),4
+2026-10,42,Kisumu,Eggs,Retail,KES/tray,510.0,Observed (KAMIS),4
+2025-06,15,Kitui,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-09,15,Kitui,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-10,15,Kitui,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),2
+2025-11,15,Kitui,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-12,15,Kitui,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-10,15,Kitui,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-05,12,Meru,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-06,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-07,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-08,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-09,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-10,12,Meru,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-11,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-12,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-01,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-02,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-03,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-04,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-05,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-06,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-07,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-08,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-09,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-10,12,Meru,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-06,44,Migori,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-07,44,Migori,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-09,44,Migori,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-05,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),2
+2025-06,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-07,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-08,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),2
+2025-09,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),1
+2025-10,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),1
+2025-11,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),2
+2025-12,21,Murang'a,Eggs,Retail,KES/tray,390.0,Observed (KAMIS),2
+2026-01,21,Murang'a,Eggs,Retail,KES/tray,390.0,Observed (KAMIS),2
+2026-02,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),2
+2026-03,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),2
+2026-04,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),2
+2026-05,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),2
+2026-06,21,Murang'a,Eggs,Retail,KES/tray,400.0,Observed (KAMIS),2
+2026-07,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-08,21,Murang'a,Eggs,Retail,KES/tray,410.0,Observed (KAMIS),2
+2026-09,21,Murang'a,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),2
+2026-10,21,Murang'a,Eggs,Retail,KES/tray,430.0,Observed (KAMIS),2
+2026-09,47,Nairobi,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-03,29,Nandi,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-06,29,Nandi,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-05,6,Taita Taveta,Eggs,Retail,KES/tray,525.0,Observed (KAMIS),1
+2025-06,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-10,6,Taita Taveta,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2025-11,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-01,6,Taita Taveta,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-03,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-04,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Eggs,Retail,KES/tray,750.0,Observed (KAMIS),1
+2026-06,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-08,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-09,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-05,4,Tana River,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-06,4,Tana River,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-05,27,Uasin Gishu,Eggs,Retail,KES/tray,460.0,Observed (KAMIS),1
+2025-06,27,Uasin Gishu,Eggs,Retail,KES/tray,460.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Eggs,Retail,KES/tray,450.0,Observed (KAMIS),1
+2026-09,27,Uasin Gishu,Eggs,Retail,KES/tray,460.0,Observed (KAMIS),3
+2026-10,27,Uasin Gishu,Eggs,Retail,KES/tray,460.0,Observed (KAMIS),2
+2025-01,38,Vihiga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-02,38,Vihiga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2025-06,38,Vihiga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-07,38,Vihiga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),2
+2025-08,38,Vihiga,Eggs,Retail,KES/tray,600.0,Observed (KAMIS),1
+2026-05,39,Bungoma,Eggs,Wholesale,KES/tray,410.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),1
+2026-08,39,Bungoma,Eggs,Wholesale,KES/tray,550.0,Observed (KAMIS),1
+2026-09,39,Bungoma,Eggs,Wholesale,KES/tray,525.0,Observed (KAMIS),1
+2026-10,39,Bungoma,Eggs,Wholesale,KES/tray,500.0,Observed (KAMIS),1
+2025-07,14,Embu,Eggs,Wholesale,KES/tray,390.0,Observed (KAMIS),1
+2025-08,14,Embu,Eggs,Wholesale,KES/tray,390.0,Observed (KAMIS),1
+2025-09,14,Embu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-10,14,Embu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-11,14,Embu,Eggs,Wholesale,KES/tray,390.0,Observed (KAMIS),1
+2025-12,14,Embu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2026-01,14,Embu,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-02,14,Embu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2026-03,14,Embu,Eggs,Wholesale,KES/tray,395.0,Observed (KAMIS),1
+2026-04,14,Embu,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),1
+2026-05,14,Embu,Eggs,Wholesale,KES/tray,410.0,Observed (KAMIS),1
+2026-06,14,Embu,Eggs,Wholesale,KES/tray,395.0,Observed (KAMIS),1
+2026-07,14,Embu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-05,34,Kajiado,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-06,34,Kajiado,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-07,34,Kajiado,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-10,34,Kajiado,Eggs,Wholesale,KES/tray,435.0,Observed (KAMIS),1
+2025-07,37,Kakamega,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-11,37,Kakamega,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),2
+2025-12,37,Kakamega,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-02,37,Kakamega,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-03,37,Kakamega,Eggs,Wholesale,KES/tray,480.0,Observed (KAMIS),1
+2026-05,37,Kakamega,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-06,37,Kakamega,Eggs,Wholesale,KES/tray,500.0,Observed (KAMIS),1
+2026-09,37,Kakamega,Eggs,Wholesale,KES/tray,500.0,Observed (KAMIS),1
+2026-10,37,Kakamega,Eggs,Wholesale,KES/tray,500.0,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Eggs,Wholesale,KES/tray,430.0,Observed (KAMIS),3
+2025-06,20,Kirinyaga,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),2
+2025-07,20,Kirinyaga,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Eggs,Wholesale,KES/tray,390.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),2
+2025-10,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),2
+2025-11,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),2
+2025-12,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),3
+2026-01,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),3
+2026-02,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),2
+2026-03,20,Kirinyaga,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),3
+2026-04,20,Kirinyaga,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),3
+2026-05,20,Kirinyaga,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),3
+2026-06,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),3
+2026-07,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),4
+2026-08,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),3
+2026-09,20,Kirinyaga,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),3
+2026-10,20,Kirinyaga,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),2
+2025-02,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Eggs,Wholesale,KES/tray,465.0,Observed (KAMIS),2
+2025-06,42,Kisumu,Eggs,Wholesale,KES/tray,470.0,Observed (KAMIS),3
+2025-07,42,Kisumu,Eggs,Wholesale,KES/tray,510.0,Observed (KAMIS),2
+2025-08,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),2
+2025-09,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),4
+2025-10,42,Kisumu,Eggs,Wholesale,KES/tray,480.0,Observed (KAMIS),3
+2025-11,42,Kisumu,Eggs,Wholesale,KES/tray,510.0,Observed (KAMIS),2
+2025-12,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-01,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),3
+2026-02,42,Kisumu,Eggs,Wholesale,KES/tray,480.0,Observed (KAMIS),3
+2026-03,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),3
+2026-04,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),2
+2026-05,42,Kisumu,Eggs,Wholesale,KES/tray,430.0,Observed (KAMIS),3
+2026-06,42,Kisumu,Eggs,Wholesale,KES/tray,430.0,Observed (KAMIS),3
+2026-07,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),3
+2026-08,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),3
+2026-09,42,Kisumu,Eggs,Wholesale,KES/tray,435.0,Observed (KAMIS),3
+2026-10,42,Kisumu,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),3
+2025-06,15,Kitui,Eggs,Wholesale,KES/tray,390.0,Observed (KAMIS),1
+2025-09,15,Kitui,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-10,15,Kitui,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),2
+2025-11,15,Kitui,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2025-12,15,Kitui,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2026-10,15,Kitui,Eggs,Wholesale,KES/tray,500.0,Observed (KAMIS),1
+2025-05,12,Meru,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-06,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-07,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-08,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-09,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-10,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-11,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-12,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-01,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-02,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-03,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-04,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-05,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-06,12,Meru,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-07,12,Meru,Eggs,Wholesale,KES/tray,350.0,Observed (KAMIS),1
+2026-08,12,Meru,Eggs,Wholesale,KES/tray,350.0,Observed (KAMIS),1
+2026-09,12,Meru,Eggs,Wholesale,KES/tray,350.0,Observed (KAMIS),1
+2026-10,12,Meru,Eggs,Wholesale,KES/tray,350.0,Observed (KAMIS),1
+2026-06,44,Migori,Eggs,Wholesale,KES/tray,500.0,Observed (KAMIS),1
+2026-07,44,Migori,Eggs,Wholesale,KES/tray,460.0,Observed (KAMIS),1
+2026-09,44,Migori,Eggs,Wholesale,KES/tray,480.0,Observed (KAMIS),1
+2025-05,21,Murang'a,Eggs,Wholesale,KES/tray,360.0,Observed (KAMIS),2
+2025-06,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-07,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-08,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),2
+2025-09,21,Murang'a,Eggs,Wholesale,KES/tray,350.0,Observed (KAMIS),1
+2025-11,21,Murang'a,Eggs,Wholesale,KES/tray,370.0,Observed (KAMIS),2
+2025-12,21,Murang'a,Eggs,Wholesale,KES/tray,365.0,Observed (KAMIS),2
+2026-02,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),2
+2026-03,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-04,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-06,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-07,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-08,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2026-09,21,Murang'a,Eggs,Wholesale,KES/tray,390.0,Observed (KAMIS),1
+2026-10,21,Murang'a,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-03,29,Nandi,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-06,29,Nandi,Eggs,Wholesale,KES/tray,540.0,Observed (KAMIS),2
+2025-05,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Eggs,Wholesale,KES/tray,420.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-11,6,Taita Taveta,Eggs,Wholesale,KES/tray,415.0,Observed (KAMIS),1
+2026-03,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-08,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-09,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-05,4,Tana River,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-06,4,Tana River,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-05,27,Uasin Gishu,Eggs,Wholesale,KES/tray,380.0,Observed (KAMIS),1
+2025-06,27,Uasin Gishu,Eggs,Wholesale,KES/tray,360.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),1
+2026-09,27,Uasin Gishu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),3
+2026-10,27,Uasin Gishu,Eggs,Wholesale,KES/tray,400.0,Observed (KAMIS),2
+2025-01,38,Vihiga,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-02,38,Vihiga,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),1
+2025-06,38,Vihiga,Eggs,Wholesale,KES/tray,450.0,Observed (KAMIS),2
+2025-07,38,Vihiga,Eggs,Wholesale,KES/tray,480.0,Observed (KAMIS),2
+2025-08,38,Vihiga,Eggs,Wholesale,KES/tray,480.0,Observed (KAMIS),1
+2025-05,36,Bomet,Red Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),2
+2025-06,36,Bomet,Red Irish Potatoes,Retail,KES/kg,87.5,Observed (KAMIS),2
+2025-07,36,Bomet,Red Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-08,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-09,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-10,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-11,36,Bomet,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-12,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-01,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-02,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-03,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-04,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-05,36,Bomet,Red Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-06,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-07,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-08,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-09,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-10,36,Bomet,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-05,39,Bungoma,Red Irish Potatoes,Retail,KES/kg,45.83,Observed (KAMIS),1
+2026-06,39,Bungoma,Red Irish Potatoes,Retail,KES/kg,40.0,Observed (KAMIS),1
+2026-04,14,Embu,Red Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-05,14,Embu,Red Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-07,14,Embu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-08,14,Embu,Red Irish Potatoes,Retail,KES/kg,77.5,Observed (KAMIS),1
+2025-06,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-07,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-08,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-09,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),2
+2025-10,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,49.0,Observed (KAMIS),2
+2025-11,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,60.5,Observed (KAMIS),1
+2025-12,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,46.0,Observed (KAMIS),1
+2026-01,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,63.0,Observed (KAMIS),1
+2026-04,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-05,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,84.0,Observed (KAMIS),2
+2026-06,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,58.0,Observed (KAMIS),1
+2026-07,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,74.0,Observed (KAMIS),1
+2026-08,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-09,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),5
+2026-10,37,Kakamega,Red Irish Potatoes,Retail,KES/kg,92.0,Observed (KAMIS),2
+2025-05,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,110.0,Observed (KAMIS),1
+2025-06,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,40.0,Observed (KAMIS),1
+2025-07,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,38.89,Observed (KAMIS),1
+2025-10,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-11,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-03,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-05,20,Kirinyaga,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-02,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-06,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),1
+2025-07,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-08,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-09,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-10,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-11,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-12,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-01,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,78.35,Observed (KAMIS),2
+2026-02,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-03,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-04,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,130.0,Observed (KAMIS),2
+2026-05,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,150.0,Observed (KAMIS),1
+2026-06,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-07,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-08,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-09,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,140.0,Observed (KAMIS),1
+2026-10,42,Kisumu,Red Irish Potatoes,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-05,15,Kitui,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-06,15,Kitui,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-07,15,Kitui,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-08,15,Kitui,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-09,15,Kitui,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-11,15,Kitui,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-01,15,Kitui,Red Irish Potatoes,Retail,KES/kg,77.5,Observed (KAMIS),1
+2026-07,2,Kwale,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-08,2,Kwale,Red Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),1
+2025-05,17,Makueni,Red Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),1
+2025-06,17,Makueni,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-09,17,Makueni,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-10,17,Makueni,Red Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-04,17,Makueni,Red Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-05,17,Makueni,Red Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,12,Meru,Red Irish Potatoes,Retail,KES/kg,33.34,Observed (KAMIS),1
+2025-07,12,Meru,Red Irish Potatoes,Retail,KES/kg,27.27,Observed (KAMIS),1
+2025-08,12,Meru,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-12,12,Meru,Red Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-07,12,Meru,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-09,12,Meru,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-05,21,Murang'a,Red Irish Potatoes,Retail,KES/kg,76.92,Observed (KAMIS),2
+2025-06,21,Murang'a,Red Irish Potatoes,Retail,KES/kg,76.92,Observed (KAMIS),2
+2025-08,21,Murang'a,Red Irish Potatoes,Retail,KES/kg,76.92,Observed (KAMIS),1
+2025-10,21,Murang'a,Red Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2025-12,21,Murang'a,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-06,47,Nairobi,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-08,47,Nairobi,Red Irish Potatoes,Retail,KES/kg,85.0,Observed (KAMIS),1
+2025-05,32,Nakuru,Red Irish Potatoes,Retail,KES/kg,25.0,Observed (KAMIS),1
+2025-06,29,Nandi,Red Irish Potatoes,Retail,KES/kg,67.0,Observed (KAMIS),1
+2025-06,33,Narok,Red Irish Potatoes,Retail,KES/kg,40.0,Observed (KAMIS),1
+2025-07,33,Narok,Red Irish Potatoes,Retail,KES/kg,29.34,Observed (KAMIS),1
+2026-06,41,Siaya,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Red Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-10,6,Taita Taveta,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),2
+2025-11,6,Taita Taveta,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-12,6,Taita Taveta,Red Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Red Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,45.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,45.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Red Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-09,27,Uasin Gishu,Red Irish Potatoes,Retail,KES/kg,82.5,Observed (KAMIS),1
+2026-10,27,Uasin Gishu,Red Irish Potatoes,Retail,KES/kg,82.5,Observed (KAMIS),1
+2025-06,38,Vihiga,Red Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),1
+2025-05,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-06,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-07,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-08,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-09,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-10,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-11,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-12,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,41.0,Observed (KAMIS),2
+2026-01,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-02,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-03,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-04,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-05,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-06,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-07,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-08,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-09,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-10,36,Bomet,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-05,39,Bungoma,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-05,39,Bungoma,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2026-06,39,Bungoma,Red Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2026-04,14,Embu,Red Irish Potatoes,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2026-05,14,Embu,Red Irish Potatoes,Wholesale,KES/kg,52.0,Observed (KAMIS),1
+2026-07,14,Embu,Red Irish Potatoes,Wholesale,KES/kg,41.0,Observed (KAMIS),1
+2026-08,14,Embu,Red Irish Potatoes,Wholesale,KES/kg,65.5,Observed (KAMIS),1
+2025-06,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-07,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-08,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2025-09,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2025-10,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,44.0,Observed (KAMIS),1
+2026-04,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-05,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-08,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,72.66,Observed (KAMIS),2
+2026-09,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,74.29,Observed (KAMIS),4
+2026-10,37,Kakamega,Red Irish Potatoes,Wholesale,KES/kg,65.34,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-06,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-07,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,35.56,Observed (KAMIS),1
+2025-10,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-11,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-03,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2026-05,20,Kirinyaga,Red Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2025-02,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-06,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-07,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-08,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-09,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-10,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-11,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-12,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-01,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),2
+2026-02,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-03,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-04,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-05,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-06,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-07,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-08,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-09,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-10,42,Kisumu,Red Irish Potatoes,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-05,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-06,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,37.5,Observed (KAMIS),1
+2025-07,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-08,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-09,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-11,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2026-01,15,Kitui,Red Irish Potatoes,Wholesale,KES/kg,47.5,Observed (KAMIS),1
+2026-07,2,Kwale,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-08,2,Kwale,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-05,17,Makueni,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-06,17,Makueni,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-09,17,Makueni,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-10,17,Makueni,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-04,17,Makueni,Red Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-05,17,Makueni,Red Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2025-06,12,Meru,Red Irish Potatoes,Wholesale,KES/kg,31.92,Observed (KAMIS),1
+2025-07,12,Meru,Red Irish Potatoes,Wholesale,KES/kg,25.45,Observed (KAMIS),1
+2025-08,12,Meru,Red Irish Potatoes,Wholesale,KES/kg,47.14,Observed (KAMIS),1
+2025-12,12,Meru,Red Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-07,12,Meru,Red Irish Potatoes,Wholesale,KES/kg,37.5,Observed (KAMIS),1
+2026-09,12,Meru,Red Irish Potatoes,Wholesale,KES/kg,61.25,Observed (KAMIS),1
+2025-05,21,Murang'a,Red Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-06,29,Nandi,Red Irish Potatoes,Wholesale,KES/kg,57.0,Observed (KAMIS),1
+2025-06,33,Narok,Red Irish Potatoes,Wholesale,KES/kg,31.82,Observed (KAMIS),1
+2025-07,33,Narok,Red Irish Potatoes,Wholesale,KES/kg,23.64,Observed (KAMIS),1
+2026-06,41,Siaya,Red Irish Potatoes,Wholesale,KES/kg,45.71,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-10,6,Taita Taveta,Red Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),2
+2026-08,6,Taita Taveta,Red Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Red Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-09,27,Uasin Gishu,Red Irish Potatoes,Wholesale,KES/kg,67.5,Observed (KAMIS),1
+2026-10,27,Uasin Gishu,Red Irish Potatoes,Wholesale,KES/kg,67.5,Observed (KAMIS),1
+2025-06,38,Vihiga,Red Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-05,14,Embu,Sorghum,Retail,KES/kg,77.5,Observed (KAMIS),1
+2025-06,14,Embu,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-07,14,Embu,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-08,14,Embu,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-09,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-01,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-03,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-04,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-05,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-06,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-07,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-08,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-09,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-10,14,Embu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-06,37,Kakamega,Sorghum,Retail,KES/kg,163.64,Observed (KAMIS),1
+2025-07,37,Kakamega,Sorghum,Retail,KES/kg,68.18,Observed (KAMIS),2
+2025-08,37,Kakamega,Sorghum,Retail,KES/kg,72.73,Observed (KAMIS),1
+2025-09,37,Kakamega,Sorghum,Retail,KES/kg,113.64,Observed (KAMIS),1
+2025-10,37,Kakamega,Sorghum,Retail,KES/kg,77.28,Observed (KAMIS),1
+2025-11,37,Kakamega,Sorghum,Retail,KES/kg,70.46,Observed (KAMIS),1
+2025-12,37,Kakamega,Sorghum,Retail,KES/kg,75.6,Observed (KAMIS),1
+2026-01,37,Kakamega,Sorghum,Retail,KES/kg,68.18,Observed (KAMIS),1
+2026-02,37,Kakamega,Sorghum,Retail,KES/kg,72.73,Observed (KAMIS),1
+2026-03,37,Kakamega,Sorghum,Retail,KES/kg,76.19,Observed (KAMIS),1
+2026-04,37,Kakamega,Sorghum,Retail,KES/kg,72.73,Observed (KAMIS),1
+2026-05,37,Kakamega,Sorghum,Retail,KES/kg,72.73,Observed (KAMIS),1
+2026-06,37,Kakamega,Sorghum,Retail,KES/kg,90.48,Observed (KAMIS),1
+2026-10,37,Kakamega,Sorghum,Retail,KES/kg,200.0,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Sorghum,Retail,KES/kg,150.0,Observed (KAMIS),2
+2025-06,20,Kirinyaga,Sorghum,Retail,KES/kg,85.0,Observed (KAMIS),2
+2025-07,20,Kirinyaga,Sorghum,Retail,KES/kg,85.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Sorghum,Retail,KES/kg,87.5,Observed (KAMIS),1
+2025-11,20,Kirinyaga,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2025-12,20,Kirinyaga,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),1
+2026-01,20,Kirinyaga,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-02,20,Kirinyaga,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-03,20,Kirinyaga,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-04,20,Kirinyaga,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-06,20,Kirinyaga,Sorghum,Retail,KES/kg,85.0,Observed (KAMIS),1
+2026-07,20,Kirinyaga,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-08,20,Kirinyaga,Sorghum,Retail,KES/kg,120.0,Observed (KAMIS),3
+2026-09,20,Kirinyaga,Sorghum,Retail,KES/kg,79.0,Observed (KAMIS),1
+2026-10,20,Kirinyaga,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),3
+2025-06,42,Kisumu,Sorghum,Retail,KES/kg,97.5,Observed (KAMIS),3
+2025-07,42,Kisumu,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),3
+2025-08,42,Kisumu,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-09,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),2
+2025-10,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),2
+2025-11,42,Kisumu,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-12,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),2
+2026-01,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),2
+2026-02,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),2
+2026-03,42,Kisumu,Sorghum,Retail,KES/kg,77.5,Observed (KAMIS),2
+2026-04,42,Kisumu,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-05,42,Kisumu,Sorghum,Retail,KES/kg,85.0,Observed (KAMIS),2
+2026-06,42,Kisumu,Sorghum,Retail,KES/kg,117.5,Observed (KAMIS),1
+2026-07,42,Kisumu,Sorghum,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-08,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-09,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-10,42,Kisumu,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),1
+2025-05,15,Kitui,Sorghum,Retail,KES/kg,115.0,Observed (KAMIS),1
+2025-06,15,Kitui,Sorghum,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-07,15,Kitui,Sorghum,Retail,KES/kg,115.0,Observed (KAMIS),1
+2025-08,15,Kitui,Sorghum,Retail,KES/kg,110.0,Observed (KAMIS),1
+2025-09,15,Kitui,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),1
+2025-11,15,Kitui,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-01,15,Kitui,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-02,15,Kitui,Sorghum,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-05,12,Meru,Sorghum,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-06,12,Meru,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-07,12,Meru,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-08,12,Meru,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),2
+2025-09,12,Meru,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-10,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2025-11,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2025-12,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-01,12,Meru,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-02,12,Meru,Sorghum,Retail,KES/kg,95.0,Observed (KAMIS),2
+2026-03,12,Meru,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-04,12,Meru,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-05,12,Meru,Sorghum,Retail,KES/kg,95.0,Observed (KAMIS),2
+2026-06,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-07,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-08,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-09,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-10,12,Meru,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),2
+2026-07,44,Migori,Sorghum,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-08,44,Migori,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-09,44,Migori,Sorghum,Retail,KES/kg,88.0,Observed (KAMIS),1
+2026-10,44,Migori,Sorghum,Retail,KES/kg,94.0,Observed (KAMIS),1
+2026-06,21,Murang'a,Sorghum,Retail,KES/kg,170.0,Observed (KAMIS),1
+2026-09,21,Murang'a,Sorghum,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-10,21,Murang'a,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-02,47,Nairobi,Sorghum,Retail,KES/kg,75.0,Observed (KAMIS),1
+2025-05,47,Nairobi,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-06,47,Nairobi,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-09,47,Nairobi,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-10,47,Nairobi,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-05,29,Nandi,Sorghum,Retail,KES/kg,200.0,Observed (KAMIS),1
+2025-06,6,Taita Taveta,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Sorghum,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-09,6,Taita Taveta,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-10,6,Taita Taveta,Sorghum,Retail,KES/kg,110.0,Observed (KAMIS),2
+2025-12,6,Taita Taveta,Sorghum,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Sorghum,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-05,4,Tana River,Sorghum,Retail,KES/kg,180.0,Observed (KAMIS),1
+2025-06,4,Tana River,Sorghum,Retail,KES/kg,180.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Sorghum,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-06,26,Trans Nzoia,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-10,26,Trans Nzoia,Sorghum,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-09,27,Uasin Gishu,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-01,38,Vihiga,Sorghum,Retail,KES/kg,103.97,Observed (KAMIS),1
+2025-02,38,Vihiga,Sorghum,Retail,KES/kg,109.69,Observed (KAMIS),1
+2025-06,38,Vihiga,Sorghum,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-07,38,Vihiga,Sorghum,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-08,38,Vihiga,Sorghum,Retail,KES/kg,125.0,Observed (KAMIS),1
+2025-05,14,Embu,Sorghum,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2025-06,14,Embu,Sorghum,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-07,14,Embu,Sorghum,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-08,14,Embu,Sorghum,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2025-09,14,Embu,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-01,14,Embu,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-03,14,Embu,Sorghum,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2026-04,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-05,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-06,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-07,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-08,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-09,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-10,14,Embu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2025-07,37,Kakamega,Sorghum,Wholesale,KES/kg,170.0,Observed (KAMIS),1
+2026-09,37,Kakamega,Sorghum,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2026-10,37,Kakamega,Sorghum,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Sorghum,Wholesale,KES/kg,135.0,Observed (KAMIS),2
+2025-06,20,Kirinyaga,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),2
+2025-07,20,Kirinyaga,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),2
+2025-08,20,Kirinyaga,Sorghum,Wholesale,KES/kg,70.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Sorghum,Wholesale,KES/kg,65.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Sorghum,Wholesale,KES/kg,76.5,Observed (KAMIS),1
+2025-11,20,Kirinyaga,Sorghum,Wholesale,KES/kg,78.0,Observed (KAMIS),2
+2025-12,20,Kirinyaga,Sorghum,Wholesale,KES/kg,78.0,Observed (KAMIS),1
+2026-01,20,Kirinyaga,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-02,20,Kirinyaga,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-03,20,Kirinyaga,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-04,20,Kirinyaga,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-06,20,Kirinyaga,Sorghum,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2026-07,20,Kirinyaga,Sorghum,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2026-08,20,Kirinyaga,Sorghum,Wholesale,KES/kg,82.0,Observed (KAMIS),3
+2026-09,20,Kirinyaga,Sorghum,Wholesale,KES/kg,69.0,Observed (KAMIS),1
+2026-10,20,Kirinyaga,Sorghum,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2025-03,42,Kisumu,Sorghum,Wholesale,KES/kg,65.0,Observed (KAMIS),1
+2025-04,42,Kisumu,Sorghum,Wholesale,KES/kg,95.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Sorghum,Wholesale,KES/kg,72.22,Observed (KAMIS),2
+2025-06,42,Kisumu,Sorghum,Wholesale,KES/kg,90.0,Observed (KAMIS),2
+2025-07,42,Kisumu,Sorghum,Wholesale,KES/kg,73.61,Observed (KAMIS),2
+2025-08,42,Kisumu,Sorghum,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-09,42,Kisumu,Sorghum,Wholesale,KES/kg,70.0,Observed (KAMIS),2
+2025-10,42,Kisumu,Sorghum,Wholesale,KES/kg,72.22,Observed (KAMIS),2
+2025-11,42,Kisumu,Sorghum,Wholesale,KES/kg,60.0,Observed (KAMIS),2
+2025-12,42,Kisumu,Sorghum,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2026-01,42,Kisumu,Sorghum,Wholesale,KES/kg,71.11,Observed (KAMIS),2
+2026-02,42,Kisumu,Sorghum,Wholesale,KES/kg,71.11,Observed (KAMIS),2
+2026-03,42,Kisumu,Sorghum,Wholesale,KES/kg,65.84,Observed (KAMIS),2
+2026-04,42,Kisumu,Sorghum,Wholesale,KES/kg,62.22,Observed (KAMIS),2
+2026-05,42,Kisumu,Sorghum,Wholesale,KES/kg,62.22,Observed (KAMIS),1
+2026-06,42,Kisumu,Sorghum,Wholesale,KES/kg,44.44,Observed (KAMIS),1
+2026-07,42,Kisumu,Sorghum,Wholesale,KES/kg,46.66,Observed (KAMIS),1
+2026-08,42,Kisumu,Sorghum,Wholesale,KES/kg,51.11,Observed (KAMIS),1
+2026-09,42,Kisumu,Sorghum,Wholesale,KES/kg,53.33,Observed (KAMIS),1
+2026-10,42,Kisumu,Sorghum,Wholesale,KES/kg,53.33,Observed (KAMIS),1
+2025-05,15,Kitui,Sorghum,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2025-06,15,Kitui,Sorghum,Wholesale,KES/kg,105.0,Observed (KAMIS),1
+2025-07,15,Kitui,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-08,15,Kitui,Sorghum,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2025-09,15,Kitui,Sorghum,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2025-11,15,Kitui,Sorghum,Wholesale,KES/kg,68.0,Observed (KAMIS),2
+2026-01,15,Kitui,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-02,15,Kitui,Sorghum,Wholesale,KES/kg,65.0,Observed (KAMIS),1
+2025-05,12,Meru,Sorghum,Wholesale,KES/kg,60.84,Observed (KAMIS),2
+2025-06,12,Meru,Sorghum,Wholesale,KES/kg,60.84,Observed (KAMIS),2
+2025-07,12,Meru,Sorghum,Wholesale,KES/kg,65.84,Observed (KAMIS),2
+2025-08,12,Meru,Sorghum,Wholesale,KES/kg,63.34,Observed (KAMIS),2
+2025-09,12,Meru,Sorghum,Wholesale,KES/kg,63.34,Observed (KAMIS),2
+2025-10,12,Meru,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),2
+2025-11,12,Meru,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),2
+2025-12,12,Meru,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),2
+2026-01,12,Meru,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-02,12,Meru,Sorghum,Wholesale,KES/kg,84.44,Observed (KAMIS),2
+2026-03,12,Meru,Sorghum,Wholesale,KES/kg,84.44,Observed (KAMIS),2
+2026-04,12,Meru,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2026-05,12,Meru,Sorghum,Wholesale,KES/kg,84.44,Observed (KAMIS),2
+2026-06,12,Meru,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),2
+2026-07,12,Meru,Sorghum,Wholesale,KES/kg,65.0,Observed (KAMIS),2
+2026-08,12,Meru,Sorghum,Wholesale,KES/kg,65.0,Observed (KAMIS),2
+2026-09,12,Meru,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),2
+2026-10,12,Meru,Sorghum,Wholesale,KES/kg,65.0,Observed (KAMIS),2
+2025-02,47,Nairobi,Sorghum,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-09,47,Nairobi,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),1
+2026-10,47,Nairobi,Sorghum,Wholesale,KES/kg,66.67,Observed (KAMIS),1
+2025-05,29,Nandi,Sorghum,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-06,6,Taita Taveta,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-07,6,Taita Taveta,Sorghum,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-09,6,Taita Taveta,Sorghum,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2025-10,6,Taita Taveta,Sorghum,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-12,6,Taita Taveta,Sorghum,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-05,6,Taita Taveta,Sorghum,Wholesale,KES/kg,110.0,Observed (KAMIS),1
+2026-07,6,Taita Taveta,Sorghum,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Sorghum,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-05,4,Tana River,Sorghum,Wholesale,KES/kg,150.0,Observed (KAMIS),1
+2025-06,4,Tana River,Sorghum,Wholesale,KES/kg,138.89,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,Sorghum,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,Sorghum,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,Sorghum,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,Sorghum,Wholesale,KES/kg,55.0,Observed (KAMIS),1
+2025-06,26,Trans Nzoia,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Sorghum,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-10,26,Trans Nzoia,Sorghum,Wholesale,KES/kg,60.0,Observed (KAMIS),2
+2026-09,27,Uasin Gishu,Sorghum,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2025-06,38,Vihiga,Sorghum,Wholesale,KES/kg,105.84,Observed (KAMIS),1
+2025-07,38,Vihiga,Sorghum,Wholesale,KES/kg,115.0,Observed (KAMIS),1
+2025-12,36,Bomet,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-08,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-09,14,Embu,Wheat,Retail,KES/kg,95.0,Observed (KAMIS),1
+2025-10,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-03,14,Embu,Wheat,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-04,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-05,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-06,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-07,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-08,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-09,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-10,14,Embu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-03,37,Kakamega,Wheat,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-04,37,Kakamega,Wheat,Retail,KES/kg,122.5,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-06,20,Kirinyaga,Wheat,Retail,KES/kg,90.0,Observed (KAMIS),3
+2025-07,20,Kirinyaga,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-08,20,Kirinyaga,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Wheat,Retail,KES/kg,95.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Wheat,Retail,KES/kg,95.0,Observed (KAMIS),1
+2025-11,20,Kirinyaga,Wheat,Retail,KES/kg,90.0,Observed (KAMIS),1
+2025-12,20,Kirinyaga,Wheat,Retail,KES/kg,120.0,Observed (KAMIS),1
+2026-01,20,Kirinyaga,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-02,20,Kirinyaga,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-03,20,Kirinyaga,Wheat,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-04,20,Kirinyaga,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-05,20,Kirinyaga,Wheat,Retail,KES/kg,130.0,Observed (KAMIS),1
+2026-06,20,Kirinyaga,Wheat,Retail,KES/kg,120.0,Observed (KAMIS),2
+2026-07,20,Kirinyaga,Wheat,Retail,KES/kg,135.0,Observed (KAMIS),1
+2026-08,20,Kirinyaga,Wheat,Retail,KES/kg,125.0,Observed (KAMIS),1
+2026-09,20,Kirinyaga,Wheat,Retail,KES/kg,130.0,Observed (KAMIS),1
+2025-05,42,Kisumu,Wheat,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-06,42,Kisumu,Wheat,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-07,42,Kisumu,Wheat,Retail,KES/kg,95.0,Observed (KAMIS),1
+2025-08,42,Kisumu,Wheat,Retail,KES/kg,85.0,Observed (KAMIS),2
+2025-09,42,Kisumu,Wheat,Retail,KES/kg,85.0,Observed (KAMIS),1
+2025-11,42,Kisumu,Wheat,Retail,KES/kg,77.5,Observed (KAMIS),1
+2025-12,42,Kisumu,Wheat,Retail,KES/kg,85.0,Observed (KAMIS),1
+2026-01,42,Kisumu,Wheat,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-02,42,Kisumu,Wheat,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-03,42,Kisumu,Wheat,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-04,42,Kisumu,Wheat,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-05,42,Kisumu,Wheat,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-06,42,Kisumu,Wheat,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-07,42,Kisumu,Wheat,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-08,42,Kisumu,Wheat,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-09,42,Kisumu,Wheat,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-10,42,Kisumu,Wheat,Retail,KES/kg,65.0,Observed (KAMIS),1
+2025-05,17,Makueni,Wheat,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-06,17,Makueni,Wheat,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-04,17,Makueni,Wheat,Retail,KES/kg,67.5,Observed (KAMIS),1
+2026-05,17,Makueni,Wheat,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-07,12,Meru,Wheat,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-08,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-09,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-10,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-11,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-12,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-01,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-02,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-03,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-04,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-05,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-06,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-07,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-08,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-09,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-10,12,Meru,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-05,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-06,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-07,47,Nairobi,Wheat,Retail,KES/kg,90.0,Observed (KAMIS),4
+2025-08,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-09,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-10,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-11,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),2
+2025-12,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-01,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-02,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-03,47,Nairobi,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-09,47,Nairobi,Wheat,Retail,KES/kg,90.0,Observed (KAMIS),1
+2026-10,47,Nairobi,Wheat,Retail,KES/kg,90.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Wheat,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-11,6,Taita Taveta,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-10,6,Taita Taveta,Wheat,Retail,KES/kg,150.0,Observed (KAMIS),1
+2025-05,4,Tana River,Wheat,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-06,4,Tana River,Wheat,Retail,KES/kg,120.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Wheat,Retail,KES/kg,125.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Wheat,Retail,KES/kg,115.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Wheat,Retail,KES/kg,115.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Wheat,Retail,KES/kg,115.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Wheat,Retail,KES/kg,115.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Wheat,Retail,KES/kg,112.5,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Wheat,Retail,KES/kg,96.66,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Wheat,Retail,KES/kg,110.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Wheat,Retail,KES/kg,150.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Wheat,Retail,KES/kg,175.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Wheat,Retail,KES/kg,175.0,Observed (KAMIS),2
+2025-06,27,Uasin Gishu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Wheat,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-09,27,Uasin Gishu,Wheat,Retail,KES/kg,85.0,Observed (KAMIS),2
+2026-10,27,Uasin Gishu,Wheat,Retail,KES/kg,85.0,Observed (KAMIS),3
+2025-12,36,Bomet,Wheat,Wholesale,KES/kg,83.33,Observed (KAMIS),1
+2025-08,14,Embu,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-09,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2025-10,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-03,14,Embu,Wheat,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2026-04,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-05,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-06,14,Embu,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-07,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-08,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-09,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-10,14,Embu,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2026-03,37,Kakamega,Wheat,Wholesale,KES/kg,83.34,Observed (KAMIS),1
+2026-04,37,Kakamega,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-05,20,Kirinyaga,Wheat,Wholesale,KES/kg,90.0,Observed (KAMIS),3
+2025-06,20,Kirinyaga,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),3
+2025-07,20,Kirinyaga,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2025-08,20,Kirinyaga,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),2
+2025-09,20,Kirinyaga,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),3
+2025-10,20,Kirinyaga,Wheat,Wholesale,KES/kg,72.5,Observed (KAMIS),1
+2025-11,20,Kirinyaga,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),1
+2025-12,20,Kirinyaga,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-01,20,Kirinyaga,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2026-02,20,Kirinyaga,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),1
+2026-03,20,Kirinyaga,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-04,20,Kirinyaga,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),3
+2026-05,20,Kirinyaga,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-06,20,Kirinyaga,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2026-07,20,Kirinyaga,Wheat,Wholesale,KES/kg,101.11,Observed (KAMIS),1
+2026-08,20,Kirinyaga,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-09,20,Kirinyaga,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2026-08,42,Kisumu,Wheat,Wholesale,KES/kg,56.67,Observed (KAMIS),1
+2026-09,42,Kisumu,Wheat,Wholesale,KES/kg,56.67,Observed (KAMIS),1
+2026-10,42,Kisumu,Wheat,Wholesale,KES/kg,56.67,Observed (KAMIS),1
+2025-05,17,Makueni,Wheat,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2025-06,17,Makueni,Wheat,Wholesale,KES/kg,70.0,Observed (KAMIS),1
+2026-04,17,Makueni,Wheat,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-05,17,Makueni,Wheat,Wholesale,KES/kg,65.0,Observed (KAMIS),1
+2025-06,12,Meru,Wheat,Wholesale,KES/kg,66.67,Observed (KAMIS),1
+2025-07,12,Meru,Wheat,Wholesale,KES/kg,72.22,Observed (KAMIS),1
+2025-08,12,Meru,Wheat,Wholesale,KES/kg,77.78,Observed (KAMIS),1
+2025-09,12,Meru,Wheat,Wholesale,KES/kg,77.78,Observed (KAMIS),1
+2025-10,12,Meru,Wheat,Wholesale,KES/kg,77.78,Observed (KAMIS),1
+2025-11,12,Meru,Wheat,Wholesale,KES/kg,77.78,Observed (KAMIS),1
+2025-12,12,Meru,Wheat,Wholesale,KES/kg,77.78,Observed (KAMIS),1
+2026-01,12,Meru,Wheat,Wholesale,KES/kg,86.67,Observed (KAMIS),1
+2026-02,12,Meru,Wheat,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-03,12,Meru,Wheat,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-04,12,Meru,Wheat,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-05,12,Meru,Wheat,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-06,12,Meru,Wheat,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-07,12,Meru,Wheat,Wholesale,KES/kg,88.89,Observed (KAMIS),1
+2026-08,12,Meru,Wheat,Wholesale,KES/kg,83.33,Observed (KAMIS),1
+2026-09,12,Meru,Wheat,Wholesale,KES/kg,83.33,Observed (KAMIS),1
+2026-10,12,Meru,Wheat,Wholesale,KES/kg,94.44,Observed (KAMIS),1
+2025-05,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),3
+2025-06,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),2
+2025-07,47,Nairobi,Wheat,Wholesale,KES/kg,75.0,Observed (KAMIS),4
+2025-08,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),3
+2025-09,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),2
+2025-10,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),2
+2025-11,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),2
+2025-12,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),1
+2026-01,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),1
+2026-02,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),2
+2026-03,47,Nairobi,Wheat,Wholesale,KES/kg,64.44,Observed (KAMIS),1
+2026-09,47,Nairobi,Wheat,Wholesale,KES/kg,66.67,Observed (KAMIS),1
+2026-10,47,Nairobi,Wheat,Wholesale,KES/kg,72.22,Observed (KAMIS),1
+2025-08,6,Taita Taveta,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),1
+2025-11,6,Taita Taveta,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-05,4,Tana River,Wheat,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-06,4,Tana River,Wheat,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,Wheat,Wholesale,KES/kg,100.0,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,Wheat,Wholesale,KES/kg,90.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,Wheat,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,Wheat,Wholesale,KES/kg,74.44,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,Wheat,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,Wheat,Wholesale,KES/kg,125.0,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,Wheat,Wholesale,KES/kg,150.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,Wheat,Wholesale,KES/kg,150.0,Observed (KAMIS),2
+2025-06,27,Uasin Gishu,Wheat,Wholesale,KES/kg,90.0,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,Wheat,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-09,27,Uasin Gishu,Wheat,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-10,27,Uasin Gishu,Wheat,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-05,36,Bomet,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2025-06,36,Bomet,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2025-07,36,Bomet,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),2
+2025-08,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-09,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-10,36,Bomet,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),2
+2025-11,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-02,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-03,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-04,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-05,36,Bomet,White Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),1
+2026-06,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-07,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-08,36,Bomet,White Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),1
+2026-09,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-10,36,Bomet,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-05,39,Bungoma,White Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),1
+2026-06,39,Bungoma,White Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),1
+2026-08,39,Bungoma,White Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-09,39,Bungoma,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-10,39,Bungoma,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-05,14,Embu,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-06,14,Embu,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-07,14,Embu,White Irish Potatoes,Retail,KES/kg,40.0,Observed (KAMIS),2
+2025-08,14,Embu,White Irish Potatoes,Retail,KES/kg,42.0,Observed (KAMIS),1
+2025-09,14,Embu,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-10,14,Embu,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-11,14,Embu,White Irish Potatoes,Retail,KES/kg,47.5,Observed (KAMIS),1
+2025-12,14,Embu,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-04,14,Embu,White Irish Potatoes,Retail,KES/kg,72.5,Observed (KAMIS),2
+2026-05,14,Embu,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2026-06,14,Embu,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2026-07,14,Embu,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-08,14,Embu,White Irish Potatoes,Retail,KES/kg,82.5,Observed (KAMIS),1
+2026-09,14,Embu,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),1
+2026-10,14,Embu,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),1
+2025-05,37,Kakamega,White Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),4
+2025-06,37,Kakamega,White Irish Potatoes,Retail,KES/kg,56.52,Observed (KAMIS),6
+2025-07,37,Kakamega,White Irish Potatoes,Retail,KES/kg,72.1,Observed (KAMIS),4
+2025-08,37,Kakamega,White Irish Potatoes,Retail,KES/kg,57.33,Observed (KAMIS),2
+2025-09,37,Kakamega,White Irish Potatoes,Retail,KES/kg,58.81,Observed (KAMIS),5
+2025-10,37,Kakamega,White Irish Potatoes,Retail,KES/kg,62.0,Observed (KAMIS),3
+2025-11,37,Kakamega,White Irish Potatoes,Retail,KES/kg,76.0,Observed (KAMIS),4
+2025-12,37,Kakamega,White Irish Potatoes,Retail,KES/kg,76.0,Observed (KAMIS),3
+2026-01,37,Kakamega,White Irish Potatoes,Retail,KES/kg,55.56,Observed (KAMIS),5
+2026-02,37,Kakamega,White Irish Potatoes,Retail,KES/kg,65.66,Observed (KAMIS),3
+2026-03,37,Kakamega,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),5
+2026-04,37,Kakamega,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),7
+2026-05,37,Kakamega,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),7
+2026-06,37,Kakamega,White Irish Potatoes,Retail,KES/kg,55.56,Observed (KAMIS),7
+2026-07,37,Kakamega,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),5
+2026-08,37,Kakamega,White Irish Potatoes,Retail,KES/kg,83.33,Observed (KAMIS),8
+2026-09,37,Kakamega,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),7
+2026-10,37,Kakamega,White Irish Potatoes,Retail,KES/kg,83.33,Observed (KAMIS),7
+2025-05,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),5
+2025-06,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,48.0,Observed (KAMIS),5
+2025-07,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,40.0,Observed (KAMIS),4
+2025-08,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,45.0,Observed (KAMIS),5
+2025-09,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),5
+2025-10,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),5
+2025-11,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),5
+2025-12,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-01,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),4
+2026-02,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-03,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,51.0,Observed (KAMIS),4
+2026-04,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-05,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,57.0,Observed (KAMIS),4
+2026-06,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),5
+2026-07,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),3
+2026-08,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),4
+2026-09,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),4
+2026-10,20,Kirinyaga,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),4
+2025-03,42,Kisumu,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-06,42,Kisumu,White Irish Potatoes,Retail,KES/kg,112.5,Observed (KAMIS),3
+2025-07,42,Kisumu,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),4
+2025-08,42,Kisumu,White Irish Potatoes,Retail,KES/kg,87.5,Observed (KAMIS),3
+2025-09,42,Kisumu,White Irish Potatoes,Retail,KES/kg,87.5,Observed (KAMIS),2
+2025-10,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-11,42,Kisumu,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),3
+2025-12,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-01,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-02,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-03,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-04,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-05,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-06,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),4
+2026-07,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),4
+2026-08,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-09,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-10,42,Kisumu,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-05,15,Kitui,White Irish Potatoes,Retail,KES/kg,52.5,Observed (KAMIS),1
+2025-06,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-07,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-08,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-09,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-10,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-11,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),3
+2025-12,15,Kitui,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-01,15,Kitui,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),2
+2026-02,15,Kitui,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-04,15,Kitui,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-10,15,Kitui,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2025-05,2,Kwale,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,2,Kwale,White Irish Potatoes,Retail,KES/kg,62.5,Observed (KAMIS),1
+2025-07,2,Kwale,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-08,2,Kwale,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-09,2,Kwale,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-10,2,Kwale,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),2
+2025-11,2,Kwale,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),3
+2025-12,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-01,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-02,2,Kwale,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),3
+2026-03,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-04,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-05,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),2
+2026-06,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-07,2,Kwale,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),3
+2026-08,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-09,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-10,2,Kwale,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2025-02,12,Meru,White Irish Potatoes,Retail,KES/kg,58.0,Observed (KAMIS),1
+2025-05,12,Meru,White Irish Potatoes,Retail,KES/kg,66.0,Observed (KAMIS),4
+2025-06,12,Meru,White Irish Potatoes,Retail,KES/kg,51.0,Observed (KAMIS),4
+2025-07,12,Meru,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),4
+2025-08,12,Meru,White Irish Potatoes,Retail,KES/kg,51.43,Observed (KAMIS),4
+2025-09,12,Meru,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),4
+2025-10,12,Meru,White Irish Potatoes,Retail,KES/kg,68.0,Observed (KAMIS),4
+2025-11,12,Meru,White Irish Potatoes,Retail,KES/kg,61.0,Observed (KAMIS),4
+2025-12,12,Meru,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),4
+2026-01,12,Meru,White Irish Potatoes,Retail,KES/kg,74.0,Observed (KAMIS),4
+2026-02,12,Meru,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),4
+2026-03,12,Meru,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),4
+2026-04,12,Meru,White Irish Potatoes,Retail,KES/kg,98.0,Observed (KAMIS),4
+2026-05,12,Meru,White Irish Potatoes,Retail,KES/kg,85.71,Observed (KAMIS),4
+2026-06,12,Meru,White Irish Potatoes,Retail,KES/kg,61.0,Observed (KAMIS),4
+2026-07,12,Meru,White Irish Potatoes,Retail,KES/kg,75.28,Observed (KAMIS),4
+2026-08,12,Meru,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),3
+2026-09,12,Meru,White Irish Potatoes,Retail,KES/kg,98.0,Observed (KAMIS),4
+2026-10,12,Meru,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),3
+2026-06,44,Migori,White Irish Potatoes,Retail,KES/kg,83.33,Observed (KAMIS),1
+2026-07,44,Migori,White Irish Potatoes,Retail,KES/kg,35.71,Observed (KAMIS),1
+2025-05,21,Murang'a,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-06,21,Murang'a,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),1
+2025-07,21,Murang'a,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-08,21,Murang'a,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-09,21,Murang'a,White Irish Potatoes,Retail,KES/kg,76.92,Observed (KAMIS),2
+2025-10,21,Murang'a,White Irish Potatoes,Retail,KES/kg,76.92,Observed (KAMIS),2
+2025-11,21,Murang'a,White Irish Potatoes,Retail,KES/kg,70.72,Observed (KAMIS),2
+2025-12,21,Murang'a,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-01,21,Murang'a,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-02,21,Murang'a,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-03,21,Murang'a,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-04,21,Murang'a,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),2
+2026-05,21,Murang'a,White Irish Potatoes,Retail,KES/kg,92.5,Observed (KAMIS),2
+2026-06,21,Murang'a,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2026-07,21,Murang'a,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2026-08,21,Murang'a,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2026-09,21,Murang'a,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),2
+2026-10,21,Murang'a,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),2
+2025-02,47,Nairobi,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-05,47,Nairobi,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),3
+2025-06,47,Nairobi,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),4
+2025-07,47,Nairobi,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-08,47,Nairobi,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),4
+2025-10,47,Nairobi,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-01,47,Nairobi,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-02,47,Nairobi,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),1
+2026-08,47,Nairobi,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-09,47,Nairobi,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2025-05,32,Nakuru,White Irish Potatoes,Retail,KES/kg,30.0,Observed (KAMIS),1
+2025-03,29,Nandi,White Irish Potatoes,Retail,KES/kg,100.0,Observed (KAMIS),1
+2025-04,29,Nandi,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),1
+2025-06,29,Nandi,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-09,29,Nandi,White Irish Potatoes,Retail,KES/kg,46.66,Observed (KAMIS),1
+2025-10,29,Nandi,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-06,33,Narok,White Irish Potatoes,Retail,KES/kg,44.0,Observed (KAMIS),1
+2025-07,33,Narok,White Irish Potatoes,Retail,KES/kg,34.66,Observed (KAMIS),1
+2025-05,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-06,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),2
+2025-07,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,45.0,Observed (KAMIS),2
+2025-08,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-09,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-10,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-11,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),3
+2025-12,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-01,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2026-02,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),2
+2026-03,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2026-04,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),2
+2026-05,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),3
+2026-06,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,55.0,Observed (KAMIS),4
+2026-07,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),3
+2026-08,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),3
+2026-09,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,80.0,Observed (KAMIS),3
+2026-10,6,Taita Taveta,White Irish Potatoes,Retail,KES/kg,95.0,Observed (KAMIS),4
+2025-05,4,Tana River,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,4,Tana River,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,White Irish Potatoes,Retail,KES/kg,40.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,50.67,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,46.66,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,60.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,65.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,77.5,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,75.0,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,White Irish Potatoes,Retail,KES/kg,70.0,Observed (KAMIS),2
+2025-05,27,Uasin Gishu,White Irish Potatoes,Retail,KES/kg,50.0,Observed (KAMIS),1
+2025-06,27,Uasin Gishu,White Irish Potatoes,Retail,KES/kg,57.5,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,White Irish Potatoes,Retail,KES/kg,85.0,Observed (KAMIS),4
+2026-09,27,Uasin Gishu,White Irish Potatoes,Retail,KES/kg,90.0,Observed (KAMIS),4
+2026-10,27,Uasin Gishu,White Irish Potatoes,Retail,KES/kg,92.5,Observed (KAMIS),5
+2025-01,38,Vihiga,White Irish Potatoes,Retail,KES/kg,91.66,Observed (KAMIS),1
+2025-02,38,Vihiga,White Irish Potatoes,Retail,KES/kg,77.79,Observed (KAMIS),1
+2025-06,38,Vihiga,White Irish Potatoes,Retail,KES/kg,70.37,Observed (KAMIS),2
+2025-07,38,Vihiga,White Irish Potatoes,Retail,KES/kg,51.32,Observed (KAMIS),2
+2025-08,38,Vihiga,White Irish Potatoes,Retail,KES/kg,48.81,Observed (KAMIS),1
+2025-05,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-06,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),2
+2025-07,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-08,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),2
+2025-09,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,38.0,Observed (KAMIS),2
+2025-10,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),2
+2025-11,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-02,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-03,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-04,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-05,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-06,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-07,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-08,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-09,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-10,36,Bomet,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-05,39,Bungoma,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-06,39,Bungoma,White Irish Potatoes,Wholesale,KES/kg,47.5,Observed (KAMIS),1
+2026-08,39,Bungoma,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-09,39,Bungoma,White Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-05,14,Embu,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-06,14,Embu,White Irish Potatoes,Wholesale,KES/kg,57.5,Observed (KAMIS),1
+2025-07,14,Embu,White Irish Potatoes,Wholesale,KES/kg,34.0,Observed (KAMIS),2
+2025-08,14,Embu,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2025-09,14,Embu,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2025-10,14,Embu,White Irish Potatoes,Wholesale,KES/kg,36.0,Observed (KAMIS),1
+2025-11,14,Embu,White Irish Potatoes,Wholesale,KES/kg,38.0,Observed (KAMIS),1
+2025-12,14,Embu,White Irish Potatoes,Wholesale,KES/kg,39.5,Observed (KAMIS),1
+2026-04,14,Embu,White Irish Potatoes,Wholesale,KES/kg,57.0,Observed (KAMIS),2
+2026-05,14,Embu,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-06,14,Embu,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-07,14,Embu,White Irish Potatoes,Wholesale,KES/kg,54.5,Observed (KAMIS),1
+2026-08,14,Embu,White Irish Potatoes,Wholesale,KES/kg,67.0,Observed (KAMIS),1
+2026-09,14,Embu,White Irish Potatoes,Wholesale,KES/kg,72.0,Observed (KAMIS),1
+2026-10,14,Embu,White Irish Potatoes,Wholesale,KES/kg,68.0,Observed (KAMIS),1
+2025-05,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,56.0,Observed (KAMIS),4
+2025-06,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,33.85,Observed (KAMIS),6
+2025-07,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,55.34,Observed (KAMIS),3
+2025-08,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,42.67,Observed (KAMIS),1
+2025-09,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,46.41,Observed (KAMIS),4
+2025-10,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,61.34,Observed (KAMIS),2
+2025-11,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,54.0,Observed (KAMIS),3
+2025-12,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-01,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,53.85,Observed (KAMIS),4
+2026-02,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,53.33,Observed (KAMIS),2
+2026-03,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,58.46,Observed (KAMIS),4
+2026-04,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,53.33,Observed (KAMIS),6
+2026-05,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),6
+2026-06,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,36.66,Observed (KAMIS),6
+2026-07,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),4
+2026-08,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,64.29,Observed (KAMIS),7
+2026-09,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,71.43,Observed (KAMIS),6
+2026-10,37,Kakamega,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),6
+2025-05,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),5
+2025-06,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,32.0,Observed (KAMIS),5
+2025-07,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,32.0,Observed (KAMIS),4
+2025-08,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,34.0,Observed (KAMIS),5
+2025-09,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,36.0,Observed (KAMIS),5
+2025-10,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,35.5,Observed (KAMIS),5
+2025-11,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,36.0,Observed (KAMIS),5
+2025-12,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),4
+2026-01,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,37.5,Observed (KAMIS),4
+2026-02,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,42.0,Observed (KAMIS),4
+2026-03,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,38.0,Observed (KAMIS),4
+2026-04,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,44.0,Observed (KAMIS),4
+2026-05,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),4
+2026-06,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),4
+2026-07,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,41.0,Observed (KAMIS),3
+2026-08,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),4
+2026-09,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,44.0,Observed (KAMIS),4
+2026-10,20,Kirinyaga,White Irish Potatoes,Wholesale,KES/kg,44.0,Observed (KAMIS),4
+2025-03,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-05,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,85.0,Observed (KAMIS),2
+2025-06,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),3
+2025-07,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),4
+2025-08,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,58.0,Observed (KAMIS),3
+2025-09,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),3
+2025-10,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,83.0,Observed (KAMIS),1
+2025-11,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,77.0,Observed (KAMIS),3
+2025-12,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,90.0,Observed (KAMIS),2
+2026-01,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,95.0,Observed (KAMIS),3
+2026-02,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,110.0,Observed (KAMIS),3
+2026-03,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,105.0,Observed (KAMIS),3
+2026-04,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,110.0,Observed (KAMIS),3
+2026-05,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,83.0,Observed (KAMIS),3
+2026-06,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),4
+2026-07,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,90.0,Observed (KAMIS),4
+2026-08,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,96.0,Observed (KAMIS),3
+2026-09,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,110.0,Observed (KAMIS),3
+2026-10,42,Kisumu,White Irish Potatoes,Wholesale,KES/kg,120.0,Observed (KAMIS),3
+2025-05,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,32.5,Observed (KAMIS),1
+2025-06,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,31.58,Observed (KAMIS),2
+2025-07,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2025-08,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),3
+2025-09,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,38.95,Observed (KAMIS),3
+2025-10,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-11,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,35.68,Observed (KAMIS),3
+2025-12,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,37.28,Observed (KAMIS),1
+2026-01,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),2
+2026-02,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2026-04,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,56.32,Observed (KAMIS),1
+2026-10,15,Kitui,White Irish Potatoes,Wholesale,KES/kg,62.1,Observed (KAMIS),1
+2025-05,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,47.37,Observed (KAMIS),1
+2025-06,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,47.37,Observed (KAMIS),1
+2025-07,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-08,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-09,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,50.53,Observed (KAMIS),2
+2025-10,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,65.0,Observed (KAMIS),2
+2025-11,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2025-12,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),3
+2026-01,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,60.52,Observed (KAMIS),3
+2026-02,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),3
+2026-03,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,57.89,Observed (KAMIS),3
+2026-04,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,63.16,Observed (KAMIS),3
+2026-05,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,63.16,Observed (KAMIS),2
+2026-06,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,54.74,Observed (KAMIS),3
+2026-07,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),3
+2026-08,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,62.5,Observed (KAMIS),3
+2026-09,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),3
+2026-10,2,Kwale,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),3
+2025-02,12,Meru,White Irish Potatoes,Wholesale,KES/kg,54.0,Observed (KAMIS),1
+2025-05,12,Meru,White Irish Potatoes,Wholesale,KES/kg,48.5,Observed (KAMIS),4
+2025-06,12,Meru,White Irish Potatoes,Wholesale,KES/kg,44.0,Observed (KAMIS),4
+2025-07,12,Meru,White Irish Potatoes,Wholesale,KES/kg,44.0,Observed (KAMIS),4
+2025-08,12,Meru,White Irish Potatoes,Wholesale,KES/kg,47.14,Observed (KAMIS),4
+2025-09,12,Meru,White Irish Potatoes,Wholesale,KES/kg,41.43,Observed (KAMIS),4
+2025-10,12,Meru,White Irish Potatoes,Wholesale,KES/kg,58.0,Observed (KAMIS),4
+2025-11,12,Meru,White Irish Potatoes,Wholesale,KES/kg,59.0,Observed (KAMIS),4
+2025-12,12,Meru,White Irish Potatoes,Wholesale,KES/kg,50.72,Observed (KAMIS),4
+2026-01,12,Meru,White Irish Potatoes,Wholesale,KES/kg,52.5,Observed (KAMIS),4
+2026-02,12,Meru,White Irish Potatoes,Wholesale,KES/kg,53.62,Observed (KAMIS),4
+2026-03,12,Meru,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),4
+2026-04,12,Meru,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),4
+2026-05,12,Meru,White Irish Potatoes,Wholesale,KES/kg,61.25,Observed (KAMIS),4
+2026-06,12,Meru,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),4
+2026-07,12,Meru,White Irish Potatoes,Wholesale,KES/kg,58.0,Observed (KAMIS),4
+2026-08,12,Meru,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),3
+2026-09,12,Meru,White Irish Potatoes,Wholesale,KES/kg,75.0,Observed (KAMIS),4
+2026-10,12,Meru,White Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),3
+2026-06,44,Migori,White Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2026-07,44,Migori,White Irish Potatoes,Wholesale,KES/kg,80.0,Observed (KAMIS),1
+2025-05,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-07,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-11,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2025-12,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-02,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-03,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,45.0,Observed (KAMIS),1
+2026-06,21,Murang'a,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-05,47,Nairobi,White Irish Potatoes,Wholesale,KES/kg,38.82,Observed (KAMIS),2
+2025-06,47,Nairobi,White Irish Potatoes,Wholesale,KES/kg,38.24,Observed (KAMIS),2
+2025-08,47,Nairobi,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-10,47,Nairobi,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2026-08,47,Nairobi,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2026-09,47,Nairobi,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-03,29,Nandi,White Irish Potatoes,Wholesale,KES/kg,25.0,Observed (KAMIS),1
+2025-04,29,Nandi,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-06,29,Nandi,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-09,29,Nandi,White Irish Potatoes,Wholesale,KES/kg,43.56,Observed (KAMIS),1
+2025-10,29,Nandi,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-06,33,Narok,White Irish Potatoes,Wholesale,KES/kg,30.46,Observed (KAMIS),2
+2025-07,33,Narok,White Irish Potatoes,Wholesale,KES/kg,25.91,Observed (KAMIS),1
+2025-05,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,38.1,Observed (KAMIS),2
+2025-06,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,31.25,Observed (KAMIS),1
+2025-07,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2025-08,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,36.88,Observed (KAMIS),2
+2025-09,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,43.75,Observed (KAMIS),1
+2025-10,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,49.1,Observed (KAMIS),1
+2025-11,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,38.0,Observed (KAMIS),2
+2025-12,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,37.5,Observed (KAMIS),2
+2026-01,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,51.11,Observed (KAMIS),1
+2026-02,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,52.5,Observed (KAMIS),1
+2026-03,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,54.72,Observed (KAMIS),1
+2026-04,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,54.54,Observed (KAMIS),1
+2026-05,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,48.58,Observed (KAMIS),1
+2026-06,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2026-07,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2026-08,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,70.0,Observed (KAMIS),2
+2026-09,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,56.14,Observed (KAMIS),2
+2026-10,6,Taita Taveta,White Irish Potatoes,Wholesale,KES/kg,65.0,Observed (KAMIS),3
+2025-05,4,Tana River,White Irish Potatoes,Wholesale,KES/kg,38.89,Observed (KAMIS),1
+2025-06,4,Tana River,White Irish Potatoes,Wholesale,KES/kg,38.89,Observed (KAMIS),1
+2025-06,13,Tharaka-Nithi,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-07,13,Tharaka-Nithi,White Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),1
+2025-08,13,Tharaka-Nithi,White Irish Potatoes,Wholesale,KES/kg,20.0,Observed (KAMIS),1
+2025-09,13,Tharaka-Nithi,White Irish Potatoes,Wholesale,KES/kg,20.0,Observed (KAMIS),1
+2025-05,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,42.67,Observed (KAMIS),2
+2025-06,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,37.33,Observed (KAMIS),2
+2025-07,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-08,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,35.0,Observed (KAMIS),2
+2025-09,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),2
+2025-10,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-11,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),2
+2025-12,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),1
+2026-01,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,57.5,Observed (KAMIS),2
+2026-02,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,57.5,Observed (KAMIS),2
+2026-03,26,Trans Nzoia,White Irish Potatoes,Wholesale,KES/kg,55.0,Observed (KAMIS),2
+2025-05,27,Uasin Gishu,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-06,27,Uasin Gishu,White Irish Potatoes,Wholesale,KES/kg,47.5,Observed (KAMIS),1
+2026-08,27,Uasin Gishu,White Irish Potatoes,Wholesale,KES/kg,60.0,Observed (KAMIS),4
+2026-09,27,Uasin Gishu,White Irish Potatoes,Wholesale,KES/kg,75.0,Observed (KAMIS),4
+2026-10,27,Uasin Gishu,White Irish Potatoes,Wholesale,KES/kg,75.0,Observed (KAMIS),5
+2025-01,38,Vihiga,White Irish Potatoes,Wholesale,KES/kg,50.0,Observed (KAMIS),1
+2025-02,38,Vihiga,White Irish Potatoes,Wholesale,KES/kg,40.0,Observed (KAMIS),1
+2025-06,38,Vihiga,White Irish Potatoes,Wholesale,KES/kg,30.0,Observed (KAMIS),1
+2025-07,38,Vihiga,White Irish Potatoes,Wholesale,KES/kg,30.77,Observed (KAMIS),2
