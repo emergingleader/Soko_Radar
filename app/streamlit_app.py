@@ -214,8 +214,14 @@ with st.sidebar:
     when = None
     if year is not None:
         in_year = past[past["month"].dt.year == year]
-        when = st.selectbox("Month", list(in_year["month"]), format_func=lambda m: f"{m:%B}")
-        then = in_year[in_year["month"] == when].iloc[0]
+        # month numbers, and a box per market and year, so a month picked in another year is never carried over
+        month_no = st.selectbox("Month", list(in_year["month"].dt.month),
+                                format_func=lambda m: f"{pd.Timestamp(2000, m, 1):%B}",
+                                key=f"past_month_{county}_{crop}_{price_type}_{year}")
+        hit = in_year[in_year["month"].dt.month == month_no]
+    if year is not None and len(hit):
+        then = hit.iloc[0]
+        when = then["month"]
         now = past.iloc[-1]
         unit = UNIT.get(crop, "kg")
         st.metric(f"{when:%B %Y}", f"KES {then['price_kes']:,.1f} per {unit}",
