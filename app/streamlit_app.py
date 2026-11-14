@@ -59,7 +59,7 @@ st.markdown("""
              background: #1d2c5e;}
 .sr-card .c.down {color: #8be9ff; background: rgba(139,233,255,0.14);}
 .sr-card .c.up {color: #ffc266; background: rgba(255,194,102,0.14);}
-.st-key-price_chart, .st-key-jump_chart, .st-key-buy_panel, .st-key-jump_list {background: #1b2c63; border-radius: 16px; padding: 14px 16px 6px;
+.st-key-price_chart, .st-key-jump_chart, .st-key-buy_panel, .st-key-jump_list, .st-key-driver_panel {background: #1b2c63; border-radius: 16px; padding: 14px 16px 6px;
                      box-shadow: 0 6px 18px rgba(0,0,0,0.25);}
 /* the rest of the page follows the heading: off-white headings with a mint accent, lavender text */
 [data-testid="stMain"] [data-testid="stMarkdownContainer"] p,
@@ -309,6 +309,37 @@ if page == "Price forecast":
             '',
             unsafe_allow_html=True)
         st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+
+    # what drives the forecast: the handover script's drivers model (M5) explained with SHAP, top 3 inputs per month
+    with st.container(key="driver_panel"):
+        st.markdown('<div style="font-size: 1.25rem; font-weight: 800; color: #f2f4f8; margin-bottom: 6px;"><span '
+                    'style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: #7ee2a8; '
+                    'box-shadow: 0 0 0 4px rgba(126,226,168,0.22); margin-right: 12px; vertical-align: middle;"></span>'
+                    'What drives this forecast</div>', unsafe_allow_html=True)
+        when_d = st.radio("Month", [pd.Timestamp(m) for m in rows["target_month"]], horizontal=True, key="drv_month",
+                          format_func=lambda m: f"{m:%B %Y}", label_visibility="collapsed")
+        d = rows[pd.to_datetime(rows["target_month"]) == when_d].iloc[0]
+        pushes = [(d.get(f"driver_{k}"), d.get(f"driver_{k}_family"), d.get(f"driver_{k}_push_points")) for k in (1, 2, 3)]
+        pushes = [(n, fam, p) for n, fam, p in pushes if isinstance(n, str) and pd.notna(p)]
+        if pd.isna(d.get("drivers_model_change_pct")) or not pushes:
+            st.markdown("No driver breakdown for this forecast.")
+        else:
+            st.markdown(f"The drivers model expects **{d['drivers_model_change_pct']:+.1f}%** by {when_d:%B}, starting "
+                        f"from a typical change of {d['drivers_typical_change_pct']:+.1f}%. These inputs move it most:")
+            items = []
+            for name, fam, p in pushes:
+                up = p > 0
+                tone = "#ffc266" if up else "#8be9ff"
+                items.append(
+                    f'<div style="display: flex; align-items: center; gap: 12px; padding: 7px 0; '
+                    f'border-bottom: 1px solid #24387a;"><span style="color: {tone}; font-weight: 800; width: 18px;">'
+                    f'{"▲" if up else "▼"}</span><div style="flex: 1;"><div style="color: #f2f4f8; font-weight: 600;">'
+                    f'{name[0].upper() + name[1:]}</div><div style="color: #aab6e8; font-size: 0.85rem;">{fam}</div></div>'
+                    f'<div style="color: {tone}; font-weight: 700; white-space: nowrap;">'
+                    f'{"pushes up" if up else "pushes down"} {abs(p):.1f} pts</div></div>')
+            st.markdown("".join(items), unsafe_allow_html=True)
+        st.caption("These show what the model leans on, not proof of cause (SHAP values from the drivers model). The "
+                   "drivers model is separate from the price forecast above, so its number can differ.")
 
     # chance of a jump against the warning level for each month (a bullet chart in place of the table;
     # the forecast, change and range are already on the cards)
