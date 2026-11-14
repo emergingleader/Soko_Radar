@@ -19,8 +19,8 @@ Steps:
 4. Ministry of Agriculture market prices (KAMIS, app/raw_data/kamis_monthly.csv, built by app/kamis.py) replace
    estimated prices for the same county, food, price type and month, as recorded prices "Observed (KAMIS)".
 
-The models are not retrained (they learned from data up to Dec 2024). On Jan 2025 to Jun 2026 recorded prices the
-forecast error was 8.9%, 10.6% and 12.4% at 1, 2 and 3 months, close to the 2015 to 2024 backtest.
+The models are not retrained (they learned from data up to Dec 2024). On real 2025 to 2026 prices they had not seen the
+forecast error was 10.8%, 12.8% and 13.6% at 1, 2 and 3 months (sealed test, notebook 02 section 12).
 """
 import argparse
 import base64
