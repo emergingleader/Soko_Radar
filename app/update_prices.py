@@ -16,6 +16,8 @@ Steps:
    with no data after 2024 are kept at their last value.
 3. Add the new months to data/SokoRadar_County_2006_2024_long.csv without changing 2006 to 2024. Estimated new
    prices are scaled by each series' Dec 2024 difference so the two parts line up. Recorded prices are kept as is.
+4. Ministry of Agriculture market prices (KAMIS, app/raw_data/kamis_monthly.csv, built by app/kamis.py) replace
+   estimated prices for the same county, food, price type and month, as recorded prices "Observed (KAMIS)".
 
 The models are not retrained (they learned from data up to Dec 2024). On Jan 2025 to Jun 2026 recorded prices the
 forecast error was 8.9%, 10.6% and 12.4% at 1, 2 and 3 months, close to the 2015 to 2024 backtest.
@@ -35,6 +37,8 @@ import urllib.request
 from pathlib import Path
 
 import pandas as pd
+
+import kamis
 
 APP = Path(__file__).resolve().parent
 REPO = APP.parent
@@ -123,6 +127,8 @@ def main():
     ext.loc[est, "price_kes"] = (ext.loc[est, "price_kes"] * ext.loc[est, "ratio"]).round(2)
     ext = ext.drop(columns="ratio")[repo.columns].sort_values(["county_code", "commodity", "price_type", "month"])
     assert len(ext) == repo.groupby(k).ngroups * ext["month"].nunique() and ext["price_kes"].gt(0).all()
+    if kamis.MONTHLY.exists():                                    # Ministry market prices replace estimates
+        ext = kamis.apply(ext, pd.read_csv(kamis.MONTHLY))
     ext.to_csv(OUT, index=False)
     shutil.rmtree(work, ignore_errors=True)
     print(f"Saved {len(ext):,} rows ({ext['month'].min()} to {ext['month'].max()}) to {OUT}")

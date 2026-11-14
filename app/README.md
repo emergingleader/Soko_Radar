@@ -15,6 +15,8 @@ calls their functions.
 | `streamlit_app.py` | The app |
 | `extra_tabs.py` | The On any phone, Does it work? and About tabs, and the Use my location switch in the sidebar |
 | `phone/` | The USSD menu and alert SMS in Kiswahili, English and Somali (`translations.csv`), the same code as the live Africa's Talking service in [sokoradar-demo](https://github.com/sirajiali-hub/sokoradar-demo). In the app it is a preview: it sends no SMS and stores no phone number |
+| `kamis.py` | Turns Ministry of Agriculture market price exports (KAMIS) into monthly county prices (`raw_data/kamis_monthly.csv`); `update_prices.py` uses them as recorded prices |
+| `drivers/` | How the model drivers were extended to October 2026, with the scripts and sources (see `drivers/README.md`) |
 | `transport.py` | Transport costs from notebook 05 (road distances, government hire rates and county fuel prices from `data/`) |
 | `update_prices.py` | Downloads the latest WFP prices from HDX, runs the team's pipeline and writes `raw_data/prices_after_2024.csv` |
 | `pipeline/sokoradar_pipeline.py` | The team's data pipeline (notebook 00), unchanged. It stores its own raw data |
@@ -27,8 +29,9 @@ Where each part comes from: prices from the pipeline (`data/` plus the months af
 warning and where-to-buy suggestion from notebook 02's handover script, the price range and seasonal label from
 notebook 07's alerts script, and transport costs from notebook 05.
 
-Where to buy compares prices recorded in markets, as in notebook 05. Since January 2025 few markets record prices
-each month, so when recorded prices can't be compared the app uses the Ministry of Agriculture county bulletin
+Where to buy compares prices recorded in markets, as in notebook 05. Since January 2025 recorded prices come from
+WFP markets and from the Ministry of Agriculture's KAMIS market prices (nine foods in 25 counties, added by
+`kamis.py`). When recorded prices still can't be compared the app uses the Ministry of Agriculture county bulletin
 instead and marks the answer Indicative. Other estimated prices (copied from neighbouring counties, trends or
 averages) are never compared.
 
