@@ -389,6 +389,15 @@ if page == "Price forecast":
             qty = left.number_input(f"How much will you buy? ({u})", min_value=50, max_value=3 * cap, value=cap,
                                   step=50, key=f"qty_{vehicle}",
                                   help="A bigger load shares the trip cost, so each kg costs less to move.")
+            # no price recorded in this county: the user can type the price at their own market
+            typed = False
+            if local is None and not near.empty:
+                mine = left.number_input(f"Price at your market in {county} (KES per {u})", min_value=0.0, value=0.0,
+                                         step=1.0, format="%.0f", key=f"own_{county}_{crop}_{price_type}",
+                                         help="No price was recorded in your county this month. Type the price you see "
+                                              "at your market to compare it with the recorded prices nearby.")
+                if mine > 0:
+                    local, typed = float(mine), True
 
             month = f"{latest:%B %Y}"
             other = [t for t in types if t != price_type]
@@ -407,7 +416,7 @@ if page == "Price forecast":
             elif local is None:
                 icon, tone, head = "i", "#c4b5fd", "Can't compare yet"
                 body = (f"Nearby markets reported prices, but {county}'s own {price_type.lower()} price was not "
-                        f"recorded in {month}, so we can't tell which is cheaper.")
+                        f"recorded in {month}. Type the price at your market on the left to compare.")
             else:
                 options, best = tp.advise(county, local, near[["county_b", "price"]], qty, vehicle, inputs)
                 net_of = dict(zip(options["county_b"], options["net"]))
@@ -445,6 +454,9 @@ if page == "Price forecast":
                 + (' <span style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; color: #0f1b2d; '
                    'background: #c7d2fe; border-radius: 999px; padding: 2px 9px; margin-left: 6px; vertical-align: '
                    'middle;">INDICATIVE</span>' if indicative and icon != "i" else "")
+                + (' <span style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; color: #0f1b2d; '
+                   'background: #ffc266; border-radius: 999px; padding: 2px 9px; margin-left: 6px; vertical-align: '
+                   'middle;">YOUR PRICE</span>' if typed and icon != "i" else "")
                 + f'</div><div style="color: #e8ecff; font-size: 0.95rem;">{body}</div>'
                 + (f'<div style="display: inline-block; margin-top: 10px; padding: 4px 12px; border-radius: 999px; '
                    f'background: #0f1b2d; color: {tone}; font-size: 0.85rem; font-weight: 600;">→ {hint}</div>'
