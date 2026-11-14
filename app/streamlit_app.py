@@ -522,7 +522,10 @@ World Bank.
 # Page 2: map of jump warnings
 if page == "Where prices may jump":
     f1, f2 = st.columns(2)
-    pick_crop = f1.selectbox("Food", ["All foods"] + sorted(result["commodity"].unique()), key="map_crop")
+    # one food at a time by default: with all 17 foods together almost every county has some warning
+    map_foods = sorted(result["commodity"].unique()) + ["All foods"]
+    pick_crop = f1.selectbox("Food", map_foods, index=map_foods.index("Dry Maize") if "Dry Maize" in map_foods else 0,
+                             key="map_crop")
     pick_month = f2.radio("Month", [f"{m:%B}" for m in months], horizontal=True, key="map_month")
     h = [f"{m:%B}" for m in months].index(pick_month) + 1
     view = result[result["horizon"] == h]
@@ -531,17 +534,29 @@ if page == "Where prices may jump":
     jumps = view[view["alert"]]
 
     geo, pcode_of = county_shapes()
-    # each county is simply "jump warning" or "no warning"; the hover lists which foods carry the warning
-    by_county = view.groupby("county")["alert"].any().to_frame("warn")
+    # one food: each county is "jump warning" or "no warning". All foods: shaded by how many foods carry a warning
+    # (0, 1-2, 3-5, 6 or more), so the counties with the most pressure stand out. The hover lists the foods.
+    by_county = view.groupby("county")["alert"].agg(warn="any", n="sum")
     foods = (jumps.assign(item=jumps["commodity"] + " (" + jumps["price_type"].str.lower() + ")")
              .groupby("county")["item"].apply(lambda x: "<br>".join(sorted(x))))
     by_county["pcode"] = by_county.index.map(pcode_of)
     by_county = by_county.dropna(subset=["pcode"])
     by_county["hover"] = [f"<b>{c}</b><br>Jump warning:<br>{foods[c]}" if w else f"<b>{c}</b><br>No warning"
                           for c, w in zip(by_county.index, by_county["warn"])]
+    all_foods = pick_crop == "All foods"
+    BANDS = [("No warning", "#2c3d58"), ("1-2 foods", "#f7b267"), ("3-5 foods", "#f4845f"), ("6 or more foods", "#d62839")]
+    if all_foods:
+        z = pd.cut(by_county["n"], [-1, 0, 2, 5, 10_000], labels=False).astype(int)
+        scale = [[i / 4 + e, c] for i, (_, c) in enumerate(BANDS) for e in (0, 0.25)]
+        zmin, zmax = -0.5, 3.5
+        by_county["hover"] = [f"<b>{c}</b><br>{n} food{'s' if n != 1 else ''} with a jump warning:<br>{foods[c]}" if n
+                              else f"<b>{c}</b><br>No warning" for c, n in zip(by_county.index, by_county["n"])]
+    else:
+        z = by_county["warn"].astype(int)
+        scale, zmin, zmax = [[0, "#2c3d58"], [0.5, "#2c3d58"], [0.5, "#f05252"], [1, "#f05252"]], 0, 1
     fig = go.Figure(go.Choropleth(
-        geojson=geo, featureidkey="properties.pcode", locations=by_county["pcode"], z=by_county["warn"].astype(int),
-        colorscale=[[0, "#2c3d58"], [0.5, "#2c3d58"], [0.5, "#f05252"], [1, "#f05252"]], zmin=0, zmax=1,
+        geojson=geo, featureidkey="properties.pcode", locations=by_county["pcode"], z=z,
+        colorscale=scale, zmin=zmin, zmax=zmax,
         showscale=False, marker_line_color="#0f1b2d", marker_line_width=0.8,
         customdata=by_county["hover"], hovertemplate="%{customdata}<extra></extra>"))
     fig.update_geos(visible=False, projection_type="mercator", lonaxis_range=[33.6, 42.2], lataxis_range=[-4.9, 5.2])
@@ -561,8 +576,13 @@ if page == "Where prices may jump":
                 + kpi("High for the season", n_high, "of 47 counties", "#ffc266")
                 + kpi("Typical change", f"{typical:+.1f}%", f"by {pick_month}", "#7ee2a8")
                 + '</div>', unsafe_allow_html=True)
-    st.markdown('<span style="color:#f05252">■</span> Jump warning &nbsp;&nbsp; '
-                '<span style="color:#5d6fb0">■</span> No warning', unsafe_allow_html=True)
+    if all_foods:
+        st.markdown("Foods with a jump warning in each county: " + " &nbsp; ".join(
+            f'<span style="color:{"#5d6fb0" if i == 0 else c}">■</span> {lab}' for i, (lab, c) in enumerate(BANDS)),
+            unsafe_allow_html=True)
+    else:
+        st.markdown('<span style="color:#f05252">■</span> Jump warning &nbsp;&nbsp; '
+                    '<span style="color:#5d6fb0">■</span> No warning', unsafe_allow_html=True)
     st.plotly_chart(fig, use_container_width=True, config={"scrollZoom": False, "displayModeBar": False})
 
     # ranked list of the warnings (replaces the long table): bar = chance of a jump, highest first
