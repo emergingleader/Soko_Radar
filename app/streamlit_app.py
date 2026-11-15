@@ -107,7 +107,22 @@ def load_module(name, path):
 fc = load_module("sokoradar_forecast", HANDOVER / "sokoradar_forecast.py")
 al = load_module("sokoradar_alerts", HANDOVER / "alerts" / "sokoradar_alerts.py")
 tp = load_module("sokoradar_transport", APP / "transport.py")
-extra = load_module("sokoradar_extra_tabs", APP / "extra_tabs.py")   # phone, results and about tabs
+
+
+@st.cache_resource
+def load_pages(version):
+    """The phone, results and about pages (app/extra_tabs.py and app/phone/). Loaded again whenever one of their files
+    changes (version = the newest file time), so a merged change shows without rebooting the app."""
+    for name in ("menu", "i18n", "sms", "sokoradar_data", "notify", "subscribers"):   # app/phone modules
+        sys.modules.pop(name, None)
+    spec = importlib.util.spec_from_file_location("sokoradar_extra_tabs", APP / "extra_tabs.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+PAGE_FILES = [APP / "extra_tabs.py", *sorted((APP / "phone").glob("*"))]
+extra = load_pages(max(p.stat().st_mtime for p in PAGE_FILES if p.is_file()))   # phone, results and about pages
 
 
 def safely(fn, *args):
