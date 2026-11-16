@@ -1,8 +1,10 @@
 """Transport costs for "where to buy", taken from notebooks/05_recommender.ipynb.
 
 Same rules and assumptions as the notebook:
-- Nearby means county centres within 200 km. Road distances come from data/county_road_distance.csv
-  (41 of 47 counties); other pairs use straight-line distance x 1.3.
+- Nearby means county centres within 200 km. Road distances come from data/county_road_distance.csv: driving
+  distances between the main towns of all 47 counties on today's roads (OpenStreetMap and OSRM, made by
+  app/update_road_distance.py). Any pair missing from the file uses straight-line distance x 1.3.
+  The 1994 Ministry of Roads matrix (41 counties) used in notebook 05 is kept as data/county_road_distance_1994.csv.
 - Hire rates come from the government vehicle hire card (data/govt_vehicle_hire_rates.csv). Fuel use and the
   driver and handling cost per trip are the notebook's assumptions.
 - Fuel is priced at the EPRA pump price in the buyer's county (data/fuel_prices_by_county.csv), or the national

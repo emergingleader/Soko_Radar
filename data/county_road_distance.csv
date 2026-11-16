@@ -1,1575 +1,2163 @@
 county_a,county_b,road_km,town_a_used,town_b_used
-Bungoma,Busia,62,Bungoma,Busia
-Bungoma,Uasin Gishu,100,Bungoma,Eldoret
-Bungoma,Embu,500,Bungoma,Embu
-Bungoma,Garissa,786,Bungoma,Garissa
-Bungoma,Tana River,902,Bungoma,Hola
-Bungoma,Homa Bay,287,Bungoma,Homa Bay
-Bungoma,Isiolo,489,Bungoma,Isiolo
-Bungoma,Elgeyo-Marakwet,134,Bungoma,Iten
-Bungoma,Baringo,188,Bungoma,Kabarnet
-Bungoma,Kakamega,72,Bungoma,Kakamega
-Bungoma,West Pokot,123,Bungoma,Kapenguria
-Bungoma,Nandi,100,Bungoma,Kapsabet
-Bungoma,Kericho,202,Bungoma,Kericho
-Bungoma,Kirinyaga,459,Bungoma,Kerugoya
-Bungoma,Kiambu,428,Bungoma,Kiambu
-Bungoma,Kilifi,950,Bungoma,Kilifi
-Bungoma,Kisii,235,Bungoma,Kisii
-Bungoma,Kisumu,122,Bungoma,Kisumu
-Bungoma,Trans Nzoia,84,Bungoma,Kitale
-Bungoma,Kitui,582,Bungoma,Kitui
-Bungoma,Kwale,932,Bungoma,Kwale
-Bungoma,Lamu,1112,Bungoma,Lamu
-Bungoma,Turkana,382,Bungoma,Lodwar
-Bungoma,Machakos,475,Bungoma,Machakos
-Bungoma,Mandera,1245,Bungoma,Mandera
-Bungoma,Samburu,407,Bungoma,Maralal
-Bungoma,Marsabit,748,Bungoma,Marsabit
-Bungoma,Meru,485,Bungoma,Meru
-Bungoma,Mombasa,899,Bungoma,Mombasa
-Bungoma,Murang'a,477,Bungoma,Murang'a
-Bungoma,Nairobi,412,Bungoma,Nairobi
-Bungoma,Nakuru,253,Bungoma,Nakuru
-Bungoma,Narok,352,Bungoma,Narok
-Bungoma,Nyeri,412,Bungoma,Nyeri
-Bungoma,Siaya,115,Bungoma,Siaya
-Bungoma,Wajir,845,Bungoma,Wajir
-Bungoma,Laikipia,410,Bungoma,Nanyuki
-Bungoma,Kajiado,488,Bungoma,Kajiado
-Bungoma,Taita Taveta,782,Bungoma,Wundanyi
-Busia,Bungoma,62,Busia,Bungoma
-Busia,Uasin Gishu,162,Busia,Eldoret
-Busia,Embu,448,Busia,Embu
-Busia,Garissa,857,Busia,Garissa
-Busia,Tana River,973,Busia,Hola
-Busia,Homa Bay,303,Busia,Homa Bay
-Busia,Isiolo,561,Busia,Isiolo
-Busia,Elgeyo-Marakwet,196,Busia,Iten
-Busia,Baringo,250,Busia,Kabarnet
-Busia,Kakamega,95,Busia,Kakamega
-Busia,West Pokot,185,Busia,Kapenguria
-Busia,Nandi,123,Busia,Kapsabet
-Busia,Kericho,218,Busia,Kericho
-Busia,Kirinyaga,531,Busia,Kerugoya
-Busia,Kiambu,499,Busia,Kiambu
-Busia,Kilifi,1021,Busia,Kilifi
-Busia,Kisii,251,Busia,Kisii
-Busia,Kisumu,138,Busia,Kisumu
-Busia,Trans Nzoia,146,Busia,Kitale
-Busia,Kitui,653,Busia,Kitui
-Busia,Kwale,1003,Busia,Kwale
-Busia,Lamu,1183,Busia,Lamu
-Busia,Turkana,444,Busia,Lodwar
-Busia,Machakos,546,Busia,Machakos
-Busia,Mandera,1317,Busia,Mandera
-Busia,Samburu,543,Busia,Maralal
-Busia,Marsabit,820,Busia,Marsabit
-Busia,Meru,556,Busia,Meru
-Busia,Mombasa,970,Busia,Mombasa
-Busia,Murang'a,549,Busia,Murang'a
-Busia,Nairobi,483,Busia,Nairobi
-Busia,Nakuru,325,Busia,Nakuru
-Busia,Narok,368,Busia,Narok
-Busia,Nyeri,484,Busia,Nyeri
-Busia,Siaya,63,Busia,Siaya
-Busia,Wajir,917,Busia,Wajir
-Busia,Laikipia,481,Busia,Nanyuki
-Busia,Kajiado,559,Busia,Kajiado
-Busia,Taita Taveta,853,Busia,Wundanyi
-Busia,Migori,336,Busia,Isebania
-Uasin Gishu,Bungoma,100,Eldoret,Bungoma
-Uasin Gishu,Busia,162,Eldoret,Busia
-Uasin Gishu,Embu,400,Eldoret,Embu
-Uasin Gishu,Garissa,685,Eldoret,Garissa
-Uasin Gishu,Tana River,801,Eldoret,Hola
-Uasin Gishu,Homa Bay,428,Eldoret,Homa Bay
-Uasin Gishu,Isiolo,389,Eldoret,Isiolo
-Uasin Gishu,Elgeyo-Marakwet,34,Eldoret,Iten
-Uasin Gishu,Baringo,88,Eldoret,Kabarnet
-Uasin Gishu,Kakamega,110,Eldoret,Kakamega
-Uasin Gishu,West Pokot,98,Eldoret,Kapenguria
-Uasin Gishu,Nandi,46,Eldoret,Kapsabet
-Uasin Gishu,Kericho,162,Eldoret,Kericho
-Uasin Gishu,Kirinyaga,359,Eldoret,Kerugoya
-Uasin Gishu,Kiambu,327,Eldoret,Kiambu
-Uasin Gishu,Kilifi,849,Eldoret,Kilifi
-Uasin Gishu,Kisii,266,Eldoret,Kisii
-Uasin Gishu,Kisumu,160,Eldoret,Kisumu
-Uasin Gishu,Trans Nzoia,69,Eldoret,Kitale
-Uasin Gishu,Kitui,461,Eldoret,Kitui
-Uasin Gishu,Kwale,831,Eldoret,Kwale
-Uasin Gishu,Lamu,1011,Eldoret,Lamu
-Uasin Gishu,Turkana,298,Eldoret,Lodwar
-Uasin Gishu,Machakos,374,Eldoret,Machakos
-Uasin Gishu,Mandera,1143,Eldoret,Mandera
-Uasin Gishu,Samburu,307,Eldoret,Maralal
-Uasin Gishu,Marsabit,648,Eldoret,Marsabit
-Uasin Gishu,Meru,384,Eldoret,Meru
-Uasin Gishu,Mombasa,798,Eldoret,Mombasa
-Uasin Gishu,Murang'a,377,Eldoret,Murang'a
-Uasin Gishu,Nairobi,311,Eldoret,Nairobi
-Uasin Gishu,Nakuru,153,Eldoret,Nakuru
-Uasin Gishu,Narok,348,Eldoret,Narok
-Uasin Gishu,Nyeri,312,Eldoret,Nyeri
-Uasin Gishu,Siaya,164,Eldoret,Siaya
-Uasin Gishu,Wajir,745,Eldoret,Wajir
-Uasin Gishu,Laikipia,309,Eldoret,Nanyuki
-Uasin Gishu,Kajiado,387,Eldoret,Kajiado
-Uasin Gishu,Taita Taveta,681,Eldoret,Wundanyi
-Uasin Gishu,Migori,351,Eldoret,Isebania
-Embu,Bungoma,500,Embu,Bungoma
-Embu,Busia,448,Embu,Busia
-Embu,Uasin Gishu,400,Embu,Eldoret
-Embu,Garissa,337,Embu,Garissa
-Embu,Tana River,453,Embu,Hola
-Embu,Homa Bay,522,Embu,Homa Bay
-Embu,Isiolo,160,Embu,Isiolo
-Embu,Elgeyo-Marakwet,434,Embu,Iten
-Embu,Baringo,383,Embu,Kabarnet
-Embu,Kakamega,427,Embu,Kakamega
-Embu,West Pokot,478,Embu,Kapenguria
-Embu,Nandi,399,Embu,Kapsabet
-Embu,Kericho,354,Embu,Kericho
-Embu,Kirinyaga,27,Embu,Kerugoya
-Embu,Kiambu,135,Embu,Kiambu
-Embu,Kilifi,953,Embu,Kilifi
-Embu,Kisii,458,Embu,Kisii
-Embu,Kisumu,434,Embu,Kisumu
-Embu,Trans Nzoia,470,Embu,Kitale
-Embu,Kitui,143,Embu,Kitui
-Embu,Kwale,453,Embu,Kwale
-Embu,Lamu,665,Embu,Lamu
-Embu,Turkana,737,Embu,Lodwar
-Embu,Machakos,196,Embu,Machakos
-Embu,Mandera,916,Embu,Mandera
-Embu,Samburu,344,Embu,Maralal
-Embu,Marsabit,419,Embu,Marsabit
-Embu,Meru,105,Embu,Meru
-Embu,Mombasa,620,Embu,Mombasa
-Embu,Murang'a,47,Embu,Murang'a
-Embu,Nairobi,133,Embu,Nairobi
-Embu,Nakuru,247,Embu,Nakuru
-Embu,Narok,264,Embu,Narok
-Embu,Nyeri,88,Embu,Nyeri
-Embu,Siaya,514,Embu,Siaya
-Embu,Wajir,516,Embu,Wajir
-Embu,Laikipia,131,Embu,Nanyuki
-Embu,Kajiado,209,Embu,Kajiado
-Embu,Taita Taveta,493,Embu,Wundanyi
-Garissa,Bungoma,786,Garissa,Bungoma
-Garissa,Busia,857,Garissa,Busia
-Garissa,Uasin Gishu,685,Garissa,Eldoret
-Garissa,Embu,337,Garissa,Embu
-Garissa,Tana River,144,Garissa,Hola
-Garissa,Homa Bay,807,Garissa,Homa Bay
-Garissa,Isiolo,497,Garissa,Isiolo
-Garissa,Elgeyo-Marakwet,719,Garissa,Iten
-Garissa,Baringo,668,Garissa,Kabarnet
-Garissa,Kakamega,729,Garissa,Kakamega
-Garissa,West Pokot,790,Garissa,Kapenguria
-Garissa,Nandi,683,Garissa,Kapsabet
-Garissa,Kericho,639,Garissa,Kericho
-Garissa,Kirinyaga,364,Garissa,Kerugoya
-Garissa,Kiambu,376,Garissa,Kiambu
-Garissa,Kilifi,412,Garissa,Kilifi
-Garissa,Kisii,743,Garissa,Kisii
-Garissa,Kisumu,719,Garissa,Kisumu
-Garissa,Trans Nzoia,754,Garissa,Kitale
-Garissa,Kitui,306,Garissa,Kitui
-Garissa,Kwale,496,Garissa,Kwale
-Garissa,Lamu,356,Garissa,Lamu
-Garissa,Turkana,1049,Garissa,Lodwar
-Garissa,Machakos,403,Garissa,Machakos
-Garissa,Mandera,729,Garissa,Mandera
-Garissa,Samburu,701,Garissa,Maralal
-Garissa,Marsabit,756,Garissa,Marsabit
-Garissa,Meru,442,Garissa,Meru
-Garissa,Mombasa,463,Garissa,Mombasa
-Garissa,Murang'a,383,Garissa,Murang'a
-Garissa,Nairobi,374,Garissa,Nairobi
-Garissa,Nakuru,532,Garissa,Nakuru
-Garissa,Narok,515,Garissa,Narok
-Garissa,Nyeri,445,Garissa,Nyeri
-Garissa,Siaya,799,Garissa,Siaya
-Garissa,Wajir,327,Garissa,Wajir
-Garissa,Laikipia,488,Garissa,Nanyuki
-Garissa,Kajiado,450,Garissa,Kajiado
-Garissa,Taita Taveta,662,Garissa,Wundanyi
-Tana River,Bungoma,902,Hola,Bungoma
-Tana River,Busia,973,Hola,Busia
-Tana River,Uasin Gishu,801,Hola,Eldoret
-Tana River,Embu,453,Hola,Embu
-Tana River,Garissa,144,Hola,Garissa
-Tana River,Homa Bay,923,Hola,Homa Bay
-Tana River,Isiolo,613,Hola,Isiolo
-Tana River,Elgeyo-Marakwet,836,Hola,Iten
-Tana River,Baringo,784,Hola,Kabarnet
-Tana River,Kakamega,845,Hola,Kakamega
-Tana River,West Pokot,909,Hola,Kapenguria
-Tana River,Nandi,799,Hola,Kapsabet
-Tana River,Kericho,755,Hola,Kericho
-Tana River,Kirinyaga,480,Hola,Kerugoya
-Tana River,Kiambu,492,Hola,Kiambu
-Tana River,Kilifi,268,Hola,Kilifi
-Tana River,Kisii,859,Hola,Kisii
-Tana River,Kisumu,835,Hola,Kisumu
-Tana River,Trans Nzoia,870,Hola,Kitale
-Tana River,Kitui,422,Hola,Kitui
-Tana River,Kwale,352,Hola,Kwale
-Tana River,Lamu,210,Hola,Lamu
-Tana River,Turkana,1168,Hola,Lodwar
-Tana River,Machakos,714,Hola,Machakos
-Tana River,Mandera,871,Hola,Mandera
-Tana River,Samburu,817,Hola,Maralal
-Tana River,Marsabit,872,Hola,Marsabit
-Tana River,Meru,558,Hola,Meru
-Tana River,Mombasa,319,Hola,Mombasa
-Tana River,Murang'a,499,Hola,Murang'a
-Tana River,Nairobi,490,Hola,Nairobi
-Tana River,Nakuru,648,Hola,Nakuru
-Tana River,Narok,631,Hola,Narok
-Tana River,Nyeri,561,Hola,Nyeri
-Tana River,Siaya,915,Hola,Siaya
-Tana River,Wajir,471,Hola,Wajir
-Tana River,Laikipia,604,Hola,Nanyuki
-Tana River,Kajiado,566,Hola,Kajiado
-Tana River,Taita Taveta,518,Hola,Wundanyi
-Homa Bay,Bungoma,287,Homa Bay,Bungoma
-Homa Bay,Busia,303,Homa Bay,Busia
-Homa Bay,Uasin Gishu,428,Homa Bay,Eldoret
-Homa Bay,Embu,522,Homa Bay,Embu
-Homa Bay,Garissa,807,Homa Bay,Garissa
-Homa Bay,Tana River,923,Homa Bay,Hola
-Homa Bay,Isiolo,511,Homa Bay,Isiolo
-Homa Bay,Elgeyo-Marakwet,462,Homa Bay,Iten
-Homa Bay,Baringo,411,Homa Bay,Kabarnet
-Homa Bay,Kakamega,215,Homa Bay,Kakamega
-Homa Bay,West Pokot,536,Homa Bay,Kapenguria
-Homa Bay,Nandi,241,Homa Bay,Kapsabet
-Homa Bay,Kericho,162,Homa Bay,Kericho
-Homa Bay,Kirinyaga,481,Homa Bay,Kerugoya
-Homa Bay,Kiambu,449,Homa Bay,Kiambu
-Homa Bay,Kilifi,971,Homa Bay,Kilifi
-Homa Bay,Kisii,58,Homa Bay,Kisii
-Homa Bay,Kisumu,165,Homa Bay,Kisumu
-Homa Bay,Trans Nzoia,497,Homa Bay,Kitale
-Homa Bay,Kitui,603,Homa Bay,Kitui
-Homa Bay,Kwale,953,Homa Bay,Kwale
-Homa Bay,Lamu,1133,Homa Bay,Lamu
-Homa Bay,Turkana,797,Homa Bay,Lodwar
-Homa Bay,Machakos,496,Homa Bay,Machakos
-Homa Bay,Mandera,1267,Homa Bay,Mandera
-Homa Bay,Samburu,493,Homa Bay,Maralal
-Homa Bay,Marsabit,770,Homa Bay,Marsabit
-Homa Bay,Meru,506,Homa Bay,Meru
-Homa Bay,Mombasa,920,Homa Bay,Mombasa
-Homa Bay,Murang'a,499,Homa Bay,Murang'a
-Homa Bay,Nairobi,433,Homa Bay,Nairobi
-Homa Bay,Nakuru,275,Homa Bay,Nakuru
-Homa Bay,Narok,256,Homa Bay,Narok
-Homa Bay,Nyeri,434,Homa Bay,Nyeri
-Homa Bay,Siaya,245,Homa Bay,Siaya
-Homa Bay,Wajir,867,Homa Bay,Wajir
-Homa Bay,Laikipia,431,Homa Bay,Nanyuki
-Homa Bay,Kajiado,509,Homa Bay,Kajiado
-Homa Bay,Taita Taveta,803,Homa Bay,Wundanyi
-Isiolo,Bungoma,489,Isiolo,Bungoma
-Isiolo,Busia,561,Isiolo,Busia
-Isiolo,Uasin Gishu,389,Isiolo,Eldoret
-Isiolo,Embu,160,Isiolo,Embu
-Isiolo,Garissa,497,Isiolo,Garissa
-Isiolo,Tana River,613,Isiolo,Hola
-Isiolo,Homa Bay,511,Isiolo,Homa Bay
-Isiolo,Elgeyo-Marakwet,423,Isiolo,Iten
-Isiolo,Baringo,372,Isiolo,Kabarnet
-Isiolo,Kakamega,416,Isiolo,Kakamega
-Isiolo,West Pokot,498,Isiolo,Kapenguria
-Isiolo,Nandi,388,Isiolo,Kapsabet
-Isiolo,Kericho,343,Isiolo,Kericho
-Isiolo,Kirinyaga,187,Isiolo,Kerugoya
-Isiolo,Kiambu,282,Isiolo,Kiambu
-Isiolo,Kilifi,818,Isiolo,Kilifi
-Isiolo,Kisii,447,Isiolo,Kisii
-Isiolo,Kisumu,423,Isiolo,Kisumu
-Isiolo,Trans Nzoia,459,Isiolo,Kitale
-Isiolo,Kitui,303,Isiolo,Kitui
-Isiolo,Kwale,800,Isiolo,Kwale
-Isiolo,Lamu,823,Isiolo,Lamu
-Isiolo,Turkana,756,Isiolo,Lodwar
-Isiolo,Machakos,343,Isiolo,Machakos
-Isiolo,Mandera,756,Isiolo,Mandera
-Isiolo,Samburu,280,Isiolo,Maralal
-Isiolo,Marsabit,259,Isiolo,Marsabit
-Isiolo,Meru,56,Isiolo,Meru
-Isiolo,Mombasa,767,Isiolo,Mombasa
-Isiolo,Murang'a,87,Isiolo,Murang'a
-Isiolo,Nairobi,278,Isiolo,Nairobi
-Isiolo,Nakuru,236,Isiolo,Nakuru
-Isiolo,Narok,424,Isiolo,Narok
-Isiolo,Nyeri,140,Isiolo,Nyeri
-Isiolo,Siaya,503,Isiolo,Siaya
-Isiolo,Wajir,356,Isiolo,Wajir
-Isiolo,Laikipia,80,Isiolo,Nanyuki
-Isiolo,Kajiado,356,Isiolo,Kajiado
-Isiolo,Taita Taveta,650,Isiolo,Wundanyi
-Elgeyo-Marakwet,Bungoma,134,Iten,Bungoma
-Elgeyo-Marakwet,Busia,196,Iten,Busia
-Elgeyo-Marakwet,Uasin Gishu,34,Iten,Eldoret
-Elgeyo-Marakwet,Embu,434,Iten,Embu
-Elgeyo-Marakwet,Garissa,719,Iten,Garissa
-Elgeyo-Marakwet,Tana River,836,Iten,Hola
-Elgeyo-Marakwet,Homa Bay,462,Iten,Homa Bay
-Elgeyo-Marakwet,Isiolo,423,Iten,Isiolo
-Elgeyo-Marakwet,Baringo,54,Iten,Kabarnet
-Elgeyo-Marakwet,Kakamega,144,Iten,Kakamega
-Elgeyo-Marakwet,West Pokot,132,Iten,Kapenguria
-Elgeyo-Marakwet,Nandi,80,Iten,Kapsabet
-Elgeyo-Marakwet,Kericho,96,Iten,Kericho
-Elgeyo-Marakwet,Kirinyaga,393,Iten,Kerugoya
-Elgeyo-Marakwet,Kiambu,361,Iten,Kiambu
-Elgeyo-Marakwet,Kilifi,883,Iten,Kilifi
-Elgeyo-Marakwet,Kisii,300,Iten,Kisii
-Elgeyo-Marakwet,Kisumu,194,Iten,Kisumu
-Elgeyo-Marakwet,Trans Nzoia,103,Iten,Kitale
-Elgeyo-Marakwet,Kitui,495,Iten,Kitui
-Elgeyo-Marakwet,Kwale,865,Iten,Kwale
-Elgeyo-Marakwet,Lamu,1910,Iten,Lamu
-Elgeyo-Marakwet,Turkana,332,Iten,Lodwar
-Elgeyo-Marakwet,Machakos,408,Iten,Machakos
-Elgeyo-Marakwet,Mandera,1179,Iten,Mandera
-Elgeyo-Marakwet,Samburu,273,Iten,Maralal
-Elgeyo-Marakwet,Marsabit,682,Iten,Marsabit
-Elgeyo-Marakwet,Meru,418,Iten,Meru
-Elgeyo-Marakwet,Mombasa,832,Iten,Mombasa
-Elgeyo-Marakwet,Murang'a,411,Iten,Murang'a
-Elgeyo-Marakwet,Nairobi,345,Iten,Nairobi
-Elgeyo-Marakwet,Nakuru,187,Iten,Nakuru
-Elgeyo-Marakwet,Narok,382,Iten,Narok
-Elgeyo-Marakwet,Nyeri,346,Iten,Nyeri
-Elgeyo-Marakwet,Siaya,198,Iten,Siaya
-Elgeyo-Marakwet,Wajir,779,Iten,Wajir
-Elgeyo-Marakwet,Laikipia,343,Iten,Nanyuki
-Elgeyo-Marakwet,Kajiado,421,Iten,Kajiado
-Elgeyo-Marakwet,Taita Taveta,715,Iten,Wundanyi
-Baringo,Bungoma,188,Kabarnet,Bungoma
-Baringo,Busia,250,Kabarnet,Busia
-Baringo,Uasin Gishu,88,Kabarnet,Eldoret
-Baringo,Embu,383,Kabarnet,Embu
-Baringo,Garissa,668,Kabarnet,Garissa
-Baringo,Tana River,784,Kabarnet,Hola
-Baringo,Homa Bay,411,Kabarnet,Homa Bay
-Baringo,Isiolo,372,Kabarnet,Isiolo
-Baringo,Elgeyo-Marakwet,54,Kabarnet,Iten
-Baringo,Kakamega,198,Kabarnet,Kakamega
-Baringo,West Pokot,186,Kabarnet,Kapenguria
-Baringo,Nandi,134,Kabarnet,Kapsabet
-Baringo,Kericho,243,Kabarnet,Kericho
-Baringo,Kirinyaga,340,Kabarnet,Kerugoya
-Baringo,Kiambu,310,Kabarnet,Kiambu
-Baringo,Kilifi,832,Kabarnet,Kilifi
-Baringo,Kisii,347,Kabarnet,Kisii
-Baringo,Kisumu,323,Kabarnet,Kisumu
-Baringo,Trans Nzoia,157,Kabarnet,Kitale
-Baringo,Kitui,464,Kabarnet,Kitui
-Baringo,Kwale,814,Kabarnet,Kwale
-Baringo,Lamu,994,Kabarnet,Lamu
-Baringo,Turkana,386,Kabarnet,Lodwar
-Baringo,Machakos,357,Kabarnet,Machakos
-Baringo,Mandera,1128,Kabarnet,Mandera
-Baringo,Samburu,219,Kabarnet,Maralal
-Baringo,Marsabit,631,Kabarnet,Marsabit
-Baringo,Meru,363,Kabarnet,Meru
-Baringo,Mombasa,781,Kabarnet,Mombasa
-Baringo,Murang'a,360,Kabarnet,Murang'a
-Baringo,Nairobi,294,Kabarnet,Nairobi
-Baringo,Nakuru,136,Kabarnet,Nakuru
-Baringo,Narok,331,Kabarnet,Narok
-Baringo,Nyeri,293,Kabarnet,Nyeri
-Baringo,Siaya,252,Kabarnet,Siaya
-Baringo,Wajir,728,Kabarnet,Wajir
-Baringo,Laikipia,292,Kabarnet,Nanyuki
-Baringo,Kajiado,370,Kabarnet,Kajiado
-Baringo,Taita Taveta,664,Kabarnet,Wundanyi
-Kakamega,Bungoma,72,Kakamega,Bungoma
-Kakamega,Busia,95,Kakamega,Busia
-Kakamega,Uasin Gishu,110,Kakamega,Eldoret
-Kakamega,Embu,427,Kakamega,Embu
-Kakamega,Garissa,729,Kakamega,Garissa
-Kakamega,Tana River,845,Kakamega,Hola
-Kakamega,Homa Bay,215,Kakamega,Homa Bay
-Kakamega,Isiolo,416,Kakamega,Isiolo
-Kakamega,Elgeyo-Marakwet,144,Kakamega,Iten
-Kakamega,Baringo,198,Kakamega,Kabarnet
-Kakamega,West Pokot,147,Kakamega,Kapenguria
-Kakamega,Nandi,46,Kakamega,Kapsabet
-Kakamega,Kericho,130,Kakamega,Kericho
-Kakamega,Kirinyaga,403,Kakamega,Kerugoya
-Kakamega,Kiambu,354,Kakamega,Kiambu
-Kakamega,Kilifi,893,Kakamega,Kilifi
-Kakamega,Kisii,163,Kakamega,Kisii
-Kakamega,Kisumu,50,Kakamega,Kisumu
-Kakamega,Trans Nzoia,108,Kakamega,Kitale
-Kakamega,Kitui,525,Kakamega,Kitui
-Kakamega,Kwale,879,Kakamega,Kwale
-Kakamega,Lamu,1038,Kakamega,Lamu
-Kakamega,Turkana,406,Kakamega,Lodwar
-Kakamega,Machakos,401,Kakamega,Machakos
-Kakamega,Mandera,1172,Kakamega,Mandera
-Kakamega,Samburu,399,Kakamega,Maralal
-Kakamega,Marsabit,675,Kakamega,Marsabit
-Kakamega,Meru,428,Kakamega,Meru
-Kakamega,Mombasa,842,Kakamega,Mombasa
-Kakamega,Murang'a,404,Kakamega,Murang'a
-Kakamega,Nairobi,355,Kakamega,Nairobi
-Kakamega,Nakuru,197,Kakamega,Nakuru
-Kakamega,Narok,280,Kakamega,Narok
-Kakamega,Nyeri,356,Kakamega,Nyeri
-Kakamega,Siaya,92,Kakamega,Siaya
-Kakamega,Wajir,772,Kakamega,Wajir
-Kakamega,Laikipia,353,Kakamega,Nanyuki
-Kakamega,Kajiado,414,Kakamega,Kajiado
-Kakamega,Taita Taveta,702,Kakamega,Wundanyi
-West Pokot,Bungoma,123,Kapenguria,Bungoma
-West Pokot,Busia,185,Kapenguria,Busia
-West Pokot,Uasin Gishu,98,Kapenguria,Eldoret
-West Pokot,Embu,478,Kapenguria,Embu
-West Pokot,Garissa,790,Kapenguria,Garissa
-West Pokot,Tana River,909,Kapenguria,Hola
-West Pokot,Homa Bay,536,Kapenguria,Homa Bay
-West Pokot,Isiolo,498,Kapenguria,Isiolo
-West Pokot,Elgeyo-Marakwet,132,Kapenguria,Iten
-West Pokot,Baringo,186,Kapenguria,Kabarnet
-West Pokot,Kakamega,147,Kapenguria,Kakamega
-West Pokot,Nandi,144,Kapenguria,Kapsabet
-West Pokot,Kericho,260,Kapenguria,Kericho
-West Pokot,Kirinyaga,468,Kapenguria,Kerugoya
-West Pokot,Kiambu,435,Kapenguria,Kiambu
-West Pokot,Kilifi,947,Kapenguria,Kilifi
-West Pokot,Kisii,364,Kapenguria,Kisii
-West Pokot,Kisumu,197,Kapenguria,Kisumu
-West Pokot,Trans Nzoia,39,Kapenguria,Kitale
-West Pokot,Kitui,589,Kapenguria,Kitui
-West Pokot,Kwale,939,Kapenguria,Kwale
-West Pokot,Lamu,1119,Kapenguria,Lamu
-West Pokot,Turkana,259,Kapenguria,Lodwar
-West Pokot,Machakos,482,Kapenguria,Machakos
-West Pokot,Mandera,1254,Kapenguria,Mandera
-West Pokot,Samburu,405,Kapenguria,Maralal
-West Pokot,Marsabit,757,Kapenguria,Marsabit
-West Pokot,Meru,493,Kapenguria,Meru
-West Pokot,Mombasa,906,Kapenguria,Mombasa
-West Pokot,Murang'a,486,Kapenguria,Murang'a
-West Pokot,Nairobi,419,Kapenguria,Nairobi
-West Pokot,Nakuru,262,Kapenguria,Nakuru
-West Pokot,Narok,457,Kapenguria,Narok
-West Pokot,Nyeri,421,Kapenguria,Nyeri
-West Pokot,Siaya,239,Kapenguria,Siaya
-West Pokot,Wajir,854,Kapenguria,Wajir
-West Pokot,Laikipia,418,Kapenguria,Nanyuki
-West Pokot,Kajiado,495,Kapenguria,Kajiado
-West Pokot,Taita Taveta,789,Kapenguria,Wundanyi
-Nandi,Bungoma,100,Kapsabet,Bungoma
-Nandi,Busia,123,Kapsabet,Busia
-Nandi,Uasin Gishu,46,Kapsabet,Eldoret
-Nandi,Embu,399,Kapsabet,Embu
-Nandi,Garissa,683,Kapsabet,Garissa
-Nandi,Tana River,799,Kapsabet,Hola
-Nandi,Homa Bay,241,Kapsabet,Homa Bay
-Nandi,Isiolo,388,Kapsabet,Isiolo
-Nandi,Elgeyo-Marakwet,80,Kapsabet,Iten
-Nandi,Baringo,134,Kapsabet,Kabarnet
-Nandi,Kakamega,46,Kapsabet,Kakamega
-Nandi,West Pokot,144,Kapsabet,Kapenguria
-Nandi,Kericho,52,Kapsabet,Kericho
-Nandi,Kirinyaga,358,Kapsabet,Kerugoya
-Nandi,Kiambu,325,Kapsabet,Kiambu
-Nandi,Kilifi,847,Kapsabet,Kilifi
-Nandi,Kisii,171,Kapsabet,Kisii
-Nandi,Kisumu,76,Kapsabet,Kisumu
-Nandi,Trans Nzoia,115,Kapsabet,Kitale
-Nandi,Kitui,479,Kapsabet,Kitui
-Nandi,Kwale,823,Kapsabet,Kwale
-Nandi,Lamu,1009,Kapsabet,Lamu
-Nandi,Turkana,403,Kapsabet,Lodwar
-Nandi,Machakos,372,Kapsabet,Machakos
-Nandi,Mandera,1144,Kapsabet,Mandera
-Nandi,Samburu,353,Kapsabet,Maralal
-Nandi,Marsabit,647,Kapsabet,Marsabit
-Nandi,Meru,383,Kapsabet,Meru
-Nandi,Mombasa,796,Kapsabet,Mombasa
-Nandi,Murang'a,376,Kapsabet,Murang'a
-Nandi,Nairobi,309,Kapsabet,Nairobi
-Nandi,Nakuru,152,Kapsabet,Nakuru
-Nandi,Narok,347,Kapsabet,Narok
-Nandi,Nyeri,311,Kapsabet,Nyeri
-Nandi,Siaya,118,Kapsabet,Siaya
-Nandi,Wajir,744,Kapsabet,Wajir
-Nandi,Laikipia,308,Kapsabet,Nanyuki
-Nandi,Kajiado,385,Kapsabet,Kajiado
-Nandi,Taita Taveta,679,Kapsabet,Wundanyi
-Kericho,Bungoma,202,Kericho,Bungoma
-Kericho,Busia,218,Kericho,Busia
-Kericho,Uasin Gishu,162,Kericho,Eldoret
-Kericho,Embu,354,Kericho,Embu
-Kericho,Garissa,639,Kericho,Garissa
-Kericho,Tana River,755,Kericho,Hola
-Kericho,Homa Bay,162,Kericho,Homa Bay
-Kericho,Isiolo,343,Kericho,Isiolo
-Kericho,Elgeyo-Marakwet,96,Kericho,Iten
-Kericho,Baringo,243,Kericho,Kabarnet
-Kericho,Kakamega,130,Kericho,Kakamega
-Kericho,West Pokot,260,Kericho,Kapenguria
-Kericho,Nandi,52,Kericho,Kapsabet
-Kericho,Kirinyaga,313,Kericho,Kerugoya
-Kericho,Kiambu,281,Kericho,Kiambu
-Kericho,Kilifi,803,Kericho,Kilifi
-Kericho,Kisii,104,Kericho,Kisii
-Kericho,Kisumu,80,Kericho,Kisumu
-Kericho,Trans Nzoia,231,Kericho,Kitale
-Kericho,Kitui,435,Kericho,Kitui
-Kericho,Kwale,785,Kericho,Kwale
-Kericho,Lamu,965,Kericho,Lamu
-Kericho,Turkana,519,Kericho,Lodwar
-Kericho,Machakos,328,Kericho,Machakos
-Kericho,Mandera,1099,Kericho,Mandera
-Kericho,Samburu,325,Kericho,Maralal
-Kericho,Marsabit,602,Kericho,Marsabit
-Kericho,Meru,338,Kericho,Meru
-Kericho,Mombasa,752,Kericho,Mombasa
-Kericho,Murang'a,331,Kericho,Murang'a
-Kericho,Nairobi,265,Kericho,Nairobi
-Kericho,Nakuru,107,Kericho,Nakuru
-Kericho,Narok,190,Kericho,Narok
-Kericho,Nyeri,266,Kericho,Nyeri
-Kericho,Siaya,160,Kericho,Siaya
-Kericho,Wajir,699,Kericho,Wajir
-Kericho,Laikipia,263,Kericho,Nanyuki
-Kericho,Kajiado,341,Kericho,Kajiado
-Kericho,Taita Taveta,635,Kericho,Wundanyi
-Kirinyaga,Bungoma,459,Kerugoya,Bungoma
-Kirinyaga,Busia,531,Kerugoya,Busia
-Kirinyaga,Uasin Gishu,359,Kerugoya,Eldoret
-Kirinyaga,Embu,27,Kerugoya,Embu
-Kirinyaga,Garissa,364,Kerugoya,Garissa
-Kirinyaga,Tana River,480,Kerugoya,Hola
-Kirinyaga,Homa Bay,481,Kerugoya,Homa Bay
-Kirinyaga,Isiolo,187,Kerugoya,Isiolo
-Kirinyaga,Elgeyo-Marakwet,393,Kerugoya,Iten
-Kirinyaga,Baringo,340,Kerugoya,Kabarnet
-Kirinyaga,Kakamega,403,Kerugoya,Kakamega
-Kirinyaga,West Pokot,468,Kerugoya,Kapenguria
-Kirinyaga,Nandi,358,Kerugoya,Kapsabet
-Kirinyaga,Kericho,313,Kerugoya,Kericho
-Kirinyaga,Kiambu,138,Kerugoya,Kiambu
-Kirinyaga,Kilifi,672,Kerugoya,Kilifi
-Kirinyaga,Kisii,417,Kerugoya,Kisii
-Kirinyaga,Kisumu,393,Kerugoya,Kisumu
-Kirinyaga,Trans Nzoia,429,Kerugoya,Kitale
-Kirinyaga,Kitui,170,Kerugoya,Kitui
-Kirinyaga,Kwale,654,Kerugoya,Kwale
-Kirinyaga,Lamu,692,Kerugoya,Lamu
-Kirinyaga,Turkana,726,Kerugoya,Lodwar
-Kirinyaga,Machakos,197,Kerugoya,Machakos
-Kirinyaga,Mandera,943,Kerugoya,Mandera
-Kirinyaga,Samburu,303,Kerugoya,Maralal
-Kirinyaga,Marsabit,446,Kerugoya,Marsabit
-Kirinyaga,Meru,132,Kerugoya,Meru
-Kirinyaga,Mombasa,621,Kerugoya,Mombasa
-Kirinyaga,Murang'a,51,Kerugoya,Murang'a
-Kirinyaga,Nairobi,134,Kerugoya,Nairobi
-Kirinyaga,Nakuru,206,Kerugoya,Nakuru
-Kirinyaga,Narok,275,Kerugoya,Narok
-Kirinyaga,Nyeri,47,Kerugoya,Nyeri
-Kirinyaga,Siaya,473,Kerugoya,Siaya
-Kirinyaga,Wajir,543,Kerugoya,Wajir
-Kirinyaga,Laikipia,90,Kerugoya,Nanyuki
-Kirinyaga,Kajiado,211,Kerugoya,Kajiado
-Kirinyaga,Taita Taveta,504,Kerugoya,Wundanyi
-Kiambu,Bungoma,428,Kiambu,Bungoma
-Kiambu,Busia,499,Kiambu,Busia
-Kiambu,Uasin Gishu,327,Kiambu,Eldoret
-Kiambu,Embu,135,Kiambu,Embu
-Kiambu,Garissa,376,Kiambu,Garissa
-Kiambu,Tana River,492,Kiambu,Hola
-Kiambu,Homa Bay,449,Kiambu,Homa Bay
-Kiambu,Isiolo,282,Kiambu,Isiolo
-Kiambu,Elgeyo-Marakwet,361,Kiambu,Iten
-Kiambu,Baringo,310,Kiambu,Kabarnet
-Kiambu,Kakamega,354,Kiambu,Kakamega
-Kiambu,West Pokot,435,Kiambu,Kapenguria
-Kiambu,Nandi,325,Kiambu,Kapsabet
-Kiambu,Kericho,281,Kiambu,Kericho
-Kiambu,Kirinyaga,138,Kiambu,Kerugoya
-Kiambu,Kilifi,554,Kiambu,Kilifi
-Kiambu,Kisii,385,Kiambu,Kisii
-Kiambu,Kisumu,361,Kiambu,Kisumu
-Kiambu,Trans Nzoia,396,Kiambu,Kitale
-Kiambu,Kitui,186,Kiambu,Kitui
-Kiambu,Kwale,536,Kiambu,Kwale
-Kiambu,Lamu,702,Kiambu,Lamu
-Kiambu,Turkana,694,Kiambu,Lodwar
-Kiambu,Machakos,79,Kiambu,Machakos
-Kiambu,Mandera,1041,Kiambu,Mandera
-Kiambu,Samburu,346,Kiambu,Maralal
-Kiambu,Marsabit,544,Kiambu,Marsabit
-Kiambu,Meru,230,Kiambu,Meru
-Kiambu,Mombasa,503,Kiambu,Mombasa
-Kiambu,Murang'a,89,Kiambu,Murang'a
-Kiambu,Nairobi,16,Kiambu,Nairobi
-Kiambu,Nakuru,174,Kiambu,Nakuru
-Kiambu,Narok,157,Kiambu,Narok
-Kiambu,Nyeri,159,Kiambu,Nyeri
-Kiambu,Siaya,441,Kiambu,Siaya
-Kiambu,Wajir,641,Kiambu,Wajir
-Kiambu,Laikipia,204,Kiambu,Nanyuki
-Kiambu,Kajiado,92,Kiambu,Kajiado
-Kiambu,Taita Taveta,372,Kiambu,Wundanyi
-Kilifi,Bungoma,950,Kilifi,Bungoma
-Kilifi,Busia,1021,Kilifi,Busia
-Kilifi,Uasin Gishu,849,Kilifi,Eldoret
-Kilifi,Embu,953,Kilifi,Embu
-Kilifi,Garissa,412,Kilifi,Garissa
-Kilifi,Tana River,268,Kilifi,Hola
-Kilifi,Homa Bay,971,Kilifi,Homa Bay
-Kilifi,Isiolo,818,Kilifi,Isiolo
-Kilifi,Elgeyo-Marakwet,883,Kilifi,Iten
-Kilifi,Baringo,832,Kilifi,Kabarnet
-Kilifi,Kakamega,893,Kilifi,Kakamega
-Kilifi,West Pokot,947,Kilifi,Kapenguria
-Kilifi,Nandi,847,Kilifi,Kapsabet
-Kilifi,Kericho,803,Kilifi,Kericho
-Kilifi,Kirinyaga,672,Kilifi,Kerugoya
-Kilifi,Kiambu,554,Kilifi,Kiambu
-Kilifi,Kisii,907,Kilifi,Kisii
-Kilifi,Kisumu,883,Kilifi,Kisumu
-Kilifi,Trans Nzoia,918,Kilifi,Kitale
-Kilifi,Kitui,490,Kilifi,Kitui
-Kilifi,Kwale,84,Kilifi,Kwale
-Kilifi,Lamu,288,Kilifi,Lamu
-Kilifi,Turkana,1206,Kilifi,Lodwar
-Kilifi,Machakos,507,Kilifi,Machakos
-Kilifi,Mandera,1139,Kilifi,Mandera
-Kilifi,Samburu,914,Kilifi,Maralal
-Kilifi,Marsabit,1077,Kilifi,Marsabit
-Kilifi,Meru,776,Kilifi,Meru
-Kilifi,Mombasa,51,Kilifi,Mombasa
-Kilifi,Murang'a,625,Kilifi,Murang'a
-Kilifi,Nairobi,538,Kilifi,Nairobi
-Kilifi,Nakuru,696,Kilifi,Nakuru
-Kilifi,Narok,679,Kilifi,Narok
-Kilifi,Nyeri,695,Kilifi,Nyeri
-Kilifi,Siaya,963,Kilifi,Siaya
-Kilifi,Wajir,739,Kilifi,Wajir
-Kilifi,Laikipia,738,Kilifi,Nanyuki
-Kilifi,Kajiado,564,Kilifi,Kajiado
-Kilifi,Taita Taveta,250,Kilifi,Wundanyi
-Kisii,Bungoma,235,Kisii,Bungoma
-Kisii,Busia,251,Kisii,Busia
-Kisii,Uasin Gishu,266,Kisii,Eldoret
-Kisii,Embu,458,Kisii,Embu
-Kisii,Garissa,743,Kisii,Garissa
-Kisii,Tana River,859,Kisii,Hola
-Kisii,Homa Bay,58,Kisii,Homa Bay
-Kisii,Isiolo,447,Kisii,Isiolo
-Kisii,Elgeyo-Marakwet,300,Kisii,Iten
-Kisii,Baringo,347,Kisii,Kabarnet
-Kisii,Kakamega,163,Kisii,Kakamega
-Kisii,West Pokot,364,Kisii,Kapenguria
-Kisii,Nandi,171,Kisii,Kapsabet
-Kisii,Kericho,104,Kisii,Kericho
-Kisii,Kirinyaga,417,Kisii,Kerugoya
-Kisii,Kiambu,385,Kisii,Kiambu
-Kisii,Kilifi,907,Kisii,Kilifi
-Kisii,Kisumu,113,Kisii,Kisumu
-Kisii,Trans Nzoia,335,Kisii,Kitale
-Kisii,Kitui,539,Kisii,Kitui
-Kisii,Kwale,889,Kisii,Kwale
-Kisii,Lamu,1069,Kisii,Lamu
-Kisii,Turkana,623,Kisii,Lodwar
-Kisii,Machakos,432,Kisii,Machakos
-Kisii,Mandera,203,Kisii,Mandera
-Kisii,Samburu,429,Kisii,Maralal
-Kisii,Marsabit,706,Kisii,Marsabit
-Kisii,Meru,442,Kisii,Meru
-Kisii,Mombasa,856,Kisii,Mombasa
-Kisii,Murang'a,435,Kisii,Murang'a
-Kisii,Nairobi,369,Kisii,Nairobi
-Kisii,Nakuru,211,Kisii,Nakuru
-Kisii,Narok,198,Kisii,Narok
-Kisii,Nyeri,370,Kisii,Nyeri
-Kisii,Siaya,193,Kisii,Siaya
-Kisii,Wajir,803,Kisii,Wajir
-Kisii,Laikipia,367,Kisii,Nanyuki
-Kisii,Kajiado,445,Kisii,Kajiado
-Kisii,Taita Taveta,739,Kisii,Wundanyi
-Kisumu,Bungoma,122,Kisumu,Bungoma
-Kisumu,Busia,138,Kisumu,Busia
-Kisumu,Uasin Gishu,160,Kisumu,Eldoret
-Kisumu,Embu,434,Kisumu,Embu
-Kisumu,Garissa,719,Kisumu,Garissa
-Kisumu,Tana River,835,Kisumu,Hola
-Kisumu,Homa Bay,165,Kisumu,Homa Bay
-Kisumu,Isiolo,423,Kisumu,Isiolo
-Kisumu,Elgeyo-Marakwet,194,Kisumu,Iten
-Kisumu,Baringo,323,Kisumu,Kabarnet
-Kisumu,Kakamega,50,Kisumu,Kakamega
-Kisumu,West Pokot,197,Kisumu,Kapenguria
-Kisumu,Nandi,76,Kisumu,Kapsabet
-Kisumu,Kericho,80,Kisumu,Kericho
-Kisumu,Kirinyaga,393,Kisumu,Kerugoya
-Kisumu,Kiambu,361,Kisumu,Kiambu
-Kisumu,Kilifi,883,Kisumu,Kilifi
-Kisumu,Kisii,113,Kisumu,Kisii
-Kisumu,Trans Nzoia,158,Kisumu,Kitale
-Kisumu,Kitui,515,Kisumu,Kitui
-Kisumu,Kwale,885,Kisumu,Kwale
-Kisumu,Lamu,1045,Kisumu,Lamu
-Kisumu,Turkana,456,Kisumu,Lodwar
-Kisumu,Machakos,408,Kisumu,Machakos
-Kisumu,Mandera,1179,Kisumu,Mandera
-Kisumu,Samburu,405,Kisumu,Maralal
-Kisumu,Marsabit,682,Kisumu,Marsabit
-Kisumu,Meru,418,Kisumu,Meru
-Kisumu,Mombasa,832,Kisumu,Mombasa
-Kisumu,Murang'a,411,Kisumu,Murang'a
-Kisumu,Nairobi,345,Kisumu,Nairobi
-Kisumu,Nakuru,187,Kisumu,Nakuru
-Kisumu,Narok,230,Kisumu,Narok
-Kisumu,Nyeri,346,Kisumu,Nyeri
-Kisumu,Siaya,80,Kisumu,Siaya
-Kisumu,Wajir,779,Kisumu,Wajir
-Kisumu,Laikipia,343,Kisumu,Nanyuki
-Kisumu,Kajiado,421,Kisumu,Kajiado
-Kisumu,Taita Taveta,715,Kisumu,Wundanyi
-Kisumu,Migori,195,Kisumu,Isebania
-Trans Nzoia,Bungoma,84,Kitale,Bungoma
-Trans Nzoia,Busia,146,Kitale,Busia
-Trans Nzoia,Uasin Gishu,69,Kitale,Eldoret
-Trans Nzoia,Embu,470,Kitale,Embu
-Trans Nzoia,Garissa,754,Kitale,Garissa
-Trans Nzoia,Tana River,870,Kitale,Hola
-Trans Nzoia,Homa Bay,497,Kitale,Homa Bay
-Trans Nzoia,Isiolo,459,Kitale,Isiolo
-Trans Nzoia,Elgeyo-Marakwet,103,Kitale,Iten
-Trans Nzoia,Baringo,157,Kitale,Kabarnet
-Trans Nzoia,Kakamega,108,Kitale,Kakamega
-Trans Nzoia,West Pokot,39,Kitale,Kapenguria
-Trans Nzoia,Nandi,115,Kitale,Kapsabet
-Trans Nzoia,Kericho,231,Kitale,Kericho
-Trans Nzoia,Kirinyaga,429,Kitale,Kerugoya
-Trans Nzoia,Kiambu,396,Kitale,Kiambu
-Trans Nzoia,Kilifi,918,Kitale,Kilifi
-Trans Nzoia,Kisii,335,Kitale,Kisii
-Trans Nzoia,Kisumu,158,Kitale,Kisumu
-Trans Nzoia,Kitui,550,Kitale,Kitui
-Trans Nzoia,Kwale,900,Kitale,Kwale
-Trans Nzoia,Lamu,1080,Kitale,Lamu
-Trans Nzoia,Turkana,298,Kitale,Lodwar
-Trans Nzoia,Machakos,443,Kitale,Machakos
-Trans Nzoia,Mandera,1215,Kitale,Mandera
-Trans Nzoia,Samburu,376,Kitale,Maralal
-Trans Nzoia,Marsabit,718,Kitale,Marsabit
-Trans Nzoia,Meru,454,Kitale,Meru
-Trans Nzoia,Mombasa,867,Kitale,Mombasa
-Trans Nzoia,Murang'a,447,Kitale,Murang'a
-Trans Nzoia,Nairobi,380,Kitale,Nairobi
-Trans Nzoia,Nakuru,223,Kitale,Nakuru
-Trans Nzoia,Narok,418,Kitale,Narok
-Trans Nzoia,Nyeri,382,Kitale,Nyeri
-Trans Nzoia,Siaya,200,Kitale,Siaya
-Trans Nzoia,Wajir,815,Kitale,Wajir
-Trans Nzoia,Laikipia,379,Kitale,Nanyuki
-Trans Nzoia,Kajiado,456,Kitale,Kajiado
-Trans Nzoia,Taita Taveta,715,Kitale,Wundanyi
-Kitui,Bungoma,582,Kitui,Bungoma
-Kitui,Busia,653,Kitui,Busia
-Kitui,Uasin Gishu,461,Kitui,Eldoret
-Kitui,Embu,143,Kitui,Embu
-Kitui,Garissa,306,Kitui,Garissa
-Kitui,Tana River,422,Kitui,Hola
-Kitui,Homa Bay,603,Kitui,Homa Bay
-Kitui,Isiolo,303,Kitui,Isiolo
-Kitui,Elgeyo-Marakwet,495,Kitui,Iten
-Kitui,Baringo,464,Kitui,Kabarnet
-Kitui,Kakamega,525,Kitui,Kakamega
-Kitui,West Pokot,589,Kitui,Kapenguria
-Kitui,Nandi,479,Kitui,Kapsabet
-Kitui,Kericho,435,Kitui,Kericho
-Kitui,Kirinyaga,170,Kitui,Kerugoya
-Kitui,Kiambu,186,Kitui,Kiambu
-Kitui,Kilifi,490,Kitui,Kilifi
-Kitui,Kisii,539,Kitui,Kisii
-Kitui,Kisumu,515,Kitui,Kisumu
-Kitui,Trans Nzoia,550,Kitui,Kitale
-Kitui,Kwale,472,Kitui,Kwale
-Kitui,Lamu,632,Kitui,Lamu
-Kitui,Turkana,848,Kitui,Lodwar
-Kitui,Machakos,107,Kitui,Machakos
-Kitui,Mandera,1059,Kitui,Mandera
-Kitui,Samburu,497,Kitui,Maralal
-Kitui,Marsabit,562,Kitui,Marsabit
-Kitui,Meru,248,Kitui,Meru
-Kitui,Mombasa,439,Kitui,Mombasa
-Kitui,Murang'a,171,Kitui,Murang'a
-Kitui,Nairobi,170,Kitui,Nairobi
-Kitui,Nakuru,328,Kitui,Nakuru
-Kitui,Narok,311,Kitui,Narok
-Kitui,Nyeri,241,Kitui,Nyeri
-Kitui,Siaya,595,Kitui,Siaya
-Kitui,Wajir,633,Kitui,Wajir
-Kitui,Laikipia,284,Kitui,Nanyuki
-Kitui,Kajiado,196,Kitui,Kajiado
-Kitui,Taita Taveta,327,Kitui,Wundanyi
-Kwale,Bungoma,932,Kwale,Bungoma
-Kwale,Busia,1003,Kwale,Busia
-Kwale,Uasin Gishu,831,Kwale,Eldoret
-Kwale,Embu,453,Kwale,Embu
-Kwale,Garissa,496,Kwale,Garissa
-Kwale,Tana River,352,Kwale,Hola
-Kwale,Homa Bay,953,Kwale,Homa Bay
-Kwale,Isiolo,800,Kwale,Isiolo
-Kwale,Elgeyo-Marakwet,865,Kwale,Iten
-Kwale,Baringo,814,Kwale,Kabarnet
-Kwale,Kakamega,879,Kwale,Kakamega
-Kwale,West Pokot,939,Kwale,Kapenguria
-Kwale,Nandi,823,Kwale,Kapsabet
-Kwale,Kericho,785,Kwale,Kericho
-Kwale,Kirinyaga,654,Kwale,Kerugoya
-Kwale,Kiambu,536,Kwale,Kiambu
-Kwale,Kilifi,84,Kwale,Kilifi
-Kwale,Kisii,889,Kwale,Kisii
-Kwale,Kisumu,885,Kwale,Kisumu
-Kwale,Trans Nzoia,900,Kwale,Kitale
-Kwale,Kitui,472,Kwale,Kitui
-Kwale,Lamu,372,Kwale,Lamu
-Kwale,Turkana,1198,Kwale,Lodwar
-Kwale,Machakos,475,Kwale,Machakos
-Kwale,Mandera,1223,Kwale,Mandera
-Kwale,Samburu,896,Kwale,Maralal
-Kwale,Marsabit,1059,Kwale,Marsabit
-Kwale,Meru,758,Kwale,Meru
-Kwale,Mombasa,439,Kwale,Mombasa
-Kwale,Murang'a,607,Kwale,Murang'a
-Kwale,Nairobi,520,Kwale,Nairobi
-Kwale,Nakuru,678,Kwale,Nakuru
-Kwale,Narok,661,Kwale,Narok
-Kwale,Nyeri,677,Kwale,Nyeri
-Kwale,Siaya,945,Kwale,Siaya
-Kwale,Wajir,823,Kwale,Wajir
-Kwale,Laikipia,720,Kwale,Nanyuki
-Kwale,Kajiado,546,Kwale,Kajiado
-Kwale,Taita Taveta,232,Kwale,Wundanyi
-Lamu,Bungoma,1112,Lamu,Bungoma
-Lamu,Busia,1183,Lamu,Busia
-Lamu,Uasin Gishu,1011,Lamu,Eldoret
-Lamu,Embu,665,Lamu,Embu
-Lamu,Garissa,356,Lamu,Garissa
-Lamu,Tana River,210,Lamu,Hola
-Lamu,Homa Bay,1133,Lamu,Homa Bay
-Lamu,Isiolo,823,Lamu,Isiolo
-Lamu,Elgeyo-Marakwet,1910,Lamu,Iten
-Lamu,Baringo,994,Lamu,Kabarnet
-Lamu,Kakamega,1038,Lamu,Kakamega
-Lamu,West Pokot,1119,Lamu,Kapenguria
-Lamu,Nandi,1009,Lamu,Kapsabet
-Lamu,Kericho,965,Lamu,Kericho
-Lamu,Kirinyaga,692,Lamu,Kerugoya
-Lamu,Kiambu,702,Lamu,Kiambu
-Lamu,Kilifi,288,Lamu,Kilifi
-Lamu,Kisii,1069,Lamu,Kisii
-Lamu,Kisumu,1045,Lamu,Kisumu
-Lamu,Trans Nzoia,1080,Lamu,Kitale
-Lamu,Kitui,632,Lamu,Kitui
-Lamu,Kwale,372,Lamu,Kwale
-Lamu,Turkana,1378,Lamu,Lodwar
-Lamu,Machakos,795,Lamu,Machakos
-Lamu,Mandera,1083,Lamu,Mandera
-Lamu,Samburu,1030,Lamu,Maralal
-Lamu,Marsabit,1082,Lamu,Marsabit
-Lamu,Meru,768,Lamu,Meru
-Lamu,Mombasa,33,Lamu,Mombasa
-Lamu,Murang'a,701,Lamu,Murang'a
-Lamu,Nairobi,700,Lamu,Nairobi
-Lamu,Nakuru,858,Lamu,Nakuru
-Lamu,Narok,841,Lamu,Narok
-Lamu,Nyeri,774,Lamu,Nyeri
-Lamu,Siaya,1125,Lamu,Siaya
-Lamu,Wajir,683,Lamu,Wajir
-Lamu,Laikipia,818,Lamu,Nanyuki
-Lamu,Kajiado,776,Lamu,Kajiado
-Lamu,Taita Taveta,538,Lamu,Wundanyi
-Turkana,Bungoma,382,Lodwar,Bungoma
-Turkana,Busia,444,Lodwar,Busia
-Turkana,Uasin Gishu,298,Lodwar,Eldoret
-Turkana,Embu,737,Lodwar,Embu
-Turkana,Garissa,1049,Lodwar,Garissa
-Turkana,Tana River,1168,Lodwar,Hola
-Turkana,Homa Bay,797,Lodwar,Homa Bay
-Turkana,Isiolo,756,Lodwar,Isiolo
-Turkana,Elgeyo-Marakwet,332,Lodwar,Iten
-Turkana,Baringo,386,Lodwar,Kabarnet
-Turkana,Kakamega,406,Lodwar,Kakamega
-Turkana,West Pokot,259,Lodwar,Kapenguria
-Turkana,Nandi,403,Lodwar,Kapsabet
-Turkana,Kericho,519,Lodwar,Kericho
-Turkana,Kirinyaga,726,Lodwar,Kerugoya
-Turkana,Kiambu,694,Lodwar,Kiambu
-Turkana,Kilifi,1206,Lodwar,Kilifi
-Turkana,Kisii,623,Lodwar,Kisii
-Turkana,Kisumu,456,Lodwar,Kisumu
-Turkana,Trans Nzoia,298,Lodwar,Kitale
-Turkana,Kitui,848,Lodwar,Kitui
-Turkana,Kwale,1198,Lodwar,Kwale
-Turkana,Lamu,1378,Lodwar,Lamu
-Turkana,Machakos,741,Lodwar,Machakos
-Turkana,Mandera,1512,Lodwar,Mandera
-Turkana,Samburu,491,Lodwar,Maralal
-Turkana,Marsabit,1015,Lodwar,Marsabit
-Turkana,Meru,751,Lodwar,Meru
-Turkana,Mombasa,339,Lodwar,Mombasa
-Turkana,Murang'a,744,Lodwar,Murang'a
-Turkana,Nairobi,678,Lodwar,Nairobi
-Turkana,Nakuru,520,Lodwar,Nakuru
-Turkana,Narok,715,Lodwar,Narok
-Turkana,Nyeri,679,Lodwar,Nyeri
-Turkana,Siaya,498,Lodwar,Siaya
-Turkana,Wajir,1112,Lodwar,Wajir
-Turkana,Laikipia,676,Lodwar,Nanyuki
-Turkana,Kajiado,754,Lodwar,Kajiado
-Turkana,Taita Taveta,1048,Lodwar,Wundanyi
-Machakos,Bungoma,475,Machakos,Bungoma
-Machakos,Busia,546,Machakos,Busia
-Machakos,Uasin Gishu,374,Machakos,Eldoret
-Machakos,Embu,196,Machakos,Embu
-Machakos,Garissa,403,Machakos,Garissa
-Machakos,Tana River,714,Machakos,Hola
-Machakos,Homa Bay,496,Machakos,Homa Bay
-Machakos,Isiolo,343,Machakos,Isiolo
-Machakos,Elgeyo-Marakwet,408,Machakos,Iten
-Machakos,Baringo,357,Machakos,Kabarnet
-Machakos,Kakamega,401,Machakos,Kakamega
-Machakos,West Pokot,482,Machakos,Kapenguria
-Machakos,Nandi,372,Machakos,Kapsabet
-Machakos,Kericho,328,Machakos,Kericho
-Machakos,Kirinyaga,197,Machakos,Kerugoya
-Machakos,Kiambu,79,Machakos,Kiambu
-Machakos,Kilifi,507,Machakos,Kilifi
-Machakos,Kisii,432,Machakos,Kisii
-Machakos,Kisumu,408,Machakos,Kisumu
-Machakos,Trans Nzoia,443,Machakos,Kitale
-Machakos,Kitui,107,Machakos,Kitui
-Machakos,Kwale,475,Machakos,Kwale
-Machakos,Lamu,795,Machakos,Lamu
-Machakos,Turkana,741,Machakos,Lodwar
-Machakos,Mandera,1099,Machakos,Mandera
-Machakos,Samburu,439,Machakos,Maralal
-Machakos,Marsabit,602,Machakos,Marsabit
-Machakos,Meru,301,Machakos,Meru
-Machakos,Mombasa,1165,Machakos,Mombasa
-Machakos,Murang'a,150,Machakos,Murang'a
-Machakos,Nairobi,63,Machakos,Nairobi
-Machakos,Nakuru,221,Machakos,Nakuru
-Machakos,Narok,204,Machakos,Narok
-Machakos,Nyeri,220,Machakos,Nyeri
-Machakos,Siaya,488,Machakos,Siaya
-Machakos,Wajir,699,Machakos,Wajir
-Machakos,Laikipia,263,Machakos,Nanyuki
-Machakos,Kajiado,89,Machakos,Kajiado
-Machakos,Taita Taveta,330,Machakos,Wundanyi
-Mandera,Bungoma,1245,Mandera,Bungoma
-Mandera,Busia,1317,Mandera,Busia
-Mandera,Uasin Gishu,1143,Mandera,Eldoret
-Mandera,Embu,916,Mandera,Embu
-Mandera,Garissa,729,Mandera,Garissa
-Mandera,Tana River,871,Mandera,Hola
-Mandera,Homa Bay,1267,Mandera,Homa Bay
-Mandera,Isiolo,756,Mandera,Isiolo
-Mandera,Elgeyo-Marakwet,1179,Mandera,Iten
-Mandera,Baringo,1128,Mandera,Kabarnet
-Mandera,Kakamega,1172,Mandera,Kakamega
-Mandera,West Pokot,1254,Mandera,Kapenguria
-Mandera,Nandi,1144,Mandera,Kapsabet
-Mandera,Kericho,1099,Mandera,Kericho
-Mandera,Kirinyaga,943,Mandera,Kerugoya
-Mandera,Kiambu,1041,Mandera,Kiambu
-Mandera,Kilifi,1139,Mandera,Kilifi
-Mandera,Kisii,203,Mandera,Kisii
-Mandera,Kisumu,1179,Mandera,Kisumu
-Mandera,Trans Nzoia,1215,Mandera,Kitale
-Mandera,Kitui,1059,Mandera,Kitui
-Mandera,Kwale,1223,Mandera,Kwale
-Mandera,Lamu,1083,Mandera,Lamu
-Mandera,Turkana,1512,Mandera,Lodwar
-Mandera,Machakos,1099,Mandera,Machakos
-Mandera,Samburu,1036,Mandera,Maralal
-Mandera,Marsabit,636,Mandera,Marsabit
-Mandera,Meru,812,Mandera,Meru
-Mandera,Mombasa,1190,Mandera,Mombasa
-Mandera,Murang'a,943,Mandera,Murang'a
-Mandera,Nairobi,1039,Mandera,Nairobi
-Mandera,Nakuru,992,Mandera,Nakuru
-Mandera,Narok,1180,Mandera,Narok
-Mandera,Nyeri,896,Mandera,Nyeri
-Mandera,Siaya,1259,Mandera,Siaya
-Mandera,Wajir,400,Mandera,Wajir
-Mandera,Laikipia,836,Mandera,Nanyuki
-Mandera,Kajiado,1112,Mandera,Kajiado
-Mandera,Taita Taveta,1409,Mandera,Wundanyi
-Mandera,Migori,1291,Mandera,Isebania
-Samburu,Bungoma,407,Maralal,Bungoma
-Samburu,Busia,543,Maralal,Busia
-Samburu,Uasin Gishu,307,Maralal,Eldoret
-Samburu,Embu,344,Maralal,Embu
-Samburu,Garissa,701,Maralal,Garissa
-Samburu,Tana River,817,Maralal,Hola
-Samburu,Homa Bay,493,Maralal,Homa Bay
-Samburu,Isiolo,280,Maralal,Isiolo
-Samburu,Elgeyo-Marakwet,273,Maralal,Iten
-Samburu,Baringo,219,Maralal,Kabarnet
-Samburu,Kakamega,399,Maralal,Kakamega
-Samburu,West Pokot,405,Maralal,Kapenguria
-Samburu,Nandi,353,Maralal,Kapsabet
-Samburu,Kericho,325,Maralal,Kericho
-Samburu,Kirinyaga,303,Maralal,Kerugoya
-Samburu,Kiambu,346,Maralal,Kiambu
-Samburu,Kilifi,914,Maralal,Kilifi
-Samburu,Kisii,429,Maralal,Kisii
-Samburu,Kisumu,405,Maralal,Kisumu
-Samburu,Trans Nzoia,376,Maralal,Kitale
-Samburu,Kitui,497,Maralal,Kitui
-Samburu,Kwale,896,Maralal,Kwale
-Samburu,Lamu,1030,Maralal,Lamu
-Samburu,Turkana,491,Maralal,Lodwar
-Samburu,Machakos,439,Maralal,Machakos
-Samburu,Mandera,1036,Maralal,Mandera
-Samburu,Marsabit,380,Maralal,Marsabit
-Samburu,Meru,269,Maralal,Meru
-Samburu,Mombasa,863,Maralal,Mombasa
-Samburu,Murang'a,318,Maralal,Murang'a
-Samburu,Nairobi,344,Maralal,Nairobi
-Samburu,Nakuru,218,Maralal,Nakuru
-Samburu,Narok,413,Maralal,Narok
-Samburu,Nyeri,256,Maralal,Nyeri
-Samburu,Siaya,485,Maralal,Siaya
-Samburu,Wajir,793,Maralal,Wajir
-Samburu,Laikipia,194,Maralal,Nanyuki
-Samburu,Kajiado,420,Maralal,Kajiado
-Samburu,Taita Taveta,714,Maralal,Wundanyi
-Marsabit,Bungoma,748,Marsabit,Bungoma
-Marsabit,Busia,820,Marsabit,Busia
-Marsabit,Uasin Gishu,648,Marsabit,Eldoret
-Marsabit,Embu,419,Marsabit,Embu
-Marsabit,Garissa,756,Marsabit,Garissa
-Marsabit,Tana River,872,Marsabit,Hola
-Marsabit,Homa Bay,770,Marsabit,Homa Bay
-Marsabit,Isiolo,259,Marsabit,Isiolo
-Marsabit,Elgeyo-Marakwet,682,Marsabit,Iten
-Marsabit,Baringo,631,Marsabit,Kabarnet
-Marsabit,Kakamega,675,Marsabit,Kakamega
-Marsabit,West Pokot,757,Marsabit,Kapenguria
-Marsabit,Nandi,647,Marsabit,Kapsabet
-Marsabit,Kericho,602,Marsabit,Kericho
-Marsabit,Kirinyaga,446,Marsabit,Kerugoya
-Marsabit,Kiambu,544,Marsabit,Kiambu
-Marsabit,Kilifi,1077,Marsabit,Kilifi
-Marsabit,Kisii,706,Marsabit,Kisii
-Marsabit,Kisumu,682,Marsabit,Kisumu
-Marsabit,Trans Nzoia,718,Marsabit,Kitale
-Marsabit,Kitui,562,Marsabit,Kitui
-Marsabit,Kwale,1059,Marsabit,Kwale
-Marsabit,Lamu,1082,Marsabit,Lamu
-Marsabit,Turkana,1015,Marsabit,Lodwar
-Marsabit,Machakos,602,Marsabit,Machakos
-Marsabit,Mandera,636,Marsabit,Mandera
-Marsabit,Samburu,380,Marsabit,Maralal
-Marsabit,Meru,315,Marsabit,Meru
-Marsabit,Mombasa,1029,Marsabit,Mombasa
-Marsabit,Murang'a,446,Marsabit,Murang'a
-Marsabit,Nairobi,542,Marsabit,Nairobi
-Marsabit,Nakuru,495,Marsabit,Nakuru
-Marsabit,Narok,690,Marsabit,Narok
-Marsabit,Nyeri,399,Marsabit,Nyeri
-Marsabit,Siaya,762,Marsabit,Siaya
-Marsabit,Wajir,615,Marsabit,Wajir
-Marsabit,Laikipia,339,Marsabit,Nanyuki
-Marsabit,Kajiado,615,Marsabit,Kajiado
-Marsabit,Taita Taveta,912,Marsabit,Wundanyi
-Meru,Bungoma,485,Meru,Bungoma
-Meru,Busia,556,Meru,Busia
-Meru,Uasin Gishu,384,Meru,Eldoret
-Meru,Embu,105,Meru,Embu
-Meru,Garissa,442,Meru,Garissa
-Meru,Tana River,558,Meru,Hola
-Meru,Homa Bay,506,Meru,Homa Bay
-Meru,Isiolo,56,Meru,Isiolo
-Meru,Elgeyo-Marakwet,418,Meru,Iten
-Meru,Baringo,363,Meru,Kabarnet
-Meru,Kakamega,428,Meru,Kakamega
-Meru,West Pokot,493,Meru,Kapenguria
-Meru,Nandi,383,Meru,Kapsabet
-Meru,Kericho,338,Meru,Kericho
-Meru,Kirinyaga,132,Meru,Kerugoya
-Meru,Kiambu,230,Meru,Kiambu
-Meru,Kilifi,776,Meru,Kilifi
-Meru,Kisii,442,Meru,Kisii
-Meru,Kisumu,418,Meru,Kisumu
-Meru,Trans Nzoia,454,Meru,Kitale
-Meru,Kitui,248,Meru,Kitui
-Meru,Kwale,758,Meru,Kwale
-Meru,Lamu,768,Meru,Lamu
-Meru,Turkana,751,Meru,Lodwar
-Meru,Machakos,301,Meru,Machakos
-Meru,Mandera,812,Meru,Mandera
-Meru,Samburu,269,Meru,Maralal
-Meru,Marsabit,315,Meru,Marsabit
-Meru,Mombasa,725,Meru,Mombasa
-Meru,Murang'a,152,Meru,Murang'a
-Meru,Nairobi,238,Meru,Nairobi
-Meru,Nakuru,231,Meru,Nakuru
-Meru,Narok,379,Meru,Narok
-Meru,Nyeri,133,Meru,Nyeri
-Meru,Siaya,498,Meru,Siaya
-Meru,Wajir,412,Meru,Wajir
-Meru,Laikipia,75,Meru,Nanyuki
-Meru,Kajiado,314,Meru,Kajiado
-Meru,Taita Taveta,608,Meru,Wundanyi
-Mombasa,Bungoma,899,Mombasa,Bungoma
-Mombasa,Busia,970,Mombasa,Busia
-Mombasa,Uasin Gishu,798,Mombasa,Eldoret
-Mombasa,Embu,620,Mombasa,Embu
-Mombasa,Garissa,463,Mombasa,Garissa
-Mombasa,Tana River,319,Mombasa,Hola
-Mombasa,Homa Bay,920,Mombasa,Homa Bay
-Mombasa,Isiolo,767,Mombasa,Isiolo
-Mombasa,Elgeyo-Marakwet,832,Mombasa,Iten
-Mombasa,Baringo,781,Mombasa,Kabarnet
-Mombasa,Kakamega,842,Mombasa,Kakamega
-Mombasa,West Pokot,906,Mombasa,Kapenguria
-Mombasa,Nandi,796,Mombasa,Kapsabet
-Mombasa,Kericho,752,Mombasa,Kericho
-Mombasa,Kirinyaga,621,Mombasa,Kerugoya
-Mombasa,Kiambu,503,Mombasa,Kiambu
-Mombasa,Kilifi,51,Mombasa,Kilifi
-Mombasa,Kisii,856,Mombasa,Kisii
-Mombasa,Kisumu,832,Mombasa,Kisumu
-Mombasa,Trans Nzoia,867,Mombasa,Kitale
-Mombasa,Kitui,439,Mombasa,Kitui
-Mombasa,Kwale,439,Mombasa,Kwale
-Mombasa,Lamu,33,Mombasa,Lamu
-Mombasa,Turkana,339,Mombasa,Lodwar
-Mombasa,Machakos,1165,Mombasa,Machakos
-Mombasa,Mandera,1190,Mombasa,Mandera
-Mombasa,Samburu,863,Mombasa,Maralal
-Mombasa,Marsabit,1029,Mombasa,Marsabit
-Mombasa,Meru,725,Mombasa,Meru
-Mombasa,Murang'a,574,Mombasa,Murang'a
-Mombasa,Nairobi,487,Mombasa,Nairobi
-Mombasa,Nakuru,645,Mombasa,Nakuru
-Mombasa,Narok,628,Mombasa,Narok
-Mombasa,Nyeri,644,Mombasa,Nyeri
-Mombasa,Siaya,912,Mombasa,Siaya
-Mombasa,Wajir,790,Mombasa,Wajir
-Mombasa,Laikipia,687,Mombasa,Nanyuki
-Mombasa,Kajiado,513,Mombasa,Kajiado
-Mombasa,Taita Taveta,199,Mombasa,Wundanyi
-Mombasa,Migori,944,Mombasa,Isebania
-Murang'a,Bungoma,477,Murang'a,Bungoma
-Murang'a,Busia,549,Murang'a,Busia
-Murang'a,Uasin Gishu,377,Murang'a,Eldoret
-Murang'a,Embu,47,Murang'a,Embu
-Murang'a,Garissa,383,Murang'a,Garissa
-Murang'a,Tana River,499,Murang'a,Hola
-Murang'a,Homa Bay,499,Murang'a,Homa Bay
-Murang'a,Isiolo,87,Murang'a,Isiolo
-Murang'a,Elgeyo-Marakwet,411,Murang'a,Iten
-Murang'a,Baringo,360,Murang'a,Kabarnet
-Murang'a,Kakamega,404,Murang'a,Kakamega
-Murang'a,West Pokot,486,Murang'a,Kapenguria
-Murang'a,Nandi,376,Murang'a,Kapsabet
-Murang'a,Kericho,331,Murang'a,Kericho
-Murang'a,Kirinyaga,51,Murang'a,Kerugoya
-Murang'a,Kiambu,89,Murang'a,Kiambu
-Murang'a,Kilifi,625,Murang'a,Kilifi
-Murang'a,Kisii,435,Murang'a,Kisii
-Murang'a,Kisumu,411,Murang'a,Kisumu
-Murang'a,Trans Nzoia,447,Murang'a,Kitale
-Murang'a,Kitui,171,Murang'a,Kitui
-Murang'a,Kwale,607,Murang'a,Kwale
-Murang'a,Lamu,701,Murang'a,Lamu
-Murang'a,Turkana,744,Murang'a,Lodwar
-Murang'a,Machakos,150,Murang'a,Machakos
-Murang'a,Mandera,943,Murang'a,Mandera
-Murang'a,Samburu,318,Murang'a,Maralal
-Murang'a,Marsabit,446,Murang'a,Marsabit
-Murang'a,Meru,152,Murang'a,Meru
-Murang'a,Mombasa,574,Murang'a,Mombasa
-Murang'a,Nairobi,87,Murang'a,Nairobi
-Murang'a,Nakuru,224,Murang'a,Nakuru
-Murang'a,Narok,228,Murang'a,Narok
-Murang'a,Nyeri,62,Murang'a,Nyeri
-Murang'a,Siaya,491,Murang'a,Siaya
-Murang'a,Wajir,563,Murang'a,Wajir
-Murang'a,Laikipia,93,Murang'a,Nanyuki
-Murang'a,Kajiado,163,Murang'a,Kajiado
-Murang'a,Taita Taveta,457,Murang'a,Wundanyi
-Nairobi,Bungoma,412,Nairobi,Bungoma
-Nairobi,Busia,483,Nairobi,Busia
-Nairobi,Uasin Gishu,311,Nairobi,Eldoret
-Nairobi,Embu,133,Nairobi,Embu
-Nairobi,Garissa,374,Nairobi,Garissa
-Nairobi,Tana River,490,Nairobi,Hola
-Nairobi,Homa Bay,433,Nairobi,Homa Bay
-Nairobi,Isiolo,278,Nairobi,Isiolo
-Nairobi,Elgeyo-Marakwet,345,Nairobi,Iten
-Nairobi,Baringo,294,Nairobi,Kabarnet
-Nairobi,Kakamega,355,Nairobi,Kakamega
-Nairobi,West Pokot,419,Nairobi,Kapenguria
-Nairobi,Nandi,309,Nairobi,Kapsabet
-Nairobi,Kericho,265,Nairobi,Kericho
-Nairobi,Kirinyaga,134,Nairobi,Kerugoya
-Nairobi,Kiambu,16,Nairobi,Kiambu
-Nairobi,Kilifi,538,Nairobi,Kilifi
-Nairobi,Kisii,369,Nairobi,Kisii
-Nairobi,Kisumu,345,Nairobi,Kisumu
-Nairobi,Trans Nzoia,380,Nairobi,Kitale
-Nairobi,Kitui,170,Nairobi,Kitui
-Nairobi,Kwale,520,Nairobi,Kwale
-Nairobi,Lamu,700,Nairobi,Lamu
-Nairobi,Turkana,678,Nairobi,Lodwar
-Nairobi,Machakos,63,Nairobi,Machakos
-Nairobi,Mandera,1039,Nairobi,Mandera
-Nairobi,Samburu,344,Nairobi,Maralal
-Nairobi,Marsabit,542,Nairobi,Marsabit
-Nairobi,Meru,238,Nairobi,Meru
-Nairobi,Mombasa,487,Nairobi,Mombasa
-Nairobi,Murang'a,87,Nairobi,Murang'a
-Nairobi,Nakuru,158,Nairobi,Nakuru
-Nairobi,Narok,141,Nairobi,Narok
-Nairobi,Nyeri,157,Nairobi,Nyeri
-Nairobi,Siaya,1425,Nairobi,Siaya
-Nairobi,Wajir,639,Nairobi,Wajir
-Nairobi,Laikipia,200,Nairobi,Nanyuki
-Nairobi,Kajiado,76,Nairobi,Kajiado
-Nairobi,Taita Taveta,370,Nairobi,Wundanyi
-Nairobi,Migori,457,Nairobi,Isebania
-Nakuru,Bungoma,253,Nakuru,Bungoma
-Nakuru,Busia,325,Nakuru,Busia
-Nakuru,Uasin Gishu,153,Nakuru,Eldoret
-Nakuru,Embu,247,Nakuru,Embu
-Nakuru,Garissa,532,Nakuru,Garissa
-Nakuru,Tana River,648,Nakuru,Hola
-Nakuru,Homa Bay,275,Nakuru,Homa Bay
-Nakuru,Isiolo,236,Nakuru,Isiolo
-Nakuru,Elgeyo-Marakwet,187,Nakuru,Iten
-Nakuru,Baringo,136,Nakuru,Kabarnet
-Nakuru,Kakamega,197,Nakuru,Kakamega
-Nakuru,West Pokot,262,Nakuru,Kapenguria
-Nakuru,Nandi,152,Nakuru,Kapsabet
-Nakuru,Kericho,107,Nakuru,Kericho
-Nakuru,Kirinyaga,206,Nakuru,Kerugoya
-Nakuru,Kiambu,174,Nakuru,Kiambu
-Nakuru,Kilifi,696,Nakuru,Kilifi
-Nakuru,Kisii,211,Nakuru,Kisii
-Nakuru,Kisumu,187,Nakuru,Kisumu
-Nakuru,Trans Nzoia,223,Nakuru,Kitale
-Nakuru,Kitui,328,Nakuru,Kitui
-Nakuru,Kwale,678,Nakuru,Kwale
-Nakuru,Lamu,858,Nakuru,Lamu
-Nakuru,Turkana,520,Nakuru,Lodwar
-Nakuru,Machakos,221,Nakuru,Machakos
-Nakuru,Mandera,992,Nakuru,Mandera
-Nakuru,Samburu,218,Nakuru,Maralal
-Nakuru,Marsabit,495,Nakuru,Marsabit
-Nakuru,Meru,231,Nakuru,Meru
-Nakuru,Mombasa,645,Nakuru,Mombasa
-Nakuru,Murang'a,224,Nakuru,Murang'a
-Nakuru,Nairobi,158,Nakuru,Nairobi
-Nakuru,Narok,195,Nakuru,Narok
-Nakuru,Nyeri,159,Nakuru,Nyeri
-Nakuru,Siaya,267,Nakuru,Siaya
-Nakuru,Wajir,592,Nakuru,Wajir
-Nakuru,Laikipia,156,Nakuru,Nanyuki
-Nakuru,Kajiado,234,Nakuru,Kajiado
-Nakuru,Taita Taveta,528,Nakuru,Wundanyi
-Nakuru,Migori,299,Nakuru,Isebania
-Narok,Bungoma,352,Narok,Bungoma
-Narok,Busia,368,Narok,Busia
-Narok,Uasin Gishu,348,Narok,Eldoret
-Narok,Embu,264,Narok,Embu
-Narok,Garissa,515,Narok,Garissa
-Narok,Tana River,631,Narok,Hola
-Narok,Homa Bay,256,Narok,Homa Bay
-Narok,Isiolo,424,Narok,Isiolo
-Narok,Elgeyo-Marakwet,382,Narok,Iten
-Narok,Baringo,331,Narok,Kabarnet
-Narok,Kakamega,280,Narok,Kakamega
-Narok,West Pokot,457,Narok,Kapenguria
-Narok,Nandi,347,Narok,Kapsabet
-Narok,Kericho,190,Narok,Kericho
-Narok,Kirinyaga,275,Narok,Kerugoya
-Narok,Kiambu,157,Narok,Kiambu
-Narok,Kilifi,679,Narok,Kilifi
-Narok,Kisii,198,Narok,Kisii
-Narok,Kisumu,230,Narok,Kisumu
-Narok,Trans Nzoia,418,Narok,Kitale
-Narok,Kitui,311,Narok,Kitui
-Narok,Kwale,661,Narok,Kwale
-Narok,Lamu,841,Narok,Lamu
-Narok,Turkana,715,Narok,Lodwar
-Narok,Machakos,204,Narok,Machakos
-Narok,Mandera,1180,Narok,Mandera
-Narok,Samburu,413,Narok,Maralal
-Narok,Marsabit,690,Narok,Marsabit
-Narok,Meru,379,Narok,Meru
-Narok,Mombasa,628,Narok,Mombasa
-Narok,Murang'a,228,Narok,Murang'a
-Narok,Nairobi,141,Narok,Nairobi
-Narok,Nakuru,195,Narok,Nakuru
-Narok,Nyeri,298,Narok,Nyeri
-Narok,Siaya,300,Narok,Siaya
-Narok,Wajir,780,Narok,Wajir
-Narok,Laikipia,341,Narok,Nanyuki
-Narok,Kajiado,217,Narok,Kajiado
-Narok,Taita Taveta,511,Narok,Wundanyi
-Nyeri,Bungoma,412,Nyeri,Bungoma
-Nyeri,Busia,484,Nyeri,Busia
-Nyeri,Uasin Gishu,312,Nyeri,Eldoret
-Nyeri,Embu,88,Nyeri,Embu
-Nyeri,Garissa,445,Nyeri,Garissa
-Nyeri,Tana River,561,Nyeri,Hola
-Nyeri,Homa Bay,434,Nyeri,Homa Bay
-Nyeri,Isiolo,140,Nyeri,Isiolo
-Nyeri,Elgeyo-Marakwet,346,Nyeri,Iten
-Nyeri,Baringo,293,Nyeri,Kabarnet
-Nyeri,Kakamega,356,Nyeri,Kakamega
-Nyeri,West Pokot,421,Nyeri,Kapenguria
-Nyeri,Nandi,311,Nyeri,Kapsabet
-Nyeri,Kericho,266,Nyeri,Kericho
-Nyeri,Kirinyaga,47,Nyeri,Kerugoya
-Nyeri,Kiambu,159,Nyeri,Kiambu
-Nyeri,Kilifi,695,Nyeri,Kilifi
-Nyeri,Kisii,370,Nyeri,Kisii
-Nyeri,Kisumu,346,Nyeri,Kisumu
-Nyeri,Trans Nzoia,382,Nyeri,Kitale
-Nyeri,Kitui,241,Nyeri,Kitui
-Nyeri,Kwale,677,Nyeri,Kwale
-Nyeri,Lamu,774,Nyeri,Lamu
-Nyeri,Turkana,679,Nyeri,Lodwar
-Nyeri,Machakos,220,Nyeri,Machakos
-Nyeri,Mandera,896,Nyeri,Mandera
-Nyeri,Samburu,256,Nyeri,Maralal
-Nyeri,Marsabit,399,Nyeri,Marsabit
-Nyeri,Meru,133,Nyeri,Meru
-Nyeri,Mombasa,644,Nyeri,Mombasa
-Nyeri,Murang'a,62,Nyeri,Murang'a
-Nyeri,Nairobi,157,Nyeri,Nairobi
-Nyeri,Nakuru,159,Nyeri,Nakuru
-Nyeri,Narok,298,Nyeri,Narok
-Nyeri,Siaya,426,Nyeri,Siaya
-Nyeri,Wajir,496,Nyeri,Wajir
-Nyeri,Laikipia,58,Nyeri,Nanyuki
-Nyeri,Kajiado,233,Nyeri,Kajiado
-Nyeri,Taita Taveta,527,Nyeri,Wundanyi
-Siaya,Bungoma,115,Siaya,Bungoma
-Siaya,Busia,63,Siaya,Busia
-Siaya,Uasin Gishu,164,Siaya,Eldoret
-Siaya,Embu,514,Siaya,Embu
-Siaya,Garissa,799,Siaya,Garissa
-Siaya,Tana River,915,Siaya,Hola
-Siaya,Homa Bay,245,Siaya,Homa Bay
-Siaya,Isiolo,503,Siaya,Isiolo
-Siaya,Elgeyo-Marakwet,198,Siaya,Iten
-Siaya,Baringo,252,Siaya,Kabarnet
-Siaya,Kakamega,92,Siaya,Kakamega
-Siaya,West Pokot,239,Siaya,Kapenguria
-Siaya,Nandi,118,Siaya,Kapsabet
-Siaya,Kericho,160,Siaya,Kericho
-Siaya,Kirinyaga,473,Siaya,Kerugoya
-Siaya,Kiambu,441,Siaya,Kiambu
-Siaya,Kilifi,963,Siaya,Kilifi
-Siaya,Kisii,193,Siaya,Kisii
-Siaya,Kisumu,80,Siaya,Kisumu
-Siaya,Trans Nzoia,200,Siaya,Kitale
-Siaya,Kitui,595,Siaya,Kitui
-Siaya,Kwale,945,Siaya,Kwale
-Siaya,Lamu,1125,Siaya,Lamu
-Siaya,Turkana,498,Siaya,Lodwar
-Siaya,Machakos,488,Siaya,Machakos
-Siaya,Mandera,1259,Siaya,Mandera
-Siaya,Samburu,485,Siaya,Maralal
-Siaya,Marsabit,762,Siaya,Marsabit
-Siaya,Meru,498,Siaya,Meru
-Siaya,Mombasa,912,Siaya,Mombasa
-Siaya,Murang'a,491,Siaya,Murang'a
-Siaya,Nairobi,1425,Siaya,Nairobi
-Siaya,Nakuru,267,Siaya,Nakuru
-Siaya,Narok,300,Siaya,Narok
-Siaya,Nyeri,426,Siaya,Nyeri
-Siaya,Wajir,859,Siaya,Wajir
-Siaya,Laikipia,423,Siaya,Nanyuki
-Siaya,Kajiado,501,Siaya,Kajiado
-Siaya,Taita Taveta,795,Siaya,Wundanyi
-Wajir,Bungoma,845,Wajir,Bungoma
-Wajir,Busia,917,Wajir,Busia
-Wajir,Uasin Gishu,745,Wajir,Eldoret
-Wajir,Embu,516,Wajir,Embu
-Wajir,Garissa,327,Wajir,Garissa
-Wajir,Tana River,471,Wajir,Hola
-Wajir,Homa Bay,867,Wajir,Homa Bay
-Wajir,Isiolo,356,Wajir,Isiolo
-Wajir,Elgeyo-Marakwet,779,Wajir,Iten
-Wajir,Baringo,728,Wajir,Kabarnet
-Wajir,Kakamega,772,Wajir,Kakamega
-Wajir,West Pokot,854,Wajir,Kapenguria
-Wajir,Nandi,744,Wajir,Kapsabet
-Wajir,Kericho,699,Wajir,Kericho
-Wajir,Kirinyaga,543,Wajir,Kerugoya
-Wajir,Kiambu,641,Wajir,Kiambu
-Wajir,Kilifi,739,Wajir,Kilifi
-Wajir,Kisii,803,Wajir,Kisii
-Wajir,Kisumu,779,Wajir,Kisumu
-Wajir,Trans Nzoia,815,Wajir,Kitale
-Wajir,Kitui,633,Wajir,Kitui
-Wajir,Kwale,823,Wajir,Kwale
-Wajir,Lamu,683,Wajir,Lamu
-Wajir,Turkana,1112,Wajir,Lodwar
-Wajir,Machakos,699,Wajir,Machakos
-Wajir,Mandera,400,Wajir,Mandera
-Wajir,Samburu,793,Wajir,Maralal
-Wajir,Marsabit,615,Wajir,Marsabit
-Wajir,Meru,412,Wajir,Meru
-Wajir,Mombasa,790,Wajir,Mombasa
-Wajir,Murang'a,563,Wajir,Murang'a
-Wajir,Nairobi,639,Wajir,Nairobi
-Wajir,Nakuru,592,Wajir,Nakuru
-Wajir,Narok,780,Wajir,Narok
-Wajir,Nyeri,496,Wajir,Nyeri
-Wajir,Siaya,859,Wajir,Siaya
-Wajir,Laikipia,436,Wajir,Nanyuki
-Wajir,Kajiado,712,Wajir,Kajiado
-Wajir,Taita Taveta,1009,Wajir,Wundanyi
-Laikipia,Bungoma,410,Nanyuki,Bungoma
-Laikipia,Busia,481,Nanyuki,Busia
-Laikipia,Uasin Gishu,309,Nanyuki,Eldoret
-Laikipia,Embu,131,Nanyuki,Embu
-Laikipia,Garissa,488,Nanyuki,Garissa
-Laikipia,Tana River,604,Nanyuki,Hola
-Laikipia,Homa Bay,431,Nanyuki,Homa Bay
-Laikipia,Isiolo,80,Nanyuki,Isiolo
-Laikipia,Elgeyo-Marakwet,343,Nanyuki,Iten
-Laikipia,Baringo,292,Nanyuki,Kabarnet
-Laikipia,Kakamega,353,Nanyuki,Kakamega
-Laikipia,West Pokot,418,Nanyuki,Kapenguria
-Laikipia,Nandi,308,Nanyuki,Kapsabet
-Laikipia,Kericho,263,Nanyuki,Kericho
-Laikipia,Kirinyaga,90,Nanyuki,Kerugoya
-Laikipia,Kiambu,204,Nanyuki,Kiambu
-Laikipia,Kilifi,738,Nanyuki,Kilifi
-Laikipia,Kisii,367,Nanyuki,Kisii
-Laikipia,Kisumu,343,Nanyuki,Kisumu
-Laikipia,Trans Nzoia,379,Nanyuki,Kitale
-Laikipia,Kitui,284,Nanyuki,Kitui
-Laikipia,Kwale,720,Nanyuki,Kwale
-Laikipia,Lamu,818,Nanyuki,Lamu
-Laikipia,Turkana,676,Nanyuki,Lodwar
-Laikipia,Machakos,263,Nanyuki,Machakos
-Laikipia,Mandera,836,Nanyuki,Mandera
-Laikipia,Samburu,194,Nanyuki,Maralal
-Laikipia,Marsabit,339,Nanyuki,Marsabit
-Laikipia,Meru,75,Nanyuki,Meru
-Laikipia,Mombasa,687,Nanyuki,Mombasa
-Laikipia,Murang'a,93,Nanyuki,Murang'a
-Laikipia,Nairobi,200,Nanyuki,Nairobi
-Laikipia,Nakuru,156,Nanyuki,Nakuru
-Laikipia,Narok,341,Nanyuki,Narok
-Laikipia,Nyeri,58,Nanyuki,Nyeri
-Laikipia,Siaya,423,Nanyuki,Siaya
-Laikipia,Wajir,436,Nanyuki,Wajir
-Laikipia,Kajiado,276,Nanyuki,Kajiado
-Laikipia,Taita Taveta,570,Nanyuki,Wundanyi
-Kajiado,Bungoma,488,Kajiado,Bungoma
-Kajiado,Busia,559,Kajiado,Busia
-Kajiado,Uasin Gishu,387,Kajiado,Eldoret
-Kajiado,Embu,209,Kajiado,Embu
-Kajiado,Garissa,450,Kajiado,Garissa
-Kajiado,Tana River,566,Kajiado,Hola
-Kajiado,Homa Bay,509,Kajiado,Homa Bay
-Kajiado,Isiolo,356,Kajiado,Isiolo
-Kajiado,Elgeyo-Marakwet,421,Kajiado,Iten
-Kajiado,Baringo,370,Kajiado,Kabarnet
-Kajiado,Kakamega,414,Kajiado,Kakamega
-Kajiado,West Pokot,495,Kajiado,Kapenguria
-Kajiado,Nandi,385,Kajiado,Kapsabet
-Kajiado,Kericho,341,Kajiado,Kericho
-Kajiado,Kirinyaga,211,Kajiado,Kerugoya
-Kajiado,Kiambu,92,Kajiado,Kiambu
-Kajiado,Kilifi,564,Kajiado,Kilifi
-Kajiado,Kisii,445,Kajiado,Kisii
-Kajiado,Kisumu,421,Kajiado,Kisumu
-Kajiado,Trans Nzoia,456,Kajiado,Kitale
-Kajiado,Kitui,196,Kajiado,Kitui
-Kajiado,Kwale,546,Kajiado,Kwale
-Kajiado,Lamu,776,Kajiado,Lamu
-Kajiado,Turkana,754,Kajiado,Lodwar
-Kajiado,Machakos,89,Kajiado,Machakos
-Kajiado,Mandera,1112,Kajiado,Mandera
-Kajiado,Samburu,420,Kajiado,Maralal
-Kajiado,Marsabit,615,Kajiado,Marsabit
-Kajiado,Meru,314,Kajiado,Meru
-Kajiado,Mombasa,513,Kajiado,Mombasa
-Kajiado,Murang'a,163,Kajiado,Murang'a
-Kajiado,Nairobi,76,Kajiado,Nairobi
-Kajiado,Nakuru,234,Kajiado,Nakuru
-Kajiado,Narok,217,Kajiado,Narok
-Kajiado,Nyeri,233,Kajiado,Nyeri
-Kajiado,Siaya,501,Kajiado,Siaya
-Kajiado,Wajir,712,Kajiado,Wajir
-Kajiado,Laikipia,276,Kajiado,Nanyuki
-Kajiado,Taita Taveta,396,Kajiado,Wundanyi
-Taita Taveta,Bungoma,782,Wundanyi,Bungoma
+Mombasa,Kwale,38,Mombasa,Kwale
+Mombasa,Kilifi,57,Mombasa,Kilifi
+Mombasa,Tana River,321,Mombasa,Hola
+Mombasa,Lamu,331,Mombasa,Lamu
+Mombasa,Taita Taveta,194,Mombasa,Wundanyi
+Mombasa,Garissa,461,Mombasa,Garissa
+Mombasa,Wajir,773,Mombasa,Wajir
+Mombasa,Mandera,1123,Mombasa,Mandera
+Mombasa,Marsabit,994,Mombasa,Marsabit
+Mombasa,Isiolo,739,Mombasa,Isiolo
+Mombasa,Meru,700,Mombasa,Meru
+Mombasa,Tharaka-Nithi,645,Mombasa,Chuka
+Mombasa,Embu,605,Mombasa,Embu
+Mombasa,Kitui,434,Mombasa,Kitui
+Mombasa,Machakos,439,Mombasa,Machakos
+Mombasa,Makueni,383,Mombasa,Wote
+Mombasa,Nyandarua,628,Mombasa,Ol Kalou
+Mombasa,Nyeri,628,Mombasa,Nyeri
+Mombasa,Kirinyaga,603,Mombasa,Kerugoya
+Mombasa,Murang'a,559,Mombasa,Murang'a
+Mombasa,Kiambu,499,Mombasa,Kiambu
+Mombasa,Turkana,1157,Mombasa,Lodwar
+Mombasa,West Pokot,900,Mombasa,Kapenguria
+Mombasa,Samburu,816,Mombasa,Maralal
+Mombasa,Trans Nzoia,860,Mombasa,Kitale
+Mombasa,Uasin Gishu,789,Mombasa,Eldoret
+Mombasa,Elgeyo-Marakwet,825,Mombasa,Iten
+Mombasa,Nandi,788,Mombasa,Kapsabet
+Mombasa,Baringo,772,Mombasa,Kabarnet
+Mombasa,Laikipia,668,Mombasa,Nanyuki
+Mombasa,Nakuru,638,Mombasa,Nakuru
+Mombasa,Narok,623,Mombasa,Narok
+Mombasa,Kajiado,466,Mombasa,Kajiado
+Mombasa,Kericho,779,Mombasa,Kericho
+Mombasa,Bomet,702,Mombasa,Bomet
+Mombasa,Kakamega,882,Mombasa,Kakamega
+Mombasa,Vihiga,857,Mombasa,Mbale
+Mombasa,Bungoma,886,Mombasa,Bungoma
+Mombasa,Busia,969,Mombasa,Busia
+Mombasa,Siaya,903,Mombasa,Siaya
+Mombasa,Kisumu,834,Mombasa,Kisumu
+Mombasa,Homa Bay,842,Mombasa,Homa Bay
+Mombasa,Migori,850,Mombasa,Migori
+Mombasa,Kisii,787,Mombasa,Kisii
+Mombasa,Nyamira,776,Mombasa,Nyamira
+Mombasa,Nairobi,482,Mombasa,Nairobi
+Kwale,Mombasa,38,Kwale,Mombasa
+Kwale,Kilifi,111,Kwale,Kilifi
+Kwale,Tana River,376,Kwale,Hola
+Kwale,Lamu,385,Kwale,Lamu
+Kwale,Taita Taveta,226,Kwale,Wundanyi
+Kwale,Garissa,515,Kwale,Garissa
+Kwale,Wajir,828,Kwale,Wajir
+Kwale,Mandera,1178,Kwale,Mandera
+Kwale,Marsabit,1026,Kwale,Marsabit
+Kwale,Isiolo,770,Kwale,Isiolo
+Kwale,Meru,732,Kwale,Meru
+Kwale,Tharaka-Nithi,676,Kwale,Chuka
+Kwale,Embu,637,Kwale,Embu
+Kwale,Kitui,466,Kwale,Kitui
+Kwale,Machakos,471,Kwale,Machakos
+Kwale,Makueni,415,Kwale,Wote
+Kwale,Nyandarua,660,Kwale,Ol Kalou
+Kwale,Nyeri,659,Kwale,Nyeri
+Kwale,Kirinyaga,634,Kwale,Kerugoya
+Kwale,Murang'a,591,Kwale,Murang'a
+Kwale,Kiambu,531,Kwale,Kiambu
+Kwale,Turkana,1189,Kwale,Lodwar
+Kwale,West Pokot,931,Kwale,Kapenguria
+Kwale,Samburu,847,Kwale,Maralal
+Kwale,Trans Nzoia,892,Kwale,Kitale
+Kwale,Uasin Gishu,821,Kwale,Eldoret
+Kwale,Elgeyo-Marakwet,857,Kwale,Iten
+Kwale,Nandi,820,Kwale,Kapsabet
+Kwale,Baringo,803,Kwale,Kabarnet
+Kwale,Laikipia,700,Kwale,Nanyuki
+Kwale,Nakuru,669,Kwale,Nakuru
+Kwale,Narok,655,Kwale,Narok
+Kwale,Kajiado,497,Kwale,Kajiado
+Kwale,Kericho,810,Kwale,Kericho
+Kwale,Bomet,733,Kwale,Bomet
+Kwale,Kakamega,914,Kwale,Kakamega
+Kwale,Vihiga,888,Kwale,Mbale
+Kwale,Bungoma,917,Kwale,Bungoma
+Kwale,Busia,1001,Kwale,Busia
+Kwale,Siaya,934,Kwale,Siaya
+Kwale,Kisumu,865,Kwale,Kisumu
+Kwale,Homa Bay,874,Kwale,Homa Bay
+Kwale,Migori,881,Kwale,Migori
+Kwale,Kisii,818,Kwale,Kisii
+Kwale,Nyamira,807,Kwale,Nyamira
+Kwale,Nairobi,513,Kwale,Nairobi
+Kilifi,Mombasa,57,Kilifi,Mombasa
+Kilifi,Kwale,112,Kilifi,Kwale
+Kilifi,Tana River,265,Kilifi,Hola
+Kilifi,Lamu,275,Kilifi,Lamu
+Kilifi,Taita Taveta,217,Kilifi,Wundanyi
+Kilifi,Garissa,405,Kilifi,Garissa
+Kilifi,Wajir,717,Kilifi,Wajir
+Kilifi,Mandera,1067,Kilifi,Mandera
+Kilifi,Marsabit,1017,Kilifi,Marsabit
+Kilifi,Isiolo,762,Kilifi,Isiolo
+Kilifi,Meru,723,Kilifi,Meru
+Kilifi,Tharaka-Nithi,668,Kilifi,Chuka
+Kilifi,Embu,628,Kilifi,Embu
+Kilifi,Kitui,458,Kilifi,Kitui
+Kilifi,Machakos,462,Kilifi,Machakos
+Kilifi,Makueni,406,Kilifi,Wote
+Kilifi,Nyandarua,652,Kilifi,Ol Kalou
+Kilifi,Nyeri,651,Kilifi,Nyeri
+Kilifi,Kirinyaga,626,Kilifi,Kerugoya
+Kilifi,Murang'a,582,Kilifi,Murang'a
+Kilifi,Kiambu,522,Kilifi,Kiambu
+Kilifi,Turkana,1180,Kilifi,Lodwar
+Kilifi,West Pokot,923,Kilifi,Kapenguria
+Kilifi,Samburu,839,Kilifi,Maralal
+Kilifi,Trans Nzoia,883,Kilifi,Kitale
+Kilifi,Uasin Gishu,812,Kilifi,Eldoret
+Kilifi,Elgeyo-Marakwet,849,Kilifi,Iten
+Kilifi,Nandi,811,Kilifi,Kapsabet
+Kilifi,Baringo,795,Kilifi,Kabarnet
+Kilifi,Laikipia,692,Kilifi,Nanyuki
+Kilifi,Nakuru,661,Kilifi,Nakuru
+Kilifi,Narok,646,Kilifi,Narok
+Kilifi,Kajiado,489,Kilifi,Kajiado
+Kilifi,Kericho,802,Kilifi,Kericho
+Kilifi,Bomet,725,Kilifi,Bomet
+Kilifi,Kakamega,905,Kilifi,Kakamega
+Kilifi,Vihiga,880,Kilifi,Mbale
+Kilifi,Bungoma,909,Kilifi,Bungoma
+Kilifi,Busia,993,Kilifi,Busia
+Kilifi,Siaya,926,Kilifi,Siaya
+Kilifi,Kisumu,857,Kilifi,Kisumu
+Kilifi,Homa Bay,865,Kilifi,Homa Bay
+Kilifi,Migori,873,Kilifi,Migori
+Kilifi,Kisii,810,Kilifi,Kisii
+Kilifi,Nyamira,799,Kilifi,Nyamira
+Kilifi,Nairobi,505,Kilifi,Nairobi
+Tana River,Mombasa,321,Hola,Mombasa
+Tana River,Kwale,377,Hola,Kwale
+Tana River,Kilifi,265,Hola,Kilifi
+Tana River,Lamu,213,Hola,Lamu
+Tana River,Taita Taveta,482,Hola,Wundanyi
+Tana River,Garissa,149,Hola,Garissa
+Tana River,Wajir,461,Hola,Wajir
+Tana River,Mandera,811,Hola,Mandera
+Tana River,Marsabit,838,Hola,Marsabit
+Tana River,Isiolo,582,Hola,Isiolo
+Tana River,Meru,544,Hola,Meru
+Tana River,Tharaka-Nithi,489,Hola,Chuka
+Tana River,Embu,449,Hola,Embu
+Tana River,Kitui,410,Hola,Kitui
+Tana River,Machakos,459,Hola,Machakos
+Tana River,Makueni,495,Hola,Wote
+Tana River,Nyandarua,590,Hola,Ol Kalou
+Tana River,Nyeri,521,Hola,Nyeri
+Tana River,Kirinyaga,475,Hola,Kerugoya
+Tana River,Murang'a,487,Hola,Murang'a
+Tana River,Kiambu,477,Hola,Kiambu
+Tana River,Turkana,1157,Hola,Lodwar
+Tana River,West Pokot,900,Hola,Kapenguria
+Tana River,Samburu,776,Hola,Maralal
+Tana River,Trans Nzoia,860,Hola,Kitale
+Tana River,Uasin Gishu,789,Hola,Eldoret
+Tana River,Elgeyo-Marakwet,825,Hola,Iten
+Tana River,Nandi,788,Hola,Kapsabet
+Tana River,Baringo,772,Hola,Kabarnet
+Tana River,Laikipia,562,Hola,Nanyuki
+Tana River,Nakuru,638,Hola,Nakuru
+Tana River,Narok,618,Hola,Narok
+Tana River,Kajiado,557,Hola,Kajiado
+Tana River,Kericho,741,Hola,Kericho
+Tana River,Bomet,696,Hola,Bomet
+Tana River,Kakamega,877,Hola,Kakamega
+Tana River,Vihiga,851,Hola,Mbale
+Tana River,Bungoma,885,Hola,Bungoma
+Tana River,Busia,964,Hola,Busia
+Tana River,Siaya,897,Hola,Siaya
+Tana River,Kisumu,828,Hola,Kisumu
+Tana River,Homa Bay,837,Hola,Homa Bay
+Tana River,Migori,844,Hola,Migori
+Tana River,Kisii,781,Hola,Kisii
+Tana River,Nyamira,770,Hola,Nyamira
+Tana River,Nairobi,488,Hola,Nairobi
+Lamu,Mombasa,331,Lamu,Mombasa
+Lamu,Kwale,386,Lamu,Kwale
+Lamu,Kilifi,275,Lamu,Kilifi
+Lamu,Tana River,214,Lamu,Hola
+Lamu,Taita Taveta,491,Lamu,Wundanyi
+Lamu,Garissa,353,Lamu,Garissa
+Lamu,Wajir,666,Lamu,Wajir
+Lamu,Mandera,1016,Lamu,Mandera
+Lamu,Marsabit,1042,Lamu,Marsabit
+Lamu,Isiolo,787,Lamu,Isiolo
+Lamu,Meru,748,Lamu,Meru
+Lamu,Tharaka-Nithi,693,Lamu,Chuka
+Lamu,Embu,653,Lamu,Embu
+Lamu,Kitui,614,Lamu,Kitui
+Lamu,Machakos,663,Lamu,Machakos
+Lamu,Makueni,681,Lamu,Wote
+Lamu,Nyandarua,794,Lamu,Ol Kalou
+Lamu,Nyeri,725,Lamu,Nyeri
+Lamu,Kirinyaga,679,Lamu,Kerugoya
+Lamu,Murang'a,692,Lamu,Murang'a
+Lamu,Kiambu,682,Lamu,Kiambu
+Lamu,Turkana,1361,Lamu,Lodwar
+Lamu,West Pokot,1104,Lamu,Kapenguria
+Lamu,Samburu,981,Lamu,Maralal
+Lamu,Trans Nzoia,1065,Lamu,Kitale
+Lamu,Uasin Gishu,994,Lamu,Eldoret
+Lamu,Elgeyo-Marakwet,1030,Lamu,Iten
+Lamu,Nandi,992,Lamu,Kapsabet
+Lamu,Baringo,976,Lamu,Kabarnet
+Lamu,Laikipia,766,Lamu,Nanyuki
+Lamu,Nakuru,842,Lamu,Nakuru
+Lamu,Narok,822,Lamu,Narok
+Lamu,Kajiado,761,Lamu,Kajiado
+Lamu,Kericho,945,Lamu,Kericho
+Lamu,Bomet,901,Lamu,Bomet
+Lamu,Kakamega,1081,Lamu,Kakamega
+Lamu,Vihiga,1056,Lamu,Mbale
+Lamu,Bungoma,1090,Lamu,Bungoma
+Lamu,Busia,1168,Lamu,Busia
+Lamu,Siaya,1102,Lamu,Siaya
+Lamu,Kisumu,1033,Lamu,Kisumu
+Lamu,Homa Bay,1041,Lamu,Homa Bay
+Lamu,Migori,1049,Lamu,Migori
+Lamu,Kisii,986,Lamu,Kisii
+Lamu,Nyamira,975,Lamu,Nyamira
+Lamu,Nairobi,692,Lamu,Nairobi
+Taita Taveta,Mombasa,194,Wundanyi,Mombasa
+Taita Taveta,Kwale,227,Wundanyi,Kwale
+Taita Taveta,Kilifi,217,Wundanyi,Kilifi
+Taita Taveta,Tana River,482,Wundanyi,Hola
+Taita Taveta,Lamu,491,Wundanyi,Lamu
+Taita Taveta,Garissa,621,Wundanyi,Garissa
+Taita Taveta,Wajir,934,Wundanyi,Wajir
+Taita Taveta,Mandera,1284,Wundanyi,Mandera
+Taita Taveta,Marsabit,878,Wundanyi,Marsabit
+Taita Taveta,Isiolo,622,Wundanyi,Isiolo
+Taita Taveta,Meru,584,Wundanyi,Meru
+Taita Taveta,Tharaka-Nithi,529,Wundanyi,Chuka
+Taita Taveta,Embu,489,Wundanyi,Embu
+Taita Taveta,Kitui,318,Wundanyi,Kitui
+Taita Taveta,Machakos,323,Wundanyi,Machakos
+Taita Taveta,Makueni,267,Wundanyi,Wote
+Taita Taveta,Nyandarua,512,Wundanyi,Ol Kalou
+Taita Taveta,Nyeri,511,Wundanyi,Nyeri
+Taita Taveta,Kirinyaga,487,Wundanyi,Kerugoya
+Taita Taveta,Murang'a,443,Wundanyi,Murang'a
+Taita Taveta,Kiambu,383,Wundanyi,Kiambu
+Taita Taveta,Turkana,1041,Wundanyi,Lodwar
+Taita Taveta,West Pokot,784,Wundanyi,Kapenguria
+Taita Taveta,Samburu,699,Wundanyi,Maralal
+Taita Taveta,Trans Nzoia,744,Wundanyi,Kitale
+Taita Taveta,Uasin Gishu,673,Wundanyi,Eldoret
+Taita Taveta,Elgeyo-Marakwet,709,Wundanyi,Iten
+Taita Taveta,Nandi,672,Wundanyi,Kapsabet
+Taita Taveta,Baringo,656,Wundanyi,Kabarnet
+Taita Taveta,Laikipia,552,Wundanyi,Nanyuki
+Taita Taveta,Nakuru,522,Wundanyi,Nakuru
+Taita Taveta,Narok,507,Wundanyi,Narok
+Taita Taveta,Kajiado,350,Wundanyi,Kajiado
+Taita Taveta,Kericho,662,Wundanyi,Kericho
+Taita Taveta,Bomet,586,Wundanyi,Bomet
+Taita Taveta,Kakamega,766,Wundanyi,Kakamega
+Taita Taveta,Vihiga,741,Wundanyi,Mbale
+Taita Taveta,Bungoma,769,Wundanyi,Bungoma
 Taita Taveta,Busia,853,Wundanyi,Busia
-Taita Taveta,Uasin Gishu,681,Wundanyi,Eldoret
-Taita Taveta,Embu,493,Wundanyi,Embu
-Taita Taveta,Garissa,662,Wundanyi,Garissa
-Taita Taveta,Tana River,518,Wundanyi,Hola
-Taita Taveta,Homa Bay,803,Wundanyi,Homa Bay
-Taita Taveta,Isiolo,650,Wundanyi,Isiolo
-Taita Taveta,Elgeyo-Marakwet,715,Wundanyi,Iten
-Taita Taveta,Baringo,664,Wundanyi,Kabarnet
-Taita Taveta,Kakamega,702,Wundanyi,Kakamega
-Taita Taveta,West Pokot,789,Wundanyi,Kapenguria
-Taita Taveta,Nandi,679,Wundanyi,Kapsabet
-Taita Taveta,Kericho,635,Wundanyi,Kericho
-Taita Taveta,Kirinyaga,504,Wundanyi,Kerugoya
-Taita Taveta,Kiambu,372,Wundanyi,Kiambu
-Taita Taveta,Kilifi,250,Wundanyi,Kilifi
-Taita Taveta,Kisii,739,Wundanyi,Kisii
-Taita Taveta,Kisumu,715,Wundanyi,Kisumu
-Taita Taveta,Trans Nzoia,715,Wundanyi,Kitale
-Taita Taveta,Kitui,327,Wundanyi,Kitui
-Taita Taveta,Kwale,232,Wundanyi,Kwale
-Taita Taveta,Lamu,538,Wundanyi,Lamu
-Taita Taveta,Turkana,1048,Wundanyi,Lodwar
-Taita Taveta,Machakos,330,Wundanyi,Machakos
-Taita Taveta,Mandera,1409,Wundanyi,Mandera
-Taita Taveta,Samburu,714,Wundanyi,Maralal
-Taita Taveta,Marsabit,912,Wundanyi,Marsabit
-Taita Taveta,Meru,608,Wundanyi,Meru
-Taita Taveta,Mombasa,199,Wundanyi,Mombasa
-Taita Taveta,Murang'a,457,Wundanyi,Murang'a
-Taita Taveta,Nairobi,370,Wundanyi,Nairobi
-Taita Taveta,Nakuru,528,Wundanyi,Nakuru
-Taita Taveta,Narok,511,Wundanyi,Narok
-Taita Taveta,Nyeri,527,Wundanyi,Nyeri
-Taita Taveta,Siaya,795,Wundanyi,Siaya
-Taita Taveta,Wajir,1009,Wundanyi,Wajir
-Taita Taveta,Laikipia,570,Wundanyi,Nanyuki
-Taita Taveta,Kajiado,396,Wundanyi,Kajiado
-Migori,Busia,336,Isebania,Busia
-Migori,Uasin Gishu,351,Isebania,Eldoret
-Migori,Kisumu,195,Isebania,Kisumu
-Migori,Mandera,1291,Isebania,Mandera
-Migori,Mombasa,944,Isebania,Mombasa
-Migori,Nairobi,457,Isebania,Nairobi
-Migori,Nakuru,299,Isebania,Nakuru
+Taita Taveta,Siaya,786,Wundanyi,Siaya
+Taita Taveta,Kisumu,717,Wundanyi,Kisumu
+Taita Taveta,Homa Bay,726,Wundanyi,Homa Bay
+Taita Taveta,Migori,734,Wundanyi,Migori
+Taita Taveta,Kisii,671,Wundanyi,Kisii
+Taita Taveta,Nyamira,660,Wundanyi,Nyamira
+Taita Taveta,Nairobi,366,Wundanyi,Nairobi
+Garissa,Mombasa,461,Garissa,Mombasa
+Garissa,Kwale,516,Garissa,Kwale
+Garissa,Kilifi,405,Garissa,Kilifi
+Garissa,Tana River,149,Garissa,Hola
+Garissa,Lamu,353,Garissa,Lamu
+Garissa,Taita Taveta,621,Garissa,Wundanyi
+Garissa,Wajir,313,Garissa,Wajir
+Garissa,Mandera,663,Garissa,Mandera
+Garissa,Marsabit,719,Garissa,Marsabit
+Garissa,Isiolo,463,Garissa,Isiolo
+Garissa,Meru,424,Garissa,Meru
+Garissa,Tharaka-Nithi,369,Garissa,Chuka
+Garissa,Embu,329,Garissa,Embu
+Garissa,Kitui,291,Garissa,Kitui
+Garissa,Machakos,339,Garissa,Machakos
+Garissa,Makueni,376,Garissa,Wote
+Garissa,Nyandarua,471,Garissa,Ol Kalou
+Garissa,Nyeri,402,Garissa,Nyeri
+Garissa,Kirinyaga,355,Garissa,Kerugoya
+Garissa,Murang'a,368,Garissa,Murang'a
+Garissa,Kiambu,358,Garissa,Kiambu
+Garissa,Turkana,1038,Garissa,Lodwar
+Garissa,West Pokot,780,Garissa,Kapenguria
+Garissa,Samburu,657,Garissa,Maralal
+Garissa,Trans Nzoia,741,Garissa,Kitale
+Garissa,Uasin Gishu,670,Garissa,Eldoret
+Garissa,Elgeyo-Marakwet,706,Garissa,Iten
+Garissa,Nandi,669,Garissa,Kapsabet
+Garissa,Baringo,652,Garissa,Kabarnet
+Garissa,Laikipia,442,Garissa,Nanyuki
+Garissa,Nakuru,518,Garissa,Nakuru
+Garissa,Narok,499,Garissa,Narok
+Garissa,Kajiado,438,Garissa,Kajiado
+Garissa,Kericho,622,Garissa,Kericho
+Garissa,Bomet,577,Garissa,Bomet
+Garissa,Kakamega,757,Garissa,Kakamega
+Garissa,Vihiga,732,Garissa,Mbale
+Garissa,Bungoma,766,Garissa,Bungoma
+Garissa,Busia,845,Garissa,Busia
+Garissa,Siaya,778,Garissa,Siaya
+Garissa,Kisumu,709,Garissa,Kisumu
+Garissa,Homa Bay,717,Garissa,Homa Bay
+Garissa,Migori,725,Garissa,Migori
+Garissa,Kisii,662,Garissa,Kisii
+Garissa,Nyamira,651,Garissa,Nyamira
+Garissa,Nairobi,369,Garissa,Nairobi
+Wajir,Mombasa,773,Wajir,Mombasa
+Wajir,Kwale,829,Wajir,Kwale
+Wajir,Kilifi,717,Wajir,Kilifi
+Wajir,Tana River,461,Wajir,Hola
+Wajir,Lamu,665,Wajir,Lamu
+Wajir,Taita Taveta,934,Wajir,Wundanyi
+Wajir,Garissa,313,Wajir,Garissa
+Wajir,Mandera,350,Wajir,Mandera
+Wajir,Marsabit,478,Wajir,Marsabit
+Wajir,Isiolo,348,Wajir,Isiolo
+Wajir,Meru,387,Wajir,Meru
+Wajir,Tharaka-Nithi,442,Wajir,Chuka
+Wajir,Embu,642,Wajir,Embu
+Wajir,Kitui,603,Wajir,Kitui
+Wajir,Machakos,652,Wajir,Machakos
+Wajir,Makueni,688,Wajir,Wote
+Wajir,Nyandarua,783,Wajir,Ol Kalou
+Wajir,Nyeri,483,Wajir,Nyeri
+Wajir,Kirinyaga,668,Wajir,Kerugoya
+Wajir,Murang'a,680,Wajir,Murang'a
+Wajir,Kiambu,670,Wajir,Kiambu
+Wajir,Turkana,1350,Wajir,Lodwar
+Wajir,West Pokot,1093,Wajir,Kapenguria
+Wajir,Samburu,493,Wajir,Maralal
+Wajir,Trans Nzoia,1053,Wajir,Kitale
+Wajir,Uasin Gishu,982,Wajir,Eldoret
+Wajir,Elgeyo-Marakwet,1018,Wajir,Iten
+Wajir,Nandi,981,Wajir,Kapsabet
+Wajir,Baringo,965,Wajir,Kabarnet
+Wajir,Laikipia,427,Wajir,Nanyuki
+Wajir,Nakuru,831,Wajir,Nakuru
+Wajir,Narok,811,Wajir,Narok
+Wajir,Kajiado,750,Wajir,Kajiado
+Wajir,Kericho,934,Wajir,Kericho
+Wajir,Bomet,890,Wajir,Bomet
+Wajir,Kakamega,1070,Wajir,Kakamega
+Wajir,Vihiga,1044,Wajir,Mbale
+Wajir,Bungoma,1079,Wajir,Bungoma
+Wajir,Busia,1157,Wajir,Busia
+Wajir,Siaya,1090,Wajir,Siaya
+Wajir,Kisumu,1021,Wajir,Kisumu
+Wajir,Homa Bay,1030,Wajir,Homa Bay
+Wajir,Migori,1038,Wajir,Migori
+Wajir,Kisii,975,Wajir,Kisii
+Wajir,Nyamira,963,Wajir,Nyamira
+Wajir,Nairobi,681,Wajir,Nairobi
+Mandera,Mombasa,1123,Mandera,Mombasa
+Mandera,Kwale,1179,Mandera,Kwale
+Mandera,Kilifi,1067,Mandera,Kilifi
+Mandera,Tana River,811,Mandera,Hola
+Mandera,Lamu,1015,Mandera,Lamu
+Mandera,Taita Taveta,1284,Mandera,Wundanyi
+Mandera,Garissa,662,Mandera,Garissa
+Mandera,Wajir,350,Mandera,Wajir
+Mandera,Marsabit,622,Mandera,Marsabit
+Mandera,Isiolo,878,Mandera,Isiolo
+Mandera,Meru,917,Mandera,Meru
+Mandera,Tharaka-Nithi,972,Mandera,Chuka
+Mandera,Embu,1012,Mandera,Embu
+Mandera,Kitui,953,Mandera,Kitui
+Mandera,Machakos,1002,Mandera,Machakos
+Mandera,Makueni,1038,Mandera,Wote
+Mandera,Nyandarua,1103,Mandera,Ol Kalou
+Mandera,Nyeri,1013,Mandera,Nyeri
+Mandera,Kirinyaga,1040,Mandera,Kerugoya
+Mandera,Murang'a,1062,Mandera,Murang'a
+Mandera,Kiambu,1133,Mandera,Kiambu
+Mandera,Turkana,1188,Mandera,Lodwar
+Mandera,West Pokot,1393,Mandera,Kapenguria
+Mandera,Samburu,967,Mandera,Maralal
+Mandera,Trans Nzoia,1353,Mandera,Kitale
+Mandera,Uasin Gishu,1282,Mandera,Eldoret
+Mandera,Elgeyo-Marakwet,1318,Mandera,Iten
+Mandera,Nandi,1281,Mandera,Kapsabet
+Mandera,Baringo,1265,Mandera,Kabarnet
+Mandera,Laikipia,957,Mandera,Nanyuki
+Mandera,Nakuru,1131,Mandera,Nakuru
+Mandera,Narok,1246,Mandera,Narok
+Mandera,Kajiado,1212,Mandera,Kajiado
+Mandera,Kericho,1234,Mandera,Kericho
+Mandera,Bomet,1352,Mandera,Bomet
+Mandera,Kakamega,1348,Mandera,Kakamega
+Mandera,Vihiga,1323,Mandera,Mbale
+Mandera,Bungoma,1379,Mandera,Bungoma
+Mandera,Busia,1436,Mandera,Busia
+Mandera,Siaya,1370,Mandera,Siaya
+Mandera,Kisumu,1306,Mandera,Kisumu
+Mandera,Homa Bay,1363,Mandera,Homa Bay
+Mandera,Migori,1399,Mandera,Migori
+Mandera,Kisii,1336,Mandera,Kisii
+Mandera,Nyamira,1289,Mandera,Nyamira
+Mandera,Nairobi,1143,Mandera,Nairobi
+Marsabit,Mombasa,994,Marsabit,Mombasa
+Marsabit,Kwale,1026,Marsabit,Kwale
+Marsabit,Kilifi,1017,Marsabit,Kilifi
+Marsabit,Tana River,838,Marsabit,Hola
+Marsabit,Lamu,1042,Marsabit,Lamu
+Marsabit,Taita Taveta,877,Marsabit,Wundanyi
+Marsabit,Garissa,719,Marsabit,Garissa
+Marsabit,Wajir,478,Marsabit,Wajir
+Marsabit,Mandera,622,Marsabit,Mandera
+Marsabit,Isiolo,256,Marsabit,Isiolo
+Marsabit,Meru,294,Marsabit,Meru
+Marsabit,Tharaka-Nithi,350,Marsabit,Chuka
+Marsabit,Embu,390,Marsabit,Embu
+Marsabit,Kitui,525,Marsabit,Kitui
+Marsabit,Machakos,567,Marsabit,Machakos
+Marsabit,Makueni,601,Marsabit,Wote
+Marsabit,Nyandarua,480,Marsabit,Ol Kalou
+Marsabit,Nyeri,391,Marsabit,Nyeri
+Marsabit,Kirinyaga,418,Marsabit,Kerugoya
+Marsabit,Murang'a,440,Marsabit,Murang'a
+Marsabit,Kiambu,510,Marsabit,Kiambu
+Marsabit,Turkana,759,Marsabit,Lodwar
+Marsabit,West Pokot,771,Marsabit,Kapenguria
+Marsabit,Samburu,345,Marsabit,Maralal
+Marsabit,Trans Nzoia,731,Marsabit,Kitale
+Marsabit,Uasin Gishu,660,Marsabit,Eldoret
+Marsabit,Elgeyo-Marakwet,696,Marsabit,Iten
+Marsabit,Nandi,659,Marsabit,Kapsabet
+Marsabit,Baringo,643,Marsabit,Kabarnet
+Marsabit,Laikipia,335,Marsabit,Nanyuki
+Marsabit,Nakuru,509,Marsabit,Nakuru
+Marsabit,Narok,624,Marsabit,Narok
+Marsabit,Kajiado,590,Marsabit,Kajiado
+Marsabit,Kericho,612,Marsabit,Kericho
+Marsabit,Bomet,730,Marsabit,Bomet
+Marsabit,Kakamega,726,Marsabit,Kakamega
+Marsabit,Vihiga,701,Marsabit,Mbale
+Marsabit,Bungoma,756,Marsabit,Bungoma
+Marsabit,Busia,813,Marsabit,Busia
+Marsabit,Siaya,748,Marsabit,Siaya
+Marsabit,Kisumu,684,Marsabit,Kisumu
+Marsabit,Homa Bay,741,Marsabit,Homa Bay
+Marsabit,Migori,776,Marsabit,Migori
+Marsabit,Kisii,714,Marsabit,Kisii
+Marsabit,Nyamira,667,Marsabit,Nyamira
+Marsabit,Nairobi,521,Marsabit,Nairobi
+Isiolo,Mombasa,738,Isiolo,Mombasa
+Isiolo,Kwale,771,Isiolo,Kwale
+Isiolo,Kilifi,761,Isiolo,Kilifi
+Isiolo,Tana River,582,Isiolo,Hola
+Isiolo,Lamu,787,Isiolo,Lamu
+Isiolo,Taita Taveta,622,Isiolo,Wundanyi
+Isiolo,Garissa,463,Isiolo,Garissa
+Isiolo,Wajir,348,Isiolo,Wajir
+Isiolo,Mandera,878,Isiolo,Mandera
+Isiolo,Marsabit,256,Isiolo,Marsabit
+Isiolo,Meru,39,Isiolo,Meru
+Isiolo,Tharaka-Nithi,95,Isiolo,Chuka
+Isiolo,Embu,134,Isiolo,Embu
+Isiolo,Kitui,269,Isiolo,Kitui
+Isiolo,Machakos,311,Isiolo,Machakos
+Isiolo,Makueni,345,Isiolo,Wote
+Isiolo,Nyandarua,225,Isiolo,Ol Kalou
+Isiolo,Nyeri,135,Isiolo,Nyeri
+Isiolo,Kirinyaga,162,Isiolo,Kerugoya
+Isiolo,Murang'a,184,Isiolo,Murang'a
+Isiolo,Kiambu,255,Isiolo,Kiambu
+Isiolo,Turkana,772,Isiolo,Lodwar
+Isiolo,West Pokot,515,Isiolo,Kapenguria
+Isiolo,Samburu,198,Isiolo,Maralal
+Isiolo,Trans Nzoia,475,Isiolo,Kitale
+Isiolo,Uasin Gishu,404,Isiolo,Eldoret
+Isiolo,Elgeyo-Marakwet,441,Isiolo,Iten
+Isiolo,Nandi,403,Isiolo,Kapsabet
+Isiolo,Baringo,387,Isiolo,Kabarnet
+Isiolo,Laikipia,80,Isiolo,Nanyuki
+Isiolo,Nakuru,253,Isiolo,Nakuru
+Isiolo,Narok,369,Isiolo,Narok
+Isiolo,Kajiado,335,Isiolo,Kajiado
+Isiolo,Kericho,356,Isiolo,Kericho
+Isiolo,Bomet,474,Isiolo,Bomet
+Isiolo,Kakamega,470,Isiolo,Kakamega
+Isiolo,Vihiga,445,Isiolo,Mbale
+Isiolo,Bungoma,501,Isiolo,Bungoma
+Isiolo,Busia,558,Isiolo,Busia
+Isiolo,Siaya,492,Isiolo,Siaya
+Isiolo,Kisumu,429,Isiolo,Kisumu
+Isiolo,Homa Bay,486,Isiolo,Homa Bay
+Isiolo,Migori,521,Isiolo,Migori
+Isiolo,Kisii,458,Isiolo,Kisii
+Isiolo,Nyamira,411,Isiolo,Nyamira
+Isiolo,Nairobi,266,Isiolo,Nairobi
+Meru,Mombasa,699,Meru,Mombasa
+Meru,Kwale,732,Meru,Kwale
+Meru,Kilifi,722,Meru,Kilifi
+Meru,Tana River,544,Meru,Hola
+Meru,Lamu,748,Meru,Lamu
+Meru,Taita Taveta,583,Meru,Wundanyi
+Meru,Garissa,424,Meru,Garissa
+Meru,Wajir,387,Meru,Wajir
+Meru,Mandera,917,Meru,Mandera
+Meru,Marsabit,294,Meru,Marsabit
+Meru,Isiolo,39,Meru,Isiolo
+Meru,Tharaka-Nithi,56,Meru,Chuka
+Meru,Embu,95,Meru,Embu
+Meru,Kitui,231,Meru,Kitui
+Meru,Machakos,273,Meru,Machakos
+Meru,Makueni,307,Meru,Wote
+Meru,Nyandarua,222,Meru,Ol Kalou
+Meru,Nyeri,132,Meru,Nyeri
+Meru,Kirinyaga,124,Meru,Kerugoya
+Meru,Murang'a,144,Meru,Murang'a
+Meru,Kiambu,216,Meru,Kiambu
+Meru,Turkana,769,Meru,Lodwar
+Meru,West Pokot,512,Meru,Kapenguria
+Meru,Samburu,248,Meru,Maralal
+Meru,Trans Nzoia,473,Meru,Kitale
+Meru,Uasin Gishu,402,Meru,Eldoret
+Meru,Elgeyo-Marakwet,438,Meru,Iten
+Meru,Nandi,400,Meru,Kapsabet
+Meru,Baringo,384,Meru,Kabarnet
+Meru,Laikipia,77,Meru,Nanyuki
+Meru,Nakuru,250,Meru,Nakuru
+Meru,Narok,357,Meru,Narok
+Meru,Kajiado,296,Meru,Kajiado
+Meru,Kericho,354,Meru,Kericho
+Meru,Bomet,435,Meru,Bomet
+Meru,Kakamega,468,Meru,Kakamega
+Meru,Vihiga,442,Meru,Mbale
+Meru,Bungoma,498,Meru,Bungoma
+Meru,Busia,555,Meru,Busia
+Meru,Siaya,490,Meru,Siaya
+Meru,Kisumu,426,Meru,Kisumu
+Meru,Homa Bay,483,Meru,Homa Bay
+Meru,Migori,518,Meru,Migori
+Meru,Kisii,455,Meru,Kisii
+Meru,Nyamira,408,Meru,Nyamira
+Meru,Nairobi,227,Meru,Nairobi
+Tharaka-Nithi,Mombasa,644,Chuka,Mombasa
+Tharaka-Nithi,Kwale,677,Chuka,Kwale
+Tharaka-Nithi,Kilifi,667,Chuka,Kilifi
+Tharaka-Nithi,Tana River,489,Chuka,Hola
+Tharaka-Nithi,Lamu,693,Chuka,Lamu
+Tharaka-Nithi,Taita Taveta,528,Chuka,Wundanyi
+Tharaka-Nithi,Garissa,369,Chuka,Garissa
+Tharaka-Nithi,Wajir,442,Chuka,Wajir
+Tharaka-Nithi,Mandera,972,Chuka,Mandera
+Tharaka-Nithi,Marsabit,350,Chuka,Marsabit
+Tharaka-Nithi,Isiolo,95,Chuka,Isiolo
+Tharaka-Nithi,Meru,56,Chuka,Meru
+Tharaka-Nithi,Embu,40,Chuka,Embu
+Tharaka-Nithi,Kitui,175,Chuka,Kitui
+Tharaka-Nithi,Machakos,217,Chuka,Machakos
+Tharaka-Nithi,Makueni,251,Chuka,Wote
+Tharaka-Nithi,Nyandarua,251,Chuka,Ol Kalou
+Tharaka-Nithi,Nyeri,115,Chuka,Nyeri
+Tharaka-Nithi,Kirinyaga,68,Chuka,Kerugoya
+Tharaka-Nithi,Murang'a,89,Chuka,Murang'a
+Tharaka-Nithi,Kiambu,161,Chuka,Kiambu
+Tharaka-Nithi,Turkana,798,Chuka,Lodwar
+Tharaka-Nithi,West Pokot,541,Chuka,Kapenguria
+Tharaka-Nithi,Samburu,303,Chuka,Maralal
+Tharaka-Nithi,Trans Nzoia,502,Chuka,Kitale
+Tharaka-Nithi,Uasin Gishu,431,Chuka,Eldoret
+Tharaka-Nithi,Elgeyo-Marakwet,467,Chuka,Iten
+Tharaka-Nithi,Nandi,429,Chuka,Kapsabet
+Tharaka-Nithi,Baringo,413,Chuka,Kabarnet
+Tharaka-Nithi,Laikipia,133,Chuka,Nanyuki
+Tharaka-Nithi,Nakuru,279,Chuka,Nakuru
+Tharaka-Nithi,Narok,302,Chuka,Narok
+Tharaka-Nithi,Kajiado,241,Chuka,Kajiado
+Tharaka-Nithi,Kericho,382,Chuka,Kericho
+Tharaka-Nithi,Bomet,380,Chuka,Bomet
+Tharaka-Nithi,Kakamega,497,Chuka,Kakamega
+Tharaka-Nithi,Vihiga,471,Chuka,Mbale
+Tharaka-Nithi,Bungoma,527,Chuka,Bungoma
+Tharaka-Nithi,Busia,584,Chuka,Busia
+Tharaka-Nithi,Siaya,519,Chuka,Siaya
+Tharaka-Nithi,Kisumu,455,Chuka,Kisumu
+Tharaka-Nithi,Homa Bay,520,Chuka,Homa Bay
+Tharaka-Nithi,Migori,528,Chuka,Migori
+Tharaka-Nithi,Kisii,465,Chuka,Kisii
+Tharaka-Nithi,Nyamira,454,Chuka,Nyamira
+Tharaka-Nithi,Nairobi,172,Chuka,Nairobi
+Embu,Mombasa,604,Embu,Mombasa
+Embu,Kwale,637,Embu,Kwale
+Embu,Kilifi,627,Embu,Kilifi
+Embu,Tana River,449,Embu,Hola
+Embu,Lamu,653,Embu,Lamu
+Embu,Taita Taveta,488,Embu,Wundanyi
+Embu,Garissa,329,Embu,Garissa
+Embu,Wajir,642,Embu,Wajir
+Embu,Mandera,1012,Embu,Mandera
+Embu,Marsabit,390,Embu,Marsabit
+Embu,Isiolo,134,Embu,Isiolo
+Embu,Meru,95,Embu,Meru
+Embu,Tharaka-Nithi,40,Embu,Chuka
+Embu,Kitui,136,Embu,Kitui
+Embu,Machakos,178,Embu,Machakos
+Embu,Makueni,212,Embu,Wote
+Embu,Nyandarua,211,Embu,Ol Kalou
+Embu,Nyeri,75,Embu,Nyeri
+Embu,Kirinyaga,29,Embu,Kerugoya
+Embu,Murang'a,49,Embu,Murang'a
+Embu,Kiambu,121,Embu,Kiambu
+Embu,Turkana,758,Embu,Lodwar
+Embu,West Pokot,501,Embu,Kapenguria
+Embu,Samburu,327,Embu,Maralal
+Embu,Trans Nzoia,462,Embu,Kitale
+Embu,Uasin Gishu,391,Embu,Eldoret
+Embu,Elgeyo-Marakwet,427,Embu,Iten
+Embu,Nandi,390,Embu,Kapsabet
+Embu,Baringo,373,Embu,Kabarnet
+Embu,Laikipia,116,Embu,Nanyuki
+Embu,Nakuru,239,Embu,Nakuru
+Embu,Narok,262,Embu,Narok
+Embu,Kajiado,201,Embu,Kajiado
+Embu,Kericho,343,Embu,Kericho
+Embu,Bomet,340,Embu,Bomet
+Embu,Kakamega,457,Embu,Kakamega
+Embu,Vihiga,431,Embu,Mbale
+Embu,Bungoma,487,Embu,Bungoma
+Embu,Busia,544,Embu,Busia
+Embu,Siaya,479,Embu,Siaya
+Embu,Kisumu,415,Embu,Kisumu
+Embu,Homa Bay,481,Embu,Homa Bay
+Embu,Migori,488,Embu,Migori
+Embu,Kisii,425,Embu,Kisii
+Embu,Nyamira,414,Embu,Nyamira
+Embu,Nairobi,132,Embu,Nairobi
+Kitui,Mombasa,434,Kitui,Mombasa
+Kitui,Kwale,467,Kitui,Kwale
+Kitui,Kilifi,457,Kitui,Kilifi
+Kitui,Tana River,410,Kitui,Hola
+Kitui,Lamu,615,Kitui,Lamu
+Kitui,Taita Taveta,318,Kitui,Wundanyi
+Kitui,Garissa,291,Kitui,Garissa
+Kitui,Wajir,603,Kitui,Wajir
+Kitui,Mandera,953,Kitui,Mandera
+Kitui,Marsabit,525,Kitui,Marsabit
+Kitui,Isiolo,269,Kitui,Isiolo
+Kitui,Meru,231,Kitui,Meru
+Kitui,Tharaka-Nithi,176,Kitui,Chuka
+Kitui,Embu,136,Kitui,Embu
+Kitui,Machakos,99,Kitui,Machakos
+Kitui,Makueni,116,Kitui,Wote
+Kitui,Nyandarua,277,Kitui,Ol Kalou
+Kitui,Nyeri,208,Kitui,Nyeri
+Kitui,Kirinyaga,162,Kitui,Kerugoya
+Kitui,Murang'a,174,Kitui,Murang'a
+Kitui,Kiambu,164,Kitui,Kiambu
+Kitui,Turkana,844,Kitui,Lodwar
+Kitui,West Pokot,587,Kitui,Kapenguria
+Kitui,Samburu,463,Kitui,Maralal
+Kitui,Trans Nzoia,547,Kitui,Kitale
+Kitui,Uasin Gishu,476,Kitui,Eldoret
+Kitui,Elgeyo-Marakwet,512,Kitui,Iten
+Kitui,Nandi,475,Kitui,Kapsabet
+Kitui,Baringo,459,Kitui,Kabarnet
+Kitui,Laikipia,249,Kitui,Nanyuki
+Kitui,Nakuru,325,Kitui,Nakuru
+Kitui,Narok,302,Kitui,Narok
+Kitui,Kajiado,187,Kitui,Kajiado
+Kitui,Kericho,458,Kitui,Kericho
+Kitui,Bomet,381,Kitui,Bomet
+Kitui,Kakamega,561,Kitui,Kakamega
+Kitui,Vihiga,536,Kitui,Mbale
+Kitui,Bungoma,572,Kitui,Bungoma
+Kitui,Busia,648,Kitui,Busia
+Kitui,Siaya,582,Kitui,Siaya
+Kitui,Kisumu,512,Kitui,Kisumu
+Kitui,Homa Bay,521,Kitui,Homa Bay
+Kitui,Migori,529,Kitui,Migori
+Kitui,Kisii,466,Kitui,Kisii
+Kitui,Nyamira,455,Kitui,Nyamira
+Kitui,Nairobi,161,Kitui,Nairobi
+Machakos,Mombasa,439,Machakos,Mombasa
+Machakos,Kwale,472,Machakos,Kwale
+Machakos,Kilifi,462,Machakos,Kilifi
+Machakos,Tana River,459,Machakos,Hola
+Machakos,Lamu,663,Machakos,Lamu
+Machakos,Taita Taveta,323,Machakos,Wundanyi
+Machakos,Garissa,339,Machakos,Garissa
+Machakos,Wajir,652,Machakos,Wajir
+Machakos,Mandera,1002,Machakos,Mandera
+Machakos,Marsabit,575,Machakos,Marsabit
+Machakos,Isiolo,319,Machakos,Isiolo
+Machakos,Meru,280,Machakos,Meru
+Machakos,Tharaka-Nithi,225,Machakos,Chuka
+Machakos,Embu,185,Machakos,Embu
+Machakos,Kitui,99,Machakos,Kitui
+Machakos,Makueni,72,Machakos,Wote
+Machakos,Nyandarua,209,Machakos,Ol Kalou
+Machakos,Nyeri,208,Machakos,Nyeri
+Machakos,Kirinyaga,183,Machakos,Kerugoya
+Machakos,Murang'a,139,Machakos,Murang'a
+Machakos,Kiambu,79,Machakos,Kiambu
+Machakos,Turkana,737,Machakos,Lodwar
+Machakos,West Pokot,480,Machakos,Kapenguria
+Machakos,Samburu,396,Machakos,Maralal
+Machakos,Trans Nzoia,441,Machakos,Kitale
+Machakos,Uasin Gishu,370,Machakos,Eldoret
+Machakos,Elgeyo-Marakwet,406,Machakos,Iten
+Machakos,Nandi,368,Machakos,Kapsabet
+Machakos,Baringo,352,Machakos,Kabarnet
+Machakos,Laikipia,249,Machakos,Nanyuki
+Machakos,Nakuru,218,Machakos,Nakuru
+Machakos,Narok,204,Machakos,Narok
+Machakos,Kajiado,89,Machakos,Kajiado
+Machakos,Kericho,359,Machakos,Kericho
+Machakos,Bomet,282,Machakos,Bomet
+Machakos,Kakamega,462,Machakos,Kakamega
+Machakos,Vihiga,437,Machakos,Mbale
+Machakos,Bungoma,466,Machakos,Bungoma
+Machakos,Busia,550,Machakos,Busia
+Machakos,Siaya,483,Machakos,Siaya
+Machakos,Kisumu,414,Machakos,Kisumu
+Machakos,Homa Bay,422,Machakos,Homa Bay
+Machakos,Migori,430,Machakos,Migori
+Machakos,Kisii,367,Machakos,Kisii
+Machakos,Nyamira,356,Machakos,Nyamira
+Machakos,Nairobi,62,Machakos,Nairobi
+Makueni,Mombasa,383,Wote,Mombasa
+Makueni,Kwale,416,Wote,Kwale
+Makueni,Kilifi,406,Wote,Kilifi
+Makueni,Tana River,495,Wote,Hola
+Makueni,Lamu,681,Wote,Lamu
+Makueni,Taita Taveta,267,Wote,Wundanyi
+Makueni,Garissa,376,Wote,Garissa
+Makueni,Wajir,689,Wote,Wajir
+Makueni,Mandera,1038,Wote,Mandera
+Makueni,Marsabit,601,Wote,Marsabit
+Makueni,Isiolo,345,Wote,Isiolo
+Makueni,Meru,307,Wote,Meru
+Makueni,Tharaka-Nithi,251,Wote,Chuka
+Makueni,Embu,212,Wote,Embu
+Makueni,Kitui,116,Wote,Kitui
+Makueni,Machakos,72,Wote,Machakos
+Makueni,Nyandarua,279,Wote,Ol Kalou
+Makueni,Nyeri,278,Wote,Nyeri
+Makueni,Kirinyaga,254,Wote,Kerugoya
+Makueni,Murang'a,210,Wote,Murang'a
+Makueni,Kiambu,150,Wote,Kiambu
+Makueni,Turkana,808,Wote,Lodwar
+Makueni,West Pokot,551,Wote,Kapenguria
+Makueni,Samburu,466,Wote,Maralal
+Makueni,Trans Nzoia,511,Wote,Kitale
+Makueni,Uasin Gishu,440,Wote,Eldoret
+Makueni,Elgeyo-Marakwet,476,Wote,Iten
+Makueni,Nandi,439,Wote,Kapsabet
+Makueni,Baringo,423,Wote,Kabarnet
+Makueni,Laikipia,319,Wote,Nanyuki
+Makueni,Nakuru,289,Wote,Nakuru
+Makueni,Narok,274,Wote,Narok
+Makueni,Kajiado,159,Wote,Kajiado
+Makueni,Kericho,430,Wote,Kericho
+Makueni,Bomet,353,Wote,Bomet
+Makueni,Kakamega,533,Wote,Kakamega
+Makueni,Vihiga,508,Wote,Mbale
+Makueni,Bungoma,536,Wote,Bungoma
+Makueni,Busia,620,Wote,Busia
+Makueni,Siaya,554,Wote,Siaya
+Makueni,Kisumu,484,Wote,Kisumu
+Makueni,Homa Bay,493,Wote,Homa Bay
+Makueni,Migori,501,Wote,Migori
+Makueni,Kisii,438,Wote,Kisii
+Makueni,Nyamira,427,Wote,Nyamira
+Makueni,Nairobi,133,Wote,Nairobi
+Nyandarua,Mombasa,629,Ol Kalou,Mombasa
+Nyandarua,Kwale,662,Ol Kalou,Kwale
+Nyandarua,Kilifi,652,Ol Kalou,Kilifi
+Nyandarua,Tana River,589,Ol Kalou,Hola
+Nyandarua,Lamu,794,Ol Kalou,Lamu
+Nyandarua,Taita Taveta,513,Ol Kalou,Wundanyi
+Nyandarua,Garissa,470,Ol Kalou,Garissa
+Nyandarua,Wajir,783,Ol Kalou,Wajir
+Nyandarua,Mandera,1102,Ol Kalou,Mandera
+Nyandarua,Marsabit,480,Ol Kalou,Marsabit
+Nyandarua,Isiolo,225,Ol Kalou,Isiolo
+Nyandarua,Meru,222,Ol Kalou,Meru
+Nyandarua,Tharaka-Nithi,251,Ol Kalou,Chuka
+Nyandarua,Embu,211,Ol Kalou,Embu
+Nyandarua,Kitui,276,Ol Kalou,Kitui
+Nyandarua,Machakos,209,Ol Kalou,Machakos
+Nyandarua,Makueni,280,Ol Kalou,Wote
+Nyandarua,Nyeri,136,Ol Kalou,Nyeri
+Nyandarua,Kirinyaga,183,Ol Kalou,Kerugoya
+Nyandarua,Murang'a,185,Ol Kalou,Murang'a
+Nyandarua,Kiambu,147,Ol Kalou,Kiambu
+Nyandarua,Turkana,568,Ol Kalou,Lodwar
+Nyandarua,West Pokot,311,Ol Kalou,Kapenguria
+Nyandarua,Samburu,188,Ol Kalou,Maralal
+Nyandarua,Trans Nzoia,271,Ol Kalou,Kitale
+Nyandarua,Uasin Gishu,200,Ol Kalou,Eldoret
+Nyandarua,Elgeyo-Marakwet,236,Ol Kalou,Iten
+Nyandarua,Nandi,199,Ol Kalou,Kapsabet
+Nyandarua,Baringo,183,Ol Kalou,Kabarnet
+Nyandarua,Laikipia,145,Ol Kalou,Nanyuki
+Nyandarua,Nakuru,49,Ol Kalou,Nakuru
+Nyandarua,Narok,164,Ol Kalou,Narok
+Nyandarua,Kajiado,215,Ol Kalou,Kajiado
+Nyandarua,Kericho,152,Ol Kalou,Kericho
+Nyandarua,Bomet,245,Ol Kalou,Bomet
+Nyandarua,Kakamega,266,Ol Kalou,Kakamega
+Nyandarua,Vihiga,241,Ol Kalou,Mbale
+Nyandarua,Bungoma,296,Ol Kalou,Bungoma
+Nyandarua,Busia,353,Ol Kalou,Busia
+Nyandarua,Siaya,288,Ol Kalou,Siaya
+Nyandarua,Kisumu,224,Ol Kalou,Kisumu
+Nyandarua,Homa Bay,281,Ol Kalou,Homa Bay
+Nyandarua,Migori,316,Ol Kalou,Migori
+Nyandarua,Kisii,254,Ol Kalou,Kisii
+Nyandarua,Nyamira,207,Ol Kalou,Nyamira
+Nyandarua,Nairobi,151,Ol Kalou,Nairobi
+Nyeri,Mombasa,627,Nyeri,Mombasa
+Nyeri,Kwale,660,Nyeri,Kwale
+Nyeri,Kilifi,650,Nyeri,Kilifi
+Nyeri,Tana River,521,Nyeri,Hola
+Nyeri,Lamu,725,Nyeri,Lamu
+Nyeri,Taita Taveta,511,Nyeri,Wundanyi
+Nyeri,Garissa,401,Nyeri,Garissa
+Nyeri,Wajir,483,Nyeri,Wajir
+Nyeri,Mandera,1013,Nyeri,Mandera
+Nyeri,Marsabit,391,Nyeri,Marsabit
+Nyeri,Isiolo,135,Nyeri,Isiolo
+Nyeri,Meru,132,Nyeri,Meru
+Nyeri,Tharaka-Nithi,115,Nyeri,Chuka
+Nyeri,Embu,75,Nyeri,Embu
+Nyeri,Kitui,208,Nyeri,Kitui
+Nyeri,Machakos,201,Nyeri,Machakos
+Nyeri,Makueni,278,Nyeri,Wote
+Nyeri,Nyandarua,136,Nyeri,Ol Kalou
+Nyeri,Kirinyaga,47,Nyeri,Kerugoya
+Nyeri,Murang'a,64,Nyeri,Murang'a
+Nyeri,Kiambu,144,Nyeri,Kiambu
+Nyeri,Turkana,684,Nyeri,Lodwar
+Nyeri,West Pokot,427,Nyeri,Kapenguria
+Nyeri,Samburu,252,Nyeri,Maralal
+Nyeri,Trans Nzoia,387,Nyeri,Kitale
+Nyeri,Uasin Gishu,316,Nyeri,Eldoret
+Nyeri,Elgeyo-Marakwet,352,Nyeri,Iten
+Nyeri,Nandi,315,Nyeri,Kapsabet
+Nyeri,Baringo,298,Nyeri,Kabarnet
+Nyeri,Laikipia,56,Nyeri,Nanyuki
+Nyeri,Nakuru,164,Nyeri,Nakuru
+Nyeri,Narok,280,Nyeri,Narok
+Nyeri,Kajiado,224,Nyeri,Kajiado
+Nyeri,Kericho,268,Nyeri,Kericho
+Nyeri,Bomet,363,Nyeri,Bomet
+Nyeri,Kakamega,382,Nyeri,Kakamega
+Nyeri,Vihiga,357,Nyeri,Mbale
+Nyeri,Bungoma,412,Nyeri,Bungoma
+Nyeri,Busia,469,Nyeri,Busia
+Nyeri,Siaya,404,Nyeri,Siaya
+Nyeri,Kisumu,340,Nyeri,Kisumu
+Nyeri,Homa Bay,397,Nyeri,Homa Bay
+Nyeri,Migori,432,Nyeri,Migori
+Nyeri,Kisii,369,Nyeri,Kisii
+Nyeri,Nyamira,323,Nyeri,Nyamira
+Nyeri,Nairobi,155,Nyeri,Nairobi
+Kirinyaga,Mombasa,602,Kerugoya,Mombasa
+Kirinyaga,Kwale,635,Kerugoya,Kwale
+Kirinyaga,Kilifi,626,Kerugoya,Kilifi
+Kirinyaga,Tana River,475,Kerugoya,Hola
+Kirinyaga,Lamu,679,Kerugoya,Lamu
+Kirinyaga,Taita Taveta,486,Kerugoya,Wundanyi
+Kirinyaga,Garissa,355,Kerugoya,Garissa
+Kirinyaga,Wajir,668,Kerugoya,Wajir
+Kirinyaga,Mandera,1040,Kerugoya,Mandera
+Kirinyaga,Marsabit,418,Kerugoya,Marsabit
+Kirinyaga,Isiolo,162,Kerugoya,Isiolo
+Kirinyaga,Meru,124,Kerugoya,Meru
+Kirinyaga,Tharaka-Nithi,68,Kerugoya,Chuka
+Kirinyaga,Embu,29,Kerugoya,Embu
+Kirinyaga,Kitui,161,Kerugoya,Kitui
+Kirinyaga,Machakos,176,Kerugoya,Machakos
+Kirinyaga,Makueni,253,Kerugoya,Wote
+Kirinyaga,Nyandarua,183,Kerugoya,Ol Kalou
+Kirinyaga,Nyeri,47,Kerugoya,Nyeri
+Kirinyaga,Murang'a,40,Kerugoya,Murang'a
+Kirinyaga,Kiambu,119,Kerugoya,Kiambu
+Kirinyaga,Turkana,730,Kerugoya,Lodwar
+Kirinyaga,West Pokot,473,Kerugoya,Kapenguria
+Kirinyaga,Samburu,299,Kerugoya,Maralal
+Kirinyaga,Trans Nzoia,434,Kerugoya,Kitale
+Kirinyaga,Uasin Gishu,363,Kerugoya,Eldoret
+Kirinyaga,Elgeyo-Marakwet,399,Kerugoya,Iten
+Kirinyaga,Nandi,362,Kerugoya,Kapsabet
+Kirinyaga,Baringo,345,Kerugoya,Kabarnet
+Kirinyaga,Laikipia,88,Kerugoya,Nanyuki
+Kirinyaga,Nakuru,211,Kerugoya,Nakuru
+Kirinyaga,Narok,260,Kerugoya,Narok
+Kirinyaga,Kajiado,199,Kerugoya,Kajiado
+Kirinyaga,Kericho,315,Kerugoya,Kericho
+Kirinyaga,Bomet,339,Kerugoya,Bomet
+Kirinyaga,Kakamega,429,Kerugoya,Kakamega
+Kirinyaga,Vihiga,403,Kerugoya,Mbale
+Kirinyaga,Bungoma,459,Kerugoya,Bungoma
+Kirinyaga,Busia,516,Kerugoya,Busia
+Kirinyaga,Siaya,451,Kerugoya,Siaya
+Kirinyaga,Kisumu,387,Kerugoya,Kisumu
+Kirinyaga,Homa Bay,479,Kerugoya,Homa Bay
+Kirinyaga,Migori,486,Kerugoya,Migori
+Kirinyaga,Kisii,424,Kerugoya,Kisii
+Kirinyaga,Nyamira,369,Kerugoya,Nyamira
+Kirinyaga,Nairobi,130,Kerugoya,Nairobi
+Murang'a,Mombasa,559,Murang'a,Mombasa
+Murang'a,Kwale,592,Murang'a,Kwale
+Murang'a,Kilifi,582,Murang'a,Kilifi
+Murang'a,Tana River,487,Murang'a,Hola
+Murang'a,Lamu,691,Murang'a,Lamu
+Murang'a,Taita Taveta,443,Murang'a,Wundanyi
+Murang'a,Garissa,367,Murang'a,Garissa
+Murang'a,Wajir,680,Murang'a,Wajir
+Murang'a,Mandera,1062,Murang'a,Mandera
+Murang'a,Marsabit,440,Murang'a,Marsabit
+Murang'a,Isiolo,184,Murang'a,Isiolo
+Murang'a,Meru,144,Murang'a,Meru
+Murang'a,Tharaka-Nithi,88,Murang'a,Chuka
+Murang'a,Embu,49,Murang'a,Embu
+Murang'a,Kitui,174,Murang'a,Kitui
+Murang'a,Machakos,132,Murang'a,Machakos
+Murang'a,Makueni,210,Murang'a,Wote
+Murang'a,Nyandarua,185,Murang'a,Ol Kalou
+Murang'a,Nyeri,64,Murang'a,Nyeri
+Murang'a,Kirinyaga,39,Murang'a,Kerugoya
+Murang'a,Kiambu,76,Murang'a,Kiambu
+Murang'a,Turkana,752,Murang'a,Lodwar
+Murang'a,West Pokot,495,Murang'a,Kapenguria
+Murang'a,Samburu,316,Murang'a,Maralal
+Murang'a,Trans Nzoia,455,Murang'a,Kitale
+Murang'a,Uasin Gishu,384,Murang'a,Eldoret
+Murang'a,Elgeyo-Marakwet,420,Murang'a,Iten
+Murang'a,Nandi,383,Murang'a,Kapsabet
+Murang'a,Baringo,367,Murang'a,Kabarnet
+Murang'a,Laikipia,105,Murang'a,Nanyuki
+Murang'a,Nakuru,233,Murang'a,Nakuru
+Murang'a,Narok,217,Murang'a,Narok
+Murang'a,Kajiado,156,Murang'a,Kajiado
+Murang'a,Kericho,336,Murang'a,Kericho
+Murang'a,Bomet,295,Murang'a,Bomet
+Murang'a,Kakamega,450,Murang'a,Kakamega
+Murang'a,Vihiga,425,Murang'a,Mbale
+Murang'a,Bungoma,480,Murang'a,Bungoma
+Murang'a,Busia,537,Murang'a,Busia
+Murang'a,Siaya,496,Murang'a,Siaya
+Murang'a,Kisumu,427,Murang'a,Kisumu
+Murang'a,Homa Bay,435,Murang'a,Homa Bay
+Murang'a,Migori,443,Murang'a,Migori
+Murang'a,Kisii,380,Murang'a,Kisii
+Murang'a,Nyamira,369,Murang'a,Nyamira
+Murang'a,Nairobi,87,Murang'a,Nairobi
+Kiambu,Mombasa,498,Kiambu,Mombasa
+Kiambu,Kwale,530,Kiambu,Kwale
+Kiambu,Kilifi,521,Kiambu,Kilifi
+Kiambu,Tana River,478,Kiambu,Hola
+Kiambu,Lamu,682,Kiambu,Lamu
+Kiambu,Taita Taveta,381,Kiambu,Wundanyi
+Kiambu,Garissa,358,Kiambu,Garissa
+Kiambu,Wajir,671,Kiambu,Wajir
+Kiambu,Mandera,1133,Kiambu,Mandera
+Kiambu,Marsabit,511,Kiambu,Marsabit
+Kiambu,Isiolo,255,Kiambu,Isiolo
+Kiambu,Meru,217,Kiambu,Meru
+Kiambu,Tharaka-Nithi,161,Kiambu,Chuka
+Kiambu,Embu,122,Kiambu,Embu
+Kiambu,Kitui,165,Kiambu,Kitui
+Kiambu,Machakos,78,Kiambu,Machakos
+Kiambu,Makueni,148,Kiambu,Wote
+Kiambu,Nyandarua,146,Kiambu,Ol Kalou
+Kiambu,Nyeri,144,Kiambu,Nyeri
+Kiambu,Kirinyaga,119,Kiambu,Kerugoya
+Kiambu,Murang'a,76,Kiambu,Murang'a
+Kiambu,Turkana,675,Kiambu,Lodwar
+Kiambu,West Pokot,418,Kiambu,Kapenguria
+Kiambu,Samburu,333,Kiambu,Maralal
+Kiambu,Trans Nzoia,378,Kiambu,Kitale
+Kiambu,Uasin Gishu,307,Kiambu,Eldoret
+Kiambu,Elgeyo-Marakwet,343,Kiambu,Iten
+Kiambu,Nandi,306,Kiambu,Kapsabet
+Kiambu,Baringo,290,Kiambu,Kabarnet
+Kiambu,Laikipia,185,Kiambu,Nanyuki
+Kiambu,Nakuru,156,Kiambu,Nakuru
+Kiambu,Narok,141,Kiambu,Narok
+Kiambu,Kajiado,94,Kiambu,Kajiado
+Kiambu,Kericho,296,Kiambu,Kericho
+Kiambu,Bomet,220,Kiambu,Bomet
+Kiambu,Kakamega,400,Kiambu,Kakamega
+Kiambu,Vihiga,375,Kiambu,Mbale
+Kiambu,Bungoma,403,Kiambu,Bungoma
+Kiambu,Busia,487,Kiambu,Busia
+Kiambu,Siaya,420,Kiambu,Siaya
+Kiambu,Kisumu,351,Kiambu,Kisumu
+Kiambu,Homa Bay,360,Kiambu,Homa Bay
+Kiambu,Migori,368,Kiambu,Migori
+Kiambu,Kisii,305,Kiambu,Kisii
+Kiambu,Nyamira,294,Kiambu,Nyamira
+Kiambu,Nairobi,19,Kiambu,Nairobi
+Turkana,Mombasa,1157,Lodwar,Mombasa
+Turkana,Kwale,1190,Lodwar,Kwale
+Turkana,Kilifi,1180,Lodwar,Kilifi
+Turkana,Tana River,1155,Lodwar,Hola
+Turkana,Lamu,1359,Lodwar,Lamu
+Turkana,Taita Taveta,1041,Lodwar,Wundanyi
+Turkana,Garissa,1035,Lodwar,Garissa
+Turkana,Wajir,1348,Lodwar,Wajir
+Turkana,Mandera,1190,Lodwar,Mandera
+Turkana,Marsabit,759,Lodwar,Marsabit
+Turkana,Isiolo,771,Lodwar,Isiolo
+Turkana,Meru,768,Lodwar,Meru
+Turkana,Tharaka-Nithi,797,Lodwar,Chuka
+Turkana,Embu,757,Lodwar,Embu
+Turkana,Kitui,842,Lodwar,Kitui
+Turkana,Machakos,737,Lodwar,Machakos
+Turkana,Makueni,808,Lodwar,Wote
+Turkana,Nyandarua,566,Lodwar,Ol Kalou
+Turkana,Nyeri,683,Lodwar,Nyeri
+Turkana,Kirinyaga,729,Lodwar,Kerugoya
+Turkana,Murang'a,750,Lodwar,Murang'a
+Turkana,Kiambu,674,Lodwar,Kiambu
+Turkana,West Pokot,263,Lodwar,Kapenguria
+Turkana,Samburu,455,Lodwar,Maralal
+Turkana,Trans Nzoia,297,Lodwar,Kitale
+Turkana,Uasin Gishu,369,Lodwar,Eldoret
+Turkana,Elgeyo-Marakwet,401,Lodwar,Iten
+Turkana,Nandi,411,Lodwar,Kapsabet
+Turkana,Baringo,454,Lodwar,Kabarnet
+Turkana,Laikipia,692,Lodwar,Nanyuki
+Turkana,Nakuru,523,Lodwar,Nakuru
+Turkana,Narok,616,Lodwar,Narok
+Turkana,Kajiado,742,Lodwar,Kajiado
+Turkana,Kericho,506,Lodwar,Kericho
+Turkana,Bomet,578,Lodwar,Bomet
+Turkana,Kakamega,406,Lodwar,Kakamega
+Turkana,Vihiga,432,Lodwar,Mbale
+Turkana,Bungoma,384,Lodwar,Bungoma
+Turkana,Busia,444,Lodwar,Busia
+Turkana,Siaya,491,Lodwar,Siaya
+Turkana,Kisumu,454,Lodwar,Kisumu
+Turkana,Homa Bay,560,Lodwar,Homa Bay
+Turkana,Migori,632,Lodwar,Migori
+Turkana,Kisii,569,Lodwar,Kisii
+Turkana,Nyamira,546,Lodwar,Nyamira
+Turkana,Nairobi,679,Lodwar,Nairobi
+West Pokot,Mombasa,900,Kapenguria,Mombasa
+West Pokot,Kwale,932,Kapenguria,Kwale
+West Pokot,Kilifi,923,Kapenguria,Kilifi
+West Pokot,Tana River,898,Kapenguria,Hola
+West Pokot,Lamu,1102,Kapenguria,Lamu
+West Pokot,Taita Taveta,783,Kapenguria,Wundanyi
+West Pokot,Garissa,778,Kapenguria,Garissa
+West Pokot,Wajir,1091,Kapenguria,Wajir
+West Pokot,Mandera,1392,Kapenguria,Mandera
+West Pokot,Marsabit,770,Kapenguria,Marsabit
+West Pokot,Isiolo,514,Kapenguria,Isiolo
+West Pokot,Meru,511,Kapenguria,Meru
+West Pokot,Tharaka-Nithi,540,Kapenguria,Chuka
+West Pokot,Embu,500,Kapenguria,Embu
+West Pokot,Kitui,585,Kapenguria,Kitui
+West Pokot,Machakos,480,Kapenguria,Machakos
+West Pokot,Makueni,550,Kapenguria,Wote
+West Pokot,Nyandarua,309,Kapenguria,Ol Kalou
+West Pokot,Nyeri,426,Kapenguria,Nyeri
+West Pokot,Kirinyaga,472,Kapenguria,Kerugoya
+West Pokot,Murang'a,493,Kapenguria,Murang'a
+West Pokot,Kiambu,417,Kapenguria,Kiambu
+West Pokot,Turkana,263,Kapenguria,Lodwar
+West Pokot,Samburu,477,Kapenguria,Maralal
+West Pokot,Trans Nzoia,40,Kapenguria,Kitale
+West Pokot,Uasin Gishu,112,Kapenguria,Eldoret
+West Pokot,Elgeyo-Marakwet,144,Kapenguria,Iten
+West Pokot,Nandi,154,Kapenguria,Kapsabet
+West Pokot,Baringo,197,Kapenguria,Kabarnet
+West Pokot,Laikipia,435,Kapenguria,Nanyuki
+West Pokot,Nakuru,266,Kapenguria,Nakuru
+West Pokot,Narok,359,Kapenguria,Narok
+West Pokot,Kajiado,485,Kapenguria,Kajiado
+West Pokot,Kericho,248,Kapenguria,Kericho
+West Pokot,Bomet,321,Kapenguria,Bomet
+West Pokot,Kakamega,149,Kapenguria,Kakamega
+West Pokot,Vihiga,174,Kapenguria,Mbale
+West Pokot,Bungoma,127,Kapenguria,Bungoma
+West Pokot,Busia,187,Kapenguria,Busia
+West Pokot,Siaya,234,Kapenguria,Siaya
+West Pokot,Kisumu,197,Kapenguria,Kisumu
+West Pokot,Homa Bay,303,Kapenguria,Homa Bay
+West Pokot,Migori,375,Kapenguria,Migori
+West Pokot,Kisii,312,Kapenguria,Kisii
+West Pokot,Nyamira,288,Kapenguria,Nyamira
+West Pokot,Nairobi,421,Kapenguria,Nairobi
+Samburu,Mombasa,816,Maralal,Mombasa
+Samburu,Kwale,849,Maralal,Kwale
+Samburu,Kilifi,839,Maralal,Kilifi
+Samburu,Tana River,776,Maralal,Hola
+Samburu,Lamu,980,Maralal,Lamu
+Samburu,Taita Taveta,700,Maralal,Wundanyi
+Samburu,Garissa,656,Maralal,Garissa
+Samburu,Wajir,493,Maralal,Wajir
+Samburu,Mandera,967,Maralal,Mandera
+Samburu,Marsabit,345,Maralal,Marsabit
+Samburu,Isiolo,198,Maralal,Isiolo
+Samburu,Meru,248,Maralal,Meru
+Samburu,Tharaka-Nithi,303,Maralal,Chuka
+Samburu,Embu,327,Maralal,Embu
+Samburu,Kitui,463,Maralal,Kitui
+Samburu,Machakos,396,Maralal,Machakos
+Samburu,Makueni,467,Maralal,Wote
+Samburu,Nyandarua,188,Maralal,Ol Kalou
+Samburu,Nyeri,252,Maralal,Nyeri
+Samburu,Kirinyaga,299,Maralal,Kerugoya
+Samburu,Murang'a,316,Maralal,Murang'a
+Samburu,Kiambu,334,Maralal,Kiambu
+Samburu,Turkana,454,Maralal,Lodwar
+Samburu,West Pokot,478,Maralal,Kapenguria
+Samburu,Trans Nzoia,439,Maralal,Kitale
+Samburu,Uasin Gishu,368,Maralal,Eldoret
+Samburu,Elgeyo-Marakwet,268,Maralal,Iten
+Samburu,Nandi,366,Maralal,Kapsabet
+Samburu,Baringo,215,Maralal,Kabarnet
+Samburu,Laikipia,173,Maralal,Nanyuki
+Samburu,Nakuru,216,Maralal,Nakuru
+Samburu,Narok,332,Maralal,Narok
+Samburu,Kajiado,402,Maralal,Kajiado
+Samburu,Kericho,319,Maralal,Kericho
+Samburu,Bomet,413,Maralal,Bomet
+Samburu,Kakamega,434,Maralal,Kakamega
+Samburu,Vihiga,408,Maralal,Mbale
+Samburu,Bungoma,464,Maralal,Bungoma
+Samburu,Busia,521,Maralal,Busia
+Samburu,Siaya,456,Maralal,Siaya
+Samburu,Kisumu,392,Maralal,Kisumu
+Samburu,Homa Bay,449,Maralal,Homa Bay
+Samburu,Migori,484,Maralal,Migori
+Samburu,Kisii,421,Maralal,Kisii
+Samburu,Nyamira,374,Maralal,Nyamira
+Samburu,Nairobi,338,Maralal,Nairobi
+Trans Nzoia,Mombasa,860,Kitale,Mombasa
+Trans Nzoia,Kwale,893,Kitale,Kwale
+Trans Nzoia,Kilifi,883,Kitale,Kilifi
+Trans Nzoia,Tana River,858,Kitale,Hola
+Trans Nzoia,Lamu,1063,Kitale,Lamu
+Trans Nzoia,Taita Taveta,744,Kitale,Wundanyi
+Trans Nzoia,Garissa,739,Kitale,Garissa
+Trans Nzoia,Wajir,1051,Kitale,Wajir
+Trans Nzoia,Mandera,1352,Kitale,Mandera
+Trans Nzoia,Marsabit,730,Kitale,Marsabit
+Trans Nzoia,Isiolo,474,Kitale,Isiolo
+Trans Nzoia,Meru,472,Kitale,Meru
+Trans Nzoia,Tharaka-Nithi,501,Kitale,Chuka
+Trans Nzoia,Embu,461,Kitale,Embu
+Trans Nzoia,Kitui,545,Kitale,Kitui
+Trans Nzoia,Machakos,440,Kitale,Machakos
+Trans Nzoia,Makueni,511,Kitale,Wote
+Trans Nzoia,Nyandarua,270,Kitale,Ol Kalou
+Trans Nzoia,Nyeri,386,Kitale,Nyeri
+Trans Nzoia,Kirinyaga,433,Kitale,Kerugoya
+Trans Nzoia,Murang'a,453,Kitale,Murang'a
+Trans Nzoia,Kiambu,378,Kitale,Kiambu
+Trans Nzoia,Turkana,297,Kitale,Lodwar
+Trans Nzoia,West Pokot,40,Kitale,Kapenguria
+Trans Nzoia,Samburu,438,Kitale,Maralal
+Trans Nzoia,Uasin Gishu,72,Kitale,Eldoret
+Trans Nzoia,Elgeyo-Marakwet,104,Kitale,Iten
+Trans Nzoia,Nandi,114,Kitale,Kapsabet
+Trans Nzoia,Baringo,158,Kitale,Kabarnet
+Trans Nzoia,Laikipia,395,Kitale,Nanyuki
+Trans Nzoia,Nakuru,227,Kitale,Nakuru
+Trans Nzoia,Narok,320,Kitale,Narok
+Trans Nzoia,Kajiado,446,Kitale,Kajiado
+Trans Nzoia,Kericho,209,Kitale,Kericho
+Trans Nzoia,Bomet,281,Kitale,Bomet
+Trans Nzoia,Kakamega,110,Kitale,Kakamega
+Trans Nzoia,Vihiga,135,Kitale,Mbale
+Trans Nzoia,Bungoma,88,Kitale,Bungoma
+Trans Nzoia,Busia,147,Kitale,Busia
+Trans Nzoia,Siaya,194,Kitale,Siaya
+Trans Nzoia,Kisumu,158,Kitale,Kisumu
+Trans Nzoia,Homa Bay,264,Kitale,Homa Bay
+Trans Nzoia,Migori,336,Kitale,Migori
+Trans Nzoia,Kisii,273,Kitale,Kisii
+Trans Nzoia,Nyamira,249,Kitale,Nyamira
+Trans Nzoia,Nairobi,382,Kitale,Nairobi
+Uasin Gishu,Mombasa,790,Eldoret,Mombasa
+Uasin Gishu,Kwale,823,Eldoret,Kwale
+Uasin Gishu,Kilifi,813,Eldoret,Kilifi
+Uasin Gishu,Tana River,788,Eldoret,Hola
+Uasin Gishu,Lamu,992,Eldoret,Lamu
+Uasin Gishu,Taita Taveta,674,Eldoret,Wundanyi
+Uasin Gishu,Garissa,669,Eldoret,Garissa
+Uasin Gishu,Wajir,981,Eldoret,Wajir
+Uasin Gishu,Mandera,1282,Eldoret,Mandera
+Uasin Gishu,Marsabit,660,Eldoret,Marsabit
+Uasin Gishu,Isiolo,404,Eldoret,Isiolo
+Uasin Gishu,Meru,402,Eldoret,Meru
+Uasin Gishu,Tharaka-Nithi,430,Eldoret,Chuka
+Uasin Gishu,Embu,391,Eldoret,Embu
+Uasin Gishu,Kitui,475,Eldoret,Kitui
+Uasin Gishu,Machakos,370,Eldoret,Machakos
+Uasin Gishu,Makueni,441,Eldoret,Wote
+Uasin Gishu,Nyandarua,199,Eldoret,Ol Kalou
+Uasin Gishu,Nyeri,316,Eldoret,Nyeri
+Uasin Gishu,Kirinyaga,363,Eldoret,Kerugoya
+Uasin Gishu,Murang'a,383,Eldoret,Murang'a
+Uasin Gishu,Kiambu,307,Eldoret,Kiambu
+Uasin Gishu,Turkana,369,Eldoret,Lodwar
+Uasin Gishu,West Pokot,112,Eldoret,Kapenguria
+Uasin Gishu,Samburu,368,Eldoret,Maralal
+Uasin Gishu,Trans Nzoia,73,Eldoret,Kitale
+Uasin Gishu,Elgeyo-Marakwet,36,Eldoret,Iten
+Uasin Gishu,Nandi,45,Eldoret,Kapsabet
+Uasin Gishu,Baringo,89,Eldoret,Kabarnet
+Uasin Gishu,Laikipia,325,Eldoret,Nanyuki
+Uasin Gishu,Nakuru,156,Eldoret,Nakuru
+Uasin Gishu,Narok,249,Eldoret,Narok
+Uasin Gishu,Kajiado,376,Eldoret,Kajiado
+Uasin Gishu,Kericho,139,Eldoret,Kericho
+Uasin Gishu,Bomet,212,Eldoret,Bomet
+Uasin Gishu,Kakamega,96,Eldoret,Kakamega
+Uasin Gishu,Vihiga,99,Eldoret,Mbale
+Uasin Gishu,Bungoma,98,Eldoret,Bungoma
+Uasin Gishu,Busia,161,Eldoret,Busia
+Uasin Gishu,Siaya,153,Eldoret,Siaya
+Uasin Gishu,Kisumu,117,Eldoret,Kisumu
+Uasin Gishu,Homa Bay,194,Eldoret,Homa Bay
+Uasin Gishu,Migori,266,Eldoret,Migori
+Uasin Gishu,Kisii,203,Eldoret,Kisii
+Uasin Gishu,Nyamira,179,Eldoret,Nyamira
+Uasin Gishu,Nairobi,312,Eldoret,Nairobi
+Elgeyo-Marakwet,Mombasa,826,Iten,Mombasa
+Elgeyo-Marakwet,Kwale,859,Iten,Kwale
+Elgeyo-Marakwet,Kilifi,849,Iten,Kilifi
+Elgeyo-Marakwet,Tana River,824,Iten,Hola
+Elgeyo-Marakwet,Lamu,1028,Iten,Lamu
+Elgeyo-Marakwet,Taita Taveta,710,Iten,Wundanyi
+Elgeyo-Marakwet,Garissa,705,Iten,Garissa
+Elgeyo-Marakwet,Wajir,1017,Iten,Wajir
+Elgeyo-Marakwet,Mandera,1318,Iten,Mandera
+Elgeyo-Marakwet,Marsabit,696,Iten,Marsabit
+Elgeyo-Marakwet,Isiolo,440,Iten,Isiolo
+Elgeyo-Marakwet,Meru,438,Iten,Meru
+Elgeyo-Marakwet,Tharaka-Nithi,466,Iten,Chuka
+Elgeyo-Marakwet,Embu,427,Iten,Embu
+Elgeyo-Marakwet,Kitui,511,Iten,Kitui
+Elgeyo-Marakwet,Machakos,406,Iten,Machakos
+Elgeyo-Marakwet,Makueni,477,Iten,Wote
+Elgeyo-Marakwet,Nyandarua,235,Iten,Ol Kalou
+Elgeyo-Marakwet,Nyeri,352,Iten,Nyeri
+Elgeyo-Marakwet,Kirinyaga,399,Iten,Kerugoya
+Elgeyo-Marakwet,Murang'a,419,Iten,Murang'a
+Elgeyo-Marakwet,Kiambu,343,Iten,Kiambu
+Elgeyo-Marakwet,Turkana,402,Iten,Lodwar
+Elgeyo-Marakwet,West Pokot,145,Iten,Kapenguria
+Elgeyo-Marakwet,Samburu,268,Iten,Maralal
+Elgeyo-Marakwet,Trans Nzoia,105,Iten,Kitale
+Elgeyo-Marakwet,Uasin Gishu,36,Iten,Eldoret
+Elgeyo-Marakwet,Nandi,79,Iten,Kapsabet
+Elgeyo-Marakwet,Baringo,54,Iten,Kabarnet
+Elgeyo-Marakwet,Laikipia,361,Iten,Nanyuki
+Elgeyo-Marakwet,Nakuru,192,Iten,Nakuru
+Elgeyo-Marakwet,Narok,299,Iten,Narok
+Elgeyo-Marakwet,Kajiado,412,Iten,Kajiado
+Elgeyo-Marakwet,Kericho,173,Iten,Kericho
+Elgeyo-Marakwet,Bomet,246,Iten,Bomet
+Elgeyo-Marakwet,Kakamega,139,Iten,Kakamega
+Elgeyo-Marakwet,Vihiga,133,Iten,Mbale
+Elgeyo-Marakwet,Bungoma,130,Iten,Bungoma
+Elgeyo-Marakwet,Busia,193,Iten,Busia
+Elgeyo-Marakwet,Siaya,187,Iten,Siaya
+Elgeyo-Marakwet,Kisumu,151,Iten,Kisumu
+Elgeyo-Marakwet,Homa Bay,228,Iten,Homa Bay
+Elgeyo-Marakwet,Migori,300,Iten,Migori
+Elgeyo-Marakwet,Kisii,237,Iten,Kisii
+Elgeyo-Marakwet,Nyamira,213,Iten,Nyamira
+Elgeyo-Marakwet,Nairobi,348,Iten,Nairobi
+Nandi,Mombasa,789,Kapsabet,Mombasa
+Nandi,Kwale,822,Kapsabet,Kwale
+Nandi,Kilifi,812,Kapsabet,Kilifi
+Nandi,Tana River,787,Kapsabet,Hola
+Nandi,Lamu,991,Kapsabet,Lamu
+Nandi,Taita Taveta,673,Kapsabet,Wundanyi
+Nandi,Garissa,667,Kapsabet,Garissa
+Nandi,Wajir,980,Kapsabet,Wajir
+Nandi,Mandera,1281,Kapsabet,Mandera
+Nandi,Marsabit,659,Kapsabet,Marsabit
+Nandi,Isiolo,403,Kapsabet,Isiolo
+Nandi,Meru,400,Kapsabet,Meru
+Nandi,Tharaka-Nithi,429,Kapsabet,Chuka
+Nandi,Embu,389,Kapsabet,Embu
+Nandi,Kitui,474,Kapsabet,Kitui
+Nandi,Machakos,369,Kapsabet,Machakos
+Nandi,Makueni,440,Kapsabet,Wote
+Nandi,Nyandarua,198,Kapsabet,Ol Kalou
+Nandi,Nyeri,315,Kapsabet,Nyeri
+Nandi,Kirinyaga,361,Kapsabet,Kerugoya
+Nandi,Murang'a,382,Kapsabet,Murang'a
+Nandi,Kiambu,306,Kapsabet,Kiambu
+Nandi,Turkana,411,Kapsabet,Lodwar
+Nandi,West Pokot,153,Kapsabet,Kapenguria
+Nandi,Samburu,366,Kapsabet,Maralal
+Nandi,Trans Nzoia,114,Kapsabet,Kitale
+Nandi,Uasin Gishu,45,Kapsabet,Eldoret
+Nandi,Elgeyo-Marakwet,79,Kapsabet,Iten
+Nandi,Baringo,132,Kapsabet,Kabarnet
+Nandi,Laikipia,324,Kapsabet,Nanyuki
+Nandi,Nakuru,155,Kapsabet,Nakuru
+Nandi,Narok,251,Kapsabet,Narok
+Nandi,Kajiado,374,Kapsabet,Kajiado
+Nandi,Kericho,98,Kapsabet,Kericho
+Nandi,Bomet,170,Kapsabet,Bomet
+Nandi,Kakamega,50,Kapsabet,Kakamega
+Nandi,Vihiga,54,Kapsabet,Mbale
+Nandi,Bungoma,110,Kapsabet,Bungoma
+Nandi,Busia,138,Kapsabet,Busia
+Nandi,Siaya,108,Kapsabet,Siaya
+Nandi,Kisumu,72,Kapsabet,Kisumu
+Nandi,Homa Bay,152,Kapsabet,Homa Bay
+Nandi,Migori,224,Kapsabet,Migori
+Nandi,Kisii,161,Kapsabet,Kisii
+Nandi,Nyamira,138,Kapsabet,Nyamira
+Nandi,Nairobi,311,Kapsabet,Nairobi
+Baringo,Mombasa,772,Kabarnet,Mombasa
+Baringo,Kwale,805,Kabarnet,Kwale
+Baringo,Kilifi,795,Kabarnet,Kilifi
+Baringo,Tana River,770,Kabarnet,Hola
+Baringo,Lamu,975,Kabarnet,Lamu
+Baringo,Taita Taveta,656,Kabarnet,Wundanyi
+Baringo,Garissa,651,Kabarnet,Garissa
+Baringo,Wajir,964,Kabarnet,Wajir
+Baringo,Mandera,1264,Kabarnet,Mandera
+Baringo,Marsabit,642,Kabarnet,Marsabit
+Baringo,Isiolo,387,Kabarnet,Isiolo
+Baringo,Meru,384,Kabarnet,Meru
+Baringo,Tharaka-Nithi,413,Kabarnet,Chuka
+Baringo,Embu,373,Kabarnet,Embu
+Baringo,Kitui,457,Kabarnet,Kitui
+Baringo,Machakos,353,Kabarnet,Machakos
+Baringo,Makueni,423,Kabarnet,Wote
+Baringo,Nyandarua,182,Kabarnet,Ol Kalou
+Baringo,Nyeri,298,Kabarnet,Nyeri
+Baringo,Kirinyaga,345,Kabarnet,Kerugoya
+Baringo,Murang'a,366,Kabarnet,Murang'a
+Baringo,Kiambu,290,Kabarnet,Kiambu
+Baringo,Turkana,455,Kabarnet,Lodwar
+Baringo,West Pokot,198,Kabarnet,Kapenguria
+Baringo,Samburu,215,Kabarnet,Maralal
+Baringo,Trans Nzoia,158,Kabarnet,Kitale
+Baringo,Uasin Gishu,89,Kabarnet,Eldoret
+Baringo,Elgeyo-Marakwet,54,Kabarnet,Iten
+Baringo,Nandi,132,Kabarnet,Kapsabet
+Baringo,Laikipia,307,Kabarnet,Nanyuki
+Baringo,Nakuru,139,Kabarnet,Nakuru
+Baringo,Narok,245,Kabarnet,Narok
+Baringo,Kajiado,358,Kabarnet,Kajiado
+Baringo,Kericho,204,Kabarnet,Kericho
+Baringo,Bomet,299,Kabarnet,Bomet
+Baringo,Kakamega,192,Kabarnet,Kakamega
+Baringo,Vihiga,186,Kabarnet,Mbale
+Baringo,Bungoma,184,Kabarnet,Bungoma
+Baringo,Busia,247,Kabarnet,Busia
+Baringo,Siaya,240,Kabarnet,Siaya
+Baringo,Kisumu,204,Kabarnet,Kisumu
+Baringo,Homa Bay,281,Kabarnet,Homa Bay
+Baringo,Migori,354,Kabarnet,Migori
+Baringo,Kisii,291,Kabarnet,Kisii
+Baringo,Nyamira,267,Kabarnet,Nyamira
+Baringo,Nairobi,294,Kabarnet,Nairobi
+Laikipia,Mombasa,668,Nanyuki,Mombasa
+Laikipia,Kwale,701,Nanyuki,Kwale
+Laikipia,Kilifi,691,Nanyuki,Kilifi
+Laikipia,Tana River,562,Nanyuki,Hola
+Laikipia,Lamu,766,Nanyuki,Lamu
+Laikipia,Taita Taveta,552,Nanyuki,Wundanyi
+Laikipia,Garissa,442,Nanyuki,Garissa
+Laikipia,Wajir,427,Nanyuki,Wajir
+Laikipia,Mandera,957,Nanyuki,Mandera
+Laikipia,Marsabit,335,Nanyuki,Marsabit
+Laikipia,Isiolo,80,Nanyuki,Isiolo
+Laikipia,Meru,77,Nanyuki,Meru
+Laikipia,Tharaka-Nithi,133,Nanyuki,Chuka
+Laikipia,Embu,116,Nanyuki,Embu
+Laikipia,Kitui,249,Nanyuki,Kitui
+Laikipia,Machakos,242,Nanyuki,Machakos
+Laikipia,Makueni,319,Nanyuki,Wote
+Laikipia,Nyandarua,145,Nanyuki,Ol Kalou
+Laikipia,Nyeri,56,Nanyuki,Nyeri
+Laikipia,Kirinyaga,88,Nanyuki,Kerugoya
+Laikipia,Murang'a,105,Nanyuki,Murang'a
+Laikipia,Kiambu,185,Nanyuki,Kiambu
+Laikipia,Turkana,693,Nanyuki,Lodwar
+Laikipia,West Pokot,436,Nanyuki,Kapenguria
+Laikipia,Samburu,173,Nanyuki,Maralal
+Laikipia,Trans Nzoia,396,Nanyuki,Kitale
+Laikipia,Uasin Gishu,325,Nanyuki,Eldoret
+Laikipia,Elgeyo-Marakwet,361,Nanyuki,Iten
+Laikipia,Nandi,324,Nanyuki,Kapsabet
+Laikipia,Baringo,308,Nanyuki,Kabarnet
+Laikipia,Nakuru,174,Nanyuki,Nakuru
+Laikipia,Narok,289,Nanyuki,Narok
+Laikipia,Kajiado,265,Nanyuki,Kajiado
+Laikipia,Kericho,277,Nanyuki,Kericho
+Laikipia,Bomet,370,Nanyuki,Bomet
+Laikipia,Kakamega,391,Nanyuki,Kakamega
+Laikipia,Vihiga,366,Nanyuki,Mbale
+Laikipia,Bungoma,421,Nanyuki,Bungoma
+Laikipia,Busia,478,Nanyuki,Busia
+Laikipia,Siaya,413,Nanyuki,Siaya
+Laikipia,Kisumu,349,Nanyuki,Kisumu
+Laikipia,Homa Bay,406,Nanyuki,Homa Bay
+Laikipia,Migori,441,Nanyuki,Migori
+Laikipia,Kisii,379,Nanyuki,Kisii
+Laikipia,Nyamira,332,Nanyuki,Nyamira
+Laikipia,Nairobi,196,Nanyuki,Nairobi
+Nakuru,Mombasa,639,Nakuru,Mombasa
+Nakuru,Kwale,671,Nakuru,Kwale
+Nakuru,Kilifi,662,Nakuru,Kilifi
+Nakuru,Tana River,637,Nakuru,Hola
+Nakuru,Lamu,841,Nakuru,Lamu
+Nakuru,Taita Taveta,522,Nakuru,Wundanyi
+Nakuru,Garissa,517,Nakuru,Garissa
+Nakuru,Wajir,830,Nakuru,Wajir
+Nakuru,Mandera,1131,Nakuru,Mandera
+Nakuru,Marsabit,509,Nakuru,Marsabit
+Nakuru,Isiolo,253,Nakuru,Isiolo
+Nakuru,Meru,250,Nakuru,Meru
+Nakuru,Tharaka-Nithi,279,Nakuru,Chuka
+Nakuru,Embu,239,Nakuru,Embu
+Nakuru,Kitui,323,Nakuru,Kitui
+Nakuru,Machakos,219,Nakuru,Machakos
+Nakuru,Makueni,289,Nakuru,Wote
+Nakuru,Nyandarua,48,Nakuru,Ol Kalou
+Nakuru,Nyeri,164,Nakuru,Nyeri
+Nakuru,Kirinyaga,211,Nakuru,Kerugoya
+Nakuru,Murang'a,232,Nakuru,Murang'a
+Nakuru,Kiambu,156,Nakuru,Kiambu
+Nakuru,Turkana,524,Nakuru,Lodwar
+Nakuru,West Pokot,267,Nakuru,Kapenguria
+Nakuru,Samburu,216,Nakuru,Maralal
+Nakuru,Trans Nzoia,227,Nakuru,Kitale
+Nakuru,Uasin Gishu,156,Nakuru,Eldoret
+Nakuru,Elgeyo-Marakwet,192,Nakuru,Iten
+Nakuru,Nandi,155,Nakuru,Kapsabet
+Nakuru,Baringo,139,Nakuru,Kabarnet
+Nakuru,Laikipia,174,Nakuru,Nanyuki
+Nakuru,Narok,120,Nakuru,Narok
+Nakuru,Kajiado,224,Nakuru,Kajiado
+Nakuru,Kericho,108,Nakuru,Kericho
+Nakuru,Bomet,201,Nakuru,Bomet
+Nakuru,Kakamega,222,Nakuru,Kakamega
+Nakuru,Vihiga,197,Nakuru,Mbale
+Nakuru,Bungoma,252,Nakuru,Bungoma
+Nakuru,Busia,309,Nakuru,Busia
+Nakuru,Siaya,244,Nakuru,Siaya
+Nakuru,Kisumu,180,Nakuru,Kisumu
+Nakuru,Homa Bay,237,Nakuru,Homa Bay
+Nakuru,Migori,273,Nakuru,Migori
+Nakuru,Kisii,210,Nakuru,Kisii
+Nakuru,Nyamira,163,Nakuru,Nyamira
+Nakuru,Nairobi,160,Nakuru,Nairobi
+Narok,Mombasa,624,Narok,Mombasa
+Narok,Kwale,657,Narok,Kwale
+Narok,Kilifi,647,Narok,Kilifi
+Narok,Tana River,619,Narok,Hola
+Narok,Lamu,823,Narok,Lamu
+Narok,Taita Taveta,508,Narok,Wundanyi
+Narok,Garissa,499,Narok,Garissa
+Narok,Wajir,812,Narok,Wajir
+Narok,Mandera,1247,Narok,Mandera
+Narok,Marsabit,625,Narok,Marsabit
+Narok,Isiolo,369,Narok,Isiolo
+Narok,Meru,357,Narok,Meru
+Narok,Tharaka-Nithi,302,Narok,Chuka
+Narok,Embu,262,Narok,Embu
+Narok,Kitui,303,Narok,Kitui
+Narok,Machakos,204,Narok,Machakos
+Narok,Makueni,275,Narok,Wote
+Narok,Nyandarua,164,Narok,Ol Kalou
+Narok,Nyeri,281,Narok,Nyeri
+Narok,Kirinyaga,260,Narok,Kerugoya
+Narok,Murang'a,217,Narok,Murang'a
+Narok,Kiambu,141,Narok,Kiambu
+Narok,Turkana,617,Narok,Lodwar
+Narok,West Pokot,360,Narok,Kapenguria
+Narok,Samburu,332,Narok,Maralal
+Narok,Trans Nzoia,320,Narok,Kitale
+Narok,Uasin Gishu,249,Narok,Eldoret
+Narok,Elgeyo-Marakwet,298,Narok,Iten
+Narok,Nandi,251,Narok,Kapsabet
+Narok,Baringo,245,Narok,Kabarnet
+Narok,Laikipia,290,Narok,Nanyuki
+Narok,Nakuru,121,Narok,Nakuru
+Narok,Kajiado,195,Narok,Kajiado
+Narok,Kericho,158,Narok,Kericho
+Narok,Bomet,82,Narok,Bomet
+Narok,Kakamega,262,Narok,Kakamega
+Narok,Vihiga,236,Narok,Mbale
+Narok,Bungoma,321,Narok,Bungoma
+Narok,Busia,349,Narok,Busia
+Narok,Siaya,282,Narok,Siaya
+Narok,Kisumu,213,Narok,Kisumu
+Narok,Homa Bay,222,Narok,Homa Bay
+Narok,Migori,229,Narok,Migori
+Narok,Kisii,167,Narok,Kisii
+Narok,Nyamira,155,Narok,Nyamira
+Narok,Nairobi,146,Narok,Nairobi
+Kajiado,Mombasa,478,Kajiado,Mombasa
+Kajiado,Kwale,511,Kajiado,Kwale
+Kajiado,Kilifi,501,Kajiado,Kilifi
+Kajiado,Tana River,558,Kajiado,Hola
+Kajiado,Lamu,762,Kajiado,Lamu
+Kajiado,Taita Taveta,362,Kajiado,Wundanyi
+Kajiado,Garissa,438,Kajiado,Garissa
+Kajiado,Wajir,751,Kajiado,Wajir
+Kajiado,Mandera,1213,Kajiado,Mandera
+Kajiado,Marsabit,591,Kajiado,Marsabit
+Kajiado,Isiolo,335,Kajiado,Isiolo
+Kajiado,Meru,296,Kajiado,Meru
+Kajiado,Tharaka-Nithi,241,Kajiado,Chuka
+Kajiado,Embu,201,Kajiado,Embu
+Kajiado,Kitui,188,Kajiado,Kitui
+Kajiado,Machakos,89,Kajiado,Machakos
+Kajiado,Makueni,160,Kajiado,Wote
+Kajiado,Nyandarua,215,Kajiado,Ol Kalou
+Kajiado,Nyeri,224,Kajiado,Nyeri
+Kajiado,Kirinyaga,199,Kajiado,Kerugoya
+Kajiado,Murang'a,155,Kajiado,Murang'a
+Kajiado,Kiambu,95,Kajiado,Kiambu
+Kajiado,Turkana,743,Kajiado,Lodwar
+Kajiado,West Pokot,486,Kajiado,Kapenguria
+Kajiado,Samburu,402,Kajiado,Maralal
+Kajiado,Trans Nzoia,446,Kajiado,Kitale
+Kajiado,Uasin Gishu,375,Kajiado,Eldoret
+Kajiado,Elgeyo-Marakwet,412,Kajiado,Iten
+Kajiado,Nandi,374,Kajiado,Kapsabet
+Kajiado,Baringo,358,Kajiado,Kabarnet
+Kajiado,Laikipia,265,Kajiado,Nanyuki
+Kajiado,Nakuru,224,Kajiado,Nakuru
+Kajiado,Narok,195,Kajiado,Narok
+Kajiado,Kericho,350,Kajiado,Kericho
+Kajiado,Bomet,274,Kajiado,Bomet
+Kajiado,Kakamega,454,Kajiado,Kakamega
+Kajiado,Vihiga,428,Kajiado,Mbale
+Kajiado,Bungoma,513,Kajiado,Bungoma
+Kajiado,Busia,541,Kajiado,Busia
+Kajiado,Siaya,474,Kajiado,Siaya
+Kajiado,Kisumu,405,Kajiado,Kisumu
+Kajiado,Homa Bay,414,Kajiado,Homa Bay
+Kajiado,Migori,421,Kajiado,Migori
+Kajiado,Kisii,359,Kajiado,Kisii
+Kajiado,Nyamira,347,Kajiado,Nyamira
+Kajiado,Nairobi,78,Kajiado,Nairobi
+Kericho,Mombasa,779,Kericho,Mombasa
+Kericho,Kwale,812,Kericho,Kwale
+Kericho,Kilifi,802,Kericho,Kilifi
+Kericho,Tana River,741,Kericho,Hola
+Kericho,Lamu,945,Kericho,Lamu
+Kericho,Taita Taveta,663,Kericho,Wundanyi
+Kericho,Garissa,621,Kericho,Garissa
+Kericho,Wajir,934,Kericho,Wajir
+Kericho,Mandera,1235,Kericho,Mandera
+Kericho,Marsabit,612,Kericho,Marsabit
+Kericho,Isiolo,357,Kericho,Isiolo
+Kericho,Meru,354,Kericho,Meru
+Kericho,Tharaka-Nithi,383,Kericho,Chuka
+Kericho,Embu,343,Kericho,Embu
+Kericho,Kitui,427,Kericho,Kitui
+Kericho,Machakos,359,Kericho,Machakos
+Kericho,Makueni,430,Kericho,Wote
+Kericho,Nyandarua,152,Kericho,Ol Kalou
+Kericho,Nyeri,268,Kericho,Nyeri
+Kericho,Kirinyaga,315,Kericho,Kerugoya
+Kericho,Murang'a,336,Kericho,Murang'a
+Kericho,Kiambu,296,Kericho,Kiambu
+Kericho,Turkana,505,Kericho,Lodwar
+Kericho,West Pokot,248,Kericho,Kapenguria
+Kericho,Samburu,320,Kericho,Maralal
+Kericho,Trans Nzoia,208,Kericho,Kitale
+Kericho,Uasin Gishu,140,Kericho,Eldoret
+Kericho,Elgeyo-Marakwet,174,Kericho,Iten
+Kericho,Nandi,98,Kericho,Kapsabet
+Kericho,Baringo,205,Kericho,Kabarnet
+Kericho,Laikipia,277,Kericho,Nanyuki
+Kericho,Nakuru,109,Kericho,Nakuru
+Kericho,Narok,158,Kericho,Narok
+Kericho,Kajiado,350,Kericho,Kajiado
+Kericho,Bomet,77,Kericho,Bomet
+Kericho,Kakamega,133,Kericho,Kakamega
+Kericho,Vihiga,107,Kericho,Mbale
+Kericho,Bungoma,192,Kericho,Bungoma
+Kericho,Busia,220,Kericho,Busia
+Kericho,Siaya,153,Kericho,Siaya
+Kericho,Kisumu,84,Kericho,Kisumu
+Kericho,Homa Bay,130,Kericho,Homa Bay
+Kericho,Migori,165,Kericho,Migori
+Kericho,Kisii,102,Kericho,Kisii
+Kericho,Nyamira,55,Kericho,Nyamira
+Kericho,Nairobi,301,Kericho,Nairobi
+Bomet,Mombasa,702,Bomet,Mombasa
+Bomet,Kwale,735,Bomet,Kwale
+Bomet,Kilifi,725,Bomet,Kilifi
+Bomet,Tana River,697,Bomet,Hola
+Bomet,Lamu,902,Bomet,Lamu
+Bomet,Taita Taveta,586,Bomet,Wundanyi
+Bomet,Garissa,578,Bomet,Garissa
+Bomet,Wajir,890,Bomet,Wajir
+Bomet,Mandera,1328,Bomet,Mandera
+Bomet,Marsabit,706,Bomet,Marsabit
+Bomet,Isiolo,450,Bomet,Isiolo
+Bomet,Meru,436,Bomet,Meru
+Bomet,Tharaka-Nithi,381,Bomet,Chuka
+Bomet,Embu,341,Bomet,Embu
+Bomet,Kitui,381,Bomet,Kitui
+Bomet,Machakos,283,Bomet,Machakos
+Bomet,Makueni,353,Bomet,Wote
+Bomet,Nyandarua,245,Bomet,Ol Kalou
+Bomet,Nyeri,362,Bomet,Nyeri
+Bomet,Kirinyaga,339,Bomet,Kerugoya
+Bomet,Murang'a,295,Bomet,Murang'a
+Bomet,Kiambu,220,Bomet,Kiambu
+Bomet,Turkana,577,Bomet,Lodwar
+Bomet,West Pokot,320,Bomet,Kapenguria
+Bomet,Samburu,413,Bomet,Maralal
+Bomet,Trans Nzoia,281,Bomet,Kitale
+Bomet,Uasin Gishu,212,Bomet,Eldoret
+Bomet,Elgeyo-Marakwet,246,Bomet,Iten
+Bomet,Nandi,170,Bomet,Kapsabet
+Bomet,Baringo,299,Bomet,Kabarnet
+Bomet,Laikipia,371,Bomet,Nanyuki
+Bomet,Nakuru,202,Bomet,Nakuru
+Bomet,Narok,82,Bomet,Narok
+Bomet,Kajiado,274,Bomet,Kajiado
+Bomet,Kericho,77,Bomet,Kericho
+Bomet,Kakamega,181,Bomet,Kakamega
+Bomet,Vihiga,155,Bomet,Mbale
+Bomet,Bungoma,240,Bomet,Bungoma
+Bomet,Busia,268,Bomet,Busia
+Bomet,Siaya,201,Bomet,Siaya
+Bomet,Kisumu,132,Bomet,Kisumu
+Bomet,Homa Bay,141,Bomet,Homa Bay
+Bomet,Migori,148,Bomet,Migori
+Bomet,Kisii,85,Bomet,Kisii
+Bomet,Nyamira,74,Bomet,Nyamira
+Bomet,Nairobi,224,Bomet,Nairobi
+Kakamega,Mombasa,881,Kakamega,Mombasa
+Kakamega,Kwale,914,Kakamega,Kwale
+Kakamega,Kilifi,904,Kakamega,Kilifi
+Kakamega,Tana River,855,Kakamega,Hola
+Kakamega,Lamu,1059,Kakamega,Lamu
+Kakamega,Taita Taveta,765,Kakamega,Wundanyi
+Kakamega,Garissa,735,Kakamega,Garissa
+Kakamega,Wajir,1048,Kakamega,Wajir
+Kakamega,Mandera,1349,Kakamega,Mandera
+Kakamega,Marsabit,727,Kakamega,Marsabit
+Kakamega,Isiolo,471,Kakamega,Isiolo
+Kakamega,Meru,468,Kakamega,Meru
+Kakamega,Tharaka-Nithi,497,Kakamega,Chuka
+Kakamega,Embu,457,Kakamega,Embu
+Kakamega,Kitui,560,Kakamega,Kitui
+Kakamega,Machakos,461,Kakamega,Machakos
+Kakamega,Makueni,532,Kakamega,Wote
+Kakamega,Nyandarua,266,Kakamega,Ol Kalou
+Kakamega,Nyeri,383,Kakamega,Nyeri
+Kakamega,Kirinyaga,429,Kakamega,Kerugoya
+Kakamega,Murang'a,450,Kakamega,Murang'a
+Kakamega,Kiambu,398,Kakamega,Kiambu
+Kakamega,Turkana,406,Kakamega,Lodwar
+Kakamega,West Pokot,149,Kakamega,Kapenguria
+Kakamega,Samburu,434,Kakamega,Maralal
+Kakamega,Trans Nzoia,110,Kakamega,Kitale
+Kakamega,Uasin Gishu,95,Kakamega,Eldoret
+Kakamega,Elgeyo-Marakwet,139,Kakamega,Iten
+Kakamega,Nandi,50,Kakamega,Kapsabet
+Kakamega,Baringo,193,Kakamega,Kabarnet
+Kakamega,Laikipia,392,Kakamega,Nanyuki
+Kakamega,Nakuru,223,Kakamega,Nakuru
+Kakamega,Narok,260,Kakamega,Narok
+Kakamega,Kajiado,452,Kakamega,Kajiado
+Kakamega,Kericho,131,Kakamega,Kericho
+Kakamega,Bomet,179,Kakamega,Bomet
+Kakamega,Vihiga,26,Kakamega,Mbale
+Kakamega,Bungoma,59,Kakamega,Bungoma
+Kakamega,Busia,88,Kakamega,Busia
+Kakamega,Siaya,86,Kakamega,Siaya
+Kakamega,Kisumu,49,Kakamega,Kisumu
+Kakamega,Homa Bay,153,Kakamega,Homa Bay
+Kakamega,Migori,225,Kakamega,Migori
+Kakamega,Kisii,162,Kakamega,Kisii
+Kakamega,Nyamira,138,Kakamega,Nyamira
+Kakamega,Nairobi,403,Kakamega,Nairobi
+Vihiga,Mombasa,855,Mbale,Mombasa
+Vihiga,Kwale,888,Mbale,Kwale
+Vihiga,Kilifi,878,Mbale,Kilifi
+Vihiga,Tana River,829,Mbale,Hola
+Vihiga,Lamu,1033,Mbale,Lamu
+Vihiga,Taita Taveta,739,Mbale,Wundanyi
+Vihiga,Garissa,710,Mbale,Garissa
+Vihiga,Wajir,1022,Mbale,Wajir
+Vihiga,Mandera,1323,Mbale,Mandera
+Vihiga,Marsabit,701,Mbale,Marsabit
+Vihiga,Isiolo,445,Mbale,Isiolo
+Vihiga,Meru,443,Mbale,Meru
+Vihiga,Tharaka-Nithi,471,Mbale,Chuka
+Vihiga,Embu,432,Mbale,Embu
+Vihiga,Kitui,534,Mbale,Kitui
+Vihiga,Machakos,435,Mbale,Machakos
+Vihiga,Makueni,506,Mbale,Wote
+Vihiga,Nyandarua,240,Mbale,Ol Kalou
+Vihiga,Nyeri,357,Mbale,Nyeri
+Vihiga,Kirinyaga,404,Mbale,Kerugoya
+Vihiga,Murang'a,424,Mbale,Murang'a
+Vihiga,Kiambu,373,Mbale,Kiambu
+Vihiga,Turkana,431,Mbale,Lodwar
+Vihiga,West Pokot,174,Mbale,Kapenguria
+Vihiga,Samburu,408,Mbale,Maralal
+Vihiga,Trans Nzoia,135,Mbale,Kitale
+Vihiga,Uasin Gishu,99,Mbale,Eldoret
+Vihiga,Elgeyo-Marakwet,133,Mbale,Iten
+Vihiga,Nandi,54,Mbale,Kapsabet
+Vihiga,Baringo,186,Mbale,Kabarnet
+Vihiga,Laikipia,366,Mbale,Nanyuki
+Vihiga,Nakuru,197,Mbale,Nakuru
+Vihiga,Narok,234,Mbale,Narok
+Vihiga,Kajiado,427,Mbale,Kajiado
+Vihiga,Kericho,105,Mbale,Kericho
+Vihiga,Bomet,153,Mbale,Bomet
+Vihiga,Kakamega,26,Mbale,Kakamega
+Vihiga,Bungoma,85,Mbale,Bungoma
+Vihiga,Busia,113,Mbale,Busia
+Vihiga,Siaya,59,Mbale,Siaya
+Vihiga,Kisumu,23,Mbale,Kisumu
+Vihiga,Homa Bay,128,Mbale,Homa Bay
+Vihiga,Migori,200,Mbale,Migori
+Vihiga,Kisii,137,Mbale,Kisii
+Vihiga,Nyamira,113,Mbale,Nyamira
+Vihiga,Nairobi,377,Mbale,Nairobi
+Bungoma,Mombasa,886,Bungoma,Mombasa
+Bungoma,Kwale,919,Bungoma,Kwale
+Bungoma,Kilifi,909,Bungoma,Kilifi
+Bungoma,Tana River,884,Bungoma,Hola
+Bungoma,Lamu,1089,Bungoma,Lamu
+Bungoma,Taita Taveta,770,Bungoma,Wundanyi
+Bungoma,Garissa,765,Bungoma,Garissa
+Bungoma,Wajir,1078,Bungoma,Wajir
+Bungoma,Mandera,1378,Bungoma,Mandera
+Bungoma,Marsabit,756,Bungoma,Marsabit
+Bungoma,Isiolo,501,Bungoma,Isiolo
+Bungoma,Meru,498,Bungoma,Meru
+Bungoma,Tharaka-Nithi,527,Bungoma,Chuka
+Bungoma,Embu,487,Bungoma,Embu
+Bungoma,Kitui,571,Bungoma,Kitui
+Bungoma,Machakos,466,Bungoma,Machakos
+Bungoma,Makueni,537,Bungoma,Wote
+Bungoma,Nyandarua,296,Bungoma,Ol Kalou
+Bungoma,Nyeri,412,Bungoma,Nyeri
+Bungoma,Kirinyaga,459,Bungoma,Kerugoya
+Bungoma,Murang'a,479,Bungoma,Murang'a
+Bungoma,Kiambu,404,Bungoma,Kiambu
+Bungoma,Turkana,384,Bungoma,Lodwar
+Bungoma,West Pokot,127,Bungoma,Kapenguria
+Bungoma,Samburu,464,Bungoma,Maralal
+Bungoma,Trans Nzoia,88,Bungoma,Kitale
+Bungoma,Uasin Gishu,98,Bungoma,Eldoret
+Bungoma,Elgeyo-Marakwet,130,Bungoma,Iten
+Bungoma,Nandi,109,Bungoma,Kapsabet
+Bungoma,Baringo,184,Bungoma,Kabarnet
+Bungoma,Laikipia,421,Bungoma,Nanyuki
+Bungoma,Nakuru,253,Bungoma,Nakuru
+Bungoma,Narok,319,Bungoma,Narok
+Bungoma,Kajiado,511,Bungoma,Kajiado
+Bungoma,Kericho,190,Bungoma,Kericho
+Bungoma,Bomet,238,Bungoma,Bomet
+Bungoma,Kakamega,60,Bungoma,Kakamega
+Bungoma,Vihiga,85,Bungoma,Mbale
+Bungoma,Busia,69,Bungoma,Busia
+Bungoma,Siaya,76,Bungoma,Siaya
+Bungoma,Kisumu,108,Bungoma,Kisumu
+Bungoma,Homa Bay,212,Bungoma,Homa Bay
+Bungoma,Migori,284,Bungoma,Migori
+Bungoma,Kisii,221,Bungoma,Kisii
+Bungoma,Nyamira,197,Bungoma,Nyamira
+Bungoma,Nairobi,408,Bungoma,Nairobi
+Busia,Mombasa,968,Busia,Mombasa
+Busia,Kwale,1001,Busia,Kwale
+Busia,Kilifi,991,Busia,Kilifi
+Busia,Tana River,942,Busia,Hola
+Busia,Lamu,1146,Busia,Lamu
+Busia,Taita Taveta,852,Busia,Wundanyi
+Busia,Garissa,822,Busia,Garissa
+Busia,Wajir,1135,Busia,Wajir
+Busia,Mandera,1436,Busia,Mandera
+Busia,Marsabit,814,Busia,Marsabit
+Busia,Isiolo,558,Busia,Isiolo
+Busia,Meru,555,Busia,Meru
+Busia,Tharaka-Nithi,584,Busia,Chuka
+Busia,Embu,544,Busia,Embu
+Busia,Kitui,647,Busia,Kitui
+Busia,Machakos,548,Busia,Machakos
+Busia,Makueni,619,Busia,Wote
+Busia,Nyandarua,353,Busia,Ol Kalou
+Busia,Nyeri,470,Busia,Nyeri
+Busia,Kirinyaga,516,Busia,Kerugoya
+Busia,Murang'a,537,Busia,Murang'a
+Busia,Kiambu,485,Busia,Kiambu
+Busia,Turkana,444,Busia,Lodwar
+Busia,West Pokot,187,Busia,Kapenguria
+Busia,Samburu,521,Busia,Maralal
+Busia,Trans Nzoia,147,Busia,Kitale
+Busia,Uasin Gishu,161,Busia,Eldoret
+Busia,Elgeyo-Marakwet,193,Busia,Iten
+Busia,Nandi,137,Busia,Kapsabet
+Busia,Baringo,247,Busia,Kabarnet
+Busia,Laikipia,479,Busia,Nanyuki
+Busia,Nakuru,310,Busia,Nakuru
+Busia,Narok,347,Busia,Narok
+Busia,Kajiado,539,Busia,Kajiado
+Busia,Kericho,218,Busia,Kericho
+Busia,Bomet,266,Busia,Bomet
+Busia,Kakamega,88,Busia,Kakamega
+Busia,Vihiga,113,Busia,Mbale
+Busia,Bungoma,69,Busia,Bungoma
+Busia,Siaya,59,Busia,Siaya
+Busia,Kisumu,136,Busia,Kisumu
+Busia,Homa Bay,240,Busia,Homa Bay
+Busia,Migori,312,Busia,Migori
+Busia,Kisii,249,Busia,Kisii
+Busia,Nyamira,226,Busia,Nyamira
+Busia,Nairobi,490,Busia,Nairobi
+Siaya,Mombasa,903,Siaya,Mombasa
+Siaya,Kwale,936,Siaya,Kwale
+Siaya,Kilifi,926,Siaya,Kilifi
+Siaya,Tana River,898,Siaya,Hola
+Siaya,Lamu,1103,Siaya,Lamu
+Siaya,Taita Taveta,787,Siaya,Wundanyi
+Siaya,Garissa,779,Siaya,Garissa
+Siaya,Wajir,1091,Siaya,Wajir
+Siaya,Mandera,1375,Siaya,Mandera
+Siaya,Marsabit,753,Siaya,Marsabit
+Siaya,Isiolo,497,Siaya,Isiolo
+Siaya,Meru,494,Siaya,Meru
+Siaya,Tharaka-Nithi,523,Siaya,Chuka
+Siaya,Embu,483,Siaya,Embu
+Siaya,Kitui,582,Siaya,Kitui
+Siaya,Machakos,484,Siaya,Machakos
+Siaya,Makueni,554,Siaya,Wote
+Siaya,Nyandarua,292,Siaya,Ol Kalou
+Siaya,Nyeri,409,Siaya,Nyeri
+Siaya,Kirinyaga,455,Siaya,Kerugoya
+Siaya,Murang'a,496,Siaya,Murang'a
+Siaya,Kiambu,421,Siaya,Kiambu
+Siaya,Turkana,491,Siaya,Lodwar
+Siaya,West Pokot,234,Siaya,Kapenguria
+Siaya,Samburu,460,Siaya,Maralal
+Siaya,Trans Nzoia,194,Siaya,Kitale
+Siaya,Uasin Gishu,153,Siaya,Eldoret
+Siaya,Elgeyo-Marakwet,187,Siaya,Iten
+Siaya,Nandi,108,Siaya,Kapsabet
+Siaya,Baringo,240,Siaya,Kabarnet
+Siaya,Laikipia,418,Siaya,Nanyuki
+Siaya,Nakuru,249,Siaya,Nakuru
+Siaya,Narok,283,Siaya,Narok
+Siaya,Kajiado,475,Siaya,Kajiado
+Siaya,Kericho,153,Siaya,Kericho
+Siaya,Bomet,201,Siaya,Bomet
+Siaya,Kakamega,85,Siaya,Kakamega
+Siaya,Vihiga,59,Siaya,Mbale
+Siaya,Bungoma,76,Siaya,Bungoma
+Siaya,Busia,59,Siaya,Busia
+Siaya,Kisumu,72,Siaya,Kisumu
+Siaya,Homa Bay,176,Siaya,Homa Bay
+Siaya,Migori,248,Siaya,Migori
+Siaya,Kisii,185,Siaya,Kisii
+Siaya,Nyamira,161,Siaya,Nyamira
+Siaya,Nairobi,425,Siaya,Nairobi
+Kisumu,Mombasa,834,Kisumu,Mombasa
+Kisumu,Kwale,867,Kisumu,Kwale
+Kisumu,Kilifi,857,Kisumu,Kilifi
+Kisumu,Tana River,829,Kisumu,Hola
+Kisumu,Lamu,1033,Kisumu,Lamu
+Kisumu,Taita Taveta,718,Kisumu,Wundanyi
+Kisumu,Garissa,709,Kisumu,Garissa
+Kisumu,Wajir,1022,Kisumu,Wajir
+Kisumu,Mandera,1307,Kisumu,Mandera
+Kisumu,Marsabit,685,Kisumu,Marsabit
+Kisumu,Isiolo,429,Kisumu,Isiolo
+Kisumu,Meru,427,Kisumu,Meru
+Kisumu,Tharaka-Nithi,455,Kisumu,Chuka
+Kisumu,Embu,416,Kisumu,Embu
+Kisumu,Kitui,513,Kisumu,Kitui
+Kisumu,Machakos,414,Kisumu,Machakos
+Kisumu,Makueni,485,Kisumu,Wote
+Kisumu,Nyandarua,225,Kisumu,Ol Kalou
+Kisumu,Nyeri,341,Kisumu,Nyeri
+Kisumu,Kirinyaga,388,Kisumu,Kerugoya
+Kisumu,Murang'a,427,Kisumu,Murang'a
+Kisumu,Kiambu,351,Kisumu,Kiambu
+Kisumu,Turkana,454,Kisumu,Lodwar
+Kisumu,West Pokot,197,Kisumu,Kapenguria
+Kisumu,Samburu,393,Kisumu,Maralal
+Kisumu,Trans Nzoia,158,Kisumu,Kitale
+Kisumu,Uasin Gishu,118,Kisumu,Eldoret
+Kisumu,Elgeyo-Marakwet,152,Kisumu,Iten
+Kisumu,Nandi,73,Kisumu,Kapsabet
+Kisumu,Baringo,205,Kisumu,Kabarnet
+Kisumu,Laikipia,350,Kisumu,Nanyuki
+Kisumu,Nakuru,181,Kisumu,Nakuru
+Kisumu,Narok,213,Kisumu,Narok
+Kisumu,Kajiado,405,Kisumu,Kajiado
+Kisumu,Kericho,84,Kisumu,Kericho
+Kisumu,Bomet,132,Kisumu,Bomet
+Kisumu,Kakamega,49,Kisumu,Kakamega
+Kisumu,Vihiga,24,Kisumu,Mbale
+Kisumu,Bungoma,108,Kisumu,Bungoma
+Kisumu,Busia,136,Kisumu,Busia
+Kisumu,Siaya,71,Kisumu,Siaya
+Kisumu,Homa Bay,106,Kisumu,Homa Bay
+Kisumu,Migori,178,Kisumu,Migori
+Kisumu,Kisii,115,Kisumu,Kisii
+Kisumu,Nyamira,92,Kisumu,Nyamira
+Kisumu,Nairobi,356,Kisumu,Nairobi
+Homa Bay,Mombasa,843,Homa Bay,Mombasa
+Homa Bay,Kwale,875,Homa Bay,Kwale
+Homa Bay,Kilifi,866,Homa Bay,Kilifi
+Homa Bay,Tana River,837,Homa Bay,Hola
+Homa Bay,Lamu,1042,Homa Bay,Lamu
+Homa Bay,Taita Taveta,726,Homa Bay,Wundanyi
+Homa Bay,Garissa,718,Homa Bay,Garissa
+Homa Bay,Wajir,1031,Homa Bay,Wajir
+Homa Bay,Mandera,1364,Homa Bay,Mandera
+Homa Bay,Marsabit,742,Homa Bay,Marsabit
+Homa Bay,Isiolo,486,Homa Bay,Isiolo
+Homa Bay,Meru,483,Homa Bay,Meru
+Homa Bay,Tharaka-Nithi,521,Homa Bay,Chuka
+Homa Bay,Embu,481,Homa Bay,Embu
+Homa Bay,Kitui,522,Homa Bay,Kitui
+Homa Bay,Machakos,423,Homa Bay,Machakos
+Homa Bay,Makueni,493,Homa Bay,Wote
+Homa Bay,Nyandarua,281,Homa Bay,Ol Kalou
+Homa Bay,Nyeri,398,Homa Bay,Nyeri
+Homa Bay,Kirinyaga,444,Homa Bay,Kerugoya
+Homa Bay,Murang'a,435,Homa Bay,Murang'a
+Homa Bay,Kiambu,360,Homa Bay,Kiambu
+Homa Bay,Turkana,560,Homa Bay,Lodwar
+Homa Bay,West Pokot,303,Homa Bay,Kapenguria
+Homa Bay,Samburu,449,Homa Bay,Maralal
+Homa Bay,Trans Nzoia,264,Homa Bay,Kitale
+Homa Bay,Uasin Gishu,195,Homa Bay,Eldoret
+Homa Bay,Elgeyo-Marakwet,229,Homa Bay,Iten
+Homa Bay,Nandi,153,Homa Bay,Kapsabet
+Homa Bay,Baringo,282,Homa Bay,Kabarnet
+Homa Bay,Laikipia,407,Homa Bay,Nanyuki
+Homa Bay,Nakuru,238,Homa Bay,Nakuru
+Homa Bay,Narok,222,Homa Bay,Narok
+Homa Bay,Kajiado,414,Homa Bay,Kajiado
+Homa Bay,Kericho,130,Homa Bay,Kericho
+Homa Bay,Bomet,141,Homa Bay,Bomet
+Homa Bay,Kakamega,155,Homa Bay,Kakamega
+Homa Bay,Vihiga,129,Homa Bay,Mbale
+Homa Bay,Bungoma,214,Homa Bay,Bungoma
+Homa Bay,Busia,242,Homa Bay,Busia
+Homa Bay,Siaya,175,Homa Bay,Siaya
+Homa Bay,Kisumu,106,Homa Bay,Kisumu
+Homa Bay,Migori,72,Homa Bay,Migori
+Homa Bay,Kisii,58,Homa Bay,Kisii
+Homa Bay,Nyamira,83,Homa Bay,Nyamira
+Homa Bay,Nairobi,364,Homa Bay,Nairobi
+Migori,Mombasa,850,Migori,Mombasa
+Migori,Kwale,883,Migori,Kwale
+Migori,Kilifi,873,Migori,Kilifi
+Migori,Tana River,845,Migori,Hola
+Migori,Lamu,1050,Migori,Lamu
+Migori,Taita Taveta,734,Migori,Wundanyi
+Migori,Garissa,726,Migori,Garissa
+Migori,Wajir,1038,Migori,Wajir
+Migori,Mandera,1399,Migori,Mandera
+Migori,Marsabit,777,Migori,Marsabit
+Migori,Isiolo,521,Migori,Isiolo
+Migori,Meru,519,Migori,Meru
+Migori,Tharaka-Nithi,529,Migori,Chuka
+Migori,Embu,489,Migori,Embu
+Migori,Kitui,529,Migori,Kitui
+Migori,Machakos,430,Migori,Machakos
+Migori,Makueni,501,Migori,Wote
+Migori,Nyandarua,316,Migori,Ol Kalou
+Migori,Nyeri,433,Migori,Nyeri
+Migori,Kirinyaga,487,Migori,Kerugoya
+Migori,Murang'a,443,Migori,Murang'a
+Migori,Kiambu,368,Migori,Kiambu
+Migori,Turkana,632,Migori,Lodwar
+Migori,West Pokot,375,Migori,Kapenguria
+Migori,Samburu,485,Migori,Maralal
+Migori,Trans Nzoia,336,Migori,Kitale
+Migori,Uasin Gishu,267,Migori,Eldoret
+Migori,Elgeyo-Marakwet,301,Migori,Iten
+Migori,Nandi,225,Migori,Kapsabet
+Migori,Baringo,354,Migori,Kabarnet
+Migori,Laikipia,442,Migori,Nanyuki
+Migori,Nakuru,273,Migori,Nakuru
+Migori,Narok,229,Migori,Narok
+Migori,Kajiado,422,Migori,Kajiado
+Migori,Kericho,165,Migori,Kericho
+Migori,Bomet,148,Migori,Bomet
+Migori,Kakamega,227,Migori,Kakamega
+Migori,Vihiga,202,Migori,Mbale
+Migori,Bungoma,286,Migori,Bungoma
+Migori,Busia,314,Migori,Busia
+Migori,Siaya,248,Migori,Siaya
+Migori,Kisumu,178,Migori,Kisumu
+Migori,Homa Bay,72,Migori,Homa Bay
+Migori,Kisii,66,Migori,Kisii
+Migori,Nyamira,97,Migori,Nyamira
+Migori,Nairobi,372,Migori,Nairobi
+Kisii,Mombasa,787,Kisii,Mombasa
+Kisii,Kwale,820,Kisii,Kwale
+Kisii,Kilifi,810,Kisii,Kilifi
+Kisii,Tana River,782,Kisii,Hola
+Kisii,Lamu,987,Kisii,Lamu
+Kisii,Taita Taveta,671,Kisii,Wundanyi
+Kisii,Garissa,663,Kisii,Garissa
+Kisii,Wajir,975,Kisii,Wajir
+Kisii,Mandera,1336,Kisii,Mandera
+Kisii,Marsabit,714,Kisii,Marsabit
+Kisii,Isiolo,458,Kisii,Isiolo
+Kisii,Meru,456,Kisii,Meru
+Kisii,Tharaka-Nithi,466,Kisii,Chuka
+Kisii,Embu,426,Kisii,Embu
+Kisii,Kitui,466,Kisii,Kitui
+Kisii,Machakos,368,Kisii,Machakos
+Kisii,Makueni,438,Kisii,Wote
+Kisii,Nyandarua,254,Kisii,Ol Kalou
+Kisii,Nyeri,370,Kisii,Nyeri
+Kisii,Kirinyaga,424,Kisii,Kerugoya
+Kisii,Murang'a,380,Kisii,Murang'a
+Kisii,Kiambu,305,Kisii,Kiambu
+Kisii,Turkana,569,Kisii,Lodwar
+Kisii,West Pokot,312,Kisii,Kapenguria
+Kisii,Samburu,422,Kisii,Maralal
+Kisii,Trans Nzoia,273,Kisii,Kitale
+Kisii,Uasin Gishu,204,Kisii,Eldoret
+Kisii,Elgeyo-Marakwet,238,Kisii,Iten
+Kisii,Nandi,162,Kisii,Kapsabet
+Kisii,Baringo,291,Kisii,Kabarnet
+Kisii,Laikipia,379,Kisii,Nanyuki
+Kisii,Nakuru,210,Kisii,Nakuru
+Kisii,Narok,167,Kisii,Narok
+Kisii,Kajiado,359,Kisii,Kajiado
+Kisii,Kericho,102,Kisii,Kericho
+Kisii,Bomet,85,Kisii,Bomet
+Kisii,Kakamega,164,Kisii,Kakamega
+Kisii,Vihiga,139,Kisii,Mbale
+Kisii,Bungoma,223,Kisii,Bungoma
+Kisii,Busia,251,Kisii,Busia
+Kisii,Siaya,185,Kisii,Siaya
+Kisii,Kisumu,116,Kisii,Kisumu
+Kisii,Homa Bay,58,Kisii,Homa Bay
+Kisii,Migori,66,Kisii,Migori
+Kisii,Nyamira,34,Kisii,Nyamira
+Kisii,Nairobi,309,Kisii,Nairobi
+Nyamira,Mombasa,773,Nyamira,Mombasa
+Nyamira,Kwale,806,Nyamira,Kwale
+Nyamira,Kilifi,796,Nyamira,Kilifi
+Nyamira,Tana River,768,Nyamira,Hola
+Nyamira,Lamu,972,Nyamira,Lamu
+Nyamira,Taita Taveta,657,Nyamira,Wundanyi
+Nyamira,Garissa,649,Nyamira,Garissa
+Nyamira,Wajir,961,Nyamira,Wajir
+Nyamira,Mandera,1289,Nyamira,Mandera
+Nyamira,Marsabit,667,Nyamira,Marsabit
+Nyamira,Isiolo,412,Nyamira,Isiolo
+Nyamira,Meru,409,Nyamira,Meru
+Nyamira,Tharaka-Nithi,452,Nyamira,Chuka
+Nyamira,Embu,412,Nyamira,Embu
+Nyamira,Kitui,452,Nyamira,Kitui
+Nyamira,Machakos,353,Nyamira,Machakos
+Nyamira,Makueni,424,Nyamira,Wote
+Nyamira,Nyandarua,207,Nyamira,Ol Kalou
+Nyamira,Nyeri,323,Nyamira,Nyeri
+Nyamira,Kirinyaga,370,Nyamira,Kerugoya
+Nyamira,Murang'a,366,Nyamira,Murang'a
+Nyamira,Kiambu,291,Nyamira,Kiambu
+Nyamira,Turkana,546,Nyamira,Lodwar
+Nyamira,West Pokot,288,Nyamira,Kapenguria
+Nyamira,Samburu,375,Nyamira,Maralal
+Nyamira,Trans Nzoia,249,Nyamira,Kitale
+Nyamira,Uasin Gishu,180,Nyamira,Eldoret
+Nyamira,Elgeyo-Marakwet,214,Nyamira,Iten
+Nyamira,Nandi,138,Nyamira,Kapsabet
+Nyamira,Baringo,267,Nyamira,Kabarnet
+Nyamira,Laikipia,332,Nyamira,Nanyuki
+Nyamira,Nakuru,164,Nyamira,Nakuru
+Nyamira,Narok,152,Nyamira,Narok
+Nyamira,Kajiado,344,Nyamira,Kajiado
+Nyamira,Kericho,55,Nyamira,Kericho
+Nyamira,Bomet,71,Nyamira,Bomet
+Nyamira,Kakamega,140,Nyamira,Kakamega
+Nyamira,Vihiga,115,Nyamira,Mbale
+Nyamira,Bungoma,199,Nyamira,Bungoma
+Nyamira,Busia,227,Nyamira,Busia
+Nyamira,Siaya,161,Nyamira,Siaya
+Nyamira,Kisumu,92,Nyamira,Kisumu
+Nyamira,Homa Bay,83,Nyamira,Homa Bay
+Nyamira,Migori,97,Nyamira,Migori
+Nyamira,Kisii,34,Nyamira,Kisii
+Nyamira,Nairobi,295,Nyamira,Nairobi
+Nairobi,Mombasa,486,Nairobi,Mombasa
+Nairobi,Kwale,519,Nairobi,Kwale
+Nairobi,Kilifi,509,Nairobi,Kilifi
+Nairobi,Tana River,487,Nairobi,Hola
+Nairobi,Lamu,691,Nairobi,Lamu
+Nairobi,Taita Taveta,370,Nairobi,Wundanyi
+Nairobi,Garissa,368,Nairobi,Garissa
+Nairobi,Wajir,680,Nairobi,Wajir
+Nairobi,Mandera,1142,Nairobi,Mandera
+Nairobi,Marsabit,520,Nairobi,Marsabit
+Nairobi,Isiolo,264,Nairobi,Isiolo
+Nairobi,Meru,226,Nairobi,Meru
+Nairobi,Tharaka-Nithi,170,Nairobi,Chuka
+Nairobi,Embu,131,Nairobi,Embu
+Nairobi,Kitui,165,Nairobi,Kitui
+Nairobi,Machakos,66,Nairobi,Machakos
+Nairobi,Makueni,137,Nairobi,Wote
+Nairobi,Nyandarua,147,Nairobi,Ol Kalou
+Nairobi,Nyeri,153,Nairobi,Nyeri
+Nairobi,Kirinyaga,129,Nairobi,Kerugoya
+Nairobi,Murang'a,85,Nairobi,Murang'a
+Nairobi,Kiambu,17,Nairobi,Kiambu
+Nairobi,Turkana,675,Nairobi,Lodwar
+Nairobi,West Pokot,418,Nairobi,Kapenguria
+Nairobi,Samburu,334,Nairobi,Maralal
+Nairobi,Trans Nzoia,379,Nairobi,Kitale
+Nairobi,Uasin Gishu,308,Nairobi,Eldoret
+Nairobi,Elgeyo-Marakwet,344,Nairobi,Iten
+Nairobi,Nandi,306,Nairobi,Kapsabet
+Nairobi,Baringo,290,Nairobi,Kabarnet
+Nairobi,Laikipia,194,Nairobi,Nanyuki
+Nairobi,Nakuru,156,Nairobi,Nakuru
+Nairobi,Narok,142,Nairobi,Narok
+Nairobi,Kajiado,83,Nairobi,Kajiado
+Nairobi,Kericho,297,Nairobi,Kericho
+Nairobi,Bomet,220,Nairobi,Bomet
+Nairobi,Kakamega,400,Nairobi,Kakamega
+Nairobi,Vihiga,375,Nairobi,Mbale
+Nairobi,Bungoma,404,Nairobi,Bungoma
+Nairobi,Busia,488,Nairobi,Busia
+Nairobi,Siaya,421,Nairobi,Siaya
+Nairobi,Kisumu,352,Nairobi,Kisumu
+Nairobi,Homa Bay,360,Nairobi,Homa Bay
+Nairobi,Migori,368,Nairobi,Migori
+Nairobi,Kisii,305,Nairobi,Kisii
+Nairobi,Nyamira,294,Nairobi,Nyamira
