@@ -145,7 +145,7 @@ Soko_Radar/
 
 * Most prices in the panel are estimates; only recorded prices are used to score results.
 * About half of spikes come without an alert, because many are caused by events the data cannot see (floods, conflict, policy changes).
-* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Since January 2025 few markets record prices, so the app falls back to the Ministry county bulletin and marks those answers Indicative. Road distances cover 41 of 47 counties, and transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
+* Where to buy needs recorded prices in both counties, so many alerts have no suggestion. Since January 2025 few markets record prices, so the app falls back to the Ministry county bulletin and marks those answers Indicative. Road distances are measured on today's roads for all 47 counties (OpenStreetMap, between the main county towns, not individual markets); the backtest above used the 1994 matrix of 41 counties. Transport costs use the government hire card with assumed fuel use. Choosing by the forecast adds nothing over today's cheapest nearby county.
 * Prices after 2024 extend the panel with the pipeline's own rules. MoA daily prices end in January 2025, so later months follow the MoA bulletin (maize, beans, potatoes) and WFP prices; milk after early 2026 and dried fish are carried at their last value.
 * The models are still trained on answers up to December 2024. Retraining on newer data is a decision for the group.
 
