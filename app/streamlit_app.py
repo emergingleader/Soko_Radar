@@ -59,7 +59,7 @@ st.markdown("""
              background: #1d2c5e;}
 .sr-card .c.down {color: #8be9ff; background: rgba(139,233,255,0.14);}
 .sr-card .c.up {color: #ffc266; background: rgba(255,194,102,0.14);}
-.st-key-price_chart, .st-key-jump_chart, .st-key-buy_panel, .st-key-jump_list, .st-key-driver_panel {background: #1b2c63; border-radius: 16px; padding: 14px 16px 6px;
+.st-key-price_chart, .st-key-jump_chart, .st-key-buy_panel, .st-key-jump_list, .st-key-driver_panel, .st-key-national_panel {background: #1b2c63; border-radius: 16px; padding: 14px 16px 6px;
                      box-shadow: 0 6px 18px rgba(0,0,0,0.25);}
 /* the rest of the page follows the heading: off-white headings with a mint accent, lavender text */
 [data-testid="stMain"] [data-testid="stMarkdownContainer"] p,
@@ -161,8 +161,27 @@ def run_models(origin: str) -> pd.DataFrame:
 
 
 @st.cache_data(show_spinner=False)
-def transport_inputs():
+def transport_inputs(version):
+    """version = the newest time any transport file changed, so new distances or rates load without a reboot."""
     return tp.load_inputs()
+
+
+TRANSPORT_FILES = [REPO / "data" / f for f in ("county_road_distance.csv", "fuel_prices_by_county.csv",
+                                               "govt_vehicle_hire_rates.csv")]
+
+# national drivers shown on the forecast page: label -> (column, unit, number format)
+NATIONAL = {"Oil (Murban crude)": ("Murban crude (USD/bbl)", "USD a barrel", "{:.0f}"),
+            "Diesel": ("Diesel (KES/L)", "KES a litre", "{:.0f}"),
+            "Shilling": ("KES per USD", "KES per US dollar (higher = weaker shilling)", "{:.1f}"),
+            "Inflation": ("Overall inflation, 12-month (%)", "% over 12 months", "{:.1f}%"),
+            "El Niño index": ("ONI (El Nino index)", "ONI", "{:+.1f}")}
+
+
+@st.cache_data(show_spinner=False)
+def national_drivers(version):
+    d = pd.read_csv(RAW / "national_drivers_2006_2024.csv")
+    d["Month"] = pd.to_datetime(d["Month"])
+    return d[["Month"] + [c for c, _, _ in NATIONAL.values()]]
 
 
 @st.cache_data(show_spinner=False)
@@ -356,6 +375,51 @@ if page == "Price forecast":
         st.caption("These show what the model leans on, not proof of cause (SHAP values from the drivers model). The "
                    "drivers model is separate from the price forecast above, so its number can differ.")
 
+    # the national drivers themselves: oil, diesel, shilling, inflation and El Niño, from 2023 to the latest month
+    nat = national_drivers((RAW / "national_drivers_2006_2024.csv").stat().st_mtime)
+    with st.container(key="national_panel"):
+        st.markdown('<div style="font-size: 1.25rem; font-weight: 800; color: #f2f4f8; margin-bottom: 6px;"><span '
+                    'style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: #7ee2a8; '
+                    'box-shadow: 0 0 0 4px rgba(126,226,168,0.22); margin-right: 12px; vertical-align: middle;"></span>'
+                    'National drivers</div>', unsafe_allow_html=True)
+        cards = []
+        for label, (col, unit, fmt) in NATIONAL.items():
+            s_ = nat[["Month", col]].dropna()
+            last = s_.iloc[-1]
+            ago = s_[s_["Month"] == last["Month"] - pd.DateOffset(years=1)]
+            if ago.empty:
+                note = f"{last['Month']:%B %Y}"
+            elif col.startswith("ONI"):
+                note = f"{last['Month']:%b %Y} · {float(ago[col].iloc[0]):+.1f} a year before"
+            else:
+                pct = (last[col] / ago[col].iloc[0] - 1) * 100
+                if "inflation" in col:
+                    note = f"{last['Month']:%b %Y} · {float(ago[col].iloc[0]):.1f}% a year before"
+                else:
+                    note = f"{last['Month']:%b %Y} · {pct:+.0f}% on a year before"
+            cards.append(f'<div class="sr-card" style="min-height: 0;"><div class="m" style="white-space: normal;">'
+                         f'{label}</div><div class="p">{fmt.format(last[col])}</div>'
+                         f'<div class="d" style="margin-top: 0;">{note}</div></div>')
+        st.markdown(f'<div class="sr-row">{"".join(cards)}</div>', unsafe_allow_html=True)
+        st.write("")
+        pick = st.radio("Driver", list(NATIONAL), horizontal=True, key="nat_driver", label_visibility="collapsed")
+        col, unit, fmt = NATIONAL[pick]
+        s_ = nat[nat["Month"] >= "2023-01-01"][["Month", col]].dropna()
+        nf = go.Figure(go.Scatter(x=s_["Month"], y=s_[col], mode="lines+markers", line=dict(color="#7ee2a8", width=3),
+                                  marker=dict(size=5), hovertemplate="%{x|%B %Y}: %{y:.1f}<extra></extra>"))
+        if col.startswith("ONI"):
+            for y, name in ((0.5, "El Niño"), (-0.5, "La Niña")):
+                nf.add_hline(y=y, line=dict(color="#ffc266", dash="dot", width=1),
+                             annotation_text=name, annotation_font_color="#ffc266")
+        nf.update_layout(height=260, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)",
+                         plot_bgcolor="rgba(0,0,0,0)", font=dict(color="#c7d2fe"), showlegend=False)
+        nf.update_xaxes(gridcolor="rgba(199,210,254,0.10)", showline=True, linecolor="#c7d2fe")
+        nf.update_yaxes(title_text=unit, gridcolor="rgba(199,210,254,0.10)", showline=True, linecolor="#c7d2fe")
+        st.plotly_chart(nf, use_container_width=True, config={"displayModeBar": False})
+        st.caption("The same for every county. Sources: OPEC (oil), EPRA (diesel, Nairobi), Central Bank of Kenya "
+                   "(shilling, inflation), NOAA (El Niño index: 0.5 or more is El Niño, -0.5 or less is La Niña). The "
+                   "drivers above show how much each one moves this forecast.")
+
     # chance of a jump against the warning level for each month (a bullet chart in place of the table;
     # the forecast, change and range are already on the cards)
     labels = [f"{m:%B %Y}" for m in pd.to_datetime(rows["target_month"])][::-1]
@@ -395,7 +459,7 @@ if page == "Price forecast":
         if crop not in fc.RECOMMEND_CROPS:
             st.info("Available for maize, sorghum, Rosecoco beans and red potatoes.")
         else:
-            inputs = transport_inputs()
+            inputs = transport_inputs(max(f.stat().st_mtime for f in TRANSPORT_FILES))
             pairs = inputs[3]
             nearby = pairs[pairs["county_a"] == county][["county_b", "road_km"]]
             rec = prices[(prices["month"] == latest) & prices["observed"] & (prices["commodity"] == crop)
